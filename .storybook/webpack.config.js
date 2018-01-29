@@ -1,10 +1,10 @@
 const path = require('path');
-
+console.log('Extending webpack');
 module.exports = {
     module: {
         rules: [
             {
-                test: /\.scss$/,
+                test: /\.sass$/,
                 loaders: ["style-loader", "css-loader", "sass-loader"],
                 include: path.resolve(__dirname, '../')
             }

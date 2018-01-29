@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-
+import './style.sass';
 export class Button extends Component {
     render() {
         return (
-            <button>{this.props.children}</button>
+            <button className={'button'}>{this.props.children}</button>
         );
     }
 }
