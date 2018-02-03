@@ -8,17 +8,14 @@ const getBtnColoring = ({primary, warning, danger, success}) => {
     theme += (success)? ' btn-success': '';
     return theme;
 };
-const getBtnSizing = ({small, medium, large, bar}) => {
+const getBtnSizing = ({small, large}) => {
     let size = '';
     size += (small)? ' btn-small': '';
-    size += (medium)? ' btn-medium': '';
     size += (large)? ' btn-large': '';
-    size += (bar)? ' btn-bar': '';
     return size;
 };
-
 const getClassString = (props) => {
-    let classNames = 'btn';
+    let classNames = 'btn-content';
     classNames += getBtnColoring(props);
     classNames += getBtnSizing(props);
     classNames += (props.ghost) ? ' btn-ghost' : '';
@@ -26,5 +23,11 @@ const getClassString = (props) => {
 };
 
 export const Button = (props) => {
-    return <button className={getClassString(props)}>{props.children}</button>
+    return (
+        <button type="button" className={'btn'}>
+            <span className={getClassString(props)} tabIndex={-1}>
+                {props.children}
+            </span>
+        </button>
+    )
 };

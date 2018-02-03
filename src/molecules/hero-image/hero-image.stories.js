@@ -7,6 +7,6 @@ Molecules
     .add('hero-image', () => (
         <HeroImage imageSrc={'https://placeimg.com/1000/770/any'}>
             <h1>Hero Image</h1>
-            <Button ghost>This is awesome!</Button>
+            <Button>This is awesome!</Button>
         </HeroImage>
     ));

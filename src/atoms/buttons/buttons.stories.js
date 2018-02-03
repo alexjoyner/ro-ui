@@ -19,13 +19,12 @@ Atoms
                 <h2>Button Sizes</h2>
                 <Button small>Button small</Button>
                 <Button large>Button large</Button>
-                <Button bar>Button Bar</Button>
             </Panel>
             <Panel>
                 <h2>Icon Buttons: using react-icons</h2>
-                <Button><IoChevronUp /></Button>
+                <Button><IoChevronUp style={{'text-align': 'center'}}/></Button>
                 <Button><IoChevronDown size={40}/></Button>
-                <Button><IoAt  size={60} color={'aliceblue'}/></Button>
+                <Button><IoAt size={60}/></Button>
             </Panel>
             <Panel>
                 <h2>Ghost Buttons</h2>
@@ -35,6 +34,7 @@ Atoms
                         <Button primary ghost>Button Primary</Button>
                         <Button warning ghost>Button Warning</Button>
                         <Button danger ghost>Button Danger</Button>
+                        <Button success ghost>Button Success</Button>
                     </p>
                 </HeroImage>
             </Panel>

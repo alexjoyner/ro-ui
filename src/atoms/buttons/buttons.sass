@@ -1,43 +1,48 @@
 @import "../../styles/variables"
 .btn
-  display: inline-block
+  -moz-appearance: none
+  -webkit-appearance: none
+  background: none
+  border: none
+  outline: none
+  font-size: inherit
   margin: 5px
+  &:focus, .btn-content:focus
+    outline: none
+    > .btn-content
+      box-shadow: 0 0 2px 2px #51a7e8
+
+.btn-content
+  background-color: white
+  border: 1px solid #EEEEEE
+  display: inline-block
+  outline: none
   padding: .375rem .75rem
   text-align: center
   font-size: 1rem
   line-height: 1.5
-  border:
-    width: 0
-    style: solid
-    color: #EEEE
-    radius: 2px
+  transition: 0.1s linear
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2)
   &:hover
-    background-color: lightgrey
-    color: black
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19)
+  &:active
+    box-shadow: none
 
 .btn-primary
   background-color: $color-primary
   border-color: $color-primary
   color: white
-  &:hover
-    background-color: $color-primary-light
 .btn-warning
   background-color: $color-warning
   border-color: $color-warning
-  &:hover
-    background-color: $color-warning-light
 .btn-danger
-  color: white
   background-color: $color-danger
   border-color: $color-danger
-  &:hover
-    background-color: $color-danger-light
-.btn-success
   color: white
+.btn-success
   background-color: $color-success
   border-color: $color-success
-  &:hover
-    background-color: $color-success-light
+  color: white
 
 .btn-small
   font-size: .875rem
@@ -45,8 +50,6 @@
 .btn-large
   font-size: 1.25rem
   padding: .5rem 1rem
-.btn-bar
-  width: 100%
 
 .btn-ghost
   border:
