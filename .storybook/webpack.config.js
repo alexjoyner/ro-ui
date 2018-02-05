@@ -6,7 +6,10 @@ module.exports = {
             {
                 test: /\.sass$/,
                 loaders: ["style-loader", "css-loader", "sass-loader"],
-                include: path.resolve(__dirname, '../')
+                include: [
+                    path.resolve(__dirname, '../'),
+                    require('bourbon').includePaths
+                ]
             },
             {
                 test: /\.(png|svg|jpg|gif)$/,

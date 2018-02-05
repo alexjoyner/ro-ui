@@ -1431,6 +1431,10 @@ boom@5.x.x:
   dependencies:
     hoek "4.x.x"
 
+bourbon@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/bourbon/-/bourbon-5.0.0.tgz#030ba01893889cd77d964101e735d446fd50426a"
+
 bowser@^1.0.0, bowser@^1.7.3:
   version "1.9.1"
   resolved "https://registry.yarnpkg.com/bowser/-/bowser-1.9.1.tgz#f86ef2132e8cb10b3eb6ea5af018758c587020db"

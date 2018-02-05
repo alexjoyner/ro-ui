@@ -24,7 +24,7 @@ const getClassString = (props) => {
 
 export const Button = (props) => {
     return (
-        <button type="button" className={'btn'}>
+        <button {...props} type="button" className={`btn ${props.className}`}>
             <span className={getClassString(props)} tabIndex={-1}>
                 {props.children}
             </span>

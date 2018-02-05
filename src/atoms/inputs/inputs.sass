@@ -1,0 +1,34 @@
+@import "../../styles/variables"
+@import "~bourbon/core/bourbon"
+.ro-input-group
+  display: inline-block
+  position: relative
+  margin-right: 20px
+  input
+    padding: 15px 0
+    &:focus + label,
+    &.has-value + label
+      font-size: 12px
+      top: 2px
+      color: $color-primary
+    &.touched:invalid
+      border-bottom: solid 2px $color-danger
+      + label
+        color: $color-danger
+  label
+    +position(absolute, 50% null null 0px)
+    transform: translateY(-50%)
+    pointer-events: none
+    transition: 50ms linear
+.ro-input
+  background: none
+  border: none
+  border-bottom: solid 2px $color-primary
+  padding: 14px 40px
+  font-size: 18px
+  display: inline-block
+  &:focus,
+  &:active
+    outline: none
+  &[type="submit"]
+    border: solid 2px $color-primary
