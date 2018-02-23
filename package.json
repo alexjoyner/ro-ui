@@ -16,6 +16,8 @@
   },
   "dependencies": {
     "bourbon": "^5.0.0",
+    "c3": "^0.4.18",
+    "d3": "^4.13.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-icons": "^2.2.7"

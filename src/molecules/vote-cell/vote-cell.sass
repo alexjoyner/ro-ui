@@ -1,0 +1,28 @@
+.vote-cell
+  display: inline
+  .up-vote-text-post-type-1
+    &:before
+      content: ' Important'
+  .up-vote-text-post-type-2
+    &:before
+      content: ' Agree'
+  .up-vote-text-post-type-3
+    &:before
+      content: ' True'
+  .down-vote-text-post-type-1
+    &:before
+      content: ' Irrelevant'
+  .down-vote-text-post-type-2
+    &:before
+      content: ' Disagree / Not Helpful'
+  .down-vote-text-post-type-3
+    &:before
+      content: ' False / Not Helpful'
+  .upvote-btn
+    display: inherit
+    .score
+      margin-left: 6px
+      padding-left: 6px
+      border-left: 1px solid grey
+  .downvote-btn
+    display: inherit

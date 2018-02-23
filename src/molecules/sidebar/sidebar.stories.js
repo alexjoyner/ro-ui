@@ -6,12 +6,13 @@ import {Molecules} from "../_molecules.stories";
 Molecules
     .add('sidebar', () => (
        <SideBar>
+           <h2>Taco Stuff</h2>
            <ul>
-               <li>Tacos</li>
-               <li>Peaches</li>
-               <li>Fruit</li>
-               <li>Tamales</li>
-               <li>Peppers</li>
+               <li>Shells</li>
+               <li>Beans</li>
+               <li>Tomatoes</li>
+               <li>Sour Cream</li>
+               <li>Cheese</li>
            </ul>
        </SideBar>
     ));
