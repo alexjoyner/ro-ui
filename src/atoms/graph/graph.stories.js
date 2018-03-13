@@ -1,31 +1,33 @@
 import React from 'react';
 import {Atoms} from "../_atoms.stories";
-import {Graph} from "./index";
+import {Graph} from "./graph";
 import {Panel} from "../panel/panel";
+import {gaugeSettings} from "./graph-settings/gauge";
+import {lineGraphSettings} from "./graph-settings/line-graph";
+import {donutGraphSettings} from "./graph-settings/donut-graph";
 
 
 const BlockID = 1;
-const chartOptions = {
-    gauge: {
-        label: {
-            format: value => `${value}°F`,
-        },
-    },
-    color: {
-        pattern: ['#50bcef', '#F6C600', '#4eac5b', '#FF0000'], // the three color levels for the percentage values.
-        threshold: {
-            values: [30, 70, 78, 100],
-        },
-    },
-};
 
 Atoms
     .add('graph', () => {
        return (
-           <Panel>
-               <Graph
-                   chartID={'gauge-' + BlockID}
-                   chartOpts={chartOptions}/>
-           </Panel>
+           <div>
+               <Panel>
+                   <Graph
+                       chartID={'gauge-' + 1}
+                       chartOpts={gaugeSettings}/>
+               </Panel>
+               <Panel>
+                   <Graph
+                       chartID={'line-graph-' + 1}
+                       chartOpts={lineGraphSettings}/>
+               </Panel>
+               <Panel>
+                   <Graph
+                       chartID={'donut-' + 1}
+                       chartOpts={donutGraphSettings}/>
+               </Panel>
+           </div>
        )
     });
