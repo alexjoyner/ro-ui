@@ -1,11 +1,11 @@
 import React from 'react';
-import {Atoms} from "../_atoms.stories";
 import {Logo} from "./logos"
-import {Panel} from "../panel/panel"
+import {Panel} from "../../atoms/panel/panel"
 import './logos.sass'
+import {Brand} from "../_brand.stories";
 
 
-Atoms
+Brand
 	.add('logo', () => {
 		return (
 			<div>

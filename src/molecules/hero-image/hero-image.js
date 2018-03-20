@@ -6,7 +6,7 @@ import {ImageOverlay} from "../../atoms/image-overlay/image-overlay";
 //  the image overlay
 export const HeroImage = (props) => {
     const heroImageStyle = {
-        'background-image': `url(${props.imageSrc})`,
+        'backgroundImage': `url(${props.imageSrc})`,
         'height': props.height || '100vh'
     };
     return (
