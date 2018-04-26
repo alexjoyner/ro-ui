@@ -7,7 +7,7 @@ const ReactGridLayout = WidthProvider(RGL);
 export class BasicLayout extends React.PureComponent {
     static defaultProps = {
         className: "layout",
-        items: 20,
+        items: 10,
         rowHeight: 30,
         onLayoutChange: function() {},
         cols: 12
@@ -20,15 +20,6 @@ export class BasicLayout extends React.PureComponent {
         this.state = { layout };
     }
 
-    generateDOM() {
-        return _.map(_.range(this.props.items), function(i) {
-            return (
-                <div key={i} style={{'background-color': 'blue'}}>
-                    <span className="text">{i}</span>
-                </div>
-            );
-        });
-    }
 
     generateLayout() {
         const p = this.props;
@@ -55,7 +46,7 @@ export class BasicLayout extends React.PureComponent {
                 onLayoutChange={this.onLayoutChange}
                 {...this.props}
             >
-                {this.generateDOM()}
+                {this.props.children}
             </ReactGridLayout>
         );
     }

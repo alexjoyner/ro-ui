@@ -19,10 +19,10 @@ export class SideBar extends Component{
     render() {
         return (
             <div className={`sidebar-container ${(this.state.shown)? 'sidebar-shown': 'sidebar-hidden'}`}>
-                <Button primary className={'sidebar-btn'} onClick={() => this.toggleSidebar(null)}>
+                <Button color={'primary'} className={'sidebar-btn'} onClick={() => this.toggleSidebar(null)}>
                     {(this.state.shown)?
-                        <IoChevronLeft style={{'text-align': 'center'}}/>:
-                        <IoChevronRight style={{'text-align': 'center'}}/>
+                        <IoChevronLeft style={{'textAlign': 'center'}}/>:
+                        <IoChevronRight style={{'textAlign': 'center'}}/>
                     }
                 </Button>
                 {this.props.children}
