@@ -1,10 +1,18 @@
 import React from 'react';
-import './panel.sass';
+import styled from 'styled-components';
 
+const PanelContainer = styled.div`
+    margin: 10px;
+    padding: 10px;
+    background-color: #fafafa;
+    border: 1px solid #EEEEEE;
+    radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
+`
 export const Panel = (props) => {
   return (
-      <div className={'panel'}>
+      <PanelContainer>
           {props.children}
-      </div>
+      </PanelContainer>
   )
 };
