@@ -1,29 +1,31 @@
 import React from 'react';
-import './profile-pic.sass'
+import styled from 'styled-components';
 
-const getPicSizing = ({small, large}) => {
-    let size = '';
-    size += (small) ? ' pic-small' : '';
-    size += (large) ? ' pic-large' : '';
-    return size;
+const getSize = ({small, large}) => {
+    if(small) return '50px';
+    if(large) return '150px';
+    return '100px';
+}
+const getStyle = ({rounded, circle}) => {
+    if(rounded) return '10px';
+    if(circle) return '50%';
+    return '0';
 };
-const getPicStyle = ({rounded, circle}) => {
-    let style = '';
-    style += (rounded) ? ' pic-rounded' : '';
-    style += (circle) ? ' pic-circle' : '';
-    return style;
-};
-const getClassString = (props) => {
-    let classNames = 'pic-profile';
-    classNames += getPicSizing(props);
-    classNames += getPicStyle(props);
-    return classNames;
-};
+const Container = styled.div`
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+`
+const Pic = styled.img`
+    height: ${props => getSize(props)};
+    width: ${props => getSize(props)};
+    border-radius: ${props => getStyle(props)};
+`
 
 export const ProfilePic = (props) => {
     return (
-        <div className={'pic-container'}>
-            <img className={getClassString(props)} src={props.imgSrc}/>
-        </div>
+        <Container>
+            <Pic src={props.imgSrc} {...props}/>
+        </Container>
     );
 };

@@ -11,7 +11,7 @@ const Wrapper = styled.div`
     button {
         &:hover{
             box-shadow: none;
-            transform: scale(6);
+            transform: scale(1.05);
         }
         &:active{
             transform: scale(0.99);
