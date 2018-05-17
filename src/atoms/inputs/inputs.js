@@ -1,4 +1,21 @@
 import React, {Component} from 'react';
+import styled from 'styled-components';
+
+// const InputGroup = styled.input`
+//   background: none;
+//   border: none;
+//   border-bottom: solid 2px $color-primary;
+//   padding: 14px 40px;
+//   font-size: 18px;
+//   display: inline-block;
+//   &:focus,;&:active{
+//     outline: none;
+//   }
+//   &[type="submit"]{
+//     border: solid 2px $color-primary
+//   }
+// `
+
 
 export class Input extends Component{
     constructor(props) {
