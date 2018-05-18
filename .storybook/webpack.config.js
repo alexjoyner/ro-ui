@@ -1,14 +1,12 @@
 const path = require('path');
-console.log('Extending webpack');
 module.exports = {
     module: {
         rules: [
             {
-                test: /\.(sass|css)$/,
-                loaders: ["style-loader", "css-loader", "sass-loader"],
+                test: /\.(css)$/,
+                loaders: ["style-loader", "css-loader"],
                 include: [
-                    path.resolve(__dirname, '../'),
-                    require('bourbon').includePaths
+                    path.resolve(__dirname, '../')
                 ]
             },
             {
