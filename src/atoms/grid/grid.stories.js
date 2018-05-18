@@ -5,7 +5,6 @@ import {Panel} from "../panel/panel"
 import {Graph} from "../graph/graph"
 import {gaugeSettings} from "../graph/graph-settings/gauge"
 import {lineGraphSettings} from "../graph/graph-settings/line-graph";
-import './grid.sass';
 
 let TestColorBox = (props) => (
     <div style={{

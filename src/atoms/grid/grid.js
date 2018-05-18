@@ -1,5 +1,10 @@
 import React from 'react';
-import './grid.sass';
+import styled from 'styled-components';
+
+export const roGrid = styled.div`
+  display: grid;
+  grid-gap: 5px;
+`
 
 export const Grid = (props) => (
 	<div style={{
