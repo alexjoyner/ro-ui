@@ -2,8 +2,6 @@ import React from 'react';
 import {Atoms} from "../_atoms.stories";
 import {Input} from "./inputs";
 import {Panel} from "../panel/panel";
-import './inputs.sass'
-
 Atoms
     .add('inputs', () => {
         return (
