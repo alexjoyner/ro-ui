@@ -57,12 +57,6 @@ const StyledButtonContent = styled.span`
 `
 
 export class Button extends Component {
-    static propTypes = {
-        color: PropTypes.string,
-        size: PropTypes.string,
-        ghost: PropTypes.bool
-    };
-
     render() {
         return (
             <StyledButton {...this.props} type="button">
