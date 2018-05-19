@@ -1,7 +1,7 @@
 import React from 'react';
 import {Molecules} from "../_molecules.stories";
-import {HeroImage} from "./hero-image";
-import {Button} from "../../atoms/buttons/buttons";
+import {HeroImage} from "./";
+import {Button} from "../../atoms/buttons";
 
 Molecules
     .add('hero-image', () => (

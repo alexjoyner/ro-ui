@@ -1,7 +1,7 @@
 import React from 'react';
 import {Atoms} from "../_atoms.stories";
-import {Input} from "./inputs";
-import {Panel} from "../panel/panel";
+import {Input} from "./";
+import {Panel} from "../panel";
 Atoms
     .add('inputs', () => {
         return (

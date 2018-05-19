@@ -1,8 +1,8 @@
 import React from 'react';
-import {Button} from "./buttons";
+import {Button} from "./";
 import {Atoms} from "../_atoms.stories";
-import {HeroImage} from "../../molecules/hero-image/hero-image";
-import {Panel} from "../panel/panel";
+import {HeroImage} from "../../molecules/hero-image";
+import {Panel} from "../panel";
 import {IoChevronUp, IoChevronDown, IoAt} from 'react-icons/lib/io';
 Atoms
     .add('buttons', () => (

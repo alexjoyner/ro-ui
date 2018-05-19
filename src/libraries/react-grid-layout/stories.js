@@ -1,14 +1,17 @@
 import React from 'react';
 import {Libraries} from "../_libraries.stories";
-import {Panel} from "../../atoms/panel/panel";
-import {BasicLayout} from "./basic";
+import {Panel} from "../../atoms/panel";
+import {BasicLayout} from "./";
 import _ from 'lodash';
 import {gaugeSettings} from "../../atoms/graph/graph-settings/gauge";
-import {Graph} from "../../atoms/graph/graph";
+import {Graph} from "../../atoms/graph";
 
 let TestColorBox = (props) => (
     <div style={{
-        'backgroundColor': props.color
+        'display': 'inline-clock',
+        'height': '100px',
+        'wight': '100px',
+        'backgroundColor': props.color 
     }}/>
 );
 

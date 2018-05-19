@@ -1,5 +1,5 @@
 import React from 'react';
-import {SideBar} from "./sidebar";
+import {SideBar} from "./";
 import {Molecules} from "../_molecules.stories";
 
 

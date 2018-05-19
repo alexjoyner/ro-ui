@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Button} from "../../atoms/buttons/buttons";
+import {Button} from "../../atoms/buttons";
 import {IoChevronLeft, IoChevronRight} from 'react-icons/lib/io';
 import {Colors} from '../../styles/variables';
 import styled from 'styled-components';

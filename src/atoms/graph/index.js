@@ -1,6 +1,6 @@
 import React from 'react';
 import 'c3/c3.css';
-import {ErrorBoundary} from "../../utils/error-boundary/index";
+import {ErrorBoundary} from "../../utils/error-boundary";
 //let connect;
 let c3;
 if(typeof window !== 'undefined'){
