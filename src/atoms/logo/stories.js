@@ -9,7 +9,7 @@ Atoms
 		return (
 			<div>
 				<Panel>
-					<Logo/>
+					<Logo logoText={'Voicir'}/>
 				</Panel>
 			</div>
 		)
