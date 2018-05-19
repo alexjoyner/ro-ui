@@ -2,6 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 
 const PanelContainer = styled.div`
+    ${props => props.width ? `
+        display: inline-block;
+        width: ${props.width};
+    `: `
+        display: block;
+    `}
     margin: 10px;
     padding: 10px;
     background-color: #fafafa;
@@ -11,7 +17,7 @@ const PanelContainer = styled.div`
 `
 export const Panel = (props) => {
   return (
-      <PanelContainer>
+      <PanelContainer {...props}>
           {props.children}
       </PanelContainer>
   )

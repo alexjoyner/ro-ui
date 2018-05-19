@@ -20,8 +20,9 @@ export {Button, colors, Graph, Grid, ImageOverlay, Input, Logo, Panel, ProfilePi
  */
 import {HeroImage} from './molecules/HeroImage';
 import {SideBar} from './molecules/SideBar';
+import {GaugeBlock} from './molecules/GaugeBlock';
 // Export Molecules
-export {HeroImage, SideBar};
+export {HeroImage, SideBar, GaugeBlock};
 
 /* 
 

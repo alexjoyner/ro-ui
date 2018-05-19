@@ -4,7 +4,12 @@ import {Panel} from "./";
 
 Atoms
     .add('panel', () => (
-        <Panel>
-            <h1>Basic Panel</h1>
-        </Panel>
+        <div>
+            <Panel>
+                <h1>Basic Panel</h1>
+            </Panel>
+            <Panel width={'500px'}>
+                <h1>Custom Width Panel</h1>
+            </Panel>
+        </div>
     ));
