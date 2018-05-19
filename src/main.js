@@ -12,14 +12,16 @@ import {Panel} from './atoms/Panel';
 import {ProfilePic} from './atoms/ProfilePic';
 import {TextArea} from './atoms/TextArea';
 import {TopBar} from './atoms/TopBar';
-
+// Export Atoms
+export {Button, colors, Graph, Grid, ImageOverlay, Input, Logo, Panel, ProfilePic, TextArea, TopBar}
 
 /* 
 ============ Molecules ===========
  */
 import {HeroImage} from './molecules/HeroImage';
 import {SideBar} from './molecules/Sidebar';
-
+// Export Molecules
+export {HeroImage, SideBar};
 
 /* 
 
@@ -29,3 +31,5 @@ After this point, components should be project specific.
     - pages:
     - release product
 */
+
+
