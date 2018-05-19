@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import {Button} from "../../atoms/buttons";
 import {IoChevronLeft, IoChevronRight} from 'react-icons/lib/io';
-import {Colors} from '../../styles/variables';
+import {Button} from "../../atoms/buttons";
+import {colors} from '../../atoms/colors';
 import styled from 'styled-components';
 
 
@@ -9,7 +9,7 @@ const Container = styled.div`
     transition: 100ms linear;
     height: 100vh;
     width: 250px;
-    background-color: ${Colors.primary};
+    background-color: ${colors.primary};
     color: white;
     position: fixed;
     font-size: 20px;

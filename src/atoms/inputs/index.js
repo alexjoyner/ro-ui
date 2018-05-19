@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import styled from 'styled-components';
-import {Colors} from '../../styles/variables';
+import {colors} from '../colors';
 const InputLabel = styled.label`
     position: absolute;
     top: 50%;
@@ -20,14 +20,14 @@ const InputGroup = styled.div`
     ${props => (props.inputValue !== '')? `
         font-size: 12px;
         top: 2px;
-        color: ${Colors.primary};
+        color: ${colors.primary};
     ` : ''}
     }
 `
 const ComponentInput = styled.input`
     background: none;
     border: none;
-    border-bottom: solid 2px ${Colors.primary};
+    border-bottom: solid 2px ${colors.primary};
     padding: 14px 40px;
     font-size: 18px;
     display: inline-block;
@@ -35,7 +35,7 @@ const ComponentInput = styled.input`
         outline: none;
     }
     &[type="submit"]{
-        border: solid 2px ${Colors.primary}
+        border: solid 2px ${colors.primary}
     }
 `
 

@@ -11,6 +11,8 @@
         "**/node_modules": true,
         "**/package.json": true,
         "**/yarn.lock": true,
-        "**/.gitattributes": true
+        "**/.gitattributes": true,
+        "**/.storybook": true,
+        "**/package-lock.json": true
     }
 }

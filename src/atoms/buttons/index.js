@@ -1,16 +1,16 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import {Colors} from '../../styles/variables';
+import {colors} from '../colors';
 const getBtnTextColor = ({primary, danger, success}) => {
     if(primary || danger || success) return 'white';
     return 'black';
 }
 const getBtnBgColoring = ({primary, warning, danger, success}) => {
-    if(primary) return Colors.primary;
-    if(warning) return Colors.warning;
-    if(danger) return Colors.danger;
-    if(success) return Colors.success;
+    if(primary) return colors.primary;
+    if(warning) return colors.warning;
+    if(danger) return colors.danger;
+    if(success) return colors.success;
     return 'white';
 };
 
