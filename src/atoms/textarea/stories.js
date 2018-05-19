@@ -1,7 +1,7 @@
 import React from 'react';
 import {Atoms} from "../_atoms.stories"
 import {TextArea} from "./"
-import {Panel} from "../panel"
+import {Panel} from "../Panel"
 Atoms
 	.add('textarea', () => {
 		return (

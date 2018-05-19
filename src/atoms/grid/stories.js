@@ -1,10 +1,10 @@
 import React from 'react';
 import {Atoms} from "../_atoms.stories"
 import {Grid} from "./"
-import {Panel} from "../panel"
-import {Graph} from "../graph"
-import {gaugeSettings} from "../graph/graph-settings/gauge"
-import {lineGraphSettings} from "../graph/graph-settings/line-graph";
+import {Panel} from "../Panel"
+import {Graph} from "../Graph"
+import {gaugeSettings} from "../Graph/graph-settings/gauge"
+import {lineGraphSettings} from "../Graph/graph-settings/line-graph";
 
 let TestColorBox = (props) => (
     <div style={{

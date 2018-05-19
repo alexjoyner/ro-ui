@@ -1,8 +1,8 @@
 import React from 'react';
 import {Atoms} from "../_atoms.stories";
-import {Panel} from "../../atoms/panel";
-import {COLORS} from "./";
-import {Grid} from "../../atoms/grid";
+import {Panel} from "../../atoms/Panel";
+import {colors} from "./";
+import {Grid} from "../../atoms/Grid";
 
 let TestColorBox = (props) => (
     <div style={{

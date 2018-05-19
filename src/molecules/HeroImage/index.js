@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
-import {ImageOverlay} from "../../atoms/image-overlay";
+import {ImageOverlay} from "../../atoms/ImageOverlay";
 
 const Wrapper = styled.div`
     background-size: cover;

@@ -1,8 +1,8 @@
 import React from 'react';
 import {Atoms} from "../_atoms.stories";
 import {ImageOverlay} from "./";
-import {HeroImage} from "../../molecules/hero-image";
-import {Button} from '../buttons'
+import {HeroImage} from "../../molecules/HeroImage";
+import {Button} from '../Button'
 Atoms
     .add('image-overlay', () => (
         <HeroImage imageSrc={'https://placeimg.com/1000/800/any'}>

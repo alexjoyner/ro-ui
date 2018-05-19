@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {IoChevronLeft, IoChevronRight} from 'react-icons/lib/io';
-import {Button} from "../../atoms/buttons";
+import {Button} from "../../atoms/Button";
 import {colors} from '../../atoms/colors';
 import styled from 'styled-components';
 
