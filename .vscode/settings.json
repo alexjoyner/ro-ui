@@ -1,0 +1,16 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/lib": true,
+        "**/.vscode": true,
+        "**/.gitignore": true,
+        "**/node_modules": true,
+        "**/package.json": true,
+        "**/yarn.lock": true,
+        "**/.gitattributes": true
+    }
+}

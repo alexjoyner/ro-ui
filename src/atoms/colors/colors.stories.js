@@ -1,5 +1,5 @@
 import React from 'react';
-import {Brand} from "../_brand.stories";
+import {Atoms} from "../_atoms.stories";
 import {Panel} from "../../atoms/panel/panel";
 import {COLORS} from "./colors";
 import {Grid} from "../../atoms/grid/grid";
@@ -11,7 +11,7 @@ let TestColorBox = (props) => (
     }}/>
 );
 
-Brand
+Atoms
     .add('Colors', () => {
         return (
             <div>
