@@ -3,7 +3,7 @@ import {Atoms} from "../_atoms.stories"
 import {TextArea} from "./"
 import {Panel} from "../Panel"
 Atoms
-	.add('textarea', () => {
+	.add('TextArea', () => {
 		return (
 			<div>
 				<Panel>

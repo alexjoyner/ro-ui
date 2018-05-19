@@ -4,7 +4,7 @@ import {Molecules} from "../_molecules.stories";
 
 
 Molecules
-    .add('sidebar', () => (
+    .add('SideBar', () => (
        <SideBar>
            <h2>Taco Stuff</h2>
            <ul>

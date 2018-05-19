@@ -7,7 +7,7 @@ import profilePic3 from './assets/profile-pic3.jpg';
 import {Panel} from "../Panel";
 
 Atoms
-    .add('profile-pic', () => (
+    .add('ProfilePic', () => (
         <div>
             <Panel>
                 <h2>Profile Pic: Sizes</h2>

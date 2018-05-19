@@ -3,7 +3,7 @@ import {Atoms} from "../_atoms.stories";
 import {Input} from "./";
 import {Panel} from "../Panel";
 Atoms
-    .add('inputs', () => {
+    .add('Input', () => {
         return (
             <div>
                 <Panel>

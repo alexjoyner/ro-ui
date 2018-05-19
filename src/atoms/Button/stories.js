@@ -5,7 +5,7 @@ import {HeroImage} from "../../molecules/HeroImage";
 import {Panel} from "../Panel";
 import {IoChevronUp, IoChevronDown, IoAt} from 'react-icons/lib/io';
 Atoms
-    .add('buttons', () => (
+    .add('Button', () => (
         <div>
             <Panel>
                 <h2>Button Colors</h2>

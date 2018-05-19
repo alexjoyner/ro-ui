@@ -5,7 +5,7 @@ import {Atoms} from "../_atoms.stories";
 
 
 Atoms
-	.add('logo', () => {
+	.add('Logo', () => {
 		return (
 			<div>
 				<Panel>

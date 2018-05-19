@@ -14,7 +14,7 @@ let TestColorBox = (props) => (
 );
 let testArray = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1];
 Atoms.add(
-	'grid', () => (
+	'Grid', () => (
         <div>
             <Panel>
                 <h4>Basic Example (Grid defaults to 3 columns)</h4>

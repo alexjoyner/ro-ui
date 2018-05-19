@@ -3,7 +3,7 @@ import {Atoms} from "../_atoms.stories";
 import {Panel} from "./";
 
 Atoms
-    .add('panel', () => (
+    .add('Panel', () => (
         <div>
             <Panel>
                 <h1>Basic Panel</h1>

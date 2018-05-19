@@ -10,7 +10,7 @@ import {donutGraphSettings} from "./graph-settings/donut-graph";
 const BlockID = 1;
 
 Atoms
-    .add('graph', () => {
+    .add('Graph', () => {
        return (
            <div>
                <Panel>

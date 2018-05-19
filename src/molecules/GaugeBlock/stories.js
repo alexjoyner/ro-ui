@@ -2,9 +2,7 @@ import React, {Component} from 'react';
 import {Molecules} from '../_molecules.stories';
 import {GaugeBlock} from './';
 import styled from 'styled-components';
-const CenteredArray = styled.div`
-    text-align: center;
-`
+import {CenteredContent} from '../../atoms/CenteredArray';
 
 class Test extends Component{
     state = {
@@ -20,7 +18,7 @@ class Test extends Component{
     }
     render(){
         return (
-            <CenteredArray>
+            <CenteredContent>
                 <GaugeBlock id={1} {...this.state} label={'Sensor 1'}></GaugeBlock>
                 <GaugeBlock id={2} {...this.state} label={'Sensor 2'}></GaugeBlock>
                 <GaugeBlock id={3} {...this.state} label={'Sensor 3'}></GaugeBlock>
@@ -30,7 +28,7 @@ class Test extends Component{
                 <GaugeBlock id={7} {...this.state} label={'Sensor 7'}></GaugeBlock>
                 <GaugeBlock id={8} {...this.state} label={'Sensor 8'}></GaugeBlock>
                 <GaugeBlock id={9} {...this.state} label={'Sensor 9'}></GaugeBlock>
-            </CenteredArray>
+            </CenteredContent>
         )
     }
 }

@@ -4,7 +4,7 @@ import {HeroImage} from "./";
 import {Button} from "../../atoms/Button";
 
 Molecules
-    .add('hero-image', () => (
+    .add('HeroImage', () => (
         <HeroImage imageSrc={'https://placeimg.com/1000/770/any'}>
             <h1>Hero Image</h1>
             <Button>This is awesome!</Button>
