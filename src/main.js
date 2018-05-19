@@ -19,7 +19,7 @@ export {Button, colors, Graph, Grid, ImageOverlay, Input, Logo, Panel, ProfilePi
 ============ Molecules ===========
  */
 import {HeroImage} from './molecules/HeroImage';
-import {SideBar} from './molecules/Sidebar';
+import {SideBar} from './molecules/SideBar';
 // Export Molecules
 export {HeroImage, SideBar};
 
@@ -27,8 +27,8 @@ export {HeroImage, SideBar};
 
 After this point, components should be project specific.
     - organisms: putting together molecules and atoms
-    - templates: 
-    - pages:
+    - templates: quick sketches on paper that include where organisms will be
+    - pages: coded versions of the templates with dummy text
     - release product
 */
 

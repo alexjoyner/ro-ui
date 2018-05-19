@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import 'c3/c3.css';
 import {ErrorBoundary} from "../../utils/error-boundary";
 //let connect;
@@ -9,27 +9,17 @@ if(typeof window !== 'undefined'){
     c3 = require('c3');
 }
 
-export class Graph extends React.Component {
-    constructor(props) {
-        super(props);
-        this.chart = {};
-    }
+export class Graph extends Component {
+    chart = {};
     componentDidMount() {
-        // connect.getLogsSubscription((err, log) => {
-        //     console.log('log returned to feature/graph');
-        //     this.chart.load({
-        //         columns: [['Data', log.value]],
-        //     });
-        // });
         this.initChart();
     }
     shouldComponentUpdate(nextProps) {
+        this.chart.load({
+            columns: [['Data', nextProps.value]],
+        });
         return false;
     }
-    componentDidUpdate() {
-        this.initChart();
-    }
-
     initChart() {
         this.chart = c3.generate({
             bindto: `#${this.props.chartID}`,
@@ -40,7 +30,6 @@ export class Graph extends React.Component {
             ...this.props.chartOpts,
         });
     }
-
     render() {
         return (
             <ErrorBoundary>

@@ -46,7 +46,9 @@
     "presets": ["env", "react", "stage-2"],
     "ignore": [
       "**/*.test.js",
-      "**/*.stories.js"
+      "**/*.stories.js",
+      "**/test.js",
+      "**/stories.js"
     ]
   }
 }
