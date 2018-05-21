@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 const TopBarWrapper = styled.div`
     ${(props) => (props.sticky)?`
+        z-index: 200;
         position: fixed;
         top: 0;
     `:''}

@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Molecules} from '../_molecules.stories';
 import {GaugeBlock} from './';
 import styled from 'styled-components';
-import {CenteredContent} from '../../atoms/CenteredArray';
+import {CenteredContent} from '../../atoms/CenteredContent';
 
 class Test extends Component{
     state = {
