@@ -5,7 +5,8 @@ import {gaugeSettings} from '../../atoms/Graph/graph-settings/gauge';
 import styled from 'styled-components';
 import {CenteredContent} from '../../atoms/CenteredContent';
 const GraphBlockLabel = styled.div`
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: 400;
     text-align: center;
 `
 

@@ -1,6 +1,6 @@
 import {injectGlobal} from 'styled-components';
 injectGlobal`
-  @import url('https://fonts.googleapis.com/css?family=Roboto:100'); 
+  @import url('https://fonts.googleapis.com/css?family=Roboto:100,400'); 
   body {
     padding: 0;
     margin: 0;
