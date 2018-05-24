@@ -33,8 +33,9 @@ import {HeroImage} from './molecules/HeroImage';
 import {SideBar} from './molecules/SideBar';
 import {GaugeBlock} from './molecules/GaugeBlock';
 import {Header} from './molecules/Header'; 
+import {Modal} from './molecules/Modal'; 
 // Export Molecules
-export {HeroImage, SideBar, GaugeBlock, Header};
+export {HeroImage, SideBar, GaugeBlock, Header, Modal};
 
 /* 
 
