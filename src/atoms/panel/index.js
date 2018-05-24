@@ -8,6 +8,7 @@ const PanelContainer = styled.div`
     `: `
         display: block;
     `}
+    min-width: ${props => props.minWidth || '280px'};
     margin: 10px;
     padding: 10px;
     background-color: #fafafa;

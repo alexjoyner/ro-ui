@@ -7,18 +7,18 @@ Atoms
     .add('CenteredContent', () => {
         return (
             <CenteredContent>
-                <Panel width={'300px'}><h3>Item</h3></Panel>
-                <Panel width={'300px'}><h3>Item</h3></Panel>
-                <Panel width={'300px'}><h3>Item</h3></Panel>
-                <Panel width={'300px'}><h3>Item</h3></Panel>
-                <Panel width={'300px'}><h3>Item</h3></Panel>
-                <Panel width={'300px'}><h3>Item</h3></Panel>
-                <Panel width={'300px'}><h3>Item</h3></Panel>
-                <Panel width={'300px'}><h3>Item</h3></Panel>
-                <Panel width={'300px'}><h3>Item</h3></Panel>
-                <Panel width={'300px'}><h3>Item</h3></Panel>
-                <Panel width={'300px'}><h3>Item</h3></Panel>
-                <Panel width={'300px'}><h3>Item</h3></Panel>
+                <Panel width={'30%'}><h3>Item</h3></Panel>
+                <Panel width={'30%'}><h3>Item</h3></Panel>
+                <Panel width={'30%'}><h3>Item</h3></Panel>
+                <Panel width={'30%'}><h3>Item</h3></Panel>
+                <Panel width={'30%'}><h3>Item</h3></Panel>
+                <Panel width={'30%'}><h3>Item</h3></Panel>
+                <Panel width={'30%'}><h3>Item</h3></Panel>
+                <Panel width={'30%'}><h3>Item</h3></Panel>
+                <Panel width={'30%'}><h3>Item</h3></Panel>
+                <Panel width={'30%'}><h3>Item</h3></Panel>
+                <Panel width={'30%'}><h3>Item</h3></Panel>
+                <Panel width={'30%'}><h3>Item</h3></Panel>
             </CenteredContent>
         )
     })

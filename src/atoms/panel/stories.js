@@ -8,7 +8,7 @@ Atoms
             <Panel>
                 <h1>Basic Panel</h1>
             </Panel>
-            <Panel width={'500px'}>
+            <Panel width={'50%'}>
                 <h1>Custom Width Panel</h1>
             </Panel>
         </div>

@@ -12,6 +12,8 @@ const Container = styled.div`
     background-color: ${colors.primary};
     color: white;
     position: fixed;
+    z-index: 1000;
+    top: 0;
     font-size: 20px;
     padding: 10px;
     ul{
@@ -35,7 +37,7 @@ export class SideBar extends Component{
     constructor(props){
         super(props);
         this.state = {
-            shown: true
+            shown: false
         }
     }
     toggleSidebar() {

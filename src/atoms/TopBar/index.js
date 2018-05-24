@@ -8,6 +8,7 @@ const TopBarWrapper = styled.div`
         position: fixed;
         top: 0;
     `:''}
+    text-align: center;
     height: ${props => props.height};
     line-height: ${props => props.height};
     width: 100%;

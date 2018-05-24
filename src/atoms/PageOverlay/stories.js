@@ -6,7 +6,7 @@ import {Panel} from '../Panel'
 Atoms
     .add('PageOverlay', () => (
         <PageOverlay>
-            <Panel width={'500px'}>
+            <Panel width={'50%'}>
                 <h1>Custom Width Panel on PageOverlay</h1>
             </Panel>
         </PageOverlay>

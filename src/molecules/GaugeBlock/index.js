@@ -11,7 +11,7 @@ const GraphBlockLabel = styled.div`
 `
 
 const GaugeBlock = (props) => (
-    <Panel width={'330px'}>
+    <Panel width={'25%'}>
         <Graph
             {...props}
             chartID={'gauge-' + props.id}

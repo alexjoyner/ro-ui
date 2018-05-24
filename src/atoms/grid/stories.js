@@ -44,15 +44,6 @@ Atoms.add(
                     {testArray.map((box, i) => {return <TestColorBox key={i} color={'#636363'}/>})}
                 </Grid>
             </Panel>
-            <Panel>
-                <h4>Example With A Graph</h4>
-                <Grid>
-                    <Panel><Graph chartID={'gauge-1'} chartOpts={gaugeSettings} /></Panel>
-                    <Panel><h1>Stuff</h1></Panel>
-                    <Panel><h1>Stuff</h1></Panel>
-                    <Panel><h1>Stuff</h1></Panel>
-                </Grid>
-            </Panel>
         </div>
 	)
 );

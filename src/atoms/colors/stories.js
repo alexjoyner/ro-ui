@@ -18,14 +18,14 @@ Atoms
                 <Panel>
                     <h2>Testing</h2>
                     <Grid columns={2}>
-                        <TestColorBox color={COLORS.primary}/>
-                        <TestColorBox color={COLORS.primaryLight}/>
-                        <TestColorBox color={COLORS.success}/>
-                        <TestColorBox color={COLORS.successLight}/>
-                        <TestColorBox color={COLORS.warning}/>
-                        <TestColorBox color={COLORS.warningLight}/>
-                        <TestColorBox color={COLORS.danger}/>
-                        <TestColorBox color={COLORS.dangerLight}/>
+                        <TestColorBox color={colors.primary}/>
+                        <TestColorBox color={colors.primaryLight}/>
+                        <TestColorBox color={colors.success}/>
+                        <TestColorBox color={colors.successLight}/>
+                        <TestColorBox color={colors.warning}/>
+                        <TestColorBox color={colors.warningLight}/>
+                        <TestColorBox color={colors.danger}/>
+                        <TestColorBox color={colors.dangerLight}/>
                     </Grid>
                 </Panel>
             </div>

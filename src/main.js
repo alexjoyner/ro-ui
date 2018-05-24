@@ -1,11 +1,13 @@
 import {injectGlobal} from 'styled-components';
 injectGlobal`
-  @import url('https://fonts.googleapis.com/css?family=Roboto:100,400'); 
+  @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
   body {
     padding: 0;
     margin: 0;
-    margin-top: 80px;
+  }
+  * {
     font-family: 'Roboto', 'sans-serif';
+    font-weight: 100;
   }
 `;
 /* 

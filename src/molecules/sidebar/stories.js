@@ -12,7 +12,7 @@ Molecules
                 height={'67px'} 
                 fontSize={'25px'} 
                 logoText={'Dashboard Demo'} 
-                 />
+                />
             <div className={'PageBody'}>
                 <TestGaugeBlock></TestGaugeBlock>
             </div>

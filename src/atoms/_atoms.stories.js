@@ -1,3 +1,3 @@
 import { storiesOf } from '@storybook/react';
-import '../styles/typography.css';
+import '../main.js';
 export let Atoms = storiesOf('Atoms', module);
