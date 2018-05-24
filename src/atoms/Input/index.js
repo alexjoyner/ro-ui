@@ -40,29 +40,12 @@ const ComponentInput = styled.input`
 `
 
 
-export class Input extends Component{
-    constructor(props) {
-        super(props);
-        this.state = {
-            inputValue: '',
-            blurred: false
-        }
-    }
-    handleInputChange(e){
-        let value = e.target.value;
-        this.setState({
-            inputValue: value
-        })
-    }
-    render(){
-        return (
-            <InputGroup {...this.state}>
-                <ComponentInput {...this.state}
-                    onBlur={() => this.setState({blurred: true})}
-                    onChange={(e) => this.handleInputChange(e)}
-                    type={this.props.type}/>
-                <InputLabel>{this.props.placeholder}</InputLabel>
-            </InputGroup>
-        )
-    }
-}
+export const Input = (props) => (
+    <InputGroup {...props}>
+        <ComponentInput
+            onBlur={() => props.onBlur()}
+            onChange={(e) => props.onBlur(e)}
+            type={props.type}/>
+        <InputLabel>{props.placeholder}</InputLabel>
+    </InputGroup>
+)

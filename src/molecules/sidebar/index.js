@@ -17,7 +17,12 @@ const Container = styled.div`
     ul{
         list-style: none;
     }
-    ${props => (props.shown)? 'left: 0;' : 'left: -270px;'};
+        + .PageBody {
+            background-color: blue;
+        };
+    ${props => (props.shown)? `
+        left: 0px;
+    ` : 'left: -270px;'};
 `;
 const SideBarBtn = styled(Button)`
     margin-left: 0;

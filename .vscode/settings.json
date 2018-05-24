@@ -8,7 +8,7 @@
         "**/lib": false,
         "**/.vscode": true,
         "**/.gitignore": false,
-        "**/node_modules": true,
+        "**/node_modules": false,
         "**/package.json": false,
         "**/yarn.lock": true,
         "**/.gitattributes": true,

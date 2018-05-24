@@ -56,14 +56,12 @@ const StyledButtonContent = styled.span`
     ` : ''}
 `
 
-export class Button extends Component {
-    render() {
-        return (
-            <StyledButton {...this.props} type="button">
-                <StyledButtonContent {...this.props} tabIndex={-1}>
-                    {this.props.children}
-                </StyledButtonContent>
-            </StyledButton>
-        )
-    }
+export const Button = (props) => {
+    return (
+        <StyledButton {...props} type="button">
+            <StyledButtonContent {...props} tabIndex={-1}>
+                {props.children}
+            </StyledButtonContent>
+        </StyledButton>
+    )
 }
