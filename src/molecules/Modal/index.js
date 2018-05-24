@@ -5,17 +5,12 @@ import {PageOverlay} from '../../atoms/PageOverlay';
 
 const slideUp = keyframes`
   from {
-    top: 1000px;
-  }
-
-  to {
-    top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(500%);
   }
 `;
 
 const NotificationPanel = styled(Panel)`
-    position: absolute;
+    position: relative;
     animation: ${slideUp} 0.8s;
 `
 
