@@ -20,11 +20,10 @@ import {Input} from './atoms/Input';
 import {Logo} from './atoms/Logo';
 import {Panel} from './atoms/Panel';
 import {ProfilePic} from './atoms/ProfilePic';
-import {TextArea} from './atoms/TextArea';
 import {TopBar} from './atoms/TopBar';
 import {CenteredContent} from './atoms/CenteredContent';
 // Export Atoms
-export {Button, colors, Graph, Grid, ImageOverlay, Input, Logo, Panel, ProfilePic, TextArea, TopBar, CenteredContent}
+export {Button, colors, Graph, Grid, ImageOverlay, Input, Logo, Panel, ProfilePic, TopBar, CenteredContent}
 
 /* 
 ============ Molecules ===========

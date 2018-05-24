@@ -10,9 +10,10 @@ const InputLabel = styled.label`
     transition: 50ms linear;
 `
 const InputGroup = styled.div`
-    display: inline-block;
+    display: block;
     position: relative;
     margin-right: 20px;
+    margin-top: 10px;
     input{
         padding: 15px 0;
     }
@@ -31,6 +32,7 @@ const ComponentInput = styled.input`
     padding: 14px 40px;
     font-size: 18px;
     display: inline-block;
+    width: 100%;
     &:focus, &:active{
         outline: none;
     }
@@ -40,12 +42,14 @@ const ComponentInput = styled.input`
 `
 
 
-export const Input = (props) => (
+export const Input = (props) => {
+    return (
     <InputGroup {...props}>
         <ComponentInput
             onBlur={() => props.onBlur()}
             onChange={(e) => props.onBlur(e)}
-            type={props.type}/>
-        <InputLabel>{props.placeholder}</InputLabel>
+            {...props}/>
+        <InputLabel>{props.labelText}</InputLabel>
     </InputGroup>
-)
+    )
+}

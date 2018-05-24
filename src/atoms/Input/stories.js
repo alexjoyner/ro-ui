@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Atoms} from "../_atoms.stories";
 import {Input} from "./";
 import {Panel} from "../Panel";
-
+import {Button} from '../Button';
 
 export class TestInputs extends Component{
     constructor(props) {
@@ -26,14 +26,14 @@ export class TestInputs extends Component{
                 onBlur={() => this.setState({blurred: true})}
                 onChange={(e) => this.handleInputChange(e)}
                 type={'email'}
-                placeholder={'Email Input'}
+                labelText={'Email Input'}
                 />
             <Input 
                 {...this.state}
                 onBlur={() => this.setState({blurred: true})}
                 onChange={(e) => this.handleInputChange(e)}
                 type={'text'}
-                placeholder={'Text Input'}
+                labelText={'Text Input'}
                 />
             </div>
         )
@@ -47,6 +47,7 @@ Atoms
         return (
             <div>
                 <Panel>
+                    <h1>Note: Always pass placeholder as 'labelText' to get the shifting placeholder</h1>
                     <TestInputs />
                 </Panel>
             </div>
