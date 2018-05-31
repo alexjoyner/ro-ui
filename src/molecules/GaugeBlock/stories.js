@@ -6,7 +6,31 @@ import {CenteredContent} from '../../atoms/CenteredContent';
 
 export class TestGaugeBlock extends Component{
     state = {
-        'value': 1
+        value: 20,
+        units: '°F',
+        max: 100,
+        min: 0,
+        ranges: [{
+            lowerValue: 0,
+            upperValue: 20,
+            color: "#95a5a6"
+        },{
+            lowerValue: 20,
+            upperValue: 30,
+            color: "#9b59b6"
+        },{
+            lowerValue: 30,
+            upperValue: 50,
+            color: "#f1c40f"
+        },{
+            lowerValue: 50,
+            upperValue: 80,
+            color: "#2ecc71"
+        },{
+            lowerValue: 80,
+            upperValue: 100,
+            color: "#e74c3c"
+        }]
     }
     componentDidMount(){
         setInterval(() => {

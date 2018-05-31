@@ -2,13 +2,46 @@ import React from 'react';
 import styled, {injectGlobal} from 'styled-components';
 
 export const Gauge = (props) => {
-    console.log(props);
+    const opts = {
+        height: props.height || 'auto',
+        width: props.width || '100%',
+        radius: 120.5,
+        center: {
+            x: 125,
+            y: 150
+        },
+        value: props.value || 0,
+        units: props.units || '',
+        max: props.max || 100,
+        min: props.min || 0,
+        ranges: props.ranges || [{
+            lowerValue: 0,
+            upperValue: 20,
+            color: "#95a5a6"
+        },{
+            lowerValue: 20,
+            upperValue: 30,
+            color: "#9b59b6"
+        },{
+            lowerValue: 30,
+            upperValue: 50,
+            color: "#f1c40f"
+        },{
+            lowerValue: 50,
+            upperValue: 80,
+            color: "#2ecc71"
+        },{
+            lowerValue: 80,
+            upperValue: 100,
+            color: "#e74c3c"
+        }]
+    };
     return (
-        <svg height={props.height} width={props.width} viewBox="0 0 250 180">
-        {props.ranges.map((range, i) => getRange(props, range, i))}
+        <svg height={opts.height} width={opts.width} viewBox="0 0 250 180">
+        {opts.ranges.map((range, i) => getRange(opts, range, i))}
         <GaugeOutlines /> 
-        <Needle points="125,150 115,148 1,150 115,152" transform={`rotate(${gaugeValueToAngle(props, props.value)}, 125, 150)`}/>
-        <Value x="125" y="165">{props.value}{props.units}</Value>
+        <Needle points="125,150 115,148 1,150 115,152" transform={`rotate(${gaugeValueToAngle(opts, props.value)}, 125, 150)`}/>
+        <Value x="125" y="165">{opts.value}{opts.units}</Value>
         <BasicLine x1="1" y1="150" x2="30" y2="150" />
         <BasicLine x1="250" y1="150" x2="220" y2="150" />
         <CenterPoint cx="125" cy="150" r="2" fill="white"/>
