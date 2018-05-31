@@ -38,6 +38,7 @@ export const Gauge = (props) => {
     };
     return (
         <svg height={opts.height} width={opts.width} viewBox="0 0 250 180">
+        <GaugeStatus cx="125" cy="150" r="108.5" fill="none" color={calcColor(opts.value, opts.ranges)}/>
         {opts.ranges.map((range, i) => getRange(opts, range, i))}
         <GaugeOutlines /> 
         <Needle points="125,150 115,148 1,150 115,152" transform={`rotate(${gaugeValueToAngle(opts, props.value)}, 125, 150)`}/>
@@ -48,6 +49,20 @@ export const Gauge = (props) => {
         </svg>
     )
 }
+const calcColor = (value, ranges) => {
+    let result = null;
+    ranges.map((range) => {
+        if(value > range.lowerValue && value <= range.upperValue)
+            result = range.color;
+    })
+    return result;
+}
+const GaugeStatus = styled.circle`
+  stroke: ${(props) => props.color};
+  stroke-width: 17;
+  stroke-dasharray: 340.865;
+  stroke-dashoffset: 340.865;
+`
 const getRange = (opts, range, index) => {
     const lowerBoundAngle = gaugeValueToAngle(opts, range.lowerValue);
     const lowerBoundPoint = polarToCartesian(opts.center.x, opts.center.y, opts.radius, lowerBoundAngle);
