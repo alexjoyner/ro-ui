@@ -19,9 +19,6 @@ const Container = styled.div`
     ul{
         list-style: none;
     }
-        + .PageBody {
-            background-color: blue;
-        };
     ${props => (props.shown)? `
         left: 0px;
     ` : 'left: -270px;'};

@@ -24,8 +24,9 @@ import {Panel} from './atoms/Panel';
 import {ProfilePic} from './atoms/ProfilePic';
 import {TopBar} from './atoms/TopBar';
 import {CenteredContent} from './atoms/CenteredContent';
+import {PlainBox} from './atoms/PlainBox';
 // Export Atoms
-export {Button, colors, Graph, Grid, ImageOverlay, Input, Logo, Panel, ProfilePic, TopBar, CenteredContent}
+export {Button, colors, Graph, Grid, ImageOverlay, Input, Logo, Panel, ProfilePic, TopBar, CenteredContent, PlainBox}
 
 /* 
 ============ Molecules ===========

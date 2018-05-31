@@ -18,6 +18,7 @@ const InputGroup = styled.div`
         padding: 15px 0;
     }
     input + label{
+    color: ${props => props.error?colors.danger:null};
     ${props => (props.inputValue !== '')? `
         font-size: 12px;
         top: 2px;
@@ -28,7 +29,7 @@ const InputGroup = styled.div`
 const ComponentInput = styled.input`
     background: none;
     border: none;
-    border-bottom: solid 2px ${colors.primary};
+    border-bottom: solid 2px ${props => props.error?colors.danger:colors.primary};
     padding: 14px 40px;
     font-size: 18px;
     display: inline-block;

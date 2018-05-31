@@ -35,6 +35,14 @@ export class TestInputs extends Component{
                 type={'text'}
                 labelText={'Text Input'}
                 />
+            <Input 
+                {...this.state}
+                onBlur={() => this.setState({blurred: true})}
+                onChange={(e) => this.handleInputChange(e)}
+                type={'text'}
+                labelText={'Text Input'}
+                error
+                />
             </div>
         )
     }

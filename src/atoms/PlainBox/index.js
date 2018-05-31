@@ -15,5 +15,7 @@ export const PlainBox = styled.div`
     `:`
         margin: 10px;
     `}
+    min-width: ${props => props.minWidth || '300px'};
     background-color: #c0c0c0;
+    display: inline-block;
 `
