@@ -12,7 +12,7 @@
         "**/package.json": false,
         "**/yarn.lock": true,
         "**/.gitattributes": true,
-        "**/.storybook": true,
+        "**/.storybook": false,
         "**/package-lock.json": true
     }
 }
