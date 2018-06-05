@@ -5,14 +5,14 @@
         "**/.hg": true,
         "**/CVS": true,
         "**/.DS_Store": true,
-        "**/lib": false,
+        "**/lib": true,
         "**/.vscode": true,
-        "**/.gitignore": false,
-        "**/node_modules": false,
+        "**/.gitignore": true,
+        "**/node_modules": true,
         "**/package.json": false,
         "**/yarn.lock": true,
         "**/.gitattributes": true,
-        "**/.storybook": false,
+        "**/.storybook": true,
         "**/package-lock.json": true
     }
 }
