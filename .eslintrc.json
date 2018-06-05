@@ -5,6 +5,7 @@
         "react/jsx-filename-extension": false,
         "react/prop-types": [2, { "ignore": "children"}],
         "linebreak-style": 0,
-        "no-use-before-define": 0
+        "no-use-before-define": 0,
+        "no-unused-expressions": ["error", {"allowTaggedTemplates": true}]
     }
 }
