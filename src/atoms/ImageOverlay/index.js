@@ -17,11 +17,9 @@ const Wrapper = styled.div`
             transform: scale(0.99);
         }
     }
-`
-export const ImageOverlay = (props) => {
-    return (
-        <Wrapper>
-            {props.children}
-        </Wrapper>
-    );
-};
+`;
+export const ImageOverlay = props => (
+  <Wrapper>
+    {props.children}
+  </Wrapper>
+);

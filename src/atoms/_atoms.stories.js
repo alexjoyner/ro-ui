@@ -1,3 +1,4 @@
-import { storiesOf } from '@storybook/react';
-import '../main.js';
-export let Atoms = storiesOf('Atoms', module);
+import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
+import '../main';
+
+export const Atoms = storiesOf('Atoms', module);

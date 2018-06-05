@@ -1,10 +1,11 @@
-import React from "react";
-import { Button } from "./";
-import { Atoms } from "../_atoms.stories";
-import { HeroImage } from "../../molecules/HeroImage";
-import { Panel } from "../Panel";
-import { IoChevronUp, IoChevronDown, IoAt } from "react-icons/lib/io";
-Atoms.add("Button", () => (
+import React from 'react';
+import { IoChevronUp, IoChevronDown, IoAt } from 'react-icons/lib/io';
+import { Button } from './';
+import { Atoms } from '../_atoms.stories';
+import { HeroImage } from '../../molecules/HeroImage';
+import { Panel } from '../Panel';
+
+Atoms.add('Button', () => (
   <div>
     <Panel>
       <h2>Button Colors</h2>
@@ -22,7 +23,7 @@ Atoms.add("Button", () => (
     <Panel>
       <h2>Icon Buttons: using react-icons</h2>
       <Button>
-        <IoChevronUp style={{ textAlign: "center" }} />
+        <IoChevronUp style={{ textAlign: 'center' }} />
       </Button>
       <Button>
         <IoChevronDown size={40} />
@@ -34,8 +35,8 @@ Atoms.add("Button", () => (
     <Panel>
       <h2>Ghost Buttons</h2>
       <HeroImage
-        imageSrc={"https://placeimg.com/1000/300/any"}
-        height={"300px"}
+        imageSrc="https://placeimg.com/1000/300/any"
+        height="300px"
       >
         <p>
           <Button ghost>Basic Button</Button>

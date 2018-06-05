@@ -1,7 +1,7 @@
 import React from 'react';
-import styled, {keyframes} from 'styled-components';
-import {Panel} from '../../atoms/Panel';
-import {PageOverlay} from '../../atoms/PageOverlay';
+import styled, { keyframes } from 'styled-components';
+import { Panel } from '../../atoms/Panel';
+import { PageOverlay } from '../../atoms/PageOverlay';
 
 const slideUp = keyframes`
   from {
@@ -12,14 +12,12 @@ const slideUp = keyframes`
 const NotificationPanel = styled(Panel)`
     position: relative;
     animation: ${slideUp} 0.8s;
-`
+`;
 
-export const Modal = (props) => {
-    return (
-        <PageOverlay>
-            <NotificationPanel width={'40%'}>
-                {props.children}
-            </NotificationPanel>
-        </PageOverlay>
-    )
-}
+export const Modal = props => (
+  <PageOverlay>
+    <NotificationPanel width="40%">
+      {props.children}
+    </NotificationPanel>
+  </PageOverlay>
+);

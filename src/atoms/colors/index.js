@@ -6,5 +6,5 @@ export const colors = {
   warningLight: '#ffeaa7',
   warning: '#fdcb6e',
   dangerLight: '#ff7675',
-  danger: '#d63031'
+  danger: '#d63031',
 };

@@ -1,6 +1,8 @@
-import React, {Component} from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import {colors} from '../colors';
+import { colors } from '../colors';
+
 const InputLabel = styled.label`
     position: absolute;
     top: 50%;
@@ -8,7 +10,7 @@ const InputLabel = styled.label`
     transform: translateY(-50%);
     pointer-events: none;
     transition: 50ms linear;
-`
+`;
 const InputGroup = styled.div`
     display: block;
     position: relative;
@@ -18,18 +20,18 @@ const InputGroup = styled.div`
         padding: 15px 0;
     }
     input + label{
-    color: ${props => props.error?colors.danger:null};
-    ${props => (props.inputValue !== '')? `
+    color: ${props => (props.error ? colors.danger : null)};
+    ${props => ((props.inputValue !== '') ? `
         font-size: 12px;
         top: 2px;
         color: ${colors.primary};
-    ` : ''}
+    ` : '')}
     }
-`
+`;
 const ComponentInput = styled.input`
     background: none;
     border: none;
-    border-bottom: solid 2px ${props => props.error?colors.danger:colors.primary};
+    border-bottom: solid 2px ${props => (props.error ? colors.danger : colors.primary)};
     padding: 14px 40px;
     font-size: 18px;
     display: inline-block;
@@ -40,17 +42,26 @@ const ComponentInput = styled.input`
     &[type="submit"]{
         border: solid 2px ${colors.primary}
     }
-`
+`;
 
 
-export const Input = (props) => {
-    return (
-    <InputGroup {...props}>
-        <ComponentInput
-            onBlur={() => props.onBlur()}
-            onChange={(e) => props.onBlur(e)}
-            {...props}/>
-        <InputLabel>{props.labelText}</InputLabel>
-    </InputGroup>
-    )
-}
+const Input = props => (
+  <InputGroup {...props}>
+    <ComponentInput
+      onBlur={() => props.onBlur()}
+      onChange={e => props.onBlur(e)}
+      {...props}
+    />
+    <InputLabel>{props.labelText}</InputLabel>
+  </InputGroup>
+);
+
+Input.propTypes = {
+  labelText: PropTypes.string.isRequired,
+  onBlur: PropTypes.func,
+};
+Input.defaultProps = {
+  onBlur: () => {},
+};
+
+export { Input };

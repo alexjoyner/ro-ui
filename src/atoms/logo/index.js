@@ -1,12 +1,16 @@
-import React, {Component} from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const LogoContents = styled.span`
-	font-size: ${props => props.fontSize};
-`
+  font-size: ${props => props.fontSize};
+`;
 
-export const Logo = (props) => {
-	return (
-		<LogoContents {...props}>{props.logoText}</LogoContents>
-	)
+const Logo = props => (
+  <LogoContents {...props}>{props.logoText}</LogoContents>
+);
+Logo.propTypes = {
+  logoText: PropTypes.string.isRequired,
 };
+
+export { Logo };

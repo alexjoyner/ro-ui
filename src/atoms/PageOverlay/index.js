@@ -12,11 +12,9 @@ const Wrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-`
-export const PageOverlay = (props) => {
-    return (
-        <Wrapper>
-            {props.children}
-        </Wrapper>
-    );
-};
+`;
+export const PageOverlay = props => (
+  <Wrapper>
+    {props.children}
+  </Wrapper>
+);
