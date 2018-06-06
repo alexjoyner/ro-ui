@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GaugeStatusCircle component Should match snapshot 1`] = `
+.c0 {
+  stroke-width: 17;
+  stroke-dasharray: 340.865;
+  stroke-dashoffset: 340.865;
+}
+
+<circle
+  className="c0"
+/>
+`;

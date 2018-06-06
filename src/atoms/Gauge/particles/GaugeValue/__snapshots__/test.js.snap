@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GaugeValue component Should match snapshot 1`] = `
+.c0 {
+  stroke: #34495e;
+  stroke-width: .1;
+  text-anchor: middle;
+  -webkit-dominant-baseline: central;
+  dominant-baseline: central;
+}
+
+<text
+  className="c0"
+/>
+`;

@@ -28,7 +28,7 @@ const Gauge = (props) => {
   return (
     <svg height={opts.height} width={opts.width} viewBox="0 0 250 180">
       <GaugeStatusCircle cx="125" cy="150" r="108.5" fill="none" color={calcColor(opts.value, opts.ranges)} />
-      {opts.ranges.map((range, i) => <GaugeRange opts={opts} range={range} index={i} />)}
+      {opts.ranges.map(range => <GaugeRange key={range.id} opts={opts} range={range} />)}
       <GaugeCirclesGroup />
       <Needle points="125,150 115,148 1,150 115,152" transform={`rotate(${gaugeValueToAngle(opts, props.value)}, 125, 150)`} />
       <GaugeValue x="125" y="165">{opts.value}{opts.units}</GaugeValue>
@@ -45,11 +45,12 @@ Gauge.propTypes = {
   units: PropTypes.string,
   max: PropTypes.number,
   min: PropTypes.number,
-  ranges: PropTypes.arrayOf({
+  ranges: PropTypes.arrayOf(PropTypes.shape({
     lowerValue: PropTypes.number,
     upperValue: PropTypes.number,
     color: PropTypes.string,
-  }),
+    id: PropTypes.string,
+  })),
 };
 Gauge.defaultProps = {
   height: 'auto',
@@ -61,14 +62,17 @@ Gauge.defaultProps = {
     lowerValue: 0,
     upperValue: 50,
     color: '#f1c40f',
+    id: 'range1',
   }, {
     lowerValue: 50,
     upperValue: 80,
     color: '#2ecc71',
+    id: 'range2',
   }, {
     lowerValue: 80,
     upperValue: 100,
     color: '#e74c3c',
+    id: 'range3',
   }],
 };
 

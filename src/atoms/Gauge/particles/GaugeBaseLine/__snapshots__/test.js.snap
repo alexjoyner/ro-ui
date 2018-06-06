@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GaugeBaseLine component Should match snapshot 1`] = `
+.c0 {
+  stroke: #34495e;
+}
+
+<line
+  className="c0"
+/>
+`;
