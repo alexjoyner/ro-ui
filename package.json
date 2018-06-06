@@ -31,9 +31,9 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
-    "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-jest": "^21.17.0",
@@ -45,5 +45,8 @@
     "node-sass": "^4.9.0",
     "regenerator-runtime": "^0.11.1",
     "style-loader": "^0.20.3"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js"
   }
 }

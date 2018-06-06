@@ -9,6 +9,7 @@
         "react/prop-types": [2, { "ignore": "children"}],
         "linebreak-style": 0,
         "no-use-before-define": 0,
-        "no-unused-expressions": ["error", {"allowTaggedTemplates": true}]
+        "no-unused-expressions": ["error", {"allowTaggedTemplates": true}],
+        "import/no-extraneous-dependencies": ["error", {"devDependencies": true}]
     }
 }
