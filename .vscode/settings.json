@@ -11,8 +11,11 @@
         "**/node_modules": true,
         "**/package.json": false,
         "**/yarn.lock": true,
+        "**/yarn-error.log": true,
         "**/.gitattributes": true,
         "**/.storybook": true,
-        "**/package-lock.json": true
+        "**/package-lock.json": true,
+        "**/__snapshots__": true,
+        "**/.babelrc": true
     }
 }

@@ -1,19 +1,16 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { Button } from './';
+import { ButtonStyles } from './';
 
-describe('Button component', () => {
+describe('ButtonStyles component', () => {
   let component;
   beforeEach(() => {
-    component = shallow(<Button>Test Button</Button>);
+    component = shallow(<ButtonStyles />);
   });
   it('Should render without exploding', () => {
     expect(component).toBeDefined();
   });
   it('Should match snapshot', () => {
     expect(component).toMatchSnapshot();
-  });
-  it('Should contain correct text', () => {
-    expect(component.contains('Test Button')).toEqual(true);
   });
 });
