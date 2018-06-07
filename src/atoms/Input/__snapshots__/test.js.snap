@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component Should match snapshot 1`] = `
+<styled.div
+  labelText="Hello World"
+  onBlur={[Function]}
+>
+  <styled.input
+    labelText="Hello World"
+    onBlur={[Function]}
+    onChange={[Function]}
+  />
+  <styled.label>
+    Hello World
+  </styled.label>
+</styled.div>
+`;

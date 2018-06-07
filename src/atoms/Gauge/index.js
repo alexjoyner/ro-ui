@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { calcColor } from './utils/calcCurrentValueColor';
+import { calcCurrentValueColor } from './utils/calcCurrentValueColor';
 import { GaugeRange } from './particles/GaugeRange';
 import { GaugeStatusCircle } from './particles/GaugeStatusCircle';
 import { Needle } from './particles/Needle';
@@ -27,7 +27,7 @@ const Gauge = (props) => {
   };
   return (
     <svg height={opts.height} width={opts.width} viewBox="0 0 250 180">
-      <GaugeStatusCircle cx="125" cy="150" r="108.5" fill="none" color={calcColor(opts.value, opts.ranges)} />
+      <GaugeStatusCircle cx="125" cy="150" r="108.5" fill="none" color={calcCurrentValueColor(opts.value, opts.ranges)} />
       {opts.ranges.map(range => <GaugeRange key={range.id} opts={opts} range={range} />)}
       <GaugeCirclesGroup />
       <Needle points="125,150 115,148 1,150 115,152" transform={`rotate(${gaugeValueToAngle(opts, props.value)}, 125, 150)`} />

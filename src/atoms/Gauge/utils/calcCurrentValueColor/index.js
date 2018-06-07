@@ -1,4 +1,4 @@
-export const calcColor = (value, ranges) => {
+export const calcCurrentValueColor = (value, ranges) => {
   let result = null;
   ranges.map((range) => {
     if (value > range.lowerValue && value <= range.upperValue) { result = range.color; }

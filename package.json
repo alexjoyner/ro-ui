@@ -6,6 +6,7 @@
   "scripts": {
     "start": "yarn run storybook",
     "test": "jest --watch",
+    "coverage": "jest --coverage",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "build": "rimraf lib && babel src --out-dir lib"
@@ -52,6 +53,11 @@
     "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js",
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!src/**/**.stories.js",
+      "!src/**/stories.js"
     ]
   }
 }

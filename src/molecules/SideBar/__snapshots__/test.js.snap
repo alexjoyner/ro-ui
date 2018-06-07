@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideBar component Should match snapshot 1`] = `
+<styled.div
+  shown={false}
+>
+  <Styled(Button)
+    onClick={[Function]}
+    primary={true}
+    shown={false}
+  >
+    <IoChevronRight
+      style={
+        Object {
+          "textAlign": "center",
+        }
+      }
+    />
+  </Styled(Button)>
+</styled.div>
+`;

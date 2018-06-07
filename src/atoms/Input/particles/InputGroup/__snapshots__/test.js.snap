@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputGroup component Should match snapshot 1`] = `
+.c0 {
+  display: block;
+  position: relative;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.c0 input {
+  padding: 15px 0;
+}
+
+.c0 input + label {
+  font-size: 12px;
+  top: 2px;
+  color: #0984e3;
+}
+
+<div
+  className="c0"
+/>
+`;

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GaugeBlock component Should match snapshot 1`] = `
+<Panel
+  width="25%"
+>
+  <Gauge
+    height="auto"
+    max={100}
+    min={0}
+    ranges={
+      Array [
+        Object {
+          "color": "#f1c40f",
+          "id": "range1",
+          "lowerValue": 0,
+          "upperValue": 50,
+        },
+        Object {
+          "color": "#2ecc71",
+          "id": "range2",
+          "lowerValue": 50,
+          "upperValue": 80,
+        },
+        Object {
+          "color": "#e74c3c",
+          "id": "range3",
+          "lowerValue": 80,
+          "upperValue": 100,
+        },
+      ]
+    }
+    units=""
+    width="100%"
+  />
+  <styled.div />
+</Panel>
+`;

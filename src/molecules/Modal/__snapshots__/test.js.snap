@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal component Should match snapshot 1`] = `
+<PageOverlay>
+  <Styled(Panel)
+    width="40%"
+  />
+</PageOverlay>
+`;
