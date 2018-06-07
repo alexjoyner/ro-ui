@@ -5,7 +5,7 @@ import { ProfilePic } from './';
 describe('ProfilePic component', () => {
   let component;
   beforeEach(() => {
-    component = shallow(<ProfilePic />);
+    component = shallow(<ProfilePic imgSrc="Test" />);
   });
   it('Should render without exploding', () => {
     expect(component).toBeDefined();

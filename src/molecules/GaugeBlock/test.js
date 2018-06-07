@@ -5,7 +5,7 @@ import { GaugeBlock } from './';
 describe('GaugeBlock component', () => {
   let component;
   beforeEach(() => {
-    component = shallow(<GaugeBlock label="Test Sensor" />);
+    component = shallow(<GaugeBlock label="Test Sensor" value={20} />);
   });
   it('Should render without exploding', () => {
     expect(component).toBeDefined();

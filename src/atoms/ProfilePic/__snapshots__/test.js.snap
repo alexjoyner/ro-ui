@@ -2,6 +2,9 @@
 
 exports[`ProfilePic component Should match snapshot 1`] = `
 <styled.div>
-  <styled.img />
+  <styled.img
+    imgSrc="Test"
+    src="Test"
+  />
 </styled.div>
 `;

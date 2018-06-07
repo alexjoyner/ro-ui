@@ -6,6 +6,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
 >
   <Gauge
     height="auto"
+    label="Test Sensor"
     max={100}
     min={0}
     ranges={
@@ -31,8 +32,11 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
       ]
     }
     units=""
+    value={20}
     width="100%"
   />
-  <styled.div />
+  <styled.div>
+    Test Sensor
+  </styled.div>
 </Panel>
 `;
