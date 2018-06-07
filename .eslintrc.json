@@ -1,7 +1,8 @@
 {
-    "extends": ["airbnb", "plugin:jest/recommended"],
+    "extends": ["airbnb", "plugin:jest/recommended", "plugin:flowtype/recommended"],
     "plugins": [
-      "jest"
+      "jest",
+      "flowtype"
     ],
     "rules": {
         "import/prefer-default-export": false,

@@ -16,6 +16,6 @@
         "**/.storybook": true,
         "**/package-lock.json": true,
         "**/__snapshots__": true,
-        "**/.babelrc": true
+        "**/.babelrc": false
     }
 }
