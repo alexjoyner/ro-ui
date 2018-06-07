@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`\`error-boundary\` renders without exploding 1`] = `
+<ErrorBoundary>
+  <h4>
+    Hello
+  </h4>
+</ErrorBoundary>
+`;
