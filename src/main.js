@@ -4,7 +4,7 @@ import { injectGlobal } from 'styled-components';
  */
 import { Button } from './atoms/Button';
 import { colors } from './atoms/colors';
-import { Graph } from './atoms/Graph';
+import { Gauge } from './atoms/Gauge';
 import { ImageOverlay } from './atoms/ImageOverlay';
 import { Input } from './atoms/Input';
 import { Logo } from './atoms/Logo';
@@ -39,7 +39,7 @@ injectGlobal`
 export {
   Button,
   colors,
-  Graph,
+  Gauge,
   ImageOverlay,
   Input,
   Logo,
