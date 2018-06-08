@@ -1,16 +1,17 @@
+// @flow
 import React from 'react';
-import PropTypes from 'prop-types';
 import { Atoms } from '../_atoms.stories';
 import { Panel } from '../../atoms/Panel';
 import { colors } from './';
 import { CenteredContent } from '../../atoms/CenteredContent';
 
-const TestColorBox = props => (
+type Props = {
+  color: string,
+}
+const TestColorBox = (props: Props) => (
   <div style={{ height: '100px', width: '50%', backgroundColor: props.color }} />
 );
-TestColorBox.propTypes = {
-  color: PropTypes.string.isRequired,
-};
+
 Atoms
   .add('Colors', () => (
     <div>

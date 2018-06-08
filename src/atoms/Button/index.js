@@ -14,7 +14,7 @@ type ButtonProps = {
   ghost?: PropTypes.bool,
 };
 
-const Button = (props: ButtonProps) => (
+const Button = (props: ButtonProps): StatelessFunctionalComponent<Props> => (
   <ButtonWrapper {...props} type="button">
     <ButtonStyles {...props} tabIndex={-1}>
       {props.children}

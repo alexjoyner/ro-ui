@@ -1,4 +1,15 @@
-export const colors = {
+// @flow
+type Colors = {
+  primaryLight: string,
+  primary: string,
+  successLight: string,
+  success: string,
+  warningLight: string,
+  warning: string,
+  dangerLight: string,
+  danger: string,
+}
+export const colors: Colors = {
   primaryLight: '#74b9ff',
   primary: '#0984e3',
   successLight: '#55efc4',

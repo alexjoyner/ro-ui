@@ -1,26 +1,22 @@
+// @flow
 import styled from 'styled-components';
-import { colors } from '../../colors';
+import React from 'react';
+import { getBtnTextColor } from '../utils/getBtnTextColor';
+import { getBtnBgColor } from '../utils/getBtnBgColor';
 
+type Props = {
+  success?: boolean,
+  warning?: boolean,
+  danger?: boolean,
+  primary?: boolean,
+  small?: boolean,
+  large?: boolean,
+}
 
-const getBtnTextColor = ({ primary, danger, success }) => {
-  if (primary || danger || success) return 'white';
-  return 'black';
-};
-const getBtnBgColoring = ({
-  primary, warning, danger, success,
-}) => {
-  if (primary) return colors.primary;
-  if (warning) return colors.warning;
-  if (danger) return colors.danger;
-  if (success) return colors.success;
-  return 'white';
-};
-
-
-export const ButtonStyles = styled.span`
-    background-color: ${props => getBtnBgColoring(props)};
+export const ButtonStyles: React.ComponentType<Props> = styled.span`
+    background-color: ${props => getBtnBgColor(props)};
     color: ${props => getBtnTextColor(props)};
-    border: 1px solid ${props => getBtnBgColoring(props)};
+    border: 1px solid ${props => getBtnBgColor(props)};
     display: inline-block;
     outline: none;
     padding: ${(props) => {
@@ -52,3 +48,4 @@ export const ButtonStyles = styled.span`
       `
       : '')};
   `;
+
