@@ -3,12 +3,13 @@
 exports[`Input component Should match snapshot 1`] = `
 <styled.div
   labelText="Hello World"
-  onBlur={[Function]}
+  onBlur={[MockFunction]}
+  onChange={[MockFunction]}
 >
   <styled.input
     labelText="Hello World"
-    onBlur={[Function]}
-    onChange={[Function]}
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
   />
   <styled.label>
     Hello World

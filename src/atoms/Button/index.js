@@ -1,26 +1,27 @@
 // @flow
 import React from 'react';
-import PropTypes from 'prop-types';
 import { ButtonWrapper } from './ButtonWrapper';
 import { ButtonStyles } from './ButtonStyles';
 
 type ButtonProps = {
-  primary?: PropTypes.bool,
-  success?: PropTypes.bool,
-  warning?: PropTypes.bool,
-  danger?: PropTypes.bool,
-  small?: PropTypes.bool,
-  large?: PropTypes.bool,
-  ghost?: PropTypes.bool,
+  primary?: boolean,
+  success?: boolean,
+  warning?: boolean,
+  danger?: boolean,
+  small?: boolean,
+  large?: boolean,
+  ghost?: boolean,
+  children: any,
 };
 
-const Button = (props: ButtonProps): StatelessFunctionalComponent<Props> => (
+const Button = (props: ButtonProps) => (
   <ButtonWrapper {...props} type="button">
     <ButtonStyles {...props} tabIndex={-1}>
       {props.children}
     </ButtonStyles>
   </ButtonWrapper>
 );
+
 Button.defaultProps = {
   primary: false,
   success: false,

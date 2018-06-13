@@ -4,8 +4,14 @@ import { Input } from './';
 
 describe('Input component', () => {
   let component;
+  let props;
   beforeEach(() => {
-    component = shallow(<Input labelText="Hello World" />);
+    props = {
+      labelText: 'Hello World',
+      onBlur: jest.fn(),
+      onChange: jest.fn(),
+    };
+    component = shallow(<Input {...props} />);
   });
   it('Should render without exploding', () => {
     expect(component).toBeDefined();
@@ -15,5 +21,13 @@ describe('Input component', () => {
   });
   it('Should contain Hello World text', () => {
     expect(component.contains('Hello World')).toBe(true);
+  });
+  it('Should call onBlur function when blurred', () => {
+    component.simulate('blur');
+    expect(props.onBlur).toHaveBeenCalled();
+  });
+  it('Should call onBlur function when changed', () => {
+    component.simulate('change', 'test');
+    expect(props.onChange).toHaveBeenCalled();
   });
 });

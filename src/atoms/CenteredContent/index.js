@@ -1,7 +1,7 @@
 // @flow
 import styled from 'styled-components';
 
-const CenteredContent: StatelessFunctionalComponent<Props> = styled.div`
+const CenteredContent = styled.div`
     text-align: center;
 `;
 

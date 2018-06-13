@@ -1,6 +1,6 @@
 // @flow
 import styled from 'styled-components';
-import React from 'react';
+import * as React from 'react';
 import { getBtnTextColor } from '../utils/getBtnTextColor';
 import { getBtnBgColor } from '../utils/getBtnBgColor';
 
@@ -27,7 +27,7 @@ export const ButtonStyles: React.ComponentType<Props> = styled.span`
     text-align: center;
     font-size: ${(props) => {
     if (props.small) return '.875rem';
-    if (props.large) return '.1.25rem';
+    if (props.large) return '1.25rem';
     return '1em';
   }};
     line-height: 1.5;

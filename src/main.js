@@ -10,6 +10,7 @@ import { Input } from './atoms/Input';
 import { Logo } from './atoms/Logo';
 import { Panel } from './atoms/Panel';
 import { ProfilePic } from './atoms/ProfilePic';
+import { PageOverlay } from './atoms/PageOverlay';
 import { TopBar } from './atoms/TopBar';
 import { CenteredContent } from './atoms/CenteredContent';
 import { PlainBox } from './atoms/PlainBox';
@@ -48,6 +49,7 @@ export {
   TopBar,
   CenteredContent,
   PlainBox,
+  PageOverlay,
 };
 // Export Molecules
 export {
