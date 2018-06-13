@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pic component Should match snapshot 1`] = `
+.c0 {
+  height: 100px;
+  width: 100px;
+  border-radius: 0;
+}
+
+<img
+  className="c0"
+/>
+`;
