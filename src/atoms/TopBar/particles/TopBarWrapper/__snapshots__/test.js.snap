@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopBarWrapper component Should match snapshot 1`] = `
+.c0 {
+  text-align: center;
+  width: 100%;
+}
+
+<div
+  className="c0"
+/>
+`;
