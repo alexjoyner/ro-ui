@@ -20,6 +20,6 @@ describe('main', () => {
     expect(Main.Header).not.toBe(undefined);
     expect(Main.HeroImage).not.toBe(undefined);
     expect(Main.Modal).not.toBe(undefined);
-    expect(Main.SideBar).not.toBe(undefined);
+    expect(Main.SideBarPage).not.toBe(undefined);
   });
 });

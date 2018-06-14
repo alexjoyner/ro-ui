@@ -14,7 +14,7 @@ describe('SideBarContainer component', () => {
     expect(component).toMatchSnapshot();
   });
   it('should default to correct position', () => {
-    expect(component).toHaveStyleRule('left', '-270px');
+    expect(component).toHaveStyleRule('left', '-300px');
   });
   it('should accept shown prop and change style', () => {
     const shownTest = shallow(<SideBarContainer shown />);

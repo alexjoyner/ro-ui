@@ -19,7 +19,7 @@ import { PlainBox } from './atoms/PlainBox';
 ============ Molecules ===========
  */
 import { HeroImage } from './molecules/HeroImage';
-import { SideBar } from './molecules/SideBar';
+import { SideBarPage } from './molecules/SideBarPage';
 import { GaugeBlock } from './molecules/GaugeBlock';
 import { Header } from './molecules/Header';
 import { Modal } from './molecules/Modal';
@@ -54,7 +54,7 @@ export {
 // Export Molecules
 export {
   HeroImage,
-  SideBar,
+  SideBarPage,
   GaugeBlock,
   Header,
   Modal,

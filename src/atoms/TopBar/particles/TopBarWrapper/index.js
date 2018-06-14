@@ -15,8 +15,8 @@ export const TopBarWrapper: React.ComponentType<TopBarWrapperProps> = styled.div
       top: 0;
   ` : '')}
   text-align: center;
-  height: ${props => props.height};
-  line-height: ${props => props.height};
+  height: ${props => props.height || '67px'};
+  line-height: ${props => props.height || '67px'};
   width: 100%;
   background-color: ${props => props.color};
 `;

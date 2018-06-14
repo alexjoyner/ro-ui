@@ -24,6 +24,9 @@ describe('TopBarWrapper component', () => {
     expect(testSticky).toHaveStyleRule('position', 'fixed');
     expect(testSticky).toHaveStyleRule('top', '0');
   });
+  it('should default to a height of 67px', () => {
+    expect(component).toHaveStyleRule('height', '67px');
+  });
   it('should accept a height prop', () => {
     const testHeight = shallow(<TopBarWrapper height="100px" />);
     expect(testHeight).toHaveStyleRule('height', '100px');

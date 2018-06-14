@@ -3,6 +3,8 @@
 exports[`TopBarWrapper component Should match snapshot 1`] = `
 .c0 {
   text-align: center;
+  height: 67px;
+  line-height: 67px;
   width: 100%;
 }
 

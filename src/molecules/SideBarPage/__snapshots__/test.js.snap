@@ -1,0 +1,371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideBar component Should match snapshot 1`] = `
+.c2 {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: inherit;
+  margin: 5px;
+}
+
+.c3 {
+  background-color: #0984e3;
+  color: white;
+  border: 1px solid #0984e3;
+  display: inline-block;
+  outline: none;
+  padding: .375rem .75rem;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.5;
+  -webkit-transition: 0.1s linear;
+  transition: 0.1s linear;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+}
+
+.c3:hover {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
+.c3:active {
+  box-shadow: none;
+}
+
+.c1 {
+  margin-left: 0;
+  -webkit-transition: 100ms linear;
+  transition: 100ms linear;
+  position: fixed;
+  left: 270px;
+}
+
+.c0 {
+  position: fixed;
+  top: 0;
+  -webkit-transition: 100ms linear;
+  transition: 100ms linear;
+  height: 100vh;
+  width: 280px;
+  background-color: #0984e3;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  left: 0px;
+}
+
+.c0 ul {
+  list-style: none;
+}
+
+.c4 {
+  position: relative;
+  -webkit-transition: 100ms linear;
+  transition: 100ms linear;
+  z-index: 0;
+  padding-left: 300px;
+}
+
+<SideBar>
+  <div>
+    <styled.div
+      shown={true}
+    >
+      <div
+        className="c0"
+      >
+        <Styled(Button)
+          onClick={[Function]}
+          primary={true}
+          shown={true}
+        >
+          <Button
+            className="c1"
+            danger={false}
+            ghost={false}
+            large={false}
+            onClick={[Function]}
+            primary={true}
+            shown={true}
+            small={false}
+            success={false}
+            warning={false}
+          >
+            <styled.button
+              className="c1"
+              danger={false}
+              ghost={false}
+              large={false}
+              onClick={[Function]}
+              primary={true}
+              shown={true}
+              small={false}
+              success={false}
+              type="button"
+              warning={false}
+            >
+              <button
+                className="c1 c2"
+                onClick={[Function]}
+                type="button"
+              >
+                <styled.span
+                  className="c1"
+                  danger={false}
+                  ghost={false}
+                  large={false}
+                  onClick={[Function]}
+                  primary={true}
+                  shown={true}
+                  small={false}
+                  success={false}
+                  tabIndex={-1}
+                  warning={false}
+                >
+                  <span
+                    className="c1 c3"
+                    onClick={[Function]}
+                    tabIndex={-1}
+                  >
+                    <IoChevronLeft
+                      style={
+                        Object {
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      <IconBase
+                        style={
+                          Object {
+                            "textAlign": "center",
+                          }
+                        }
+                        viewBox="0 0 40 40"
+                      >
+                        <svg
+                          fill="currentColor"
+                          height="1em"
+                          preserveAspectRatio="xMidYMid meet"
+                          style={
+                            Object {
+                              "color": undefined,
+                              "textAlign": "center",
+                              "verticalAlign": "middle",
+                            }
+                          }
+                          viewBox="0 0 40 40"
+                          width="1em"
+                        >
+                          <g>
+                            <path
+                              d="m16.7 20l13.1 13.6c0.3 0.3 0.3 0.9 0 1.2l-2.4 2.5c-0.3 0.3-0.9 0.3-1.2 0l-16-16.7c-0.1-0.1-0.2-0.4-0.2-0.6s0.1-0.5 0.2-0.6l16-16.7c0.3-0.3 0.9-0.2 1.2 0.1l2.4 2.4c0.3 0.3 0.3 0.9 0 1.2l-13.1 13.6z"
+                            />
+                          </g>
+                        </svg>
+                      </IconBase>
+                    </IoChevronLeft>
+                  </span>
+                </styled.span>
+              </button>
+            </styled.button>
+          </Button>
+        </Styled(Button)>
+      </div>
+    </styled.div>
+    <styled.div
+      shown={true}
+    >
+      <div
+        className="c4"
+      />
+    </styled.div>
+  </div>
+</SideBar>
+`;
+
+exports[`SideBarPage component Should match snapshot 1`] = `
+.c2 {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: inherit;
+  margin: 5px;
+}
+
+.c3 {
+  background-color: #0984e3;
+  color: white;
+  border: 1px solid #0984e3;
+  display: inline-block;
+  outline: none;
+  padding: .375rem .75rem;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.5;
+  -webkit-transition: 0.1s linear;
+  transition: 0.1s linear;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+}
+
+.c3:hover {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
+.c3:active {
+  box-shadow: none;
+}
+
+.c1 {
+  margin-left: 0;
+  -webkit-transition: 100ms linear;
+  transition: 100ms linear;
+  position: fixed;
+  left: 270px;
+}
+
+.c0 {
+  position: fixed;
+  top: 0;
+  -webkit-transition: 100ms linear;
+  transition: 100ms linear;
+  height: 100vh;
+  width: 280px;
+  background-color: #0984e3;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  left: 0px;
+}
+
+.c0 ul {
+  list-style: none;
+}
+
+.c4 {
+  position: relative;
+  -webkit-transition: 100ms linear;
+  transition: 100ms linear;
+  z-index: 0;
+  padding-left: 300px;
+}
+
+<SideBarPage>
+  <div>
+    <styled.div
+      shown={true}
+    >
+      <div
+        className="c0"
+      >
+        <Styled(Button)
+          onClick={[Function]}
+          primary={true}
+          shown={true}
+        >
+          <Button
+            className="c1"
+            danger={false}
+            ghost={false}
+            large={false}
+            onClick={[Function]}
+            primary={true}
+            shown={true}
+            small={false}
+            success={false}
+            warning={false}
+          >
+            <styled.button
+              className="c1"
+              danger={false}
+              ghost={false}
+              large={false}
+              onClick={[Function]}
+              primary={true}
+              shown={true}
+              small={false}
+              success={false}
+              type="button"
+              warning={false}
+            >
+              <button
+                className="c1 c2"
+                onClick={[Function]}
+                type="button"
+              >
+                <styled.span
+                  className="c1"
+                  danger={false}
+                  ghost={false}
+                  large={false}
+                  onClick={[Function]}
+                  primary={true}
+                  shown={true}
+                  small={false}
+                  success={false}
+                  tabIndex={-1}
+                  warning={false}
+                >
+                  <span
+                    className="c1 c3"
+                    onClick={[Function]}
+                    tabIndex={-1}
+                  >
+                    <IoChevronLeft
+                      style={
+                        Object {
+                          "textAlign": "center",
+                        }
+                      }
+                    >
+                      <IconBase
+                        style={
+                          Object {
+                            "textAlign": "center",
+                          }
+                        }
+                        viewBox="0 0 40 40"
+                      >
+                        <svg
+                          fill="currentColor"
+                          height="1em"
+                          preserveAspectRatio="xMidYMid meet"
+                          style={
+                            Object {
+                              "color": undefined,
+                              "textAlign": "center",
+                              "verticalAlign": "middle",
+                            }
+                          }
+                          viewBox="0 0 40 40"
+                          width="1em"
+                        >
+                          <g>
+                            <path
+                              d="m16.7 20l13.1 13.6c0.3 0.3 0.3 0.9 0 1.2l-2.4 2.5c-0.3 0.3-0.9 0.3-1.2 0l-16-16.7c-0.1-0.1-0.2-0.4-0.2-0.6s0.1-0.5 0.2-0.6l16-16.7c0.3-0.3 0.9-0.2 1.2 0.1l2.4 2.4c0.3 0.3 0.3 0.9 0 1.2l-13.1 13.6z"
+                            />
+                          </g>
+                        </svg>
+                      </IconBase>
+                    </IoChevronLeft>
+                  </span>
+                </styled.span>
+              </button>
+            </styled.button>
+          </Button>
+        </Styled(Button)>
+      </div>
+    </styled.div>
+    <styled.div
+      shown={true}
+    >
+      <div
+        className="c4"
+      />
+    </styled.div>
+  </div>
+</SideBarPage>
+`;
