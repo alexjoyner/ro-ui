@@ -12,6 +12,7 @@ Molecules
         height="67px"
         fontSize="25px"
         logoText="Header Sticky"
+        fontColor="black"
         sticky
       />
       <br /> <br /> <br />

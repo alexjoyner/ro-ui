@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderLogo component Should match snapshot 1`] = `
+.c0 {
+  padding-left: 20px;
+  color: white;
+}
+
+<Styled(Logo)
+  logoText="Testing"
+>
+  <Logo
+    className="c0"
+    logoText="Testing"
+  >
+    <styled.span
+      className="c0"
+      logoText="Testing"
+    >
+      <span
+        className="c0 "
+      >
+        Testing
+      </span>
+    </styled.span>
+  </Logo>
+</Styled(Logo)>
+`;
