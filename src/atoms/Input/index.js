@@ -10,11 +10,11 @@ type InputProps = {
 }
 
 const Input = (props: InputProps) => (
-  <InputGroup {...props}>
+  <InputGroup>
     <ComponentInput
       {...props}
     />
-    <InputLabel>{props.labelText}</InputLabel>
+    <InputLabel {...props}>{props.labelText}</InputLabel>
   </InputGroup>
 );
 

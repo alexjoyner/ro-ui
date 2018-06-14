@@ -12,12 +12,6 @@ exports[`InputGroup component Should match snapshot 1`] = `
   padding: 15px 0;
 }
 
-.c0 input + label {
-  font-size: 12px;
-  top: 2px;
-  color: #0984e3;
-}
-
 <div
   className="c0"
 />

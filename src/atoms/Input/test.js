@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { mount } from 'enzyme';
 import { Input } from './';
 
 describe('Input component', () => {
@@ -11,7 +11,7 @@ describe('Input component', () => {
       onBlur: jest.fn(),
       onChange: jest.fn(),
     };
-    component = shallow(<Input {...props} />);
+    component = mount(<Input {...props} />);
   });
   it('Should render without exploding', () => {
     expect(component).toBeDefined();
@@ -23,11 +23,11 @@ describe('Input component', () => {
     expect(component.contains('Hello World')).toBe(true);
   });
   it('Should call onBlur function when blurred', () => {
-    component.simulate('blur');
+    component.find('input').simulate('blur');
     expect(props.onBlur).toHaveBeenCalled();
   });
   it('Should call onBlur function when changed', () => {
-    component.simulate('change', 'test');
+    component.find('input').simulate('change', 'test');
     expect(props.onChange).toHaveBeenCalled();
   });
 });

@@ -1,21 +1,170 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`SideBar component Should match snapshot 1`] = `
-<styled.div
-  shown={false}
->
-  <Styled(Button)
-    onClick={[Function]}
-    primary={true}
+.c2 {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: inherit;
+  margin: 5px;
+}
+
+.c3 {
+  background-color: #0984e3;
+  color: white;
+  border: 1px solid #0984e3;
+  display: inline-block;
+  outline: none;
+  padding: .375rem .75rem;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.5;
+  -webkit-transition: 0.1s linear;
+  transition: 0.1s linear;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+}
+
+.c3:hover {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
+.c3:active {
+  box-shadow: none;
+}
+
+.c1 {
+  margin-left: 0;
+  -webkit-transition: 100ms linear;
+  transition: 100ms linear;
+  position: fixed;
+  left: 0px;
+}
+
+.c0 {
+  -webkit-transition: 100ms linear;
+  transition: 100ms linear;
+  height: 100vh;
+  width: 250px;
+  background-color: #0984e3;
+  color: white;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  font-size: 20px;
+  padding: 10px;
+  left: -270px;
+}
+
+.c0 ul {
+  list-style: none;
+}
+
+<SideBar>
+  <styled.div
     shown={false}
   >
-    <IoChevronRight
-      style={
-        Object {
-          "textAlign": "center",
-        }
-      }
-    />
-  </Styled(Button)>
-</styled.div>
+    <div
+      className="c0"
+    >
+      <Styled(Button)
+        onClick={[Function]}
+        primary={true}
+        shown={false}
+      >
+        <Button
+          className="c1"
+          danger={false}
+          ghost={false}
+          large={false}
+          onClick={[Function]}
+          primary={true}
+          shown={false}
+          small={false}
+          success={false}
+          warning={false}
+        >
+          <styled.button
+            className="c1"
+            danger={false}
+            ghost={false}
+            large={false}
+            onClick={[Function]}
+            primary={true}
+            shown={false}
+            small={false}
+            success={false}
+            type="button"
+            warning={false}
+          >
+            <button
+              className="c1 c2"
+              onClick={[Function]}
+              type="button"
+            >
+              <styled.span
+                className="c1"
+                danger={false}
+                ghost={false}
+                large={false}
+                onClick={[Function]}
+                primary={true}
+                shown={false}
+                small={false}
+                success={false}
+                tabIndex={-1}
+                warning={false}
+              >
+                <span
+                  className="c1 c3"
+                  onClick={[Function]}
+                  tabIndex={-1}
+                >
+                  <IoChevronRight
+                    style={
+                      Object {
+                        "textAlign": "center",
+                      }
+                    }
+                  >
+                    <IconBase
+                      style={
+                        Object {
+                          "textAlign": "center",
+                        }
+                      }
+                      viewBox="0 0 40 40"
+                    >
+                      <svg
+                        fill="currentColor"
+                        height="1em"
+                        preserveAspectRatio="xMidYMid meet"
+                        style={
+                          Object {
+                            "color": undefined,
+                            "textAlign": "center",
+                            "verticalAlign": "middle",
+                          }
+                        }
+                        viewBox="0 0 40 40"
+                        width="1em"
+                      >
+                        <g>
+                          <path
+                            d="m23.3 20l-13.1-13.6c-0.3-0.3-0.3-0.9 0-1.2l2.4-2.4c0.3-0.3 0.9-0.4 1.2-0.1l16 16.7c0.1 0.1 0.2 0.4 0.2 0.6s-0.1 0.5-0.2 0.6l-16 16.7c-0.3 0.3-0.9 0.3-1.2 0l-2.4-2.5c-0.3-0.3-0.3-0.9 0-1.2z"
+                          />
+                        </g>
+                      </svg>
+                    </IconBase>
+                  </IoChevronRight>
+                </span>
+              </styled.span>
+            </button>
+          </styled.button>
+        </Button>
+      </Styled(Button)>
+    </div>
+  </styled.div>
+</SideBar>
 `;

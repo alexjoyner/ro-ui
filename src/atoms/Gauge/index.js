@@ -12,17 +12,17 @@ import { GaugeBaseLine } from './particles/GaugeBaseLine';
 
 const Gauge = (props) => {
   const opts = {
-    height: props.height || 'auto',
-    width: props.width || '100%',
     radius: 120.5,
     center: {
       x: 125,
       y: 150,
     },
-    value: props.value || 0,
-    units: props.units || '',
-    max: props.max || 100,
-    min: props.min || 0,
+    height: props.height,
+    width: props.width,
+    value: props.value,
+    units: props.units,
+    max: props.max,
+    min: props.min,
     ranges: props.ranges,
   };
   return (

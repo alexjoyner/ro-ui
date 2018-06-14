@@ -1,18 +1,84 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Input component Should match snapshot 1`] = `
-<styled.div
+.c2 {
+  position: absolute;
+  left: 0px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  pointer-events: none;
+  -webkit-transition: 50ms linear;
+  transition: 50ms linear;
+  color: #0984e3;
+  font-size: 12px;
+  top: 2px;
+}
+
+.c1 {
+  background: none;
+  border: none;
+  border-bottom: solid 2px #0984e3;
+  padding: 14px 40px;
+  font-size: 18px;
+  display: inline-block;
+  width: 100%;
+}
+
+.c1:focus,
+.c1:active {
+  outline: none;
+}
+
+.c1[type="submit"] {
+  border: solid 2px #0984e3;
+}
+
+.c0 {
+  display: block;
+  position: relative;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.c0 input {
+  padding: 15px 0;
+}
+
+<Input
   labelText="Hello World"
   onBlur={[MockFunction]}
   onChange={[MockFunction]}
 >
-  <styled.input
-    labelText="Hello World"
-    onBlur={[MockFunction]}
-    onChange={[MockFunction]}
-  />
-  <styled.label>
-    Hello World
-  </styled.label>
-</styled.div>
+  <styled.div>
+    <div
+      className="c0"
+    >
+      <styled.input
+        labelText="Hello World"
+        onBlur={[MockFunction]}
+        onChange={[MockFunction]}
+      >
+        <input
+          className="c1"
+          onBlur={[MockFunction]}
+          onChange={[MockFunction]}
+        />
+      </styled.input>
+      <styled.label
+        labelText="Hello World"
+        onBlur={[MockFunction]}
+        onChange={[MockFunction]}
+      >
+        <label
+          className="c2"
+          onBlur={[MockFunction]}
+          onChange={[MockFunction]}
+        >
+          Hello World
+        </label>
+      </styled.label>
+    </div>
+  </styled.div>
+</Input>
 `;
