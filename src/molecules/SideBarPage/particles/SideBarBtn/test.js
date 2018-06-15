@@ -14,10 +14,10 @@ describe('SideBarBtn component', () => {
     expect(component).toMatchSnapshot();
   });
   it('should default to correct position', () => {
-    expect(component).toHaveStyleRule('left', '0px');
+    expect(component).toHaveStyleRule('left', '7px');
   });
   it('should accept shown prop and change style', () => {
     const shownTest = mount(<SideBarBtn shown />);
-    expect(shownTest).toHaveStyleRule('left', '270px');
+    expect(shownTest).toHaveStyleRule('left', '260px');
   });
 });

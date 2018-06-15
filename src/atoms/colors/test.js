@@ -11,6 +11,8 @@ describe('colors', () => {
       warning: '#fdcb6e',
       dangerLight: '#ff7675',
       danger: '#d63031',
+      dark: '#2d3436',
+      darkLight: '#636e72',
     });
   });
 });

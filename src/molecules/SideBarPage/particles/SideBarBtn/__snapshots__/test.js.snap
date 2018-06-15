@@ -8,7 +8,6 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
   border: none;
   outline: none;
   font-size: inherit;
-  margin: 5px;
 }
 
 .c2 {
@@ -39,7 +38,8 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
   -webkit-transition: 100ms linear;
   transition: 100ms linear;
   position: fixed;
-  left: 0px;
+  margin-top: 2px;
+  left: 7px;
 }
 
 <Styled(Button)>

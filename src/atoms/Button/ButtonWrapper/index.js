@@ -7,5 +7,4 @@ export const ButtonWrapper = styled.button`
   border: none;
   outline: none;
   font-size: inherit;
-  margin: 5px;
 `;

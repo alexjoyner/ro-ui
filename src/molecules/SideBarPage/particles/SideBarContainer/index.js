@@ -3,18 +3,18 @@ import { colors } from '../../../../atoms/colors';
 
 export const SideBarContainer = styled.div`
   position: fixed;
-  top: 0;
+  z-index: 300;
+  top: 67px;
   transition: 100ms linear;
   height: 100vh;
-  width: 280px;
-  background-color: ${colors.primary};
+  width: 300px;
+  background-color: ${props => props.color || colors.dark};
   color: white;
   font-size: 20px;
-  padding: 10px;
   ul{
       list-style: none;
   }
   ${props => ((props.shown) ? `
       left: 0px;
-  ` : 'left: -300px;')};
+  ` : 'left: -250px;')};
 `;

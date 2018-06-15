@@ -4,31 +4,35 @@ import { Molecules } from '../_molecules.stories';
 import { Header } from '../Header';
 import { colors } from '../../atoms/colors';
 import { TestGaugeBlock } from '../GaugeBlock/stories';
+import { CenteredContent } from '../../atoms/CenteredContent';
+import { ListItem } from '../../atoms/ListItem';
+import { ListHeader } from '../../atoms/ListHeader';
 
 
 const SideBarList = () => (
   <div>
-    <h2>Taco Stuff</h2>
-    <ul>
-      <li>Shells</li>
-      <li>Beans</li>
-      <li>Tomatoes</li>
-      <li>Sour Cream</li>
-      <li>Cheese</li>
-    </ul>
+    <ListHeader>Rooms</ListHeader>
+    <CenteredContent>
+      <ListItem>Upper Compressor Room</ListItem>
+      <ListItem>Lower Compressor Room</ListItem>
+      <ListItem>NAC Line</ListItem>
+      <ListItem>APPLE Line</ListItem>
+    </CenteredContent>
   </div>
 );
 Molecules
   .add('SideBar', () => (
     <div>
       <Header
-        color={colors.primary}
+        color={colors.dark}
         height="67px"
         fontSize="25px"
         logoText="Dashboard Demo"
       />
       <SideBarPage sideBarContents={<SideBarList />} >
-        <TestGaugeBlock />
+        <CenteredContent>
+          <TestGaugeBlock />
+        </CenteredContent>
       </SideBarPage>
     </div>
   ));

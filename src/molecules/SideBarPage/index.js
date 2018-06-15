@@ -35,7 +35,7 @@ export class SideBarPage extends React.Component<Props, State> {
     return (
       <div>
         <SideBarContainer {...this.state}>
-          <SideBarBtn {...this.state} primary onClick={() => this.toggleSidebar()}>
+          <SideBarBtn small {...this.state} primary onClick={() => this.toggleSidebar()}>
             {(this.state.shown) ?
               <IoChevronLeft style={{ textAlign: 'center' }} /> :
               <IoChevronRight style={{ textAlign: 'center' }} />

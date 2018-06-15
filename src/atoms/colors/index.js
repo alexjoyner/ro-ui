@@ -8,6 +8,8 @@ type Colors = {
   warning: string,
   dangerLight: string,
   danger: string,
+  dark: string,
+  darkLight: string,
 }
 export const colors: Colors = {
   primaryLight: '#74b9ff',
@@ -18,4 +20,6 @@ export const colors: Colors = {
   warning: '#fdcb6e',
   dangerLight: '#ff7675',
   danger: '#d63031',
+  dark: '#2d3436',
+  darkLight: '#636e72',
 };
