@@ -16,6 +16,7 @@ import { CenteredContent } from './atoms/CenteredContent';
 import { PlainBox } from './atoms/PlainBox';
 import { ListHeader } from './atoms/ListHeader';
 import { ListItem } from './atoms/ListItem';
+import {}
 
 /*
 ============ Molecules ===========
@@ -34,7 +35,6 @@ injectGlobal`
   }
   * {
     font-family: 'Roboto', 'sans-serif';
-    font-weight: 100;
   }
 `;
 
