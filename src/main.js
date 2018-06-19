@@ -16,7 +16,7 @@ import { CenteredContent } from './atoms/CenteredContent';
 import { PlainBox } from './atoms/PlainBox';
 import { ListHeader } from './atoms/ListHeader';
 import { ListItem } from './atoms/ListItem';
-import {}
+import { RoHighChart } from './atoms/RoHighChart';
 
 /*
 ============ Molecules ===========
@@ -54,6 +54,7 @@ export {
   PageOverlay,
   ListHeader,
   ListItem,
+  RoHighChart,
 };
 // Export Molecules
 export {

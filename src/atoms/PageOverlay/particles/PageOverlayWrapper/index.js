@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const PageOverlayWrapper = styled.div`
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.8);
     position: fixed;
     top: 0;
     left: 0;
@@ -11,4 +11,5 @@ export const PageOverlayWrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 2000;
 `;

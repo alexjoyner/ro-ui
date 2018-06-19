@@ -16,6 +16,7 @@ describe('main', () => {
     expect(Main.TopBar).not.toBe(undefined);
     expect(Main.ListHeader).not.toBe(undefined);
     expect(Main.ListItem).not.toBe(undefined);
+    expect(Main.RoHighChart).not.toBe(undefined);
   });
   it('Should include all Molecules', () => {
     expect(Main.GaugeBlock).not.toBe(undefined);
