@@ -27,6 +27,11 @@ import { GaugeBlock } from './molecules/GaugeBlock';
 import { Header } from './molecules/Header';
 import { Modal } from './molecules/Modal';
 
+/*
+============ Utility Functions ===========
+ */
+import { getUniqueID } from './utils/getUniqueID';
+
 injectGlobal` 
   @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
   body {
@@ -70,6 +75,8 @@ export {
   Header,
   Modal,
 };
+// Export Utility functions
+export { getUniqueID };
 
 /*
 After this point, components should be project specific.

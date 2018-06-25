@@ -9,6 +9,7 @@ import { GaugeValue } from './particles/GaugeValue';
 import { GaugeCenterPoint } from './particles/GaugeCenterPoint';
 import { GaugeCirclesGroup } from './particles/GaugeCirclesGroup';
 import { GaugeBaseLine } from './particles/GaugeBaseLine';
+import { getUniqueID } from '../../utils/getUniqueID';
 
 const Gauge = (props) => {
   const opts = {
@@ -17,7 +18,6 @@ const Gauge = (props) => {
       x: 125,
       y: 150,
     },
-    height: props.height,
     width: props.width,
     value: props.value,
     units: props.units,
@@ -26,9 +26,9 @@ const Gauge = (props) => {
     ranges: props.ranges,
   };
   return (
-    <svg height={opts.height} width={opts.width} viewBox="0 0 250 180">
+    <svg height="100%" width={opts.width} viewBox="0 0 250 180">
       <GaugeStatusCircle cx="125" cy="150" r="108.5" fill="none" color={calcCurrentValueColor(opts.value, opts.ranges)} />
-      {opts.ranges.map(range => <GaugeRange key={range.id} opts={opts} range={range} />)}
+      {opts.ranges.map(range => <GaugeRange key={getUniqueID()} opts={opts} range={range} />)}
       <GaugeCirclesGroup />
       <Needle points="125,150 115,148 1,150 115,152" transform={`rotate(${gaugeValueToAngle(opts, props.value)}, 125, 150)`} />
       <GaugeValue x="125" y="165">{opts.value}{opts.units}</GaugeValue>
@@ -39,7 +39,6 @@ const Gauge = (props) => {
   );
 };
 Gauge.propTypes = {
-  height: PropTypes.string,
   width: PropTypes.string,
   value: PropTypes.number.isRequired,
   units: PropTypes.string,
@@ -53,7 +52,6 @@ Gauge.propTypes = {
   })),
 };
 Gauge.defaultProps = {
-  height: 'auto',
   width: '100%',
   units: '',
   max: 100,

@@ -10,8 +10,6 @@ class TestGauge extends Component {
     this.state = {
       value: 20,
     };
-  }
-  componentDidMount() {
     setInterval(() => {
       if (this.state.value < 100) {
         this.setState({

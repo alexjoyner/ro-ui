@@ -8,6 +8,7 @@ export const PanelContainer = styled.div`
     ` : `
         display: block;
     `)}
+    height: ${props => (props.height || '100%')}
     min-width: ${props => props.minWidth || '280px'};
     margin: 10px;
     padding: 10px;
