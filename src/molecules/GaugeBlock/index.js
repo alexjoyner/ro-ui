@@ -10,7 +10,7 @@ const GraphBlockLabel = styled.div`
     text-align: center;
 `;
 const GaugeBlock = props => (
-  <Panel width="25%">
+  <Panel width="25%" onClick={props.onClick}>
     <Gauge
       {...props}
     />
@@ -20,6 +20,7 @@ const GaugeBlock = props => (
 
 GaugeBlock.propTypes = {
   label: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
 };
 
 export { GaugeBlock };

@@ -1,11 +1,14 @@
+// @flow
 import React from 'react';
 import './highcharts';
 import ReactHighcharts from 'react-highcharts'; // eslint-disable-line import/first
-import { config } from './demoData/config';
 
-const RoHighChart = () => (
+type RoHighChartProps = {
+  config: any,
+}
+const RoHighChart = (props: RoHighChartProps) => (
   <div>
-    <ReactHighcharts config={config} />
+    <ReactHighcharts config={props.config} />
   </div>
 );
 
