@@ -17,12 +17,12 @@
     "c3": "^0.4.23",
     "d3": "^4.13.0",
     "highcharts": "^6.1.0",
+    "highcharts-react-official": "^1.2.0",
     "polished": "^1.9.2",
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-grid-layout": "^0.16.6",
-    "react-highcharts": "^16.0.2",
     "react-icons": "^2.2.7",
     "styled-components": "^3.2.6"
   },

@@ -1,14 +1,19 @@
 // @flow
 import React from 'react';
-import './highcharts';
-import ReactHighcharts from 'react-highcharts'; // eslint-disable-line import/first
+import HighCharts from 'highcharts';
+import HighchartsReact from 'highcharts-react-official'; // eslint-disable-line import/first
+import { THEME } from './demoData/theme';
 
 type RoHighChartProps = {
   config: any,
 }
+// HighCharts.setOptions(THEME);
 const RoHighChart = (props: RoHighChartProps) => (
   <div>
-    <ReactHighcharts config={props.config} />
+    <HighchartsReact
+      highcharts={HighCharts}
+      options={props.config}
+    />
   </div>
 );
 
