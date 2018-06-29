@@ -5,6 +5,9 @@ export const config = {
     type: 'line',
     zoomType: 'x',
   },
+  boost: {
+    useGPUTranslations: true,
+  },
   title: {
     text: 'Demo Line Chart',
   },
