@@ -9,7 +9,7 @@
         "**/.vscode": true,
         "**/.gitignore": true,
         "**/node_modules": true,
-        "**/package.json": true,
+        "**/package.json": false,
         "**/yarn.lock": true,
         "**/yarn-error.log": true,
         "**/.gitattributes": true,
