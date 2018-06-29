@@ -17,17 +17,19 @@ const NotificationPanel = styled(Panel)`
 
 type ModalProps = {
   width?: string,
+  height?: string,
   children: any,
 }
 const Modal = (props: ModalProps) => (
   <PageOverlay>
-    <NotificationPanel width={props.width}>
+    <NotificationPanel width={props.width} height={props.height}>
       {props.children}
     </NotificationPanel>
   </PageOverlay>
 );
 Modal.defaultProps = {
-  width: '40%',
+  height: 'auto',
+  width: '90%',
 };
 
 export { Modal };
