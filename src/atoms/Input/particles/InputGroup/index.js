@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const InputGroup = styled.div`
-    display: block;
+    display: inline-block;
     position: relative;
     margin-right: 20px;
     margin-top: 10px;
