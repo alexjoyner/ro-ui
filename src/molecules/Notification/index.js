@@ -19,9 +19,9 @@ const NotificationWrapper = styled.div`
     right: 15px;
     transition: all 0.5s ease;
     ${props => ((props.shown) ? `
-        transform: translateX(500%)
-    ` : `
         transform: translateX(0)
+    ` : `
+        transform: translateX(500%)
     `)}
 `;
 
