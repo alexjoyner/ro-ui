@@ -40,7 +40,6 @@ export const THEME = {
     },
     labels: {},
   },
-  plotOptions: {},
   legend: {
     itemStyle: {
       fontFamily: '"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif',
@@ -54,10 +53,8 @@ export const THEME = {
     colors.success,
     colors.warning,
   ],
-  lang: {},
-  tooltip: {},
   exporting: {
-    enabled: false,
+    enabled: true,
   },
   credits: {
     enabled: false,

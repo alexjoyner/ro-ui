@@ -17,6 +17,7 @@ import { PlainBox } from './atoms/PlainBox';
 import { ListHeader } from './atoms/ListHeader';
 import { ListItem } from './atoms/ListItem';
 import { RoHighChart } from './atoms/RoHighChart';
+import { RoDatePicker } from './atoms/RoDatePicker';
 
 /*
 ============ Molecules ===========
@@ -33,7 +34,7 @@ import { Notification } from './molecules/Notification';
  */
 import { getUniqueID } from './utils/getUniqueID';
 
-injectGlobal` 
+injectGlobal`
   @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
   body {
     padding: 0;
@@ -67,6 +68,7 @@ export {
   ListHeader,
   ListItem,
   RoHighChart,
+  RoDatePicker,
 };
 // Export Molecules
 export {

@@ -4,11 +4,6 @@ import styled, { keyframes } from 'styled-components';
 import { Panel } from '../../atoms/Panel';
 import { PageOverlay } from '../../atoms/PageOverlay';
 
-type ModalProps = {
-  width?: string,
-  children: any,
-}
-
 const slideUp = keyframes`
   from {
     transform: translateY(500%)
@@ -20,15 +15,21 @@ const NotificationPanel = styled(Panel)`
     animation: ${slideUp} 0.8s;
 `;
 
+type ModalProps = {
+  width?: string,
+  height?: string,
+  children: any,
+}
 const Modal = (props: ModalProps) => (
   <PageOverlay>
-    <NotificationPanel width={props.width}>
+    <NotificationPanel width={props.width} height={props.height}>
       {props.children}
     </NotificationPanel>
   </PageOverlay>
 );
 Modal.defaultProps = {
-  width: '40%',
+  height: 'auto',
+  width: '90%',
 };
 
 export { Modal };

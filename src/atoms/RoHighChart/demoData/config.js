@@ -1,12 +1,12 @@
-import HighCharts from 'highcharts';
 import data from './data';
-import { THEME } from './theme';
 
-HighCharts.setOptions(THEME);
 export const config = {
   chart: {
     type: 'line',
     zoomType: 'x',
+  },
+  boost: {
+    useGPUTranslations: true,
   },
   title: {
     text: 'Demo Line Chart',
@@ -36,11 +36,6 @@ export const config = {
   },
   legend: {
     enabled: true,
-  },
-  plotOptions: {
-    area: {
-      threshold: null,
-    },
   },
   rangeSelector: {
     verticalAlign: 'top',
