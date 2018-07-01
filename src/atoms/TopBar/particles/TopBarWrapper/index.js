@@ -1,6 +1,7 @@
 // @flow
 import styled from 'styled-components';
 import * as React from 'react';
+import { zIndexes } from '../../../../utils/zIndexes';
 
 type TopBarWrapperProps = {
   sticky: boolean,
@@ -10,7 +11,7 @@ type TopBarWrapperProps = {
 
 export const TopBarWrapper: React.ComponentType<TopBarWrapperProps> = styled.div`
   ${props => ((props.sticky) ? `
-      z-index: 200;
+      z-index: ${zIndexes('TopBar')};
       position: fixed;
       top: 0;
   ` : '')}

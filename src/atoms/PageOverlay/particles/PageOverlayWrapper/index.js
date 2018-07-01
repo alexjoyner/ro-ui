@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { zIndexes } from '../../../../utils/zIndexes';
 
 export const PageOverlayWrapper = styled.div`
     background: rgba(0,0,0,0.8);
@@ -11,5 +12,5 @@ export const PageOverlayWrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 2000;
+    z-index: ${zIndexes('PageOverlay')};
 `;

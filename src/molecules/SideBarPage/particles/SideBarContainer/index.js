@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 import { colors } from '../../../../atoms/colors';
+import { zIndexes } from '../../../../utils/zIndexes';
 
 export const SideBarContainer = styled.div`
   position: fixed;
-  z-index: 300;
+  z-index: ${zIndexes('SideBar')};
   top: 67px;
   transition: 100ms linear;
   height: 100vh;

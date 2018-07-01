@@ -5,6 +5,7 @@ import { IoAndroidClose } from 'react-icons/lib/io';
 import { Panel } from '../../atoms/Panel';
 import { CenteredContent } from '../../atoms/CenteredContent';
 import { Button } from '../../main';
+import { zIndexes } from '../../utils/zIndexes';
 
 type NotificationProps = {
     onClose: () => {},
@@ -13,6 +14,7 @@ type NotificationProps = {
 
 const NotificationWrapper = styled.div`
     position: fixed;
+    z-index: ${zIndexes('Notification')};
     top: 40px;
     right: 15px;
     transition: all 0.5s ease;
