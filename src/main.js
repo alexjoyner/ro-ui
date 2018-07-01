@@ -26,6 +26,7 @@ import { SideBarPage } from './molecules/SideBarPage';
 import { GaugeBlock } from './molecules/GaugeBlock';
 import { Header } from './molecules/Header';
 import { Modal } from './molecules/Modal';
+import { Notification } from './molecules/Notification';
 
 /*
 ============ Utility Functions ===========
@@ -74,6 +75,7 @@ export {
   GaugeBlock,
   Header,
   Modal,
+  Notification,
 };
 // Export Utility functions
 export { getUniqueID };
