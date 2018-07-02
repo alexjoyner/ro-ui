@@ -11,6 +11,7 @@ type Props = {
   danger?: boolean,
   dark?: boolean,
   primary?: boolean,
+  xsmall?: boolean,
   small?: boolean,
   large?: boolean,
 }

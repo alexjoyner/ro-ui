@@ -18,6 +18,7 @@ Atoms.add('Button', () => (
     </Panel>
     <Panel>
       <h2>Button Sizes</h2>
+      <Button xsmall>extra small</Button>
       <Button small>Button small</Button>
       <Button large>Button large</Button>
     </Panel>
