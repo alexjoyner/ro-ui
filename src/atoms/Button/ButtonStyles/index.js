@@ -19,6 +19,7 @@ export const ButtonStyles: React.ComponentType<Props> = styled.span`
     border: 1px solid ${props => getBtnBgColor(props)};
     display: inline-block;
     outline: none;
+    cursor: pointer;
     padding: ${(props) => {
     if (props.small) return '.25rem .5rem';
     if (props.large) return '.5rem 1rem';
