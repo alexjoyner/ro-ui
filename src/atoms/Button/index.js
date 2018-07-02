@@ -16,13 +16,30 @@ type ButtonProps = {
   children: any,
 };
 
-const Button = (props: ButtonProps) => (
-  <ButtonWrapper {...props} type="button">
-    <ButtonStyles {...props} tabIndex={-1}>
-      {props.children}
-    </ButtonStyles>
-  </ButtonWrapper>
-);
+const Button = (props: ButtonProps) => {
+  const {
+    primary, success, warning, danger, dark,
+    xsmall, small, large, ghost,
+  } = props;
+  const styleProps = {
+    primary,
+    success,
+    warning,
+    danger,
+    dark,
+    xsmall,
+    small,
+    large,
+    ghost,
+  };
+  return (
+    <ButtonWrapper {...props} type="button">
+      <ButtonStyles {...styleProps} tabIndex={-1}>
+        {props.children}
+      </ButtonStyles>
+    </ButtonWrapper>
+  );
+};
 
 Button.defaultProps = {
   primary: false,
