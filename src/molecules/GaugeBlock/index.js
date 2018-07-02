@@ -19,9 +19,9 @@ const GraphBlockLabel = styled.div`
 `;
 
 const GaugeBlock = props => (
-  <Panel width="25%" onClick={props.onClick}>
+  <Panel width="25%" >
     <GaugeBlockBtnContainer>
-      <Button small primary>
+      <Button small primary onClick={props.onClick}>
         <FaAreaChart />
       </Button>
     </GaugeBlockBtnContainer>

@@ -9,6 +9,7 @@ type Props = {
   success?: boolean,
   warning?: boolean,
   danger?: boolean,
+  dark?: boolean,
   primary?: boolean,
   small?: boolean,
   large?: boolean,

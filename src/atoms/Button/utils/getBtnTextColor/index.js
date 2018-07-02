@@ -1,10 +1,13 @@
 // @flow
 
-export const getBtnTextColor = ({ primary, danger, success }: {
+export const getBtnTextColor = ({
+  primary, danger, success, dark,
+}: {
     primary?: boolean,
     danger?: boolean,
-    success?: boolean
+    success?: boolean,
+    dark?: boolean,
   }) => {
-  if (primary || danger || success) return 'white';
+  if (primary || danger || success || dark) return 'white';
   return 'black';
 };

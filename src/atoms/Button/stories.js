@@ -14,6 +14,7 @@ Atoms.add('Button', () => (
       <Button warning>Button Warning</Button>
       <Button danger>Button Danger</Button>
       <Button success>Button Success</Button>
+      <Button dark>Button Success</Button>
     </Panel>
     <Panel>
       <h2>Button Sizes</h2>
@@ -50,6 +51,9 @@ Atoms.add('Button', () => (
             Button Danger
           </Button>
           <Button success ghost>
+            Button Success
+          </Button>
+          <Button dark ghost>
             Button Success
           </Button>
         </p>
