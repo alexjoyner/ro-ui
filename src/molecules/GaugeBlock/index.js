@@ -1,16 +1,21 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import { FaAreaChart } from 'react-icons/lib/fa';
+import { GoGraph } from 'react-icons/lib/go';
 import { Panel } from '../../atoms/Panel';
 import { Gauge } from '../../atoms/Gauge';
 import { Button } from '../../main';
 
 const GaugeBlockBtnContainer = styled.div`
   position: absolute;
-  right: 5px;
+  left: 5px;
   top: 5px;
 `;
+// const SettingsBtnContainer = styled.div`
+//   position: absolute;
+//   right: 5px;
+//   top: 5px;
+// `;
 
 const GraphBlockLabel = styled.div`
     font-size: 20px;
@@ -21,10 +26,15 @@ const GraphBlockLabel = styled.div`
 const GaugeBlock = props => (
   <Panel width="25%" >
     <GaugeBlockBtnContainer>
-      <Button small primary onClick={props.onClick}>
-        <FaAreaChart />
+      <Button xsmall dark onClick={props.onClick}>
+        <GoGraph size={20} />
       </Button>
     </GaugeBlockBtnContainer>
+    {/* <SettingsBtnContainer>
+      <Button xsmall dark onClick={props.onClick}>
+        <GoGear size={20} />
+      </Button>
+    </SettingsBtnContainer> */}
     <Gauge
       {...props}
     />
