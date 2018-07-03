@@ -47,11 +47,14 @@ export const THEME = {
       fontSize: '10px',
     },
   },
+  tooltip: {
+    shared: true,
+  },
   colors: [
-    colors.primary,
-    colors.purple,
-    colors.success,
     colors.warning,
+    colors.dangerLight,
+    colors.successLight,
+    colors.primaryLight,
   ],
   exporting: {
     enabled: true,

@@ -1,5 +1,6 @@
-import data from './data';
+import { getData } from './data';
 
+const N = 5001;
 export const config = {
   chart: {
     type: 'line',
@@ -43,13 +44,40 @@ export const config = {
     y: 0,
   },
   series: [{
-    name: 'Demo Data',
+    name: 'Data 1',
+    _colorIndex: 0,
+    _symbolIndex: 0,
+    marker: {
+      enabled: false,
+    },
+    colorByPoint: false,
+    data: getData(N),
+  }, {
+    name: 'Data 2',
+    _colorIndex: 1,
+    _symbolIndex: 0,
+    marker: {
+      enabled: false,
+    },
+    colorByPoint: false,
+    data: getData(N),
+  }, {
+    name: 'Data 3',
+    _colorIndex: 2,
+    _symbolIndex: 0,
+    marker: {
+      enabled: false,
+    },
+    colorByPoint: false,
+    data: getData(N),
+  }, {
+    name: 'Data 4',
     _colorIndex: 3,
     _symbolIndex: 0,
     marker: {
       enabled: false,
     },
     colorByPoint: false,
-    data,
+    data: getData(N),
   }],
 };
