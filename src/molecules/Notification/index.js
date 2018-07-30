@@ -1,7 +1,7 @@
 // @flow
 import React from 'react';
 import styled from 'styled-components';
-import { IoAndroidClose } from 'react-icons/lib/io';
+import { IoAndroidClose } from 'react-icons/io';
 import { Panel } from '../../atoms/Panel';
 import { CenteredContent } from '../../atoms/CenteredContent';
 import { Button } from '../../main';

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactTooltip from 'react-tooltip';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import { GoGraph, GoGear, GoCheck } from 'react-icons/lib/go';
+import { GoGraph, GoGear, GoCheck } from 'react-icons/go';
 import { Panel } from '../../atoms/Panel';
 import { Gauge } from '../../atoms/Gauge';
 import { Button } from '../../main';

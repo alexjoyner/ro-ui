@@ -1,5 +1,5 @@
 import React from 'react';
-import { IoChevronUp, IoChevronDown, IoAt } from 'react-icons/lib/io';
+import { GoChevronUp, GoChevronDown, GoMention } from 'react-icons/go';
 import { Button } from './';
 import { Atoms } from '../_atoms.stories';
 import { HeroImage } from '../../molecules/HeroImage';
@@ -29,13 +29,13 @@ Atoms.add('Button', () => (
     <Panel>
       <h2>Icon Buttons: using react-icons</h2>
       <Button>
-        <IoChevronUp style={{ textAlign: 'center' }} />
+        <GoChevronUp style={{ textAlign: 'center' }} />
       </Button>
       <Button>
-        <IoChevronDown size={40} />
+        <GoChevronDown size={40} />
       </Button>
       <Button>
-        <IoAt size={60} />
+        <GoMention size={60} />
       </Button>
     </Panel>
     <Panel>

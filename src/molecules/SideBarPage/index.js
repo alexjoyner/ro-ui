@@ -1,7 +1,7 @@
 // @flow
 import * as React from 'react';
 import styled from 'styled-components';
-import { IoChevronLeft, IoChevronRight } from 'react-icons/lib/io';
+import { IoChevronLeft, IoChevronRight } from 'react-icons/io';
 import { SideBarBtn } from './particles/SideBarBtn';
 import { SideBarContainer } from './particles/SideBarContainer';
 
