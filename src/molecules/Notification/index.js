@@ -1,7 +1,7 @@
 // @flow
 import React from 'react';
 import styled from 'styled-components';
-import { IoAndroidClose } from 'react-icons/io';
+import { IoMdClose } from 'react-icons/io';
 import { Panel } from '../../atoms/Panel';
 import { CenteredContent } from '../../atoms/CenteredContent';
 import { Button } from '../../main';
@@ -32,7 +32,7 @@ const Notification = (props: NotificationProps) => (
       <CenteredContent>
         {props.children}
         <Button danger small onClick={props.onClose} >
-          <IoAndroidClose />
+          <IoMdClose />
         </Button>
       </CenteredContent>
     </Panel>
