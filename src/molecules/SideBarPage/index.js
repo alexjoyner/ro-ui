@@ -1,7 +1,7 @@
 // @flow
 import * as React from 'react';
 import styled from 'styled-components';
-import { IoChevronLeft, IoChevronRight } from 'react-icons/io';
+import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 import { SideBarBtn } from './particles/SideBarBtn';
 import { SideBarContainer } from './particles/SideBarContainer';
 
@@ -37,8 +37,8 @@ export class SideBarPage extends React.Component<Props, State> {
         <SideBarContainer {...this.state}>
           <SideBarBtn small {...this.state} primary onClick={() => this.toggleSidebar()}>
             {(this.state.shown) ?
-              <IoChevronLeft style={{ textAlign: 'center' }} /> :
-              <IoChevronRight style={{ textAlign: 'center' }} />
+              <IoIosArrowBack style={{ textAlign: 'center', fontSize: '20px' }} /> :
+              <IoIosArrowForward style={{ textAlign: 'center', fontSize: '20px' }} />
             }
           </SideBarBtn>
           {this.props.sideBarContents}

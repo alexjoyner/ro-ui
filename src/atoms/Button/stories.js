@@ -8,10 +8,6 @@ import { Panel } from '../Panel';
 Atoms.add('Button', () => (
   <div>
     <Panel>
-      <h2>Button Click Test</h2>
-      <Button onClick={() => console.log('Clicked')}>Console Clicked</Button>
-    </Panel>
-    <Panel>
       <h2>Button Colors</h2>
       <Button>Basic Button</Button>
       <Button primary>Button Primary</Button>
