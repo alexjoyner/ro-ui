@@ -6,6 +6,7 @@ import { GoGraph, GoGear, GoCheck } from 'react-icons/go';
 import { Panel } from '../../atoms/Panel';
 import { Gauge } from '../../atoms/Gauge';
 import { Button } from '../../main';
+import { GaugeBlockSettingsPopup } from './particles/GaugeBlockSettingsPopup';
 
 const GaugeBlockBtnContainer = styled.div`
   position: absolute;
@@ -27,20 +28,7 @@ const GraphBlockLabel = styled.div`
 const GaugeBlock = props => (
   <Panel width="25%" >
     <ReactTooltip style={{ pointerEvent: 'auto !important' }} place="bottom" effect="solid" >
-      {/* <ul>
-        {props.ranges.map((range) => {
-          console.log(props);
-          const id = getUniqueID();
-          return (
-            <li key={id}>
-              {`${range.lowerValue} -  ${range.upperValue}  `}
-              <GoGear />
-              <GoGear />
-            </li>
-          );
-        })}
-      </ul> */}
-      <h3><strong>Coming soon! Edit this gauges settings here!</strong></h3>
+      <GaugeBlockSettingsPopup {...props} />
     </ReactTooltip>
     <GaugeBlockBtnContainer>
       {(props.multiSelected) ? (
