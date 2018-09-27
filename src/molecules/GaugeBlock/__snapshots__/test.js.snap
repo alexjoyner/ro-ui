@@ -7,16 +7,9 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
   <styled.div>
     <Button
       color="dark"
-      danger={false}
-      dark={false}
       ghost={false}
-      large={false}
       onClick={[Function]}
-      primary={false}
-      small={false}
-      success={false}
-      warning={false}
-      xsmall={true}
+      size="xsmall"
     >
       <Component
         size={20}
@@ -26,16 +19,9 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
   <styled.div>
     <Button
       color="dark"
-      danger={false}
-      dark={false}
       ghost={false}
-      large={false}
       onClick={[Function]}
-      primary={false}
-      small={false}
-      success={false}
-      warning={false}
-      xsmall={true}
+      size="xsmall"
     >
       <Component
         size={20}

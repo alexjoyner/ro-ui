@@ -2,14 +2,12 @@
 import styled from 'styled-components';
 import * as React from 'react';
 import { getTextContrastColor } from '../../../utils/getTextContrastColor';
-import { getBtnSizeSettings } from '../utils/getBtnSizeSettings';
 import { colors } from '../../colors';
+import { btnSizes } from '../utils/btnSizes';
 
 type Props = {
   color?: string,
-  xsmall?: boolean,
-  small?: boolean,
-  large?: boolean,
+  size?: string,
 }
 
 export const ButtonStyles: React.ComponentType<Props> = styled.span`
@@ -19,7 +17,7 @@ export const ButtonStyles: React.ComponentType<Props> = styled.span`
     display: inline-block;
     outline: none;
     cursor: pointer;
-    ${props => getBtnSizeSettings(props)}; 
+    ${props => btnSizes[props.size] || btnSizes.default}; 
     text-align: center;
     line-height: 1.5;
     transition: 0.1s linear;

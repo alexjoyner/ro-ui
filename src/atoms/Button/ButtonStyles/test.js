@@ -14,15 +14,15 @@ describe('ButtonStyles component', () => {
     expect(component).toMatchSnapshot();
   });
   it('should have correct padding', () => {
-    const caseSmall = shallow(<ButtonStyles small />);
-    const caseLarge = shallow(<ButtonStyles large />);
+    const caseSmall = shallow(<ButtonStyles size="small" />);
+    const caseLarge = shallow(<ButtonStyles size="large" />);
     expect(component).toHaveStyleRule('padding', '.375rem .75rem');
     expect(caseSmall).toHaveStyleRule('padding', '.25rem .5rem');
     expect(caseLarge).toHaveStyleRule('padding', '.5rem 1rem');
   });
   it('should have correct font size', () => {
-    const caseSmall = shallow(<ButtonStyles small />);
-    const caseLarge = shallow(<ButtonStyles large />);
+    const caseSmall = shallow(<ButtonStyles size="small" />);
+    const caseLarge = shallow(<ButtonStyles size="large" />);
     expect(component).toHaveStyleRule('font-size', '1rem');
     expect(caseSmall).toHaveStyleRule('font-size', '.875rem');
     expect(caseLarge).toHaveStyleRule('font-size', '1.25rem');

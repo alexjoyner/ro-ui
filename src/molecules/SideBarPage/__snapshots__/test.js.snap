@@ -85,65 +85,46 @@ exports[`SideBarPage component Should match snapshot 1`] = `
           color="primary"
           onClick={[Function]}
           shown={true}
-          small={true}
+          size="small"
         >
           <Button
             className="c1"
             color="primary"
-            danger={false}
-            dark={false}
             ghost={false}
-            large={false}
             onClick={[Function]}
-            primary={false}
             shown={true}
-            small={true}
-            success={false}
-            warning={false}
-            xsmall={false}
+            size="small"
           >
             <styled.button
               className="c1"
               color="primary"
-              danger={false}
-              dark={false}
               ghost={false}
-              large={false}
               onClick={[Function]}
-              primary={false}
               shown={true}
-              small={true}
-              success={false}
+              size="small"
               type="button"
-              warning={false}
-              xsmall={false}
             >
               <button
                 className="c1 c2"
                 color="primary"
                 onClick={[Function]}
+                size="small"
                 type="button"
               >
                 <styled.span
                   className="c1"
                   color="primary"
-                  danger={false}
-                  dark={false}
                   ghost={false}
-                  large={false}
                   onClick={[Function]}
-                  primary={false}
                   shown={true}
-                  small={true}
-                  success={false}
+                  size="small"
                   tabIndex={-1}
-                  warning={false}
-                  xsmall={false}
                 >
                   <span
                     className="c1 c3"
                     color="primary"
                     onClick={[Function]}
+                    size="small"
                     tabIndex={-1}
                   >
                     <Component

@@ -48,16 +48,16 @@ export class TestGaugeBlock extends Component {
           id={1}
           {...this.state}
           label="Sensor 1"
-          onSettingsClick={() => {}}
-          onChartClick={() => {}}
+          onSettingsClick={() => console.log('onSettingsClick')}
+          onChartClick={() => console.log('onChartClick')}
         />
         <GaugeBlock
           id={2}
           {...this.state}
           multiSelected
           label="Sensor 1"
-          onSettingsClick={() => {}}
-          onChartClick={() => {}}
+          onSettingsClick={() => console.log('onSettingsClick')}
+          onChartClick={() => console.log('onChartClick')}
         />
       </div>
     );

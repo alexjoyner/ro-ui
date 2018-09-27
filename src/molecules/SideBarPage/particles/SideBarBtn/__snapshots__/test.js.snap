@@ -50,48 +50,34 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
 <Styled(Button)>
   <Button
     className="c0"
-    danger={false}
-    dark={false}
+    color="default"
     ghost={false}
-    large={false}
-    primary={false}
-    small={false}
-    success={false}
-    warning={false}
-    xsmall={false}
+    size="default"
   >
     <styled.button
       className="c0"
-      danger={false}
-      dark={false}
+      color="default"
       ghost={false}
-      large={false}
-      primary={false}
-      small={false}
-      success={false}
+      size="default"
       type="button"
-      warning={false}
-      xsmall={false}
     >
       <button
         className="c0 c1"
+        color="default"
+        size="default"
         type="button"
       >
         <styled.span
           className="c0"
-          danger={false}
-          dark={false}
+          color="default"
           ghost={false}
-          large={false}
-          primary={false}
-          small={false}
-          success={false}
+          size="default"
           tabIndex={-1}
-          warning={false}
-          xsmall={false}
         >
           <span
             className="c0 c2"
+            color="default"
+            size="default"
             tabIndex={-1}
           />
         </styled.span>

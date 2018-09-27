@@ -35,7 +35,7 @@ export class SideBarPage extends React.Component<Props, State> {
     return (
       <div>
         <SideBarContainer {...this.state}>
-          <SideBarBtn small {...this.state} color="primary" onClick={() => this.toggleSidebar()}>
+          <SideBarBtn size="small" {...this.state} color="primary" onClick={() => this.toggleSidebar()}>
             {(this.state.shown) ?
               <IoIosArrowBack style={{ textAlign: 'center', fontSize: '20px' }} /> :
               <IoIosArrowForward style={{ textAlign: 'center', fontSize: '20px' }} />
