@@ -14,13 +14,13 @@ describe('TopBarWrapper component', () => {
     expect(component).toMatchSnapshot();
   });
   it('Should display apply correct props when not sticky', () => {
-    expect(component).not.toHaveStyleRule('z-index', '200');
+    expect(component).not.toHaveStyleRule('z-index', '2');
     expect(component).not.toHaveStyleRule('position', 'fixed');
     expect(component).not.toHaveStyleRule('top', '0');
   });
   it('Should display apply correct props when sticky', () => {
     const testSticky = shallow(<TopBarWrapper sticky />);
-    expect(testSticky).toHaveStyleRule('z-index', '200');
+    expect(testSticky).toHaveStyleRule('z-index', '2');
     expect(testSticky).toHaveStyleRule('position', 'fixed');
     expect(testSticky).toHaveStyleRule('top', '0');
   });

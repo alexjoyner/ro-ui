@@ -28,7 +28,7 @@ const Gauge = (props) => {
   return (
     <svg height="100%" width={opts.width} viewBox="0 0 250 180">
       <GaugeStatusCircle cx="125" cy="150" r="108.5" fill="none" color={calcCurrentValueColor(opts.value, opts.ranges)} />
-      {opts.ranges.map(range => <GaugeRange key={getUniqueID()} opts={opts} range={range} />)}
+      {opts.ranges.map(range => <GaugeRange key={range.id || getUniqueID()} opts={opts} range={range} />)}
       <GaugeCirclesGroup />
       <Needle points="125,150 115,148 1,150 115,152" transform={`rotate(${gaugeValueToAngle(opts, props.value)}, 125, 150)`} />
       <GaugeValue x="125" y="165">{opts.value}{opts.units}</GaugeValue>
