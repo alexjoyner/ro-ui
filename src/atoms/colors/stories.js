@@ -4,29 +4,35 @@ import { Atoms } from '../_atoms.stories';
 import { Panel } from '../../atoms/Panel';
 import { colors } from './';
 import { CenteredContent } from '../../atoms/CenteredContent';
+import { getTextContrastColor } from '../../utils/getTextContrastColor';
 
 type Props = {
   color: string,
+  name: string,
 }
 const TestColorBox = (props: Props) => (
-  <div style={{ height: '100px', width: '50%', backgroundColor: props.color }} />
+  <div style={{
+    height: '100px',
+    width: '100%',
+    backgroundColor: props.color,
+    color: getTextContrastColor(props.color),
+  }}
+  >
+    <span>{props.name}</span>
+  </div>
 );
 
 Atoms
   .add('Colors', () => (
     <div>
       <Panel>
-        <h2>Component library color pallete</h2>
         <CenteredContent>
-          <TestColorBox color={colors.default} />
-          <TestColorBox color={colors.primary} />
-          <TestColorBox color={colors.primaryLight} />
-          <TestColorBox color={colors.success} />
-          <TestColorBox color={colors.successLight} />
-          <TestColorBox color={colors.warning} />
-          <TestColorBox color={colors.warningLight} />
-          <TestColorBox color={colors.danger} />
-          <TestColorBox color={colors.dangerLight} />
+          <h2>Component library color pallete</h2>
+          {Object.keys(colors).map(key => (<TestColorBox
+            key={key}
+            color={colors[key]}
+            name={key}
+          />))}
         </CenteredContent>
       </Panel>
     </div>

@@ -11,5 +11,4 @@ export const colors = {
   dark: '#2d3436',
   darkLight: '#636e72',
   greyLight: '#fafafa',
-  purple: '#6c5ce7',
 };
