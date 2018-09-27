@@ -1,15 +1,12 @@
 // @flow
 import styled from 'styled-components';
 import * as React from 'react';
-import { getBtnTextColor } from '../utils/getBtnTextColor';
-import { getBtnBgColor } from '../utils/getBtnBgColor';
+import { getTextContrastColor } from '../utils/getBtnTextColor';
 import { getBtnSizeSettings } from '../utils/getBtnSizeSettings';
+import { colors } from '../../colors';
 
 type Props = {
-  success?: boolean,
-  warning?: boolean,
-  danger?: boolean,
-  dark?: boolean,
+  color?: string,
   primary?: boolean,
   xsmall?: boolean,
   small?: boolean,
@@ -17,9 +14,9 @@ type Props = {
 }
 
 export const ButtonStyles: React.ComponentType<Props> = styled.span`
-    background-color: ${props => getBtnBgColor(props)};
-    color: ${props => getBtnTextColor(props)};
-    border: 1px solid ${props => getBtnBgColor(props)};
+    background-color: ${props => colors[props.color] || colors.primary};
+    color: ${props => getTextContrastColor(colors[props.color] || colors.primary)};
+    border: 1px solid ${props => colors[props.color] || colors.primary};
     display: inline-block;
     outline: none;
     cursor: pointer;
@@ -38,12 +35,10 @@ export const ButtonStyles: React.ComponentType<Props> = styled.span`
       box-shadow: none;
     }
     ${props =>
-    (props.ghost
-      ? `
-          border-width: 1px;
-          color: white;
-          background-color: transparent;
-      `
-      : '')};
+    (props.ghost && `
+      border-width: 1px;
+      color: white;
+      background-color: transparent;
+    `)};
   `;
 

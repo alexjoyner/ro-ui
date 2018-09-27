@@ -1,12 +1,17 @@
-import { getBtnTextColor } from './';
+import { getTextContrastColor } from './';
+import { colors } from '../../../colors';
 
 describe('getBtnTextColor', () => {
-  it('Should default to black', () => {
-    expect(getBtnTextColor({})).toEqual('black');
+  it('Should fail', () => {
+    function testGetTextContrastColor() {
+      getTextContrastColor();
+    }
+    expect(testGetTextContrastColor).toThrowError(TypeError);
   });
   it('should return white', () => {
-    expect(getBtnTextColor({ primary: true })).toEqual('white');
-    expect(getBtnTextColor({ danger: true })).toEqual('white');
-    expect(getBtnTextColor({ success: true })).toEqual('white');
+    expect(getTextContrastColor(colors.primary)).toEqual('white');
+    expect(getTextContrastColor(colors.danger)).toEqual('white');
+    expect(getTextContrastColor(colors.success)).toEqual('white');
+    expect(getTextContrastColor(colors.warning)).toEqual('black');
   });
 });

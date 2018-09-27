@@ -4,11 +4,49 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
 <Panel
   width="25%"
 >
+  <styled.div>
+    <Button
+      danger={false}
+      dark={true}
+      ghost={false}
+      large={false}
+      onClick={[Function]}
+      primary={false}
+      small={false}
+      success={false}
+      warning={false}
+      xsmall={true}
+    >
+      <Component
+        size={20}
+      />
+    </Button>
+  </styled.div>
+  <styled.div>
+    <Button
+      danger={false}
+      dark={true}
+      ghost={false}
+      large={false}
+      onClick={[Function]}
+      primary={false}
+      small={false}
+      success={false}
+      warning={false}
+      xsmall={true}
+    >
+      <Component
+        size={20}
+      />
+    </Button>
+  </styled.div>
   <Gauge
-    height="auto"
     label="Test Sensor"
     max={100}
     min={0}
+    multiSelected={false}
+    onChartClick={[Function]}
+    onSettingsClick={[Function]}
     ranges={
       Array [
         Object {

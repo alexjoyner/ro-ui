@@ -11,18 +11,23 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
 }
 
 .c2 {
-  background-color: white;
-  color: black;
-  border: 1px solid white;
+  background-color: #0984e3;
+  color: white;
+  border: 1px solid #0984e3;
   display: inline-block;
   outline: none;
+  cursor: pointer;
+  font-size: 1rem;
   padding: .375rem .75rem;
   text-align: center;
-  font-size: 1em;
   line-height: 1.5;
   -webkit-transition: 0.1s linear;
   transition: 0.1s linear;
   box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+}
+
+.c2 svg {
+  vertical-align: middle;
 }
 
 .c2:hover {
@@ -46,16 +51,19 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
   <Button
     className="c0"
     danger={false}
+    dark={false}
     ghost={false}
     large={false}
     primary={false}
     small={false}
     success={false}
     warning={false}
+    xsmall={false}
   >
     <styled.button
       className="c0"
       danger={false}
+      dark={false}
       ghost={false}
       large={false}
       primary={false}
@@ -63,6 +71,7 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
       success={false}
       type="button"
       warning={false}
+      xsmall={false}
     >
       <button
         className="c0 c1"
@@ -71,6 +80,7 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
         <styled.span
           className="c0"
           danger={false}
+          dark={false}
           ghost={false}
           large={false}
           primary={false}
@@ -78,6 +88,7 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
           success={false}
           tabIndex={-1}
           warning={false}
+          xsmall={false}
         >
           <span
             className="c0 c2"

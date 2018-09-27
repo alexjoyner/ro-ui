@@ -23,7 +23,7 @@ describe('ButtonStyles component', () => {
   it('should have correct font size', () => {
     const caseSmall = shallow(<ButtonStyles small />);
     const caseLarge = shallow(<ButtonStyles large />);
-    expect(component).toHaveStyleRule('font-size', '1em');
+    expect(component).toHaveStyleRule('font-size', '1rem');
     expect(caseSmall).toHaveStyleRule('font-size', '.875rem');
     expect(caseLarge).toHaveStyleRule('font-size', '1.25rem');
   });
