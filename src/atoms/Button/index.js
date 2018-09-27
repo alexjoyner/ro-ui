@@ -10,9 +10,17 @@ type ButtonProps = {
   children: any,
 };
 
-const Button = (props: ButtonProps) => (
+const Button = ({
+  color, size, ghost, ...props
+}: ButtonProps) => (
   <ButtonWrapper {...props} type="button">
-    <ButtonStyles {...props} tabIndex={-1}>
+    {/* Passing props to Button Styles seperately to fix double onClick events from button */}
+    <ButtonStyles
+      color={color}
+      size={size}
+      ghost={ghost}
+      tabIndex={-1}
+    >
       {props.children}
     </ButtonStyles>
   </ButtonWrapper>
