@@ -21,7 +21,7 @@ class NotificationTest extends React.Component {
         <Notification shown={this.state.notifShown} onClose={() => this.toggleModal()}>
           <h3>Hello World</h3>
         </Notification>
-        <Button primary onClick={() => this.toggleModal()} > Modal {this.state.notifShown ? 'shown' : 'hidden'} </Button>
+        <Button color="primary" onClick={() => this.toggleModal()} > Modal {this.state.notifShown ? 'shown' : 'hidden'} </Button>
       </div>
     );
   }

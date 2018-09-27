@@ -82,19 +82,20 @@ exports[`SideBarPage component Should match snapshot 1`] = `
         className="c0"
       >
         <Styled(Button)
+          color="primary"
           onClick={[Function]}
-          primary={true}
           shown={true}
           small={true}
         >
           <Button
             className="c1"
+            color="primary"
             danger={false}
             dark={false}
             ghost={false}
             large={false}
             onClick={[Function]}
-            primary={true}
+            primary={false}
             shown={true}
             small={true}
             success={false}
@@ -103,12 +104,13 @@ exports[`SideBarPage component Should match snapshot 1`] = `
           >
             <styled.button
               className="c1"
+              color="primary"
               danger={false}
               dark={false}
               ghost={false}
               large={false}
               onClick={[Function]}
-              primary={true}
+              primary={false}
               shown={true}
               small={true}
               success={false}
@@ -118,17 +120,19 @@ exports[`SideBarPage component Should match snapshot 1`] = `
             >
               <button
                 className="c1 c2"
+                color="primary"
                 onClick={[Function]}
                 type="button"
               >
                 <styled.span
                   className="c1"
+                  color="primary"
                   danger={false}
                   dark={false}
                   ghost={false}
                   large={false}
                   onClick={[Function]}
-                  primary={true}
+                  primary={false}
                   shown={true}
                   small={true}
                   success={false}
@@ -138,6 +142,7 @@ exports[`SideBarPage component Should match snapshot 1`] = `
                 >
                   <span
                     className="c1 c3"
+                    color="primary"
                     onClick={[Function]}
                     tabIndex={-1}
                   >

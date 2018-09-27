@@ -6,6 +6,8 @@ exports[`TopBarWrapper component Should match snapshot 1`] = `
   height: 67px;
   line-height: 67px;
   width: 100%;
+  background-color: #b2bec3;
+  color: black;
 }
 
 <div

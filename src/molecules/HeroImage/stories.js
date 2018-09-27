@@ -7,6 +7,6 @@ Molecules
   .add('HeroImage', () => (
     <HeroImage>
       <h1>Hero Image</h1>
-      <Button>This is awesome!</Button>
+      <Button ghost color="primary">This is awesome!</Button>
     </HeroImage>
   ));

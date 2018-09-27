@@ -1,4 +1,5 @@
 export const colors = {
+  default: '#b2bec3',
   primaryLight: '#74b9ff',
   primary: '#0984e3',
   successLight: '#55efc4',

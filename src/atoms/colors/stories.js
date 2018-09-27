@@ -16,8 +16,9 @@ Atoms
   .add('Colors', () => (
     <div>
       <Panel>
-        <h2>Testing</h2>
+        <h2>Component library color pallete</h2>
         <CenteredContent>
+          <TestColorBox color={colors.default} />
           <TestColorBox color={colors.primary} />
           <TestColorBox color={colors.primaryLight} />
           <TestColorBox color={colors.success} />

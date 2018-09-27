@@ -27,17 +27,17 @@ const GaugeBlock = props => (
   <Panel width="25%" >
     <GaugeBlockBtnContainer>
       {(props.multiSelected) ? (
-        <Button xsmall success >
+        <Button xsmall color="success" >
           <GoCheck size={20} />
         </Button>
         ) : (
-          <Button xsmall dark onClick={props.onChartClick}>
+          <Button xsmall color="dark" onClick={props.onChartClick}>
             <GoGraph size={20} />
           </Button>
         )}
     </GaugeBlockBtnContainer>
     <SettingsBtnContainer>
-      <Button xsmall dark onClick={props.onSettingsClick} >
+      <Button xsmall color="dark" onClick={props.onSettingsClick} >
         <GoGear size={20} />
       </Button>
     </SettingsBtnContainer>

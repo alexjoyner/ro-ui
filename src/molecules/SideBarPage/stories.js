@@ -2,7 +2,6 @@ import React from 'react';
 import { SideBarPage } from './';
 import { Molecules } from '../_molecules.stories';
 import { Header } from '../Header';
-import { colors } from '../../atoms/colors';
 import { TestGaugeBlock } from '../GaugeBlock/stories';
 import { CenteredContent } from '../../atoms/CenteredContent';
 import { ListItem } from '../../atoms/ListItem';
@@ -24,7 +23,7 @@ Molecules
   .add('SideBar', () => (
     <div>
       <Header
-        color={colors.dark}
+        color="dark"
         height="67px"
         fontSize="25px"
         logoText="Dashboard Demo"

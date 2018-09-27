@@ -1,7 +1,7 @@
 // @flow
 import styled from 'styled-components';
 import * as React from 'react';
-import { getTextContrastColor } from '../utils/getBtnTextColor';
+import { getTextContrastColor } from '../utils/getTextContrastColor';
 import { getBtnSizeSettings } from '../utils/getBtnSizeSettings';
 import { colors } from '../../colors';
 
@@ -14,9 +14,9 @@ type Props = {
 }
 
 export const ButtonStyles: React.ComponentType<Props> = styled.span`
-    background-color: ${props => colors[props.color] || colors.primary};
-    color: ${props => getTextContrastColor(colors[props.color] || colors.primary)};
-    border: 1px solid ${props => colors[props.color] || colors.primary};
+    background-color: ${props => colors[props.color] || colors.default};
+    color: ${props => getTextContrastColor(colors[props.color] || colors.default)};
+    border: 1px solid ${props => colors[props.color] || colors.default};
     display: inline-block;
     outline: none;
     cursor: pointer;

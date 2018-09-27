@@ -1,6 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { TopBarWrapper } from './';
+import { colors } from '../../../colors';
 
 describe('TopBarWrapper component', () => {
   let component;
@@ -36,7 +37,7 @@ describe('TopBarWrapper component', () => {
     expect(testHeight).toHaveStyleRule('line-height', '100px');
   });
   it('should accept a color prop', () => {
-    const testHeight = shallow(<TopBarWrapper color="blue" />);
-    expect(testHeight).toHaveStyleRule('background-color', 'blue');
+    const testHeight = shallow(<TopBarWrapper color="primary" />);
+    expect(testHeight).toHaveStyleRule('background-color', colors.primary);
   });
 });
