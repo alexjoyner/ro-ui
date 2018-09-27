@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import * as React from 'react';
 import { zIndexes } from '../../../../utils/zIndexes';
 import { colors } from '../../../colors';
-import { getTextContrastColor } from '../../../Button/utils/getTextContrastColor';
+import { getTextContrastColor } from '../../../../utils/getTextContrastColor';
 
 type TopBarWrapperProps = {
   sticky: boolean,

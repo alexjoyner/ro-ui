@@ -1,13 +1,12 @@
 // @flow
 import styled from 'styled-components';
 import * as React from 'react';
-import { getTextContrastColor } from '../utils/getTextContrastColor';
+import { getTextContrastColor } from '../../../utils/getTextContrastColor';
 import { getBtnSizeSettings } from '../utils/getBtnSizeSettings';
 import { colors } from '../../colors';
 
 type Props = {
   color?: string,
-  primary?: boolean,
   xsmall?: boolean,
   small?: boolean,
   large?: boolean,
