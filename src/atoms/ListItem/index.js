@@ -11,7 +11,7 @@ const ListItemContainer = styled.div`
   padding: 10px;
   border-radius: 2px;
   border: none;
-  background-color: ${props => props.color || colors.darkLight};
+  background-color: ${props => colors[props.color] || colors.darkLight};
   display: inline-block;
   cursor: pointer;
   opacity: 1;

@@ -2,7 +2,6 @@
     "files.exclude": {
       "**/__mocks__": true,
       "**/__snapshots__": true,
-      "**/.babelrc": true,
       "**/.DS_Store": true,
       "**/.git": true,
       "**/.gitattributes": true,
