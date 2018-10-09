@@ -24,7 +24,7 @@ const GraphBlockLabel = styled.div`
 `;
 
 const GaugeBlock = props => (
-  <Panel width="25%" >
+  <Panel width={props.panelWidth || '20%'} >
     <GaugeBlockBtnContainer>
       {(props.multiSelected) ? (
         <Button size="xsmall" color="success" >
@@ -49,6 +49,7 @@ const GaugeBlock = props => (
 );
 
 GaugeBlock.propTypes = {
+  panelWidth: PropTypes.string,
   label: PropTypes.string.isRequired,
   onChartClick: PropTypes.func.isRequired,
   onSettingsClick: PropTypes.func.isRequired,
@@ -56,6 +57,7 @@ GaugeBlock.propTypes = {
 };
 
 GaugeBlock.defaultProps = {
+  panelWidth: '20%',
   multiSelected: false,
 };
 
