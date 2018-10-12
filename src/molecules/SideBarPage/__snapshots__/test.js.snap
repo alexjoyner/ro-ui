@@ -97,33 +97,24 @@ exports[`SideBarPage component Should match snapshot 1`] = `
           >
             <styled.button
               className="c1"
-              color="primary"
-              ghost={false}
               onClick={[Function]}
               shown={true}
-              size="small"
               type="button"
             >
               <button
                 className="c1 c2"
-                color="primary"
                 onClick={[Function]}
-                size="small"
                 type="button"
               >
                 <styled.span
-                  className="c1"
                   color="primary"
                   ghost={false}
-                  onClick={[Function]}
-                  shown={true}
                   size="small"
                   tabIndex={-1}
                 >
                   <span
-                    className="c1 c3"
+                    className="c3"
                     color="primary"
-                    onClick={[Function]}
                     size="small"
                     tabIndex={-1}
                   >

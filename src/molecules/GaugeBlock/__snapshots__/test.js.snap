@@ -2,7 +2,7 @@
 
 exports[`GaugeBlock component Should match snapshot 1`] = `
 <Panel
-  width="25%"
+  width="20%"
 >
   <styled.div>
     <Button
@@ -35,6 +35,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
     multiSelected={false}
     onChartClick={[Function]}
     onSettingsClick={[Function]}
+    panelWidth="20%"
     ranges={
       Array [
         Object {

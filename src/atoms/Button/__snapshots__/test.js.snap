@@ -2,9 +2,6 @@
 
 exports[`Button component Should match snapshot 1`] = `
 <styled.button
-  color="default"
-  ghost={false}
-  size="default"
   type="button"
 >
   <styled.span

@@ -56,26 +56,20 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
   >
     <styled.button
       className="c0"
-      color="default"
-      ghost={false}
-      size="default"
       type="button"
     >
       <button
         className="c0 c1"
-        color="default"
-        size="default"
         type="button"
       >
         <styled.span
-          className="c0"
           color="default"
           ghost={false}
           size="default"
           tabIndex={-1}
         >
           <span
-            className="c0 c2"
+            className="c2"
             color="default"
             size="default"
             tabIndex={-1}
