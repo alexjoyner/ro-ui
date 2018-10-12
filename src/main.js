@@ -1,4 +1,5 @@
 import { injectGlobal } from 'styled-components';
+import './styles/normalize.css';
 /*
 ============ Atoms ===========
  */
@@ -11,7 +12,7 @@ export * from './atoms/Logo';
 export * from './atoms/Panel';
 export * from './atoms/ProfilePic';
 export * from './atoms/PageOverlay';
-export * from './atoms/TopBar';
+export * from './atoms/Header';
 export * from './atoms/CenteredContent';
 export * from './atoms/PlainBox';
 export * from './atoms/ListHeader';
@@ -25,7 +26,6 @@ export * from './atoms/RoDatePicker';
 export * from './molecules/HeroImage';
 export * from './molecules/SideBarPage';
 export * from './molecules/GaugeBlock';
-export * from './molecules/Header';
 export * from './molecules/Modal';
 export * from './molecules/Notification';
 
@@ -36,10 +36,6 @@ export * from './utils/getUniqueID';
 
 injectGlobal`
   @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
-  body {
-    padding: 0;
-    margin: 0;
-  }
   * {
     font-family: 'Roboto', 'sans-serif';
   }

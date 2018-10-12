@@ -1,7 +1,7 @@
 import React from 'react';
 import { SideBarPage } from './';
 import { Molecules } from '../_molecules.stories';
-import { Header } from '../Header';
+import { Header } from '../../atoms/Header';
 import { TestGaugeBlock } from '../GaugeBlock/stories';
 import { CenteredContent } from '../../atoms/CenteredContent';
 import { ListItem } from '../../atoms/ListItem';
@@ -22,12 +22,9 @@ const SideBarList = () => (
 Molecules
   .add('SideBar', () => (
     <div>
-      <Header
-        color="dark"
-        height="67px"
-        fontSize="25px"
-        logoText="Dashboard Demo"
-      />
+      <Header color="dark">
+        Dashboard Demo
+      </Header>
       <SideBarPage sideBarContents={<SideBarList />} >
         <CenteredContent>
           <TestGaugeBlock />

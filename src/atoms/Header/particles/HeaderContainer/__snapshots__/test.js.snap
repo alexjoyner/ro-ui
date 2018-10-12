@@ -1,10 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TopBarWrapper component Should match snapshot 1`] = `
+exports[`HeaderContainer component Should match snapshot 1`] = `
 .c0 {
-  text-align: center;
-  height: 67px;
-  line-height: 67px;
+  padding: 1px 5%;
   width: 100%;
   background-color: #b2bec3;
   color: black;

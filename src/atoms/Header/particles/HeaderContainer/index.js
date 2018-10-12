@@ -5,21 +5,18 @@ import { zIndexes } from '../../../../utils/zIndexes';
 import { colors } from '../../../colors';
 import { getTextContrastColor } from '../../../../utils/getTextContrastColor';
 
-type TopBarWrapperProps = {
+type HeaderContainerProps = {
   sticky: boolean,
-  height: string,
+  padding: string,
   color?: string,
 }
 
-export const TopBarWrapper: React.ComponentType<TopBarWrapperProps> = styled.div`
-  ${props => ((props.sticky) ? `
-      z-index: ${zIndexes('TopBar')};
-      position: fixed;
-      top: 0;
-  ` : '')}
-  text-align: center;
-  height: ${props => props.height || '67px'};
-  line-height: ${props => props.height || '67px'};
+export const HeaderContainer: React.ComponentType<HeaderContainerProps> = styled.div`
+  z-index: ${zIndexes('TopBar')};
+  position: fixed;
+  top: 0;
+  padding: 0 5%;
+  height: 56px;
   width: 100%;
   background-color: ${props => colors[props.color] || colors.default};
   color: ${props => getTextContrastColor(colors[props.color] || colors.default)};

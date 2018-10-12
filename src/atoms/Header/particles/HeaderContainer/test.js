@@ -1,12 +1,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { TopBarWrapper } from './';
+import { HeaderContainer } from './';
 import { colors } from '../../../colors';
 
-describe('TopBarWrapper component', () => {
+describe('HeaderContainer component', () => {
   let component;
   beforeEach(() => {
-    component = shallow(<TopBarWrapper />);
+    component = shallow(<HeaderContainer />);
   });
   it('Should render without exploding', () => {
     expect(component).toBeDefined();
@@ -20,24 +20,13 @@ describe('TopBarWrapper component', () => {
     expect(component).not.toHaveStyleRule('top', '0');
   });
   it('Should display apply correct props when sticky', () => {
-    const testSticky = shallow(<TopBarWrapper sticky />);
+    const testSticky = shallow(<HeaderContainer sticky />);
     expect(testSticky).toHaveStyleRule('z-index', '2');
     expect(testSticky).toHaveStyleRule('position', 'fixed');
     expect(testSticky).toHaveStyleRule('top', '0');
   });
-  it('should default to a height of 67px', () => {
-    expect(component).toHaveStyleRule('height', '67px');
-  });
-  it('should accept a height prop', () => {
-    const testHeight = shallow(<TopBarWrapper height="100px" />);
-    expect(testHeight).toHaveStyleRule('height', '100px');
-  });
-  it('should apply line height from height prop', () => {
-    const testHeight = shallow(<TopBarWrapper height="100px" />);
-    expect(testHeight).toHaveStyleRule('line-height', '100px');
-  });
   it('should accept a color prop', () => {
-    const testHeight = shallow(<TopBarWrapper color="primary" />);
+    const testHeight = shallow(<HeaderContainer color="primary" />);
     expect(testHeight).toHaveStyleRule('background-color', colors.primary);
   });
 });
