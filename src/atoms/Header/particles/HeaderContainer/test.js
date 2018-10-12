@@ -14,16 +14,10 @@ describe('HeaderContainer component', () => {
   it('Should match snapshot', () => {
     expect(component).toMatchSnapshot();
   });
-  it('Should display apply correct props when not sticky', () => {
-    expect(component).not.toHaveStyleRule('z-index', '2');
-    expect(component).not.toHaveStyleRule('position', 'fixed');
-    expect(component).not.toHaveStyleRule('top', '0');
-  });
-  it('Should display apply correct props when sticky', () => {
-    const testSticky = shallow(<HeaderContainer sticky />);
-    expect(testSticky).toHaveStyleRule('z-index', '2');
-    expect(testSticky).toHaveStyleRule('position', 'fixed');
-    expect(testSticky).toHaveStyleRule('top', '0');
+  it('Should display apply correct positioning', () => {
+    expect(component).toHaveStyleRule('z-index', '2');
+    expect(component).toHaveStyleRule('position', 'fixed');
+    expect(component).toHaveStyleRule('top', '0');
   });
   it('should accept a color prop', () => {
     const testHeight = shallow(<HeaderContainer color="primary" />);
