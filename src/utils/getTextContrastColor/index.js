@@ -1,6 +1,6 @@
 // @flow
 
-export const getTextContrastColor = (bgHexColor) => {
+export const getTextContrastColor = (bgHexColor: string) => {
   if (typeof bgHexColor !== 'string') {
     throw new TypeError('COLOR MUST BE STRING IN HEX');
   }
