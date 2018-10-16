@@ -1,9 +1,12 @@
 import React from 'react';
+import { Provider } from 'react-redux';
+import { createStore, combineReducers } from 'redux';
 import { Behaviors } from '../_behaviors.stories';
-import { ISideBar } from '.';
+import MySideBar from '.';
 import { BasicSidebar } from '../../atoms/SideBar';
 import BasicSideBarPageBody from '../../atoms/SideBar/SideBarPageBody';
 import { Button } from '../../atoms/Button';
+import ISideBarReducer from './reducer';
 
 const SideBarBody = () => (
   <BasicSideBarPageBody >
@@ -12,11 +15,16 @@ const SideBarBody = () => (
     </Button>
   </BasicSideBarPageBody>
 );
+const store = createStore(combineReducers({
+  ISideBarReducer,
+}));
+
 Behaviors.add('ISidebar', () => (
-  <ISideBar {...{
-    shown: true,
-    SideBar: BasicSidebar,
-    Body: SideBarBody,
-  }}
-  />
+  <Provider store={store}>
+    <MySideBar {...{
+      SideBar: BasicSidebar,
+      Body: SideBarBody,
+    }}
+    />
+  </Provider>
 ));
