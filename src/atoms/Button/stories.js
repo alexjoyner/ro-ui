@@ -14,7 +14,7 @@ Atoms.add('Button', () => (
       <Button color="warning" >Button Warning</Button>
       <Button color="danger" >Button Danger</Button>
       <Button color="success" >Button Success</Button>
-      <Button color="dark" >Button Success</Button>
+      <Button color="dark" >Button Dark</Button>
     </Panel>
     <Panel>
       <h2>Button Sizes</h2>
@@ -55,7 +55,7 @@ Atoms.add('Button', () => (
             Button Success
           </Button>
           <Button color="dark" ghost>
-            Button Success
+            Button Dark
           </Button>
         </p>
       </HeroImage>
