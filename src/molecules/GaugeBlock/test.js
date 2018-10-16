@@ -5,7 +5,12 @@ import { GaugeBlock } from './';
 describe('GaugeBlock component', () => {
   let component;
   beforeEach(() => {
-    component = shallow(<GaugeBlock label="Test Sensor" value={20} />);
+    component = shallow(<GaugeBlock
+      label="Test Sensor"
+      value={20}
+      onSettingsClick={() => {}}
+      onChartClick={() => {}}
+    />);
   });
   it('Should render without exploding', () => {
     expect(component).toBeDefined();

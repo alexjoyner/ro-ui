@@ -2,7 +2,7 @@
 
 exports[`Gauge component Should match snapshot 1`] = `
 <svg
-  height="auto"
+  height="100%"
   viewBox="0 0 250 180"
   width="100%"
 >
@@ -21,7 +21,6 @@ exports[`Gauge component Should match snapshot 1`] = `
           "x": 125,
           "y": 150,
         },
-        "height": "auto",
         "max": 100,
         "min": 0,
         "radius": 120.5,
@@ -67,7 +66,6 @@ exports[`Gauge component Should match snapshot 1`] = `
           "x": 125,
           "y": 150,
         },
-        "height": "auto",
         "max": 100,
         "min": 0,
         "radius": 120.5,
@@ -113,7 +111,6 @@ exports[`Gauge component Should match snapshot 1`] = `
           "x": 125,
           "y": 150,
         },
-        "height": "auto",
         "max": 100,
         "min": 0,
         "radius": 120.5,

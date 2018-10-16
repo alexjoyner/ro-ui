@@ -2,24 +2,13 @@
 
 exports[`Button component Should match snapshot 1`] = `
 <styled.button
-  danger={false}
-  ghost={false}
-  large={false}
-  primary={false}
-  small={false}
-  success={false}
   type="button"
-  warning={false}
 >
   <styled.span
-    danger={false}
+    color="default"
     ghost={false}
-    large={false}
-    primary={false}
-    small={false}
-    success={false}
+    size="default"
     tabIndex={-1}
-    warning={false}
   >
     Test Button
   </styled.span>

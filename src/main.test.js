@@ -13,14 +13,13 @@ describe('main', () => {
     expect(Main.Panel).not.toBe(undefined);
     expect(Main.PlainBox).not.toBe(undefined);
     expect(Main.ProfilePic).not.toBe(undefined);
-    expect(Main.TopBar).not.toBe(undefined);
+    expect(Main.Header).not.toBe(undefined);
     expect(Main.ListHeader).not.toBe(undefined);
     expect(Main.ListItem).not.toBe(undefined);
     expect(Main.RoHighChart).not.toBe(undefined);
   });
   it('Should include all Molecules', () => {
     expect(Main.GaugeBlock).not.toBe(undefined);
-    expect(Main.Header).not.toBe(undefined);
     expect(Main.HeroImage).not.toBe(undefined);
     expect(Main.Modal).not.toBe(undefined);
     expect(Main.SideBarPage).not.toBe(undefined);

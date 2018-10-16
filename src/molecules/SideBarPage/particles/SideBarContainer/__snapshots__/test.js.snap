@@ -3,8 +3,8 @@
 exports[`SideBarContainer component Should match snapshot 1`] = `
 .c0 {
   position: fixed;
-  z-index: 300;
-  top: 67px;
+  z-index: 1;
+  top: 56px;
   -webkit-transition: 100ms linear;
   transition: 100ms linear;
   height: 100vh;

@@ -16,13 +16,18 @@ exports[`SideBarPage component Should match snapshot 1`] = `
   border: 1px solid #0984e3;
   display: inline-block;
   outline: none;
+  cursor: pointer;
+  font-size: .875rem;
   padding: .25rem .5rem;
   text-align: center;
-  font-size: .875rem;
   line-height: 1.5;
   -webkit-transition: 0.1s linear;
   transition: 0.1s linear;
   box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+}
+
+.c3 svg {
+  vertical-align: middle;
 }
 
 .c3:hover {
@@ -44,8 +49,8 @@ exports[`SideBarPage component Should match snapshot 1`] = `
 
 .c0 {
   position: fixed;
-  z-index: 300;
-  top: 67px;
+  z-index: 1;
+  top: 56px;
   -webkit-transition: 100ms linear;
   transition: 100ms linear;
   height: 100vh;
@@ -77,35 +82,24 @@ exports[`SideBarPage component Should match snapshot 1`] = `
         className="c0"
       >
         <Styled(Button)
+          color="primary"
           onClick={[Function]}
-          primary={true}
           shown={true}
-          small={true}
+          size="small"
         >
           <Button
             className="c1"
-            danger={false}
+            color="primary"
             ghost={false}
-            large={false}
             onClick={[Function]}
-            primary={true}
             shown={true}
-            small={true}
-            success={false}
-            warning={false}
+            size="small"
           >
             <styled.button
               className="c1"
-              danger={false}
-              ghost={false}
-              large={false}
               onClick={[Function]}
-              primary={true}
               shown={true}
-              small={true}
-              success={false}
               type="button"
-              warning={false}
             >
               <button
                 className="c1 c2"
@@ -113,60 +107,65 @@ exports[`SideBarPage component Should match snapshot 1`] = `
                 type="button"
               >
                 <styled.span
-                  className="c1"
-                  danger={false}
+                  color="primary"
                   ghost={false}
-                  large={false}
-                  onClick={[Function]}
-                  primary={true}
-                  shown={true}
-                  small={true}
-                  success={false}
+                  size="small"
                   tabIndex={-1}
-                  warning={false}
                 >
                   <span
-                    className="c1 c3"
-                    onClick={[Function]}
+                    className="c3"
+                    color="primary"
+                    size="small"
                     tabIndex={-1}
                   >
-                    <IoChevronLeft
+                    <Component
                       style={
                         Object {
+                          "fontSize": "20px",
                           "textAlign": "center",
                         }
                       }
                     >
                       <IconBase
+                        attr={
+                          Object {
+                            "viewBox": "0 0 512 512",
+                          }
+                        }
                         style={
                           Object {
+                            "fontSize": "20px",
                             "textAlign": "center",
                           }
                         }
-                        viewBox="0 0 40 40"
                       >
                         <svg
+                          attr={
+                            Object {
+                              "viewBox": "0 0 512 512",
+                            }
+                          }
                           fill="currentColor"
                           height="1em"
-                          preserveAspectRatio="xMidYMid meet"
+                          stroke="currentColor"
+                          strokeWidth="0"
                           style={
                             Object {
                               "color": undefined,
+                              "fontSize": "20px",
                               "textAlign": "center",
-                              "verticalAlign": "middle",
                             }
                           }
-                          viewBox="0 0 40 40"
+                          viewBox="0 0 512 512"
                           width="1em"
                         >
-                          <g>
-                            <path
-                              d="m16.7 20l13.1 13.6c0.3 0.3 0.3 0.9 0 1.2l-2.4 2.5c-0.3 0.3-0.9 0.3-1.2 0l-16-16.7c-0.1-0.1-0.2-0.4-0.2-0.6s0.1-0.5 0.2-0.6l16-16.7c0.3-0.3 0.9-0.2 1.2 0.1l2.4 2.4c0.3 0.3 0.3 0.9 0 1.2l-13.1 13.6z"
-                            />
-                          </g>
+                          <path
+                            d="M217.9 256L345 129c9.4-9.4 9.4-24.6 0-33.9-9.4-9.4-24.6-9.3-34 0L167 239c-9.1 9.1-9.3 23.7-.7 33.1L310.9 417c4.7 4.7 10.9 7 17 7s12.3-2.3 17-7c9.4-9.4 9.4-24.6 0-33.9L217.9 256z"
+                            key="0"
+                          />
                         </svg>
                       </IconBase>
-                    </IoChevronLeft>
+                    </Component>
                   </span>
                 </styled.span>
               </button>

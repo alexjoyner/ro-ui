@@ -1,19 +1,5 @@
-// @flow
-type Colors = {
-  primaryLight: string,
-  primary: string,
-  successLight: string,
-  success: string,
-  warningLight: string,
-  warning: string,
-  dangerLight: string,
-  danger: string,
-  dark: string,
-  darkLight: string,
-  greyLight: string,
-  purple: string,
-}
-export const colors: Colors = {
+export const colors = {
+  default: '#b2bec3',
   primaryLight: '#74b9ff',
   primary: '#0984e3',
   successLight: '#55efc4',
@@ -25,5 +11,4 @@ export const colors: Colors = {
   dark: '#2d3436',
   darkLight: '#636e72',
   greyLight: '#fafafa',
-  purple: '#6c5ce7',
 };

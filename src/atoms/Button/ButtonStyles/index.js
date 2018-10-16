@@ -1,29 +1,23 @@
 // @flow
 import styled from 'styled-components';
 import * as React from 'react';
-import { getBtnTextColor } from '../utils/getBtnTextColor';
-import { getBtnBgColor } from '../utils/getBtnBgColor';
-import { getBtnSizeSettings } from '../utils/getBtnSizeSettings';
+import { getTextContrastColor } from '../../../utils/getTextContrastColor';
+import { colors } from '../../colors';
+import { btnSizes } from '../utils/btnSizes';
 
 type Props = {
-  success?: boolean,
-  warning?: boolean,
-  danger?: boolean,
-  dark?: boolean,
-  primary?: boolean,
-  xsmall?: boolean,
-  small?: boolean,
-  large?: boolean,
+  color?: string,
+  size?: string,
 }
 
 export const ButtonStyles: React.ComponentType<Props> = styled.span`
-    background-color: ${props => getBtnBgColor(props)};
-    color: ${props => getBtnTextColor(props)};
-    border: 1px solid ${props => getBtnBgColor(props)};
+    background-color: ${props => colors[props.color] || colors.default};
+    color: ${props => getTextContrastColor(colors[props.color] || colors.default)};
+    border: 1px solid ${props => colors[props.color] || colors.default};
     display: inline-block;
     outline: none;
     cursor: pointer;
-    ${props => getBtnSizeSettings(props)}; 
+    ${props => btnSizes[props.size] || btnSizes.default}; 
     text-align: center;
     line-height: 1.5;
     transition: 0.1s linear;
@@ -38,12 +32,10 @@ export const ButtonStyles: React.ComponentType<Props> = styled.span`
       box-shadow: none;
     }
     ${props =>
-    (props.ghost
-      ? `
-          border-width: 1px;
-          color: white;
-          background-color: transparent;
-      `
-      : '')};
+    (props.ghost && `
+      border-width: 1px;
+      color: white;
+      background-color: transparent;
+    `)};
   `;
 

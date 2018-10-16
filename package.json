@@ -21,7 +21,7 @@
     "moment": "^2.22.2",
     "polished": "^1.9.2",
     "prop-types": "^15.6.1",
-    "react": "^16.2.0",
+    "react": "^16.5.2",
     "react-datepicker": "^1.5.0",
     "react-dom": "^16.2.0",
     "react-grid-layout": "^0.16.6",
@@ -40,8 +40,8 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "css-loader": "^0.28.11",
-    "enzyme": "^3.3.0",
-    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme": "^3.4.0",
+    "enzyme-adapter-react-16": "^1.2.0",
     "enzyme-to-json": "^3.3.4",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
@@ -68,6 +68,10 @@
       "<rootDir>/src/**/*.{js,jsx}",
       "!<rootDir>/src/**/**.stories.js",
       "!<rootDir>/src/**/stories.js"
-    ]
+    ],
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
+    }
   }
 }

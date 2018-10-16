@@ -31,7 +31,7 @@ const Notification = (props: NotificationProps) => (
     <Panel width="300px">
       <CenteredContent>
         {props.children}
-        <Button danger small onClick={props.onClose} >
+        <Button color="danger" size="small" onClick={props.onClose} >
           <IoMdClose />
         </Button>
       </CenteredContent>

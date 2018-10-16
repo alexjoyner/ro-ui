@@ -3,7 +3,8 @@
 exports[`Modal component Should match snapshot 1`] = `
 <PageOverlay>
   <Styled(Panel)
-    width="40%"
+    height="auto"
+    width="90%"
   />
 </PageOverlay>
 `;

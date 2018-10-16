@@ -4,35 +4,31 @@ import { ButtonWrapper } from './ButtonWrapper';
 import { ButtonStyles } from './ButtonStyles';
 
 type ButtonProps = {
-  primary?: boolean,
-  success?: boolean,
-  warning?: boolean,
-  danger?: boolean,
-  dark?: boolean,
-  xsmall?: boolean,
-  small?: boolean,
-  large?: boolean,
+  color?: string,
+  size?: string,
   ghost?: boolean,
   children: any,
 };
 
-const Button = (props: ButtonProps) => (
+const Button = ({
+  color, size, ghost, ...props
+}: ButtonProps) => (
   <ButtonWrapper {...props} type="button">
-    <ButtonStyles {...props} tabIndex={-1}>
+    {/* Passing props to Button Styles seperately to fix double onClick events from button */}
+    <ButtonStyles
+      color={color}
+      size={size}
+      ghost={ghost}
+      tabIndex={-1}
+    >
       {props.children}
     </ButtonStyles>
   </ButtonWrapper>
 );
 
 Button.defaultProps = {
-  primary: false,
-  success: false,
-  warning: false,
-  danger: false,
-  dark: false,
-  xsmall: false,
-  small: false,
-  large: false,
+  color: 'default',
+  size: 'default',
   ghost: false,
 };
 

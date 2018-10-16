@@ -1,20 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ListItem component Should match snapshot 1`] = `
-.c0 {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 90%;
-  margin-top: 5px;
-  padding: 10px;
-  border-radius: 2px;
-  border: none;
-  background-color: #636e72;
-  display: inline-block;
-}
-
-<div
-  className="c0"
-/>
-`;
+exports[`ListItem component Should match snapshot 1`] = `<styled.div />`;

@@ -1,45 +1,41 @@
 import { injectGlobal } from 'styled-components';
+import './styles/normalize.css';
 /*
 ============ Atoms ===========
  */
-import { Button } from './atoms/Button';
-import { colors } from './atoms/colors';
-import { Gauge } from './atoms/Gauge';
-import { ImageOverlay } from './atoms/ImageOverlay';
-import { Input } from './atoms/Input';
-import { Logo } from './atoms/Logo';
-import { Panel } from './atoms/Panel';
-import { ProfilePic } from './atoms/ProfilePic';
-import { PageOverlay } from './atoms/PageOverlay';
-import { TopBar } from './atoms/TopBar';
-import { CenteredContent } from './atoms/CenteredContent';
-import { PlainBox } from './atoms/PlainBox';
-import { ListHeader } from './atoms/ListHeader';
-import { ListItem } from './atoms/ListItem';
-import { RoHighChart } from './atoms/RoHighChart';
-import { RoDatePicker } from './atoms/RoDatePicker';
+export * from './atoms/Button';
+export * from './atoms/colors';
+export * from './atoms/Gauge';
+export * from './atoms/ImageOverlay';
+export * from './atoms/Input';
+export * from './atoms/Logo';
+export * from './atoms/Panel';
+export * from './atoms/ProfilePic';
+export * from './atoms/PageOverlay';
+export * from './atoms/Header';
+export * from './atoms/CenteredContent';
+export * from './atoms/PlainBox';
+export * from './atoms/ListHeader';
+export * from './atoms/ListItem';
+export * from './atoms/RoHighChart';
+export * from './atoms/RoDatePicker';
 
 /*
 ============ Molecules ===========
  */
-import { HeroImage } from './molecules/HeroImage';
-import { SideBarPage } from './molecules/SideBarPage';
-import { GaugeBlock } from './molecules/GaugeBlock';
-import { Header } from './molecules/Header';
-import { Modal } from './molecules/Modal';
-import { Notification } from './molecules/Notification';
+export * from './molecules/HeroImage';
+export * from './molecules/SideBarPage';
+export * from './molecules/GaugeBlock';
+export * from './molecules/Modal';
+export * from './molecules/Notification';
 
 /*
 ============ Utility Functions ===========
  */
-import { getUniqueID } from './utils/getUniqueID';
+export * from './utils/getUniqueID';
 
 injectGlobal`
   @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
-  body {
-    padding: 0;
-    margin: 0;
-  }
   * {
     font-family: 'Roboto', 'sans-serif';
   }
@@ -50,37 +46,6 @@ injectGlobal`
     font-weight: 300;
   }
 `;
-
-// Export Atoms
-export {
-  Button,
-  colors,
-  Gauge,
-  ImageOverlay,
-  Input,
-  Logo,
-  Panel,
-  ProfilePic,
-  TopBar,
-  CenteredContent,
-  PlainBox,
-  PageOverlay,
-  ListHeader,
-  ListItem,
-  RoHighChart,
-  RoDatePicker,
-};
-// Export Molecules
-export {
-  HeroImage,
-  SideBarPage,
-  GaugeBlock,
-  Header,
-  Modal,
-  Notification,
-};
-// Export Utility functions
-export { getUniqueID };
 
 /*
 After this point, components should be project specific.

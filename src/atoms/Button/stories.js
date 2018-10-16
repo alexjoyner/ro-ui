@@ -10,17 +10,17 @@ Atoms.add('Button', () => (
     <Panel>
       <h2>Button Colors</h2>
       <Button>Basic Button</Button>
-      <Button primary>Button Primary</Button>
-      <Button warning>Button Warning</Button>
-      <Button danger>Button Danger</Button>
-      <Button success>Button Success</Button>
-      <Button dark>Button Success</Button>
+      <Button color="primary" >Button Primary</Button>
+      <Button color="warning" >Button Warning</Button>
+      <Button color="danger" >Button Danger</Button>
+      <Button color="success" >Button Success</Button>
+      <Button color="dark" >Button Success</Button>
     </Panel>
     <Panel>
       <h2>Button Sizes</h2>
-      <Button xsmall>extra small</Button>
-      <Button small>Button small</Button>
-      <Button large>Button large</Button>
+      <Button color="xsmall">extra small</Button>
+      <Button color="small">Button small</Button>
+      <Button color="large">Button large</Button>
     </Panel>
     <Panel>
       <h2>Icon Buttons: using react-icons</h2>
@@ -42,19 +42,19 @@ Atoms.add('Button', () => (
       >
         <p>
           <Button ghost>Basic Button</Button>
-          <Button primary ghost>
+          <Button color="primary" ghost>
             Button Primary
           </Button>
-          <Button warning ghost>
+          <Button color="warning" ghost>
             Button Warning
           </Button>
-          <Button danger ghost>
+          <Button color="danger" ghost>
             Button Danger
           </Button>
-          <Button success ghost>
+          <Button color="success" ghost>
             Button Success
           </Button>
-          <Button dark ghost>
+          <Button color="dark" ghost>
             Button Success
           </Button>
         </p>

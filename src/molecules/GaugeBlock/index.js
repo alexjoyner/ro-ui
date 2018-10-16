@@ -1,12 +1,10 @@
 import React from 'react';
-import ReactTooltip from 'react-tooltip';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { GoGraph, GoGear, GoCheck } from 'react-icons/go';
 import { Panel } from '../../atoms/Panel';
 import { Gauge } from '../../atoms/Gauge';
 import { Button } from '../../main';
-import { GaugeBlockSettingsPopup } from './particles/GaugeBlockSettingsPopup';
 
 const GaugeBlockBtnContainer = styled.div`
   position: absolute;
@@ -26,27 +24,22 @@ const GraphBlockLabel = styled.div`
 `;
 
 const GaugeBlock = props => (
-  <Panel width="25%" >
-    <ReactTooltip style={{ pointerEvent: 'auto !important' }} place="bottom" effect="solid" >
-      <GaugeBlockSettingsPopup {...props} />
-    </ReactTooltip>
+  <Panel width={props.panelWidth || '20%'} >
     <GaugeBlockBtnContainer>
       {(props.multiSelected) ? (
-        <Button xsmall success onClick={props.onClick} >
+        <Button size="xsmall" color="success" >
           <GoCheck size={20} />
         </Button>
         ) : (
-          <Button xsmall dark onClick={props.onClick}>
+          <Button size="xsmall" color="dark" onClick={props.onChartClick}>
             <GoGraph size={20} />
           </Button>
         )}
     </GaugeBlockBtnContainer>
     <SettingsBtnContainer>
-      <div data-tip data-event="click">
-        <Button xsmall dark onClick={props.onClick} >
-          <GoGear size={20} />
-        </Button>
-      </div>
+      <Button size="xsmall" color="dark" onClick={props.onSettingsClick} >
+        <GoGear size={20} />
+      </Button>
     </SettingsBtnContainer>
     <Gauge
       {...props}
@@ -56,12 +49,15 @@ const GaugeBlock = props => (
 );
 
 GaugeBlock.propTypes = {
+  panelWidth: PropTypes.string,
   label: PropTypes.string.isRequired,
-  onClick: PropTypes.func.isRequired,
+  onChartClick: PropTypes.func.isRequired,
+  onSettingsClick: PropTypes.func.isRequired,
   multiSelected: PropTypes.bool,
 };
 
 GaugeBlock.defaultProps = {
+  panelWidth: '20%',
   multiSelected: false,
 };
 

@@ -6,7 +6,6 @@ import { ListItem } from '../../atoms/ListItem';
 import { Header } from '../Header';
 import { CenteredContent } from '../../atoms/CenteredContent';
 import { TestGaugeBlock } from '../GaugeBlock/stories';
-import { colors } from '../../atoms/colors';
 import { SideBarPage } from '../SideBarPage';
 
 const SideBarList = () => (
@@ -24,7 +23,7 @@ Molecules
   .add('Modal', () => (
     <div>
       <Header
-        color={colors.dark}
+        color="dark"
         height="67px"
         fontSize="25px"
         logoText="Dashboard Demo"
