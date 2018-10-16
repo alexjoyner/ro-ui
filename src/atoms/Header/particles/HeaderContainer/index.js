@@ -12,7 +12,7 @@ type HeaderContainerProps = {
 }
 
 export const HeaderContainer: React.ComponentType<HeaderContainerProps> = styled.div`
-  z-index: ${zIndexes('TopBar')};
+  z-index: ${zIndexes.Header};
   position: fixed;
   top: 0;
   padding: 0 5%;

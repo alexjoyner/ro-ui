@@ -14,7 +14,7 @@ type NotificationProps = {
 
 const NotificationWrapper = styled.div`
     position: fixed;
-    z-index: ${zIndexes('Notification')};
+    z-index: ${zIndexes.Notification};
     top: 40px;
     right: 15px;
     transition: all 0.5s ease;

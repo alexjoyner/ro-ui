@@ -12,5 +12,5 @@ export const PageOverlayWrapper = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: ${zIndexes('PageOverlay')};
+    z-index: ${zIndexes.PageOverlay};
 `;

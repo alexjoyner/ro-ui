@@ -4,7 +4,7 @@ import { zIndexes } from '../../../../utils/zIndexes';
 
 export const SideBarContainer = styled.div`
   position: fixed;
-  z-index: ${zIndexes('SideBar')};
+  z-index: ${zIndexes.SideBar};
   top: 56px;
   transition: 100ms linear;
   height: 100vh;
