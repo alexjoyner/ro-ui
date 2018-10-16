@@ -1,16 +1,22 @@
 import React from 'react';
 import { Behaviors } from '../_behaviors.stories';
 import { ISideBar } from '.';
+import { BasicSidebar } from '../../atoms/SideBar';
+import BasicSideBarPageBody from '../../atoms/SideBar/SideBarPageBody';
+import { Button } from '../../atoms/Button';
 
-const TestSideBar = () => (
-  <h1>Hello World</h1>
+const SideBarBody = () => (
+  <BasicSideBarPageBody >
+    <Button>
+      Toggle Side Bar
+    </Button>
+  </BasicSideBarPageBody>
 );
-TestSideBar.displayName = 'SideBar';
-
-const opts = {
-  SideBar: TestSideBar,
-};
-
 Behaviors.add('ISidebar', () => (
-  <ISideBar {...opts} />
+  <ISideBar {...{
+    shown: true,
+    SideBar: BasicSidebar,
+    Body: SideBarBody,
+  }}
+  />
 ));

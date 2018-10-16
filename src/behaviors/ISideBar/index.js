@@ -5,11 +5,13 @@ import { connect } from 'react-redux';
 type props = {
   shown: boolean,
   SideBar: any,
+  Body: any,
 };
 
-export const ISideBar = ({ shown, SideBar }: props) => (
+export const ISideBar = ({ shown, SideBar, Body }: props) => (
   <div >
     {(shown) && <SideBar />}
+    <Body />
   </div>
 );
 

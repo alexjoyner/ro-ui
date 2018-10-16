@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideBarPageBody component Basic Version Should match snapshot 1`] = `
+.c0 {
+  margin-left: 300px;
+  min-height: 10px;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`SideBarPageBody component with Header Version Should match snapshot 1`] = `
+.c0 {
+  margin-top: 56px;
+}
+
+<styled.div
+  className="c0"
+/>
+`;
