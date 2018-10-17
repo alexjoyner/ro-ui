@@ -1,6 +1,6 @@
 export const TOGGLE_SIDEBAR = 'TOGGLE_SIDEBAR';
 
 
-export const toggleSidebar = () => ({
+export const toggleSideBar = () => ({
   type: TOGGLE_SIDEBAR,
 });

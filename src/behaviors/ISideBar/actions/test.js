@@ -1,15 +1,15 @@
-import { TOGGLE_SIDEBAR, toggleSidebar } from './';
+import { TOGGLE_SIDEBAR, toggleSideBar } from './';
 
 describe('actions', () => {
   it('should have all types', () => {
     expect(TOGGLE_SIDEBAR).toBeDefined();
   });
-  describe('toggleSidebar', () => {
+  describe('toggleSideBar', () => {
     it('should be defined', () => {
-      expect(toggleSidebar).toBeDefined();
+      expect(toggleSideBar).toBeDefined();
     });
     it('should return correct action', () => {
-      expect(toggleSidebar()).toEqual({
+      expect(toggleSideBar()).toEqual({
         type: TOGGLE_SIDEBAR,
       });
     });
