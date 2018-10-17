@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const BasicSideBarPageBody = styled.div`
-  margin-left: 300px;
+  margin-left: ${props => ((props.sideBarShown) ? ' 300px;' : '0px')};
   min-height: 10px;
 `;
 

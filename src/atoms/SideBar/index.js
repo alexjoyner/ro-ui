@@ -10,9 +10,7 @@ const SideBar = styled.div`
   width: 300px;
   left: 0px;
 `;
-export const BasicSidebar = styled(SideBar)`
-
-`;
+export const BasicSidebar = styled(SideBar)``;
 
 export default SideBar;
 // z-index: ${zIndexes('SideBar')};

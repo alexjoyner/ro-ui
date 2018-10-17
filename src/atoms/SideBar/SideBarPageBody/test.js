@@ -4,9 +4,13 @@ import BasicSideBarPageBody, { HeaderSideBarPageBody } from './';
 
 describe('SideBarPageBody component', () => {
   let component;
+  let props;
   describe('Basic Version', () => {
     beforeEach(() => {
-      component = shallow(<BasicSideBarPageBody />);
+      props = {
+        sideBarShown: true,
+      };
+      component = shallow(<BasicSideBarPageBody {...props} />);
     });
     it('Should render without exploding', () => {
       expect(component).toBeDefined();
@@ -17,6 +21,13 @@ describe('SideBarPageBody component', () => {
     it('Should have default styles', () => {
       expect(component).toHaveStyleRule('margin-left', '300px');
       expect(component).toHaveStyleRule('min-height', '10px');
+    });
+    it('Should extend out if sidebar not shown', () => {
+      component.setProps({
+        ...props,
+        sideBarShown: false,
+      });
+      expect(component).toHaveStyleRule('margin-left', '0px');
     });
   });
   describe('with Header Version', () => {

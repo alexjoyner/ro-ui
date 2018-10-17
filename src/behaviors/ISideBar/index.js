@@ -11,7 +11,7 @@ type props = {
 export const ISideBar = ({ shown, SideBar, Body }: props) => (
   <div >
     {(shown) && <SideBar />}
-    <Body />
+    <Body sideBarShown={shown} />
   </div>
 );
 

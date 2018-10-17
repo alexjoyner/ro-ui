@@ -14,8 +14,8 @@ const TestToggleBtn = props => (
     Toggle Side Bar
   </Button>
 );
-const SideBarBody = () => (
-  <BasicSideBarPageBody >
+const SideBarBody = props => (
+  <BasicSideBarPageBody {...props} >
     <IToggle Button={TestToggleBtn} />
   </BasicSideBarPageBody>
 );
