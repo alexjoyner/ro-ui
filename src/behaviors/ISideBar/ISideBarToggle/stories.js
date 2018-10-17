@@ -1,5 +1,5 @@
 import React from 'react';
-import { Behaviors } from '../../_behaviors.stories';
+import { ISideBar } from '../stories';
 import { ISideBarToggle } from '.';
 import { Button } from '../../../atoms/Button';
 
@@ -9,7 +9,7 @@ const TestToggleBtn = props => (
   </Button>
 );
 
-Behaviors.add('ISideBarToggle', () => (
+ISideBar.add('ISideBarToggle', () => (
   <ISideBarToggle {...{
     Button: TestToggleBtn,
   }}
