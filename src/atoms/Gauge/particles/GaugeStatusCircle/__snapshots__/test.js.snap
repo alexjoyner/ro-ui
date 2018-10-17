@@ -1,13 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`GaugeStatusCircle component Should match snapshot 1`] = `
-.c0 {
+<StyledComponent
+  forwardedClass={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": false,
+        "rules": Array [
+          "
+  stroke: ",
+          [Function],
+          ";
   stroke-width: 17;
   stroke-dasharray: 340.865;
   stroke-dashoffset: 340.865;
-}
-
-<circle
-  className="c0"
+",
+        ],
+      },
+      "displayName": "styled.circle",
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "circle",
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
 />
 `;

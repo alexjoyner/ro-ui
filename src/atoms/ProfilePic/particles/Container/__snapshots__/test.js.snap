@@ -1,13 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Container component Should match snapshot 1`] = `
-.c0 {
-  display: inline-block;
-  text-align: center;
-  margin: 5px;
-}
-
-<div
-  className="c0"
+<StyledComponent
+  forwardedClass={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": true,
+        "rules": Array [
+          "
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "div",
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
 />
 `;

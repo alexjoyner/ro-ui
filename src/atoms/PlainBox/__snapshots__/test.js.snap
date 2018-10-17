@@ -1,16 +1,38 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`PlainBox component Should match snapshot 1`] = `
-.c0 {
-  height: 100px;
-  width: 100px;
-  margin: 10px;
-  min-width: 300px;
-  background-color: #c0c0c0;
-  display: inline-block;
-}
-
-<div
-  className="c0"
+<StyledComponent
+  forwardedClass={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": false,
+        "rules": Array [
+          "
+    ",
+          [Function],
+          "
+    ",
+          [Function],
+          "
+    min-width: ",
+          [Function],
+          ";
+    background-color: #c0c0c0;
+    display: inline-block;
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "div",
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
 />
 `;

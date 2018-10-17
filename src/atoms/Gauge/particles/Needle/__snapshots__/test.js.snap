@@ -1,16 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Needle component Should match snapshot 1`] = `
-.c0 {
-  stroke: #34495e;
-  stroke-width: 0.3;
-  fill: #2980b9;
-  -webkit-transform: rotate(60,125,150);
-  -ms-transform: rotate(60,125,150);
-  transform: rotate(60,125,150);
-}
-
-<polygon
-  className="c0"
+<StyledComponent
+  forwardedClass={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": true,
+        "rules": Array [
+          "
+    stroke: #34495e;
+    stroke-width: 0.3;
+    fill: #2980b9;
+    transform: rotate(60, 125, 150);
+",
+        ],
+      },
+      "displayName": "styled.polygon",
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "polygon",
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
 />
 `;

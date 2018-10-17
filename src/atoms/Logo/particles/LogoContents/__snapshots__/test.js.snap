@@ -1,7 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`LogoContents component Should match snapshot 1`] = `
-<span
-  className=""
+<StyledComponent
+  forwardedClass={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": false,
+        "rules": Array [
+          "
+  font-size: ",
+          [Function],
+          ";
+",
+        ],
+      },
+      "displayName": "styled.span",
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "span",
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
 />
 `;
