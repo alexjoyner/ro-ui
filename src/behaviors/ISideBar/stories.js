@@ -7,12 +7,16 @@ import { BasicSidebar } from '../../atoms/SideBar';
 import BasicSideBarPageBody from '../../atoms/SideBar/SideBarPageBody';
 import { Button } from '../../atoms/Button';
 import ISideBarReducer from './reducer';
+import IToggle from './ISideBarToggle';
 
+const TestToggleBtn = props => (
+  <Button color="primary" {...props}>
+    Toggle Side Bar
+  </Button>
+);
 const SideBarBody = () => (
   <BasicSideBarPageBody >
-    <Button>
-      Toggle Side Bar
-    </Button>
+    <IToggle Button={TestToggleBtn} />
   </BasicSideBarPageBody>
 );
 const store = createStore(combineReducers({
