@@ -7,7 +7,6 @@
       "**/.gitattributes": true,
       "**/.gitignore": true,
       "**/.hg": true,
-      "**/.storybook": true,
       "**/.svn": true,
       "**/.vscode": true,
       "**/coverage": true,

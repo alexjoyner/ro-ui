@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { GoGraph, GoGear, GoCheck } from 'react-icons/go';
 import { Panel } from '../../atoms/Panel';
 import { Gauge } from '../../atoms/Gauge';
-import { Button } from '../../main';
+import { Button } from '../../atoms/Button';
 
 const GaugeBlockBtnContainer = styled.div`
   position: absolute;

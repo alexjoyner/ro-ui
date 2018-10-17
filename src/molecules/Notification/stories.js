@@ -1,7 +1,7 @@
 import React from 'react';
 import { Molecules } from '../_molecules.stories';
 import { Notification } from '.';
-import { Button } from '../../main';
+import { Button } from '../../atoms/Button';
 
 class NotificationTest extends React.Component {
   constructor(props) {

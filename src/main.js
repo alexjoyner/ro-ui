@@ -1,5 +1,3 @@
-// import { injectGlobal } from 'styled-components';
-// import './styles/normalize.css';
 /*
 ============ Atoms ===========
  */
@@ -34,18 +32,7 @@ import { Notification } from './molecules/Notification';
  */
 import { getUniqueID } from './utils/getUniqueID';
 
-// injectGlobal`
-//   @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
-//   * {
-//     font-family: 'Roboto', 'sans-serif';
-//   }
-//   h1, h2, h3, h4, h5 {
-//     font-weight: 100;
-//   }
-//   button span {
-//     font-weight: 300;
-//   }
-// `;
+
 // Export Atoms
 const modules = {
   Button,
