@@ -10,14 +10,14 @@ type HeaderContainerProps = {
   padding: string,
   color?: string,
 }
-
-export const HeaderContainer: React.ComponentType<HeaderContainerProps> = styled.div`
+const HeaderContainer: React.ComponentType<HeaderContainerProps> = styled.div`
   z-index: ${zIndexes.Header};
   position: fixed;
   top: 0;
-  padding: 0 5%;
   height: 56px;
   width: 100%;
   background-color: ${props => colors[props.color] || colors.default};
   color: ${props => getTextContrastColor(colors[props.color] || colors.default)};
 `;
+HeaderContainer.displayName = 'HeaderContainer';
+export { HeaderContainer };
