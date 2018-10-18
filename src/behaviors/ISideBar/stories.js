@@ -6,7 +6,7 @@ import MySideBar from '.';
 import { BasicSidebar } from '../../atoms/SideBar';
 import { HeaderSideBarPageBody } from '../../atoms/SideBar/SideBarPageBody';
 import { Button } from '../../atoms/Button';
-import ISideBarReducer from './reducer';
+import { ISideBarReducer } from './reducer';
 import IToggle from './ISideBarToggle';
 import { Header } from '../../atoms/Header';
 

@@ -17,6 +17,9 @@ import { ListHeader } from './atoms/ListHeader';
 import { ListItem } from './atoms/ListItem';
 import { RoHighChart } from './atoms/RoHighChart';
 import { RoDatePicker } from './atoms/RoDatePicker';
+import { BasicSideBar } from './atoms/SideBar';
+import { BasicSideBarPageBody } from './atoms/SideBar/SideBarPageBody';
+import { HeaderSideBarPageBody } from './atoms/SideBar/SideBarPageBody';
 
 /*
 ============ Molecules ===========
@@ -26,6 +29,14 @@ import { SideBarPage } from './molecules/SideBarPage';
 import { GaugeBlock } from './molecules/GaugeBlock';
 import { Modal } from './molecules/Modal';
 import { Notification } from './molecules/Notification';
+
+/*
+============ Behaviors ===========
+ */
+import { ISideBar } from './behaviors/ISideBar';
+import { ISideBarReducer } from './behaviors/ISideBar/reducer';
+import { toggleSideBar } from './behaviors/ISideBar/actions';
+import { ISideBarToggle } from './behaviors/ISideBar/ISideBarToggle';
 
 /*
 ============ Utility Functions ===========
@@ -51,12 +62,22 @@ const modules = {
   Header,
   RoHighChart,
   RoDatePicker,
+  BasicSideBar,
+  BasicSideBarPageBody,
+  HeaderSideBarPageBody,
+
   HeroImage,
   SideBarPage,
   GaugeBlock,
   Modal,
   Notification,
+
   getUniqueID,
+
+  ISideBar,
+  ISideBarReducer,
+  toggleSideBar,
+  ISideBarToggle,
 };
 // Export Molecules
 // Export Utility functions

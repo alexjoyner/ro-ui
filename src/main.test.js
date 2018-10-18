@@ -17,11 +17,20 @@ describe('main', () => {
     expect(Main.ListHeader).not.toBe(undefined);
     expect(Main.ListItem).not.toBe(undefined);
     expect(Main.RoHighChart).not.toBe(undefined);
+    expect(Main.BasicSideBar).not.toBe(undefined);
+    expect(Main.BasicSideBarPageBody).not.toBe(undefined);
+    expect(Main.HeaderSideBarPageBody).not.toBe(undefined);
   });
   it('Should include all Molecules', () => {
     expect(Main.GaugeBlock).not.toBe(undefined);
     expect(Main.HeroImage).not.toBe(undefined);
     expect(Main.Modal).not.toBe(undefined);
     expect(Main.SideBarPage).not.toBe(undefined);
+  });
+  it('Should include all behaviors', () => {
+    expect(Main.ISideBar).not.toBe(undefined);
+    expect(Main.ISideBarReducer).not.toBe(undefined);
+    expect(Main.toggleSideBar).not.toBe(undefined);
+    expect(Main.ISideBarToggle).not.toBe(undefined);
   });
 });

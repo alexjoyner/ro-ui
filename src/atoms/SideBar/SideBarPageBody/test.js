@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import BasicSideBarPageBody, { HeaderSideBarPageBody } from '.';
+import {BasicSideBarPageBody, HeaderSideBarPageBody } from '.';
 
 describe('SideBarPageBody component', () => {
   let component;
