@@ -1,4 +1,3 @@
-// @flow
 import React from 'react';
 import { Atoms } from '../_atoms.stories';
 import { Panel } from '../../atoms/Panel';
@@ -6,11 +5,7 @@ import { colors } from './';
 import { CenteredContent } from '../../atoms/CenteredContent';
 import { getTextContrastColor } from '../../utils/getTextContrastColor';
 
-type Props = {
-  color: string,
-  name: string,
-}
-const TestColorBox = (props: Props) => (
+const TestColorBox = (props) => (
   <div style={{
     height: '100px',
     width: '100%',

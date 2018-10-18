@@ -1,14 +1,7 @@
-// @flow
 import React from 'react';
 import { connect } from 'react-redux';
 
-type props = {
-  shown: boolean,
-  SideBar: any,
-  Body: any,
-};
-
-export const ISideBar = ({ shown, SideBar, Body }: props) => (
+export const ISideBar = ({ shown, SideBar, Body }) => (
   <div >
     {(shown) && <SideBar />}
     <Body sideBarShown={shown} />

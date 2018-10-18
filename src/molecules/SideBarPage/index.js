@@ -1,5 +1,4 @@
-// @flow
-import * as React from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 import { SideBarBtn } from './particles/SideBarBtn';
@@ -11,15 +10,8 @@ const PageWrapper = styled.div`
   z-index: 0;
   padding-left: ${props => (props.shown ? '300px' : '0px')};
 `;
-type Props = {
-  sideBarContents: React.ComponentType<>,
-  children: any
-}
-type State = {
-    shown: boolean
-}
-export class SideBarPage extends React.Component<Props, State> {
-  constructor(props: any) {
+export class SideBarPage extends {
+  constructor(props) {
     super(props);
     const shouldShow: boolean = (window.innerWidth > 1200);
     this.state = {

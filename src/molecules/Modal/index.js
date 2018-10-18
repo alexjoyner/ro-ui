@@ -1,4 +1,3 @@
-// @flow
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import { Panel } from '../../atoms/Panel';
@@ -15,12 +14,7 @@ const NotificationPanel = styled(Panel)`
     animation: ${slideUp} 0.8s;
 `;
 
-type ModalProps = {
-  width?: string,
-  height?: string,
-  children: any,
-}
-const Modal = (props: ModalProps) => (
+const Modal = (props) => (
   <PageOverlay>
     <NotificationPanel width={props.width} height={props.height}>
       {props.children}

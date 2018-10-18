@@ -1,13 +1,8 @@
-// @flow
 import React from 'react';
 import { connect } from 'react-redux';
 import { toggleSideBar } from '../actions';
 
-type btnProps = {
-  Button: any,
-  toggleSideBar: Function,
-}
-export const ISideBarToggle = ({ Button, ...props }: btnProps) => (
+export const ISideBarToggle = ({ Button, ...props }) => (
   <Button onClick={() => props.toggleSideBar()} />
 );
 

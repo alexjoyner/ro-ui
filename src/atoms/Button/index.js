@@ -1,18 +1,8 @@
-// @flow
 import React from 'react';
 import { ButtonWrapper } from './ButtonWrapper';
 import { ButtonStyles } from './ButtonStyles';
 
-type ButtonProps = {
-  color?: string,
-  size?: string,
-  ghost?: boolean,
-  children: any,
-};
-
-const Button = ({
-  color, size, ghost, ...props
-}: ButtonProps) => (
+const Button = ({color, size, ghost, ...props}) => (
   <ButtonWrapper {...props} type="button">
     {/* Passing props to Button Styles seperately to fix double onClick events from button */}
     <ButtonStyles
