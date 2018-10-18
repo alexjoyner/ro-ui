@@ -2,7 +2,7 @@
   "name": "ro-component-library",
   "version": "0.0.1",
   "description": "",
-  "main": "lib/index.js",
+  "main": "lib/main.js",
   "scripts": {
     "start": "yarn run storybook",
     "test": "jest --watch",
