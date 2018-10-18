@@ -1,33 +1,49 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ButtonWrapper component Should match snapshot 1`] = `
-<StyledComponent
-  forwardedClass={
-    Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": undefined,
-      "componentStyle": ComponentStyle {
-        "componentId": "sc-bdVaJa",
-        "isStatic": true,
-        "rules": Array [
-          "
+.c0 {
   -moz-appearance: none;
   -webkit-appearance: none;
   background: none;
   border: none;
   outline: none;
   font-size: inherit;
+}
+
+<ForwardRef>
+  <StyledComponent
+    forwardedClass={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": undefined,
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": true,
+          "lastClassName": "c0",
+          "rules": Array [
+            "
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: none;
+  border: none;
+  outline: none; 
+  font-size: inherit;
 ",
-        ],
-      },
-      "displayName": "styled.button",
-      "render": [Function],
-      "styledComponentId": "sc-bdVaJa",
-      "target": "button",
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
+          ],
+        },
+        "displayName": "styled.button",
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": "button",
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
     }
-  }
-  forwardedRef={null}
-/>
+    forwardedRef={null}
+  >
+    <button
+      className="c0"
+    />
+  </StyledComponent>
+</ForwardRef>
 `;

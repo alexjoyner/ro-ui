@@ -1,12 +1,12 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { mount } from 'enzyme';
 import { HeaderContainer } from '.';
 import { colors } from '../../../colors';
 
 describe('HeaderContainer component', () => {
   let component;
   beforeEach(() => {
-    component = shallow(<HeaderContainer />);
+    component = mount(<HeaderContainer />);
   });
   it('Should render without exploding', () => {
     expect(component).toBeDefined();
@@ -20,7 +20,7 @@ describe('HeaderContainer component', () => {
     expect(component).toHaveStyleRule('top', '0');
   });
   it('should accept a color prop', () => {
-    const testHeight = shallow(<HeaderContainer color="primary" />);
+    const testHeight = mount(<HeaderContainer color="primary" />);
     expect(testHeight).toHaveStyleRule('background-color', colors.primary);
   });
 });

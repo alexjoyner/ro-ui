@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { mount } from 'enzyme';
 import BasicSideBarPageBody, { HeaderSideBarPageBody } from '.';
 
 describe('SideBarPageBody component', () => {
@@ -10,7 +10,7 @@ describe('SideBarPageBody component', () => {
       props = {
         sideBarShown: true,
       };
-      component = shallow(<BasicSideBarPageBody {...props} />);
+      component = mount(<BasicSideBarPageBody {...props} />);
     });
     it('Should render without exploding', () => {
       expect(component).toBeDefined();
@@ -32,7 +32,7 @@ describe('SideBarPageBody component', () => {
   });
   describe('with Header Version', () => {
     beforeEach(() => {
-      component = shallow(<HeaderSideBarPageBody />);
+      component = mount(<HeaderSideBarPageBody />);
     });
     it('Should render without exploding', () => {
       expect(component).toBeDefined();

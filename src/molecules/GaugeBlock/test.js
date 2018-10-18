@@ -1,11 +1,11 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { mount } from 'enzyme';
 import { GaugeBlock } from '.';
 
 describe('GaugeBlock component', () => {
   let component;
   beforeEach(() => {
-    component = shallow(<GaugeBlock
+    component = mount(<GaugeBlock
       label="Test Sensor"
       value={20}
       onSettingsClick={() => {}}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { mount } from 'enzyme';
 import Sidebar from '.';
 import { zIndexes } from '../../utils/zIndexes';
 import { colors } from '../colors';
@@ -7,7 +7,7 @@ import { colors } from '../colors';
 describe('SideBar component', () => {
   let component;
   beforeEach(() => {
-    component = shallow(<Sidebar />);
+    component = mount(<Sidebar />);
   });
   it('Should render without exploding', () => {
     expect(component).toBeDefined();

@@ -1,38 +1,54 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`PlainBox component Should match snapshot 1`] = `
-<StyledComponent
-  forwardedClass={
-    Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": undefined,
-      "componentStyle": ComponentStyle {
-        "componentId": "sc-bdVaJa",
-        "isStatic": false,
-        "rules": Array [
-          "
+.c0 {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  min-width: 300px;
+  background-color: #c0c0c0;
+  display: inline-block;
+}
+
+<ForwardRef>
+  <StyledComponent
+    forwardedClass={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": undefined,
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            "
     ",
-          [Function],
-          "
+            [Function],
+            "
     ",
-          [Function],
-          "
+            [Function],
+            "
     min-width: ",
-          [Function],
-          ";
+            [Function],
+            ";
     background-color: #c0c0c0;
     display: inline-block;
 ",
-        ],
-      },
-      "displayName": "styled.div",
-      "render": [Function],
-      "styledComponentId": "sc-bdVaJa",
-      "target": "div",
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
+          ],
+        },
+        "displayName": "styled.div",
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": "div",
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
     }
-  }
-  forwardedRef={null}
-/>
+    forwardedRef={null}
+  >
+    <div
+      className="c0"
+    />
+  </StyledComponent>
+</ForwardRef>
 `;

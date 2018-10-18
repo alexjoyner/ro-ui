@@ -1,65 +1,92 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`SideBarPageBody component Basic Version Should match snapshot 1`] = `
-<StyledComponent
-  forwardedClass={
-    Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": undefined,
-      "componentStyle": ComponentStyle {
-        "componentId": "sc-bdVaJa",
-        "isStatic": false,
-        "rules": Array [
-          "
+.c0 {
+  margin-left: 300px;
+  min-height: 10px;
+}
+
+<ForwardRef
+  sideBarShown={true}
+>
+  <StyledComponent
+    forwardedClass={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": undefined,
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            "
   margin-left: ",
-          [Function],
-          ";
+            [Function],
+            ";
   min-height: 10px;
 ",
-        ],
-      },
-      "displayName": "styled.div",
-      "render": [Function],
-      "styledComponentId": "sc-bdVaJa",
-      "target": "div",
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
+          ],
+        },
+        "displayName": "styled.div",
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": "div",
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
     }
-  }
-  forwardedRef={null}
-  sideBarShown={true}
-/>
+    forwardedRef={null}
+    sideBarShown={true}
+  >
+    <div
+      className="c0"
+    />
+  </StyledComponent>
+</ForwardRef>
 `;
 
 exports[`SideBarPageBody component with Header Version Should match snapshot 1`] = `
-<StyledComponent
-  forwardedClass={
-    Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": undefined,
-      "componentStyle": ComponentStyle {
-        "componentId": "sc-bwzfXH",
-        "isStatic": false,
-        "rules": Array [
-          "
+.c0 {
+  margin-left: 0px;
+  min-height: 10px;
+  margin-top: 56px;
+}
+
+<ForwardRef>
+  <StyledComponent
+    forwardedClass={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": undefined,
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bwzfXH",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            "
   margin-left: ",
-          [Function],
-          ";
+            [Function],
+            ";
   min-height: 10px;
 ",
-          "
+            "
   margin-top: 56px;
 ",
-        ],
-      },
-      "displayName": "Styled(styled.div)",
-      "render": [Function],
-      "styledComponentId": "sc-bwzfXH",
-      "target": "div",
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
+          ],
+        },
+        "displayName": "Styled(styled.div)",
+        "render": [Function],
+        "styledComponentId": "sc-bwzfXH",
+        "target": "div",
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
     }
-  }
-  forwardedRef={null}
-/>
+    forwardedRef={null}
+  >
+    <div
+      className="c0"
+    />
+  </StyledComponent>
+</ForwardRef>
 `;

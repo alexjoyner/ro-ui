@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`HeroImage component Should match snapshot 1`] = `
-<styled.div>
+<ForwardRef>
   <ImageOverlay>
-    <styled.div />
+    <ForwardRef />
   </ImageOverlay>
-</styled.div>
+</ForwardRef>
 `;
