@@ -51,34 +51,150 @@ exports[`Input component Should match snapshot 1`] = `
   onChange={[MockFunction]}
 >
   <styled.div>
-    <div
-      className="c0"
+    <StyledComponent
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": undefined,
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-htpNat",
+            "isStatic": true,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    margin-top: 10px;
+    input{
+        padding: 15px 0;
+    }
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "render": [Function],
+          "styledComponentId": "sc-htpNat",
+          "target": "div",
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
     >
-      <styled.input
-        labelText="Hello World"
-        onBlur={[MockFunction]}
-        onChange={[MockFunction]}
+      <div
+        className="c0"
       >
-        <input
-          className="c1"
-          onBlur={[MockFunction]}
-          onChange={[MockFunction]}
-        />
-      </styled.input>
-      <styled.label
-        labelText="Hello World"
-        onBlur={[MockFunction]}
-        onChange={[MockFunction]}
-      >
-        <label
-          className="c2"
+        <styled.input
+          labelText="Hello World"
           onBlur={[MockFunction]}
           onChange={[MockFunction]}
         >
-          Hello World
-        </label>
-      </styled.label>
-    </div>
+          <StyledComponent
+            forwardedClass={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": undefined,
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": false,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    "
+    background: none;
+    border: none;
+    border-bottom: solid 2px ",
+                    [Function],
+                    ";
+    padding: 14px 40px;
+    font-size: 18px;
+    display: inline-block;
+    width: 100%;
+    &:focus, &:active{
+        outline: none;
+    }
+    &[type=\\"submit\\"]{
+        border: solid 2px ",
+                    "#0984e3",
+                    "
+    }
+",
+                  ],
+                },
+                "displayName": "styled.input",
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "input",
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            labelText="Hello World"
+            onBlur={[MockFunction]}
+            onChange={[MockFunction]}
+          >
+            <input
+              className="c1"
+              onBlur={[MockFunction]}
+              onChange={[MockFunction]}
+            />
+          </StyledComponent>
+        </styled.input>
+        <styled.label
+          labelText="Hello World"
+          onBlur={[MockFunction]}
+          onChange={[MockFunction]}
+        >
+          <StyledComponent
+            forwardedClass={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": undefined,
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bdVaJa",
+                  "isStatic": false,
+                  "lastClassName": "c2",
+                  "rules": Array [
+                    "
+    position: absolute;
+    left: 0px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: 50ms linear;
+    color: ",
+                    [Function],
+                    ";
+    ",
+                    [Function],
+                    "
+",
+                  ],
+                },
+                "displayName": "styled.label",
+                "render": [Function],
+                "styledComponentId": "sc-bdVaJa",
+                "target": "label",
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            labelText="Hello World"
+            onBlur={[MockFunction]}
+            onChange={[MockFunction]}
+          >
+            <label
+              className="c2"
+              onBlur={[MockFunction]}
+              onChange={[MockFunction]}
+            >
+              Hello World
+            </label>
+          </StyledComponent>
+        </styled.label>
+      </div>
+    </StyledComponent>
   </styled.div>
 </Input>
 `;

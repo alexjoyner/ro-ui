@@ -1,13 +1,36 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Pic component Should match snapshot 1`] = `
-.c0 {
-  height: 100px;
-  width: 100px;
-  border-radius: 0;
-}
-
-<img
-  className="c0"
+<StyledComponent
+  forwardedClass={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": false,
+        "rules": Array [
+          "
+    height: ",
+          [Function],
+          ";
+    width: ",
+          [Function],
+          ";
+    border-radius: ",
+          [Function],
+          ";
+",
+        ],
+      },
+      "displayName": "styled.img",
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "img",
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
 />
 `;

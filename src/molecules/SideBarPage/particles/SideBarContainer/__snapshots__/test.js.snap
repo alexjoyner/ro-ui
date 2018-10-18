@@ -1,25 +1,46 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`SideBarContainer component Should match snapshot 1`] = `
-.c0 {
+<StyledComponent
+  forwardedClass={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": false,
+        "rules": Array [
+          "
   position: fixed;
-  z-index: 1;
+  z-index: ",
+          "1",
+          ";
   top: 56px;
-  -webkit-transition: 100ms linear;
   transition: 100ms linear;
   height: 100vh;
   width: 300px;
-  background-color: #2d3436;
+  background-color: ",
+          [Function],
+          ";
   color: white;
   font-size: 20px;
-  left: -250px;
-}
-
-.c0 ul {
-  list-style: none;
-}
-
-<div
-  className="c0"
+  ul{
+      list-style: none;
+  }
+  ",
+          [Function],
+          ";
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "div",
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
 />
 `;

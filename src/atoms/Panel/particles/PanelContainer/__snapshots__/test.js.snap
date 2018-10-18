@@ -1,20 +1,45 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`PanelContainer component Should match snapshot 1`] = `
-.c0 {
-  display: block;
-  position: relative;
-  height: auto;
-  min-width: 280px;
-  margin: 10px;
-  padding: 10px;
-  background-color: #fafafa;
-  border: 1px solid #EEEEEE;
-  radius: 5px;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
-}
-
-<div
-  className="c0"
+<StyledComponent
+  forwardedClass={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": false,
+        "rules": Array [
+          "
+    ",
+          [Function],
+          "
+    position: relative;
+    height: ",
+          [Function],
+          ";
+    min-width: ",
+          [Function],
+          ";
+    margin: 10px;
+    padding: 10px;
+    background-color: ",
+          "#fafafa",
+          ";
+    border: 1px solid #EEEEEE;
+    radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "div",
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
 />
 `;

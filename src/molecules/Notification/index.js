@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { IoMdClose } from 'react-icons/io';
 import { Panel } from '../../atoms/Panel';
 import { CenteredContent } from '../../atoms/CenteredContent';
-import { Button } from '../../main';
+import { Button } from '../../atoms/Button';
 import { zIndexes } from '../../utils/zIndexes';
 
 type NotificationProps = {

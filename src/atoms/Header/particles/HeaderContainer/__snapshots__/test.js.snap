@@ -1,17 +1,40 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`HeaderContainer component Should match snapshot 1`] = `
-.c0 {
-  z-index: 2;
+<StyledComponent
+  forwardedClass={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": false,
+        "rules": Array [
+          "
+  z-index: ",
+          "2",
+          ";
   position: fixed;
   top: 0;
   height: 56px;
   width: 100%;
-  background-color: #b2bec3;
-  color: black;
-}
-
-<div
-  className="c0"
+  background-color: ",
+          [Function],
+          ";
+  color: ",
+          [Function],
+          ";
+",
+        ],
+      },
+      "displayName": "HeaderContainer",
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "div",
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
 />
 `;

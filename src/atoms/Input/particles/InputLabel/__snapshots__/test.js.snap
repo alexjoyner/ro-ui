@@ -1,20 +1,39 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`InputLabel component Should match snapshot 1`] = `
-.c0 {
-  position: absolute;
-  left: 0px;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  pointer-events: none;
-  -webkit-transition: 50ms linear;
-  transition: 50ms linear;
-  color: #0984e3;
-  top: 50%;
-}
-
-<label
-  className="c0"
+<StyledComponent
+  forwardedClass={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": false,
+        "rules": Array [
+          "
+    position: absolute;
+    left: 0px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: 50ms linear;
+    color: ",
+          [Function],
+          ";
+    ",
+          [Function],
+          "
+",
+        ],
+      },
+      "displayName": "styled.label",
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "label",
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+  inputValue=""
 />
 `;

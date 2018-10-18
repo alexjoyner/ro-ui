@@ -1,26 +1,44 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ComponentInput component Should match snapshot 1`] = `
-.c0 {
-  background: none;
-  border: none;
-  border-bottom: solid 2px #0984e3;
-  padding: 14px 40px;
-  font-size: 18px;
-  display: inline-block;
-  width: 100%;
-}
-
-.c0:focus,
-.c0:active {
-  outline: none;
-}
-
-.c0[type="submit"] {
-  border: solid 2px #0984e3;
-}
-
-<input
-  className="c0"
+<StyledComponent
+  forwardedClass={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": false,
+        "rules": Array [
+          "
+    background: none;
+    border: none;
+    border-bottom: solid 2px ",
+          [Function],
+          ";
+    padding: 14px 40px;
+    font-size: 18px;
+    display: inline-block;
+    width: 100%;
+    &:focus, &:active{
+        outline: none;
+    }
+    &[type=\\"submit\\"]{
+        border: solid 2px ",
+          "#0984e3",
+          "
+    }
+",
+        ],
+      },
+      "displayName": "styled.input",
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "input",
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
 />
 `;

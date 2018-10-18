@@ -1,12 +1,29 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`RangePath component Should match snapshot 1`] = `
-.c0 {
+<StyledComponent
+  forwardedClass={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": true,
+        "rules": Array [
+          "
   stroke-width: 7;
   fill: none;
-}
-
-<path
-  className="c0"
+",
+        ],
+      },
+      "displayName": "styled.path",
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": "path",
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
 />
 `;

@@ -11,7 +11,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
       onClick={[Function]}
       size="xsmall"
     >
-      <Component
+      <GoGraph
         size={20}
       />
     </Button>
@@ -23,7 +23,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
       onClick={[Function]}
       size="xsmall"
     >
-      <Component
+      <GoGear
         size={20}
       />
     </Button>
