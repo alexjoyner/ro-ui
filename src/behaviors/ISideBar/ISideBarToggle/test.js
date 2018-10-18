@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { ISideBarToggle } from '.';
+import { _ISideBarToggle } from '.';
 import { Button } from '../../../atoms/Button';
 
 describe('ISideBarTobble', () => {
@@ -11,11 +11,11 @@ describe('ISideBarTobble', () => {
       toggleSideBar: jest.fn(),
       Button,
     };
-    component = shallow(<ISideBarToggle {...props} />);
+    component = shallow(<_ISideBarToggle {...props} />);
   });
   it('Should render without exploding', () => {
     expect(component).toBeDefined();
-  });
+  }); 
   it('Should contain a button', () => {
     expect(component.find('Button')).toHaveLength(1);
   });

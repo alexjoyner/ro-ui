@@ -7,7 +7,7 @@ import { BasicSidebar } from '../../atoms/SideBar';
 import { HeaderSideBarPageBody } from '../../atoms/SideBar/SideBarPageBody';
 import { Button } from '../../atoms/Button';
 import { ISideBarReducer } from './reducer';
-import IToggle from './ISideBarToggle';
+import { ISideBarToggle } from './ISideBarToggle';
 import { Header } from '../../atoms/Header';
 
 export const ISideBar = storiesOf('Behaviors/ISideBar', module);
@@ -18,7 +18,7 @@ const TestToggleBtn = props => (
 const SideBarBody = props => (
   <div>
     <Header color="dark">
-      <IToggle Button={TestToggleBtn} />
+      <ISideBarToggle Button={TestToggleBtn} />
     </Header>
     <HeaderSideBarPageBody {...props} />
   </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-export const ISideBar = ({ shown, SideBar, Body }) => (
+export const _ISideBar = ({ shown, SideBar, Body }) => (
   <div>
     {(shown) && <SideBar />}
     <Body sideBarShown={shown} />
@@ -12,4 +12,4 @@ const mapStateToProps = state => ({
   ...state.ISideBarReducer,
 });
 
-export default connect(mapStateToProps, null)(ISideBar);
+export const ISideBar =  connect(mapStateToProps, null)(_ISideBar);

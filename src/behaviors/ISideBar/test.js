@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { ISideBar } from '.';
+import { _ISideBar } from '.';
 
 const SideBar = () => (
   <h1>Test SideBar</h1>
@@ -9,7 +9,7 @@ const Body = () => (
   <h1>Test Body</h1>
 );
 
-describe('ISideBar Behavior', () => {
+describe('_ISideBar Behavior', () => {
   let component;
   let props;
   beforeEach(() => {
@@ -18,7 +18,7 @@ describe('ISideBar Behavior', () => {
       SideBar,
       Body,
     };
-    component = shallow(<ISideBar {...props} />);
+    component = shallow(<_ISideBar {...props} />);
   });
   it('Should render without exploding', () => {
     expect(component).toBeDefined();
