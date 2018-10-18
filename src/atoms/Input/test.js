@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import { Input } from './';
+import { Input } from '.';
 
 describe('Input component', () => {
   let component;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { InputLabel } from './';
+import { InputLabel } from '.';
 import { colors } from '../../../colors';
 
 describe('InputLabel component', () => {

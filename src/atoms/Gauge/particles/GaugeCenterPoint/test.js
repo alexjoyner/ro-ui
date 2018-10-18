@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { GaugeCenterPoint } from './';
+import { GaugeCenterPoint } from '.';
 
 describe('GaugeCenterPoint component', () => {
   let component;

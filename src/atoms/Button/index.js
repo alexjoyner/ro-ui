@@ -2,7 +2,9 @@ import React from 'react';
 import { ButtonWrapper } from './ButtonWrapper';
 import { ButtonStyles } from './ButtonStyles';
 
-const Button = ({color, size, ghost, ...props}) => (
+const Button = ({
+  color, size, ghost, children, ...props
+}) => (
   <ButtonWrapper {...props} type="button">
     {/* Passing props to Button Styles seperately to fix double onClick events from button */}
     <ButtonStyles
@@ -11,7 +13,7 @@ const Button = ({color, size, ghost, ...props}) => (
       ghost={ghost}
       tabIndex={-1}
     >
-      {props.children}
+      {children}
     </ButtonStyles>
   </ButtonWrapper>
 );
@@ -23,4 +25,3 @@ Button.defaultProps = {
 };
 
 export { Button };
-

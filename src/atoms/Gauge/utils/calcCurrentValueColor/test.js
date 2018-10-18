@@ -1,4 +1,4 @@
-import { calcCurrentValueColor } from './';
+import { calcCurrentValueColor } from '.';
 
 describe('calcColor', () => {
   const ranges = [{

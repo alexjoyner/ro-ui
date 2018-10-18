@@ -1,4 +1,4 @@
-import { getTextContrastColor } from './';
+import { getTextContrastColor } from '.';
 import { colors } from '../../atoms/colors';
 
 describe('getBtnTextColor', () => {

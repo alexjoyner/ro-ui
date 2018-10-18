@@ -20,12 +20,12 @@ const NotificationWrapper = styled.div`
 `;
 
 
-const Notification = (props: NotificationProps) => (
+const Notification = ({ children, onClose, ...props }) => (
   <NotificationWrapper {...props}>
     <Panel width="300px">
       <CenteredContent>
-        {props.children}
-        <Button color="danger" size="small" onClick={props.onClose} >
+        {children}
+        <Button color="danger" size="small" onClick={onClose}>
           <IoMdClose />
         </Button>
       </CenteredContent>

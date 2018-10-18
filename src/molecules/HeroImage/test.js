@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { HeroImage } from './';
+import { HeroImage } from '.';
 
 describe('HeroImage component', () => {
   let component;

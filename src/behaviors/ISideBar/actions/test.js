@@ -1,4 +1,4 @@
-import { TOGGLE_SIDEBAR, toggleSideBar } from './';
+import { TOGGLE_SIDEBAR, toggleSideBar } from '.';
 
 describe('actions', () => {
   it('should have all types', () => {

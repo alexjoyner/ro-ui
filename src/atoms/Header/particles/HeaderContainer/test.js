@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { HeaderContainer } from './';
+import { HeaderContainer } from '.';
 import { colors } from '../../../colors';
 
 describe('HeaderContainer component', () => {

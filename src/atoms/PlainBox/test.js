@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { PlainBox } from './';
+import { PlainBox } from '.';
 
 describe('PlainBox component', () => {
   let component;

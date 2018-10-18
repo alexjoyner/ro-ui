@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { PageOverlayWrapper } from './';
+import { PageOverlayWrapper } from '.';
 
 describe('PageOverlayWrapper component', () => {
   let component;

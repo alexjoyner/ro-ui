@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Atoms } from '../_atoms.stories';
-import { Input } from './';
+import { Input } from '.';
 import { Panel } from '../Panel';
 
 export class TestInputs extends Component {
@@ -16,7 +16,7 @@ export class TestInputs extends Component {
     this.setState({
       inputValue: value,
     });
-  }
+  } 
   render() {
     return (
       <div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { ISideBar } from './';
+import { ISideBar } from '.';
 
 const SideBar = () => (
   <h1>Test SideBar</h1>

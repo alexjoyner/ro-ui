@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { GaugeBlock } from './';
+import { GaugeBlock } from '.';
 
 describe('GaugeBlock component', () => {
   let component;

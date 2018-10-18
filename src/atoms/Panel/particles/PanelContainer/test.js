@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { PanelContainer } from './';
+import { PanelContainer } from '.';
 
 describe('PanelContainer component', () => {
   let component;

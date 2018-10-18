@@ -1,6 +1,6 @@
 import React from 'react';
 import { GoChevronUp, GoChevronDown, GoMention } from 'react-icons/go';
-import { Button } from './';
+import { Button } from '.';
 import { Atoms } from '../_atoms.stories';
 import { HeroImage } from '../../molecules/HeroImage';
 import { Panel } from '../Panel';
@@ -10,11 +10,11 @@ Atoms.add('Button', () => (
     <Panel>
       <h2>Button Colors</h2>
       <Button>Basic Button</Button>
-      <Button color="primary" >Button Primary</Button>
-      <Button color="warning" >Button Warning</Button>
-      <Button color="danger" >Button Danger</Button>
-      <Button color="success" >Button Success</Button>
-      <Button color="dark" >Button Dark</Button>
+      <Button color="primary">Button Primary</Button>
+      <Button color="warning">Button Warning</Button>
+      <Button color="danger">Button Danger</Button>
+      <Button color="success">Button Success</Button>
+      <Button color="dark">Button Dark</Button>
     </Panel>
     <Panel>
       <h2>Button Sizes</h2>
@@ -42,21 +42,11 @@ Atoms.add('Button', () => (
       >
         <p>
           <Button ghost>Basic Button</Button>
-          <Button color="primary" ghost>
-            Button Primary
-          </Button>
-          <Button color="warning" ghost>
-            Button Warning
-          </Button>
-          <Button color="danger" ghost>
-            Button Danger
-          </Button>
-          <Button color="success" ghost>
-            Button Success
-          </Button>
-          <Button color="dark" ghost>
-            Button Dark
-          </Button>
+          <Button color="primary" ghost>Button Primary</Button>
+          <Button color="warning" ghost>Button Warning</Button>
+          <Button color="danger" ghost>Button Danger</Button>
+          <Button color="success" ghost>Button Success</Button>
+          <Button color="dark" ghost>Button Dark</Button>
         </p>
       </HeroImage>
     </Panel>

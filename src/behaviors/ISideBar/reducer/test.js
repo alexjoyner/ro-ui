@@ -1,4 +1,4 @@
-import ISideBarReducer, { InitialState } from './';
+import ISideBarReducer, { InitialState } from '.';
 import { TOGGLE_SIDEBAR } from '../actions';
 
 describe('ISideBarRedur', () => {

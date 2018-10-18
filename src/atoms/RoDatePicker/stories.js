@@ -3,7 +3,7 @@ import moment from 'moment';
 import { Input } from '../Input';
 import { Atoms } from '../_atoms.stories';
 import { Panel } from '../Panel';
-import { RoDatePicker } from './';
+import { RoDatePicker } from '.';
 
 class CustDatePicker extends React.Component {
   constructor(props) {

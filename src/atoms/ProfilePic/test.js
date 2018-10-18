@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { ProfilePic } from './';
+import { ProfilePic } from '.';
 
 describe('ProfilePic component', () => {
   let component;

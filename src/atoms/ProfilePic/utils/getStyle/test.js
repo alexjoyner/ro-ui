@@ -1,4 +1,4 @@
-import { getStyle } from './';
+import { getStyle } from '.';
 
 describe('getStyle', () => {
   it('should default to correct size', () => {

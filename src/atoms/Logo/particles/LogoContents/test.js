@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { LogoContents } from './';
+import { LogoContents } from '.';
 
 describe('LogoContents component', () => {
   let component;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Molecules } from '../_molecules.stories';
-import { HeroImage } from './';
+import { HeroImage } from '.';
 import { Button } from '../../atoms/Button';
 
 Molecules

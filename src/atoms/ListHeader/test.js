@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { ListHeader } from './';
+import { ListHeader } from '.';
 
 describe('ListHeader component', () => {
   let component;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Molecules } from '../_molecules.stories';
-import { GaugeBlock } from './';
+import { GaugeBlock } from '.';
 
 export class TestGaugeBlock extends Component {
   constructor(props) {

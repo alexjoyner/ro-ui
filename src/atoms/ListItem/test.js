@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { ListItem } from './';
+import { ListItem } from '.';
 
 describe('ListItem component', () => {
   let component;

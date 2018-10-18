@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Sidebar from './';
+import Sidebar from '.';
 import { zIndexes } from '../../utils/zIndexes';
 import { colors } from '../colors';
 

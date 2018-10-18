@@ -1,4 +1,4 @@
-import { gaugeValueToAngle } from './';
+import { gaugeValueToAngle } from '.';
 
 describe('gaugeValueToAngle', () => {
   const opts = {

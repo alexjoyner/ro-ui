@@ -1,4 +1,4 @@
-export const getTextContrastColor = (bgHexColor: string) => {
+export const getTextContrastColor = (bgHexColor) => {
   if (typeof bgHexColor !== 'string') {
     throw new TypeError('COLOR MUST BE STRING IN HEX');
   }

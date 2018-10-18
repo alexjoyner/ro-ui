@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { GaugeCirclesGroup } from './';
+import { GaugeCirclesGroup } from '.';
 
 describe('GaugeCirclesGroup component', () => {
   let component;

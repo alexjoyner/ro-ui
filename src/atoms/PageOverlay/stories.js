@@ -1,6 +1,6 @@
 import React from 'react';
 import { Atoms } from '../_atoms.stories';
-import { PageOverlay } from './';
+import { PageOverlay } from '.';
 import { Panel } from '../Panel';
 
 Atoms

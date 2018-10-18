@@ -1,5 +1,5 @@
 import React from 'react';
-import { Logo } from './';
+import { Logo } from '.';
 import { Panel } from '../../atoms/Panel';
 import { Atoms } from '../_atoms.stories';
 

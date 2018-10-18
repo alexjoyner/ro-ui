@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { ButtonStyles } from './';
+import { ButtonStyles } from '.';
 
 describe('ButtonStyles component', () => {
   let component;

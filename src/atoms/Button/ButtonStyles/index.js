@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 import { getTextContrastColor } from '../../../utils/getTextContrastColor';
 import { colors } from '../../colors';
@@ -25,11 +24,9 @@ export const ButtonStyles = styled.span`
   &:active {
     box-shadow: none;
   }
-  ${props =>
-  (props.ghost && `
+  ${props => (props.ghost && `
     border-width: 1px;
     color: white;
     background-color: transparent;
   `)};
 `;
-

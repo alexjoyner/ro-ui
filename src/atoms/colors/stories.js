@@ -1,21 +1,9 @@
 import React from 'react';
 import { Atoms } from '../_atoms.stories';
-import { Panel } from '../../atoms/Panel';
-import { colors } from './';
-import { CenteredContent } from '../../atoms/CenteredContent';
+import { Panel } from '../Panel';
+import { colors } from '.';
+import { CenteredContent } from '../CenteredContent';
 import { getTextContrastColor } from '../../utils/getTextContrastColor';
-
-const TestColorBox = (props) => (
-  <div style={{
-    height: '100px',
-    width: '100%',
-    backgroundColor: props.color,
-    color: getTextContrastColor(props.color),
-  }}
-  >
-    <span>{props.name}</span>
-  </div>
-);
 
 Atoms
   .add('Colors', () => (
@@ -23,13 +11,18 @@ Atoms
       <Panel>
         <CenteredContent>
           <h2>Component library color pallete</h2>
-          {Object.keys(colors).map(key => (<TestColorBox
-            key={key}
-            color={colors[key]}
-            name={key}
-          />))}
+          {Object.keys(colors).map(key => (
+            <div style={{
+              height: '100px',
+              width: '100%',
+              backgroundColor: colors[key],
+              color: getTextContrastColor(colors[key]),
+            }}
+            >
+              <span>{key}</span>
+            </div>
+          ))}
         </CenteredContent>
       </Panel>
     </div>
   ));
-

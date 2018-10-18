@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { ComponentInput } from './';
+import { ComponentInput } from '.';
 import { colors } from '../../../colors';
 
 describe('ComponentInput component', () => {
