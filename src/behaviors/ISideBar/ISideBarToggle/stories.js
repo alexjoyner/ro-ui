@@ -1,16 +1,14 @@
 import React from 'react';
 import { ISideBar } from '../stories';
-import { $ISideBarToggle } from '.';
+import { TISideBarToggle } from '.';
 import { Button } from '../../../atoms/Button';
 
 const TestToggleBtn = props => (
-  <Button color="primary" {...props}>
-    Toggle Btn
-  </Button>
+  <Button color="primary" {...props}>Toggle Btn</Button>
 );
 
 ISideBar.add('ISideBarToggle', () => (
-  <$ISideBarToggle {...{
+  <TISideBarToggle {...{
     Button: TestToggleBtn,
   }}
   />
