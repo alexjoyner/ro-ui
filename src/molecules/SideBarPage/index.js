@@ -27,7 +27,8 @@ export class SideBarPage extends Component {
   }
 
   render() {
-    const { shown, sideBarContents, children } = this.state;
+    const { shown } = this.state;
+    const { sideBarContents, children } = this.props;
     return (
       <div>
         <SideBarContainer {...this.state}>
