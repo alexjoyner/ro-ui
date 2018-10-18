@@ -1,6 +1,6 @@
 import React from 'react';
 import { ISideBar } from '../stories';
-import { _ISideBarToggle } from '.';
+import { $ISideBarToggle } from '.';
 import { Button } from '../../../atoms/Button';
 
 const TestToggleBtn = props => (
@@ -10,7 +10,7 @@ const TestToggleBtn = props => (
 );
 
 ISideBar.add('ISideBarToggle', () => (
-  <_ISideBarToggle {...{
+  <$ISideBarToggle {...{
     Button: TestToggleBtn,
   }}
   />
