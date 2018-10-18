@@ -1,4 +1,4 @@
-import * as Main from './main';
+import * as Main from '.';
 
 describe('main', () => {
   it('Should include all Atoms', () => {
