@@ -50,7 +50,7 @@ exports[`Input component Should match snapshot 1`] = `
   onBlur={[MockFunction]}
   onChange={[MockFunction]}
 >
-  <styled.div>
+  <ForwardRef>
     <StyledComponent
       forwardedClass={
         Object {
@@ -85,7 +85,7 @@ exports[`Input component Should match snapshot 1`] = `
       <div
         className="c0"
       >
-        <styled.input
+        <ForwardRef
           labelText="Hello World"
           onBlur={[MockFunction]}
           onChange={[MockFunction]}
@@ -140,8 +140,8 @@ exports[`Input component Should match snapshot 1`] = `
               onChange={[MockFunction]}
             />
           </StyledComponent>
-        </styled.input>
-        <styled.label
+        </ForwardRef>
+        <ForwardRef
           labelText="Hello World"
           onBlur={[MockFunction]}
           onChange={[MockFunction]}
@@ -192,9 +192,9 @@ exports[`Input component Should match snapshot 1`] = `
               Hello World
             </label>
           </StyledComponent>
-        </styled.label>
+        </ForwardRef>
       </div>
     </StyledComponent>
-  </styled.div>
+  </ForwardRef>
 </Input>
 `;
