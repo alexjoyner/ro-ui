@@ -18,4 +18,4 @@ const mapStateToProps = state => ({
   ...state.ISideBarReducer,
 });
 
-export const ISideBar =  connect(mapStateToProps, null)(TISideBar);
+export const ISideBar = connect(mapStateToProps, null)(TISideBar);
