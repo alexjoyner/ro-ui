@@ -1,34 +1,46 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Wrapper component Should match snapshot 1`] = `
-<StyledComponent
-  forwardedClass={
-    Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": undefined,
-      "componentStyle": ComponentStyle {
-        "componentId": "sc-bdVaJa",
-        "isStatic": false,
-        "rules": Array [
-          "
+.c0 {
+  background-size: cover;
+  height: 100vh;
+}
+
+<ForwardRef>
+  <StyledComponent
+    forwardedClass={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": undefined,
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            "
   background-size: cover;
   background-image: ",
-          [Function],
-          ";
+            [Function],
+            ";
   height: ",
-          [Function],
-          ";
+            [Function],
+            ";
 ",
-        ],
-      },
-      "displayName": "styled.div",
-      "render": [Function],
-      "styledComponentId": "sc-bdVaJa",
-      "target": "div",
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
+          ],
+        },
+        "displayName": "styled.div",
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": "div",
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
     }
-  }
-  forwardedRef={null}
-/>
+    forwardedRef={null}
+  >
+    <div
+      className="c0"
+    />
+  </StyledComponent>
+</ForwardRef>
 `;
