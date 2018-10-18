@@ -1,5 +1,5 @@
-import Main from './main';
+const Main = require('./main');
 
 // TODO: decide on the top-level export form.
 // This is hacky but makes it work with both Rollup and Jest.
-export default Main.default || Main;
+module.exports = Main.default || Main;

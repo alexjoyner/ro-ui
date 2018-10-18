@@ -6,7 +6,7 @@ import { Button } from '../Button';
 
 Atoms
   .add('ImageOverlay', () => (
-    <HeroImage imageSrc="https://placeimg.com/1000/800/any">
+    <HeroImage imageSrc="https://placeimg.com/2000/800/any">
       <ImageOverlay>
         <Button color="primary" ghost>Test Button</Button>
       </ImageOverlay>
