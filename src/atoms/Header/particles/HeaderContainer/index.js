@@ -1,16 +1,10 @@
-// @flow
+import React from 'react';
 import styled from 'styled-components';
-import * as React from 'react';
 import { zIndexes } from '../../../../utils/zIndexes';
 import { colors } from '../../../colors';
 import { getTextContrastColor } from '../../../../utils/getTextContrastColor';
 
-type HeaderContainerProps = {
-  sticky: boolean,
-  padding: string,
-  color?: string,
-}
-const HeaderContainer: React.ComponentType<HeaderContainerProps> = styled.div`
+const HeaderContainer = styled.div`
   z-index: ${zIndexes.Header};
   position: fixed;
   top: 0;

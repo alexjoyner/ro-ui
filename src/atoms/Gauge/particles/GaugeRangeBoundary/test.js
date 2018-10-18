@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { GaugeRangeBoundary } from './';
+import { GaugeRangeBoundary } from '.';
 
 describe('GaugeRangeBoundary component', () => {
   let component;

@@ -13,13 +13,11 @@ import { Header } from '../../atoms/Header';
 export const ISideBar = storiesOf('Behaviors/ISideBar', module);
 
 const TestToggleBtn = props => (
-  <Button color="primary" {...props}>
-    Toggle Side Bar
-  </Button>
+  <Button color="primary" {...props}>Toggle Side Bar</Button>
 );
 const SideBarBody = props => (
   <div>
-    <Header color="dark" >
+    <Header color="dark">
       <IToggle Button={TestToggleBtn} />
     </Header>
     <HeaderSideBarPageBody {...props} />

@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { GaugeLabel } from './';
+import { GaugeLabel } from '.';
 
 describe('GaugeLabel component', () => {
   let component;

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Molecules } from '../_molecules.stories';
-import { GaugeBlock } from './';
+import { GaugeBlock } from '.';
 
 export class TestGaugeBlock extends Component {
   constructor(props) {
@@ -33,14 +33,17 @@ export class TestGaugeBlock extends Component {
       }],
     };
   }
+
   componentDidMount() {
     setInterval(() => {
-      if (this.state.value === 100) return;
+      const { value } = this.state;
+      if (value === 100) return;
       this.setState({
-        value: this.state.value + 1,
+        value: value + 1,
       });
     }, 1000);
   }
+
   render() {
     return (
       <div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Atoms } from '../_atoms.stories';
-import { PlainBox } from './';
+import { PlainBox } from '.';
 import { CenteredContent } from '../CenteredContent';
 
 Atoms

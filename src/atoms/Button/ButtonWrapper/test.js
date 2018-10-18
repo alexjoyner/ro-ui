@@ -1,11 +1,11 @@
 import React from 'react';
-import { shallow } from 'enzyme';
-import { ButtonWrapper } from './';
+import { mount } from 'enzyme';
+import { ButtonWrapper } from '.';
 
 describe('ButtonWrapper component', () => {
   let component;
   beforeEach(() => {
-    component = shallow(<ButtonWrapper />);
+    component = mount(<ButtonWrapper />);
   });
   it('Should render without exploding', () => {
     expect(component).toBeDefined();

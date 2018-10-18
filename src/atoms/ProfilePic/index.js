@@ -4,9 +4,9 @@ import { Container } from './particles/Container';
 import { Pic } from './particles/Pic';
 
 
-const ProfilePic = props => (
+const ProfilePic = ({ imgSrc, ...props }) => (
   <Container>
-    <Pic src={props.imgSrc} {...props} />
+    <Pic src={imgSrc} {...props} />
   </Container>
 );
 

@@ -1,69 +1,1517 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`GaugeBlock component Should match snapshot 1`] = `
-<Panel
-  width="20%"
+.c0 {
+  display: inline-block;
+  width: 20%;
+  position: relative;
+  height: auto;
+  min-width: 280px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #fafafa;
+  border: 1px solid #EEEEEE;
+  radius: 5px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
+}
+
+.c6 {
+  stroke-width: 7;
+  fill: none;
+}
+
+.c7 {
+  font-size: .6rem;
+  fill: #5b6268;
+  text-anchor: middle;
+  -webkit-dominant-baseline: central;
+  dominant-baseline: central;
+}
+
+.c5 {
+  stroke: #f1c40f;
+  stroke-width: 17;
+  stroke-dasharray: 340.865;
+  stroke-dashoffset: 340.865;
+}
+
+.c11 {
+  stroke: #34495e;
+  stroke-width: 0.3;
+  fill: #2980b9;
+  -webkit-transform: rotate(60,125,150);
+  -ms-transform: rotate(60,125,150);
+  transform: rotate(60,125,150);
+}
+
+.c12 {
+  stroke: #34495e;
+  stroke-width: .1;
+  text-anchor: middle;
+  -webkit-dominant-baseline: central;
+  dominant-baseline: central;
+}
+
+.c14 {
+  stroke: #34495e;
+}
+
+.c8 {
+  stroke: #34495e;
+  stroke-width: 1;
+  stroke-dasharray: 389.557;
+  stroke-dashoffset: 389.557;
+}
+
+.c9 {
+  stroke: #34495e;
+  stroke-width: 1;
+  stroke-dasharray: 367.557;
+  stroke-dashoffset: 367.557;
+}
+
+.c10 {
+  stroke: #34495e;
+  stroke-width: 1;
+  stroke-dasharray: 314.160;
+  stroke-dashoffset: 314.160;
+}
+
+.c13 {
+  stroke: #34495e;
+}
+
+.c2 {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: inherit;
+}
+
+.c3 {
+  background-color: #2d3436;
+  color: white;
+  border: 1px solid #2d3436;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: .475rem;
+  padding: .15rem .2rem;
+  text-align: center;
+  line-height: 1.5;
+  -webkit-transition: 0.1s linear;
+  transition: 0.1s linear;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
+}
+
+.c3 svg {
+  vertical-align: middle;
+}
+
+.c3:hover {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);
+}
+
+.c3:active {
+  box-shadow: none;
+}
+
+.c1 {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+.c4 {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.c15 {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+<GaugeBlock
+  label="Test Sensor"
+  multiSelected={false}
+  onChartClick={[Function]}
+  onSettingsClick={[Function]}
+  panelWidth="20%"
+  value={20}
 >
-  <styled.div>
-    <Button
-      color="dark"
-      ghost={false}
-      onClick={[Function]}
-      size="xsmall"
+  <Panel
+    width="20%"
+  >
+    <ForwardRef
+      width="20%"
     >
-      <GoGraph
-        size={20}
-      />
-    </Button>
-  </styled.div>
-  <styled.div>
-    <Button
-      color="dark"
-      ghost={false}
-      onClick={[Function]}
-      size="xsmall"
-    >
-      <GoGear
-        size={20}
-      />
-    </Button>
-  </styled.div>
-  <Gauge
-    label="Test Sensor"
-    max={100}
-    min={0}
-    multiSelected={false}
-    onChartClick={[Function]}
-    onSettingsClick={[Function]}
-    panelWidth="20%"
-    ranges={
-      Array [
-        Object {
-          "color": "#f1c40f",
-          "id": "range1",
-          "lowerValue": 0,
-          "upperValue": 50,
-        },
-        Object {
-          "color": "#2ecc71",
-          "id": "range2",
-          "lowerValue": 50,
-          "upperValue": 80,
-        },
-        Object {
-          "color": "#e74c3c",
-          "id": "range3",
-          "lowerValue": 80,
-          "upperValue": 100,
-        },
-      ]
-    }
-    units=""
-    value={20}
-    width="100%"
-  />
-  <styled.div>
-    Test Sensor
-  </styled.div>
-</Panel>
+      <StyledComponent
+        forwardedClass={
+          Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": undefined,
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bdVaJa",
+              "isStatic": false,
+              "lastClassName": "c0",
+              "rules": Array [
+                "
+    ",
+                [Function],
+                "
+    position: relative;
+    height: ",
+                [Function],
+                ";
+    min-width: ",
+                [Function],
+                ";
+    margin: 10px;
+    padding: 10px;
+    background-color: ",
+                "#fafafa",
+                ";
+    border: 1px solid #EEEEEE;
+    radius: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "render": [Function],
+            "styledComponentId": "sc-bdVaJa",
+            "target": "div",
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          }
+        }
+        forwardedRef={null}
+        width="20%"
+      >
+        <div
+          className="c0"
+          width="20%"
+        >
+          <ForwardRef>
+            <StyledComponent
+              forwardedClass={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": undefined,
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-VigVT",
+                    "isStatic": true,
+                    "lastClassName": "c1",
+                    "rules": Array [
+                      "
+  position: absolute;
+  left: 5px;
+  top: 5px;
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "render": [Function],
+                  "styledComponentId": "sc-VigVT",
+                  "target": "div",
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="c1"
+              >
+                <Button
+                  color="dark"
+                  ghost={false}
+                  onClick={[Function]}
+                  size="xsmall"
+                >
+                  <ForwardRef
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <StyledComponent
+                      forwardedClass={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": undefined,
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-gZMcBi",
+                            "isStatic": true,
+                            "lastClassName": "c2",
+                            "rules": Array [
+                              "
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: none;
+  border: none;
+  outline: none; 
+  font-size: inherit;
+",
+                            ],
+                          },
+                          "displayName": "styled.button",
+                          "render": [Function],
+                          "styledComponentId": "sc-gZMcBi",
+                          "target": "button",
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <button
+                        className="c2"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <ForwardRef
+                          color="dark"
+                          ghost={false}
+                          size="xsmall"
+                          tabIndex={-1}
+                        >
+                          <StyledComponent
+                            color="dark"
+                            forwardedClass={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": undefined,
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "sc-gqjmRU",
+                                  "isStatic": false,
+                                  "lastClassName": "c3",
+                                  "rules": Array [
+                                    "
+  background-color: ",
+                                    [Function],
+                                    ";
+  color: ",
+                                    [Function],
+                                    ";
+  border: 1px solid ",
+                                    [Function],
+                                    ";
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  ",
+                                    [Function],
+                                    "; 
+  text-align: center;
+  line-height: 1.5;
+  transition: 0.1s linear;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  svg {
+    vertical-align: middle;
+  }
+  &:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  } 
+  &:active {
+    box-shadow: none;
+  }
+  ",
+                                    [Function],
+                                    ";
+",
+                                  ],
+                                },
+                                "displayName": "styled.span",
+                                "render": [Function],
+                                "styledComponentId": "sc-gqjmRU",
+                                "target": "span",
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                            ghost={false}
+                            size="xsmall"
+                            tabIndex={-1}
+                          >
+                            <span
+                              className="c3"
+                              color="dark"
+                              size="xsmall"
+                              tabIndex={-1}
+                            >
+                              <GoGraph
+                                size={20}
+                              >
+                                <IconBase
+                                  attr={
+                                    Object {
+                                      "viewBox": "0 0 16 16",
+                                    }
+                                  }
+                                  size={20}
+                                >
+                                  <svg
+                                    fill="currentColor"
+                                    height={20}
+                                    size={20}
+                                    stroke="currentColor"
+                                    strokeWidth="0"
+                                    style={
+                                      Object {
+                                        "color": undefined,
+                                      }
+                                    }
+                                    viewBox="0 0 16 16"
+                                    width={20}
+                                  >
+                                    <path
+                                      d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"
+                                      fillRule="evenodd"
+                                      key="0"
+                                    />
+                                  </svg>
+                                </IconBase>
+                              </GoGraph>
+                            </span>
+                          </StyledComponent>
+                        </ForwardRef>
+                      </button>
+                    </StyledComponent>
+                  </ForwardRef>
+                </Button>
+              </div>
+            </StyledComponent>
+          </ForwardRef>
+          <ForwardRef>
+            <StyledComponent
+              forwardedClass={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": undefined,
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-jTzLTM",
+                    "isStatic": true,
+                    "lastClassName": "c4",
+                    "rules": Array [
+                      "
+  position: absolute;
+  right: 5px;
+  top: 5px;
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "render": [Function],
+                  "styledComponentId": "sc-jTzLTM",
+                  "target": "div",
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="c4"
+              >
+                <Button
+                  color="dark"
+                  ghost={false}
+                  onClick={[Function]}
+                  size="xsmall"
+                >
+                  <ForwardRef
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    <StyledComponent
+                      forwardedClass={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": undefined,
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-gZMcBi",
+                            "isStatic": true,
+                            "lastClassName": "c2",
+                            "rules": Array [
+                              "
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: none;
+  border: none;
+  outline: none; 
+  font-size: inherit;
+",
+                            ],
+                          },
+                          "displayName": "styled.button",
+                          "render": [Function],
+                          "styledComponentId": "sc-gZMcBi",
+                          "target": "button",
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      onClick={[Function]}
+                      type="button"
+                    >
+                      <button
+                        className="c2"
+                        onClick={[Function]}
+                        type="button"
+                      >
+                        <ForwardRef
+                          color="dark"
+                          ghost={false}
+                          size="xsmall"
+                          tabIndex={-1}
+                        >
+                          <StyledComponent
+                            color="dark"
+                            forwardedClass={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": undefined,
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "sc-gqjmRU",
+                                  "isStatic": false,
+                                  "lastClassName": "c3",
+                                  "rules": Array [
+                                    "
+  background-color: ",
+                                    [Function],
+                                    ";
+  color: ",
+                                    [Function],
+                                    ";
+  border: 1px solid ",
+                                    [Function],
+                                    ";
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  ",
+                                    [Function],
+                                    "; 
+  text-align: center;
+  line-height: 1.5;
+  transition: 0.1s linear;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  svg {
+    vertical-align: middle;
+  }
+  &:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  } 
+  &:active {
+    box-shadow: none;
+  }
+  ",
+                                    [Function],
+                                    ";
+",
+                                  ],
+                                },
+                                "displayName": "styled.span",
+                                "render": [Function],
+                                "styledComponentId": "sc-gqjmRU",
+                                "target": "span",
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
+                            ghost={false}
+                            size="xsmall"
+                            tabIndex={-1}
+                          >
+                            <span
+                              className="c3"
+                              color="dark"
+                              size="xsmall"
+                              tabIndex={-1}
+                            >
+                              <GoGear
+                                size={20}
+                              >
+                                <IconBase
+                                  attr={
+                                    Object {
+                                      "viewBox": "0 0 14 16",
+                                    }
+                                  }
+                                  size={20}
+                                >
+                                  <svg
+                                    fill="currentColor"
+                                    height={20}
+                                    size={20}
+                                    stroke="currentColor"
+                                    strokeWidth="0"
+                                    style={
+                                      Object {
+                                        "color": undefined,
+                                      }
+                                    }
+                                    viewBox="0 0 14 16"
+                                    width={20}
+                                  >
+                                    <path
+                                      d="M14 8.77v-1.6l-1.94-.64-.45-1.09.88-1.84-1.13-1.13-1.81.91-1.09-.45-.69-1.92h-1.6l-.63 1.94-1.11.45-1.84-.88-1.13 1.13.91 1.81-.45 1.09L0 7.23v1.59l1.94.64.45 1.09-.88 1.84 1.13 1.13 1.81-.91 1.09.45.69 1.92h1.59l.63-1.94 1.11-.45 1.84.88 1.13-1.13-.92-1.81.47-1.09L14 8.75v.02zM7 11c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"
+                                      fillRule="evenodd"
+                                      key="0"
+                                    />
+                                  </svg>
+                                </IconBase>
+                              </GoGear>
+                            </span>
+                          </StyledComponent>
+                        </ForwardRef>
+                      </button>
+                    </StyledComponent>
+                  </ForwardRef>
+                </Button>
+              </div>
+            </StyledComponent>
+          </ForwardRef>
+          <Gauge
+            max={100}
+            min={0}
+            ranges={
+              Array [
+                Object {
+                  "color": "#f1c40f",
+                  "id": "range1",
+                  "lowerValue": 0,
+                  "upperValue": 50,
+                },
+                Object {
+                  "color": "#2ecc71",
+                  "id": "range2",
+                  "lowerValue": 50,
+                  "upperValue": 80,
+                },
+                Object {
+                  "color": "#e74c3c",
+                  "id": "range3",
+                  "lowerValue": 80,
+                  "upperValue": 100,
+                },
+              ]
+            }
+            units=""
+            value={20}
+            width="100%"
+          >
+            <svg
+              height="100%"
+              viewBox="0 0 250 180"
+              width="100%"
+            >
+              <ForwardRef
+                color="#f1c40f"
+                cx="125"
+                cy="150"
+                fill="none"
+                r="108.5"
+              >
+                <StyledComponent
+                  color="#f1c40f"
+                  cx="125"
+                  cy="150"
+                  fill="none"
+                  forwardedClass={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": undefined,
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bxivhb",
+                        "isStatic": false,
+                        "lastClassName": "c5",
+                        "rules": Array [
+                          "
+  stroke: ",
+                          [Function],
+                          ";
+  stroke-width: 17;
+  stroke-dasharray: 340.865;
+  stroke-dashoffset: 340.865;
+",
+                        ],
+                      },
+                      "displayName": "styled.circle",
+                      "render": [Function],
+                      "styledComponentId": "sc-bxivhb",
+                      "target": "circle",
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  r="108.5"
+                >
+                  <circle
+                    className="c5"
+                    color="#f1c40f"
+                    cx="125"
+                    cy="150"
+                    fill="none"
+                    r="108.5"
+                  />
+                </StyledComponent>
+              </ForwardRef>
+              <GaugeRange
+                key="range1"
+                opts={
+                  Object {
+                    "center": Object {
+                      "x": 125,
+                      "y": 150,
+                    },
+                    "max": 100,
+                    "min": 0,
+                    "radius": 120.5,
+                    "ranges": Array [
+                      Object {
+                        "color": "#f1c40f",
+                        "id": "range1",
+                        "lowerValue": 0,
+                        "upperValue": 50,
+                      },
+                      Object {
+                        "color": "#2ecc71",
+                        "id": "range2",
+                        "lowerValue": 50,
+                        "upperValue": 80,
+                      },
+                      Object {
+                        "color": "#e74c3c",
+                        "id": "range3",
+                        "lowerValue": 80,
+                        "upperValue": 100,
+                      },
+                    ],
+                    "units": "",
+                    "value": 20,
+                    "width": "100%",
+                  }
+                }
+                range={
+                  Object {
+                    "color": "#f1c40f",
+                    "id": "range1",
+                    "lowerValue": 0,
+                    "upperValue": 50,
+                  }
+                }
+              >
+                <g>
+                  <ForwardRef
+                    d="M 4.5 149.99999999999997  A 120.5 120.5 0 0 1 125.00000000000001 29.5"
+                    fill="none"
+                    stroke="#f1c40f"
+                  >
+                    <StyledComponent
+                      d="M 4.5 149.99999999999997  A 120.5 120.5 0 0 1 125.00000000000001 29.5"
+                      fill="none"
+                      forwardedClass={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": undefined,
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-bwzfXH",
+                            "isStatic": true,
+                            "lastClassName": "c6",
+                            "rules": Array [
+                              "
+  stroke-width: 7;
+  fill: none;
+",
+                            ],
+                          },
+                          "displayName": "styled.path",
+                          "render": [Function],
+                          "styledComponentId": "sc-bwzfXH",
+                          "target": "path",
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      stroke="#f1c40f"
+                    >
+                      <path
+                        className="c6"
+                        d="M 4.5 149.99999999999997  A 120.5 120.5 0 0 1 125.00000000000001 29.5"
+                        fill="none"
+                        stroke="#f1c40f"
+                      />
+                    </StyledComponent>
+                  </ForwardRef>
+                  <TickMark
+                    angle={90}
+                  >
+                    <line
+                      stroke="#34495e"
+                      strokeLinecap="round"
+                      transform="rotate(90 125 150)"
+                      x1="1"
+                      x2="15"
+                      y1="150"
+                      y2="150"
+                    />
+                  </TickMark>
+                  <ForwardRef
+                    x={125.00000000000001}
+                    y={19.5}
+                  >
+                    <StyledComponent
+                      forwardedClass={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": undefined,
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-htpNat",
+                            "isStatic": true,
+                            "lastClassName": "c7",
+                            "rules": Array [
+                              "
+    font-size: .6rem;
+    fill: #5b6268;
+    text-anchor: middle;
+    dominant-baseline: central;
+",
+                            ],
+                          },
+                          "displayName": "styled.text",
+                          "render": [Function],
+                          "styledComponentId": "sc-htpNat",
+                          "target": "text",
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      x={125.00000000000001}
+                      y={19.5}
+                    >
+                      <text
+                        className="c7"
+                        x={125.00000000000001}
+                        y={19.5}
+                      >
+                        50
+                      </text>
+                    </StyledComponent>
+                  </ForwardRef>
+                </g>
+              </GaugeRange>
+              <GaugeRange
+                key="range2"
+                opts={
+                  Object {
+                    "center": Object {
+                      "x": 125,
+                      "y": 150,
+                    },
+                    "max": 100,
+                    "min": 0,
+                    "radius": 120.5,
+                    "ranges": Array [
+                      Object {
+                        "color": "#f1c40f",
+                        "id": "range1",
+                        "lowerValue": 0,
+                        "upperValue": 50,
+                      },
+                      Object {
+                        "color": "#2ecc71",
+                        "id": "range2",
+                        "lowerValue": 50,
+                        "upperValue": 80,
+                      },
+                      Object {
+                        "color": "#e74c3c",
+                        "id": "range3",
+                        "lowerValue": 80,
+                        "upperValue": 100,
+                      },
+                    ],
+                    "units": "",
+                    "value": 20,
+                    "width": "100%",
+                  }
+                }
+                range={
+                  Object {
+                    "color": "#2ecc71",
+                    "id": "range2",
+                    "lowerValue": 50,
+                    "upperValue": 80,
+                  }
+                }
+              >
+                <g>
+                  <ForwardRef
+                    d="M 125.00000000000001 29.5  A 120.5 120.5 0 0 1 222.48654782218117 79.171877098757"
+                    fill="none"
+                    stroke="#2ecc71"
+                  >
+                    <StyledComponent
+                      d="M 125.00000000000001 29.5  A 120.5 120.5 0 0 1 222.48654782218117 79.171877098757"
+                      fill="none"
+                      forwardedClass={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": undefined,
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-bwzfXH",
+                            "isStatic": true,
+                            "lastClassName": "c6",
+                            "rules": Array [
+                              "
+  stroke-width: 7;
+  fill: none;
+",
+                            ],
+                          },
+                          "displayName": "styled.path",
+                          "render": [Function],
+                          "styledComponentId": "sc-bwzfXH",
+                          "target": "path",
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      stroke="#2ecc71"
+                    >
+                      <path
+                        className="c6"
+                        d="M 125.00000000000001 29.5  A 120.5 120.5 0 0 1 222.48654782218117 79.171877098757"
+                        fill="none"
+                        stroke="#2ecc71"
+                      />
+                    </StyledComponent>
+                  </ForwardRef>
+                  <TickMark
+                    angle={144}
+                  >
+                    <line
+                      stroke="#34495e"
+                      strokeLinecap="round"
+                      transform="rotate(144 125 150)"
+                      x1="1"
+                      x2="15"
+                      y1="150"
+                      y2="150"
+                    />
+                  </TickMark>
+                  <ForwardRef
+                    x={231.48654782218117}
+                    y={69.171877098757}
+                  >
+                    <StyledComponent
+                      forwardedClass={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": undefined,
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-htpNat",
+                            "isStatic": true,
+                            "lastClassName": "c7",
+                            "rules": Array [
+                              "
+    font-size: .6rem;
+    fill: #5b6268;
+    text-anchor: middle;
+    dominant-baseline: central;
+",
+                            ],
+                          },
+                          "displayName": "styled.text",
+                          "render": [Function],
+                          "styledComponentId": "sc-htpNat",
+                          "target": "text",
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      x={231.48654782218117}
+                      y={69.171877098757}
+                    >
+                      <text
+                        className="c7"
+                        x={231.48654782218117}
+                        y={69.171877098757}
+                      >
+                        80
+                      </text>
+                    </StyledComponent>
+                  </ForwardRef>
+                </g>
+              </GaugeRange>
+              <GaugeRange
+                key="range3"
+                opts={
+                  Object {
+                    "center": Object {
+                      "x": 125,
+                      "y": 150,
+                    },
+                    "max": 100,
+                    "min": 0,
+                    "radius": 120.5,
+                    "ranges": Array [
+                      Object {
+                        "color": "#f1c40f",
+                        "id": "range1",
+                        "lowerValue": 0,
+                        "upperValue": 50,
+                      },
+                      Object {
+                        "color": "#2ecc71",
+                        "id": "range2",
+                        "lowerValue": 50,
+                        "upperValue": 80,
+                      },
+                      Object {
+                        "color": "#e74c3c",
+                        "id": "range3",
+                        "lowerValue": 80,
+                        "upperValue": 100,
+                      },
+                    ],
+                    "units": "",
+                    "value": 20,
+                    "width": "100%",
+                  }
+                }
+                range={
+                  Object {
+                    "color": "#e74c3c",
+                    "id": "range3",
+                    "lowerValue": 80,
+                    "upperValue": 100,
+                  }
+                }
+              >
+                <g>
+                  <ForwardRef
+                    d="M 222.48654782218117 79.171877098757  A 120.5 120.5 0 0 1 245.5 150"
+                    fill="none"
+                    stroke="#e74c3c"
+                  >
+                    <StyledComponent
+                      d="M 222.48654782218117 79.171877098757  A 120.5 120.5 0 0 1 245.5 150"
+                      fill="none"
+                      forwardedClass={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": undefined,
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-bwzfXH",
+                            "isStatic": true,
+                            "lastClassName": "c6",
+                            "rules": Array [
+                              "
+  stroke-width: 7;
+  fill: none;
+",
+                            ],
+                          },
+                          "displayName": "styled.path",
+                          "render": [Function],
+                          "styledComponentId": "sc-bwzfXH",
+                          "target": "path",
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      stroke="#e74c3c"
+                    >
+                      <path
+                        className="c6"
+                        d="M 222.48654782218117 79.171877098757  A 120.5 120.5 0 0 1 245.5 150"
+                        fill="none"
+                        stroke="#e74c3c"
+                      />
+                    </StyledComponent>
+                  </ForwardRef>
+                  <TickMark
+                    angle={180}
+                  >
+                    <line
+                      stroke="#34495e"
+                      strokeLinecap="round"
+                      transform="rotate(180 125 150)"
+                      x1="1"
+                      x2="15"
+                      y1="150"
+                      y2="150"
+                    />
+                  </TickMark>
+                  <ForwardRef
+                    x={260.5}
+                    y={140}
+                  >
+                    <StyledComponent
+                      forwardedClass={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": undefined,
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-htpNat",
+                            "isStatic": true,
+                            "lastClassName": "c7",
+                            "rules": Array [
+                              "
+    font-size: .6rem;
+    fill: #5b6268;
+    text-anchor: middle;
+    dominant-baseline: central;
+",
+                            ],
+                          },
+                          "displayName": "styled.text",
+                          "render": [Function],
+                          "styledComponentId": "sc-htpNat",
+                          "target": "text",
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      x={260.5}
+                      y={140}
+                    >
+                      <text
+                        className="c7"
+                        x={260.5}
+                        y={140}
+                      >
+                        100
+                      </text>
+                    </StyledComponent>
+                  </ForwardRef>
+                </g>
+              </GaugeRange>
+              <GaugeCirclesGroup>
+                <g>
+                  <ForwardRef
+                    cx="125"
+                    cy="150"
+                    fill="none"
+                    r="124"
+                  >
+                    <StyledComponent
+                      cx="125"
+                      cy="150"
+                      fill="none"
+                      forwardedClass={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": undefined,
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-gzVnrw",
+                            "isStatic": true,
+                            "lastClassName": "c8",
+                            "rules": Array [
+                              "
+  stroke: #34495e;
+  stroke-width: 1;
+  stroke-dasharray: 389.557;
+  stroke-dashoffset: 389.557;
+",
+                            ],
+                          },
+                          "displayName": "styled.circle",
+                          "render": [Function],
+                          "styledComponentId": "sc-gzVnrw",
+                          "target": "circle",
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      r="124"
+                    >
+                      <circle
+                        className="c8"
+                        cx="125"
+                        cy="150"
+                        fill="none"
+                        r="124"
+                      />
+                    </StyledComponent>
+                  </ForwardRef>
+                  <ForwardRef
+                    cx="125"
+                    cy="150"
+                    fill="none"
+                    id="gauge-range-boundary-circle"
+                    r="117"
+                  >
+                    <StyledComponent
+                      cx="125"
+                      cy="150"
+                      fill="none"
+                      forwardedClass={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": undefined,
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-htoDjs",
+                            "isStatic": true,
+                            "lastClassName": "c9",
+                            "rules": Array [
+                              "
+  stroke: #34495e;
+  stroke-width: 1;
+  stroke-dasharray: 367.557;
+  stroke-dashoffset: 367.557;
+",
+                            ],
+                          },
+                          "displayName": "styled.circle",
+                          "render": [Function],
+                          "styledComponentId": "sc-htoDjs",
+                          "target": "circle",
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      id="gauge-range-boundary-circle"
+                      r="117"
+                    >
+                      <circle
+                        className="c9"
+                        cx="125"
+                        cy="150"
+                        fill="none"
+                        id="gauge-range-boundary-circle"
+                        r="117"
+                      />
+                    </StyledComponent>
+                  </ForwardRef>
+                  <ForwardRef
+                    cx="125"
+                    cy="150"
+                    fill="none"
+                    id="gauge-inner-circle"
+                    r="100"
+                  >
+                    <StyledComponent
+                      cx="125"
+                      cy="150"
+                      fill="none"
+                      forwardedClass={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": undefined,
+                          "componentStyle": ComponentStyle {
+                            "componentId": "sc-dnqmqq",
+                            "isStatic": true,
+                            "lastClassName": "c10",
+                            "rules": Array [
+                              "
+  stroke: #34495e;
+  stroke-width: 1;
+  stroke-dasharray: 314.160;
+  stroke-dashoffset: 314.160;
+",
+                            ],
+                          },
+                          "displayName": "styled.circle",
+                          "render": [Function],
+                          "styledComponentId": "sc-dnqmqq",
+                          "target": "circle",
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      id="gauge-inner-circle"
+                      r="100"
+                    >
+                      <circle
+                        className="c10"
+                        cx="125"
+                        cy="150"
+                        fill="none"
+                        id="gauge-inner-circle"
+                        r="100"
+                      />
+                    </StyledComponent>
+                  </ForwardRef>
+                </g>
+              </GaugeCirclesGroup>
+              <ForwardRef
+                points="125,150 115,148 1,150 115,152"
+                transform="rotate(36, 125, 150)"
+              >
+                <StyledComponent
+                  forwardedClass={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": undefined,
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-ifAKCX",
+                        "isStatic": true,
+                        "lastClassName": "c11",
+                        "rules": Array [
+                          "
+    stroke: #34495e;
+    stroke-width: 0.3;
+    fill: #2980b9;
+    transform: rotate(60, 125, 150);
+",
+                        ],
+                      },
+                      "displayName": "styled.polygon",
+                      "render": [Function],
+                      "styledComponentId": "sc-ifAKCX",
+                      "target": "polygon",
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  points="125,150 115,148 1,150 115,152"
+                  transform="rotate(36, 125, 150)"
+                >
+                  <polygon
+                    className="c11"
+                    points="125,150 115,148 1,150 115,152"
+                    transform="rotate(36, 125, 150)"
+                  />
+                </StyledComponent>
+              </ForwardRef>
+              <ForwardRef
+                x="125"
+                y="165"
+              >
+                <StyledComponent
+                  forwardedClass={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": undefined,
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-EHOje",
+                        "isStatic": true,
+                        "lastClassName": "c12",
+                        "rules": Array [
+                          "
+    stroke: #34495e;
+    stroke-width: .1;
+    text-anchor: middle;
+    dominant-baseline: central;
+",
+                        ],
+                      },
+                      "displayName": "styled.text",
+                      "render": [Function],
+                      "styledComponentId": "sc-EHOje",
+                      "target": "text",
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  x="125"
+                  y="165"
+                >
+                  <text
+                    className="c12"
+                    x="125"
+                    y="165"
+                  >
+                    20
+                  </text>
+                </StyledComponent>
+              </ForwardRef>
+              <ForwardRef
+                x1="1"
+                x2="30"
+                y1="150"
+                y2="150"
+              >
+                <StyledComponent
+                  forwardedClass={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": undefined,
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-iwsKbI",
+                        "isStatic": true,
+                        "lastClassName": "c13",
+                        "rules": Array [
+                          "
+  stroke: #34495e;
+",
+                        ],
+                      },
+                      "displayName": "styled.line",
+                      "render": [Function],
+                      "styledComponentId": "sc-iwsKbI",
+                      "target": "line",
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  x1="1"
+                  x2="30"
+                  y1="150"
+                  y2="150"
+                >
+                  <line
+                    className="c13"
+                    x1="1"
+                    x2="30"
+                    y1="150"
+                    y2="150"
+                  />
+                </StyledComponent>
+              </ForwardRef>
+              <ForwardRef
+                x1="250"
+                x2="220"
+                y1="150"
+                y2="150"
+              >
+                <StyledComponent
+                  forwardedClass={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": undefined,
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-iwsKbI",
+                        "isStatic": true,
+                        "lastClassName": "c13",
+                        "rules": Array [
+                          "
+  stroke: #34495e;
+",
+                        ],
+                      },
+                      "displayName": "styled.line",
+                      "render": [Function],
+                      "styledComponentId": "sc-iwsKbI",
+                      "target": "line",
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  x1="250"
+                  x2="220"
+                  y1="150"
+                  y2="150"
+                >
+                  <line
+                    className="c13"
+                    x1="250"
+                    x2="220"
+                    y1="150"
+                    y2="150"
+                  />
+                </StyledComponent>
+              </ForwardRef>
+              <ForwardRef
+                cx="125"
+                cy="150"
+                fill="white"
+                r="2"
+              >
+                <StyledComponent
+                  cx="125"
+                  cy="150"
+                  fill="white"
+                  forwardedClass={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": undefined,
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bZQynM",
+                        "isStatic": true,
+                        "lastClassName": "c14",
+                        "rules": Array [
+                          "
+  stroke: #34495e;
+",
+                        ],
+                      },
+                      "displayName": "styled.circle",
+                      "render": [Function],
+                      "styledComponentId": "sc-bZQynM",
+                      "target": "circle",
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  r="2"
+                >
+                  <circle
+                    className="c14"
+                    cx="125"
+                    cy="150"
+                    fill="white"
+                    r="2"
+                  />
+                </StyledComponent>
+              </ForwardRef>
+            </svg>
+          </Gauge>
+          <ForwardRef>
+            <StyledComponent
+              forwardedClass={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "attrs": undefined,
+                  "componentStyle": ComponentStyle {
+                    "componentId": "sc-fjdhpX",
+                    "isStatic": true,
+                    "lastClassName": "c15",
+                    "rules": Array [
+                      "
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+",
+                    ],
+                  },
+                  "displayName": "styled.div",
+                  "render": [Function],
+                  "styledComponentId": "sc-fjdhpX",
+                  "target": "div",
+                  "warnTooManyClasses": [Function],
+                  "withComponent": [Function],
+                }
+              }
+              forwardedRef={null}
+            >
+              <div
+                className="c15"
+              >
+                Test Sensor
+              </div>
+            </StyledComponent>
+          </ForwardRef>
+        </div>
+      </StyledComponent>
+    </ForwardRef>
+  </Panel>
+</GaugeBlock>
 `;

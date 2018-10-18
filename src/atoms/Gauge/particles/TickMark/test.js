@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { TickMark } from './';
+import { TickMark } from '.';
 
 describe('TickMark component', () => {
   let component;

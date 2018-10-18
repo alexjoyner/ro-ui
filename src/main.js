@@ -68,4 +68,3 @@ After this point, components should be project specific.
     - pages: coded versions of the templates with dummy text
     - release product
 */
-

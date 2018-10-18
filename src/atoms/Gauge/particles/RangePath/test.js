@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { RangePath } from './';
+import { RangePath } from '.';
 
 describe('RangePath component', () => {
   let component;

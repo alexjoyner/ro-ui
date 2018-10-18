@@ -5,6 +5,6 @@ export const ButtonWrapper = styled.button`
   -webkit-appearance: none;
   background: none;
   border: none;
-  outline: none;
+  outline: none; 
   font-size: inherit;
 `;

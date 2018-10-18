@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { ImageOverlayWrapper } from './';
+import { ImageOverlayWrapper } from '.';
 
 describe('ImageOverlayWrapper component', () => {
   let component;

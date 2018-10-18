@@ -1,12 +1,12 @@
 import React from 'react';
-import { shallow } from 'enzyme';
-import { ComponentInput } from './';
+import { mount } from 'enzyme';
+import { ComponentInput } from '.';
 import { colors } from '../../../colors';
 
 describe('ComponentInput component', () => {
   let component;
   beforeEach(() => {
-    component = shallow(<ComponentInput />);
+    component = mount(<ComponentInput />);
   });
   it('Should render without exploding', () => {
     expect(component).toBeDefined();
@@ -15,7 +15,7 @@ describe('ComponentInput component', () => {
     expect(component).toMatchSnapshot();
   });
   it('should show red border when error prop received', () => {
-    const errTest = shallow(<ComponentInput error />);
+    const errTest = mount(<ComponentInput error />);
     expect(errTest).toHaveStyleRule('border-bottom', `solid 2px ${colors.danger}`);
   });
   it('should default to correct border color', () => {

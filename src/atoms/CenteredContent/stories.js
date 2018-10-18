@@ -1,6 +1,6 @@
 import React from 'react';
 import { Atoms } from '../_atoms.stories';
-import { CenteredContent } from './';
+import { CenteredContent } from '.';
 import { Panel } from '../Panel';
 
 Atoms

@@ -6,7 +6,7 @@ exports[`Gauge component Should match snapshot 1`] = `
   viewBox="0 0 250 180"
   width="100%"
 >
-  <styled.circle
+  <ForwardRef
     color="#f1c40f"
     cx="125"
     cy="150"
@@ -149,29 +149,29 @@ exports[`Gauge component Should match snapshot 1`] = `
     }
   />
   <GaugeCirclesGroup />
-  <styled.polygon
+  <ForwardRef
     points="125,150 115,148 1,150 115,152"
     transform="rotate(62.99999999999999, 125, 150)"
   />
-  <styled.text
+  <ForwardRef
     x="125"
     y="165"
   >
     35
-  </styled.text>
-  <styled.line
+  </ForwardRef>
+  <ForwardRef
     x1="1"
     x2="30"
     y1="150"
     y2="150"
   />
-  <styled.line
+  <ForwardRef
     x1="250"
     x2="220"
     y1="150"
     y2="150"
   />
-  <styled.circle
+  <ForwardRef
     cx="125"
     cy="150"
     fill="white"

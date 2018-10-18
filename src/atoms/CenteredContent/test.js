@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { CenteredContent } from './';
+import { CenteredContent } from '.';
 
 describe('CenteredContent component', () => {
   let component;

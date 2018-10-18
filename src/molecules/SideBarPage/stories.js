@@ -1,5 +1,5 @@
 import React from 'react';
-import { SideBarPage } from './';
+import { SideBarPage } from '.';
 import { Molecules } from '../_molecules.stories';
 import { Header } from '../../atoms/Header';
 import { TestGaugeBlock } from '../GaugeBlock/stories';
@@ -23,9 +23,9 @@ Molecules
   .add('SideBar', () => (
     <div>
       <Header color="dark">
-        Dashboard Demo
+        <h1>Dashboard Demo</h1>
       </Header>
-      <SideBarPage sideBarContents={<SideBarList />} >
+      <SideBarPage sideBarContents={<SideBarList />}>
         <CenteredContent>
           <TestGaugeBlock />
         </CenteredContent>

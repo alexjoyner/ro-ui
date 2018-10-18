@@ -1,6 +1,6 @@
 import React from 'react';
-import { Logo } from './';
-import { Panel } from '../../atoms/Panel';
+import { Logo } from '.';
+import { Panel } from '../Panel';
 import { Atoms } from '../_atoms.stories';
 
 
@@ -12,4 +12,3 @@ Atoms
       </Panel>
     </div>
   ));
-

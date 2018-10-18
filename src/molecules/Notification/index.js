@@ -1,4 +1,3 @@
-// @flow
 import React from 'react';
 import styled from 'styled-components';
 import { IoMdClose } from 'react-icons/io';
@@ -6,11 +5,6 @@ import { Panel } from '../../atoms/Panel';
 import { CenteredContent } from '../../atoms/CenteredContent';
 import { Button } from '../../atoms/Button';
 import { zIndexes } from '../../utils/zIndexes';
-
-type NotificationProps = {
-    onClose: () => {},
-    children: any
-}
 
 const NotificationWrapper = styled.div`
     position: fixed;
@@ -26,12 +20,12 @@ const NotificationWrapper = styled.div`
 `;
 
 
-const Notification = (props: NotificationProps) => (
+const Notification = ({ children, onClose, ...props }) => (
   <NotificationWrapper {...props}>
     <Panel width="300px">
       <CenteredContent>
-        {props.children}
-        <Button color="danger" size="small" onClick={props.onClose} >
+        {children}
+        <Button color="danger" size="small" onClick={onClose}>
           <IoMdClose />
         </Button>
       </CenteredContent>

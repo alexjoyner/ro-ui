@@ -1,6 +1,6 @@
 import React from 'react';
 import { Molecules } from '../_molecules.stories';
-import { Modal } from './';
+import { Modal } from '.';
 import { ListHeader } from '../../atoms/ListHeader';
 import { ListItem } from '../../atoms/ListItem';
 import { Header } from '../../atoms/Header';
@@ -28,7 +28,7 @@ Molecules
         fontSize="25px"
         logoText="Dashboard Demo"
       />
-      <SideBarPage sideBarContents={<SideBarList />} >
+      <SideBarPage sideBarContents={<SideBarList />}>
         <CenteredContent>
           <TestGaugeBlock />
         </CenteredContent>

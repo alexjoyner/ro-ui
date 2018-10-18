@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import { SideBarBtn } from './';
+import { SideBarBtn } from '.';
 
 describe('SideBarBtn component', () => {
   let component;

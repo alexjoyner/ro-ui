@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { Needle } from './';
+import { Needle } from '.';
 
 describe('Needle component', () => {
   let component;

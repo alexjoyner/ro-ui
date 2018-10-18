@@ -1,11 +1,11 @@
 import React from 'react';
-import { shallow } from 'enzyme';
-import { PlainBox } from './';
+import { mount } from 'enzyme';
+import { PlainBox } from '.';
 
 describe('PlainBox component', () => {
   let component;
   beforeEach(() => {
-    component = shallow(<PlainBox />);
+    component = mount(<PlainBox />);
   });
   it('Should render without exploding', () => {
     expect(component).toBeDefined();
@@ -20,16 +20,16 @@ describe('PlainBox component', () => {
     expect(component).toHaveStyleRule('min-width', '300px');
   });
   it('should apply correct sizing', () => {
-    const sizeTest = shallow(<PlainBox height="123px" width="456px" />);
+    const sizeTest = mount(<PlainBox height="123px" width="456px" />);
     expect(sizeTest).toHaveStyleRule('height', '123px');
     expect(sizeTest).toHaveStyleRule('width', '456px');
   });
   it('should apply correct margin', () => {
-    const marginTest = shallow(<PlainBox margin="12px" />);
+    const marginTest = mount(<PlainBox margin="12px" />);
     expect(marginTest).toHaveStyleRule('margin', '12px');
   });
   it('should apply correct min width', () => {
-    const minWidthTest = shallow(<PlainBox minWidth="300px" />);
+    const minWidthTest = mount(<PlainBox minWidth="300px" />);
     expect(minWidthTest).toHaveStyleRule('min-width', '300px');
   });
 });

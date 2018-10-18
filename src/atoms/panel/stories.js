@@ -1,6 +1,6 @@
 import React from 'react';
 import { Atoms } from '../_atoms.stories';
-import { Panel } from './';
+import { Panel } from '.';
 
 Atoms
   .add('Panel', () => (

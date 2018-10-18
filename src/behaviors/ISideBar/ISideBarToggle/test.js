@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { ISideBarToggle } from './';
+import { ISideBarToggle } from '.';
 import { Button } from '../../../atoms/Button';
 
 describe('ISideBarTobble', () => {
