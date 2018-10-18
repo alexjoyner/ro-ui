@@ -12,17 +12,20 @@ class CustDatePicker extends React.Component {
       dateValue: moment(),
     };
   }
+
   handleChange(value) {
     this.setState({
       dateValue: value,
     });
   }
+
   render() {
+    const { dateValue } = this.state;
     return (
       <RoDatePicker
         customInput={<Input labelText="Test Datepicker" />}
         onChange={date => this.handleChange(date)}
-        selected={this.state.dateValue}
+        selected={dateValue}
         timeFormat="HH:mm"
         dateFormat="YYYY-MM-DD HH:mm"
         timeIntervals={30}

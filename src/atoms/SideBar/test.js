@@ -24,4 +24,3 @@ describe('SideBar component', () => {
     expect(component).toHaveStyleRule('left', '0px');
   });
 });
-

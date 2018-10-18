@@ -23,21 +23,21 @@ const GraphBlockLabel = styled.div`
     text-align: center;
 `;
 
-const GaugeBlock = props => (
-  <Panel width={props.panelWidth || '20%'} >
+const GaugeBlock = ({ panelWidth, multiSelected, onChartClick, onSettingsClick}) => (
+  <Panel width={panelWidth || '20%'} >
     <GaugeBlockBtnContainer>
-      {(props.multiSelected) ? (
+      {(multiSelected) ? (
         <Button size="xsmall" color="success" >
           <GoCheck size={20} />
         </Button>
         ) : (
-          <Button size="xsmall" color="dark" onClick={props.onChartClick}>
+          <Button size="xsmall" color="dark" onClick={onChartClick}>
             <GoGraph size={20} />
-          </Button>
+          </Button> 
         )}
     </GaugeBlockBtnContainer>
     <SettingsBtnContainer>
-      <Button size="xsmall" color="dark" onClick={props.onSettingsClick} >
+      <Button size="xsmall" color="dark" onClick={onSettingsClick} >
         <GoGear size={20} />
       </Button>
     </SettingsBtnContainer>

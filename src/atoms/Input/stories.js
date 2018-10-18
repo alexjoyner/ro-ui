@@ -11,12 +11,14 @@ export class TestInputs extends Component {
       blurred: false,
     };
   }
+
   handleInputChange(e) {
     const { value } = e.target;
     this.setState({
       inputValue: value,
     });
-  } 
+  }
+
   render() {
     return (
       <div>

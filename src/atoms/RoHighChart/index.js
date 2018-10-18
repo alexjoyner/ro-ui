@@ -5,13 +5,13 @@ import HighchartsReact from 'highcharts-react-official'; // eslint-disable-line 
 import { THEME } from './demoData/theme';
 
 boost(HighCharts);
-const RoHighChart = (props) => {
-  HighCharts.setOptions(props.theme);
+const RoHighChart = ({ theme, config }) => {
+  HighCharts.setOptions(theme);
   return (
     <div>
       <HighchartsReact
         highcharts={HighCharts}
-        options={props.config}
+        options={config}
       />
     </div>
   );

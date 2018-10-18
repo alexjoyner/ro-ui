@@ -11,4 +11,3 @@ Atoms
       </Panel>
     </PageOverlay>
   ));
-

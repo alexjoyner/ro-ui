@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 export const ISideBar = ({ shown, SideBar, Body }) => (
-  <div >
+  <div>
     {(shown) && <SideBar />}
     <Body sideBarShown={shown} />
   </div>

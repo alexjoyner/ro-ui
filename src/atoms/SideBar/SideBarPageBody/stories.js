@@ -4,8 +4,8 @@ import BasicSideBarPageBody, { HeaderSideBarPageBody } from '.';
 
 export const SideBarPageBodys = storiesOf('Atoms/Sidebar/SideBarPageBody', module);
 SideBarPageBodys.add('Basic SideBarPageBody', () => (
-  <BasicSideBarPageBody ><h1>Hello World</h1></BasicSideBarPageBody>
+  <BasicSideBarPageBody><h1>Hello World</h1></BasicSideBarPageBody>
 ));
 SideBarPageBodys.add('Header SideBarPageBody', () => (
-  <HeaderSideBarPageBody ><h1>Hello World</h1></HeaderSideBarPageBody>
+  <HeaderSideBarPageBody><h1>Hello World</h1></HeaderSideBarPageBody>
 ));

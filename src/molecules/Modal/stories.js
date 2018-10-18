@@ -28,7 +28,7 @@ Molecules
         fontSize="25px"
         logoText="Dashboard Demo"
       />
-      <SideBarPage sideBarContents={<SideBarList />} >
+      <SideBarPage sideBarContents={<SideBarList />}>
         <CenteredContent>
           <TestGaugeBlock />
         </CenteredContent>

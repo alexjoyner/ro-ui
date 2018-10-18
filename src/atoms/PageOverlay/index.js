@@ -1,8 +1,8 @@
 import React from 'react';
 import { PageOverlayWrapper } from './particles/PageOverlayWrapper';
 
-export const PageOverlay = props => (
+export const PageOverlay = ({ children }) => (
   <PageOverlayWrapper>
-    {props.children}
+    {children}
   </PageOverlayWrapper>
 );
