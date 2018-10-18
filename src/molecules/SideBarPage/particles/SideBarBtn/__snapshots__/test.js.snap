@@ -47,7 +47,7 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
   left: 7px;
 }
 
-<Styled(Button)>
+<ForwardRef>
   <StyledComponent
     forwardedClass={
       Object {
@@ -86,7 +86,7 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
       ghost={false}
       size="default"
     >
-      <styled.button
+      <ForwardRef
         className="c0"
         type="button"
       >
@@ -106,7 +106,7 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
   -webkit-appearance: none;
   background: none;
   border: none;
-  outline: none;
+  outline: none; 
   font-size: inherit;
 ",
                 ],
@@ -126,7 +126,7 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
             className="c0 c1"
             type="button"
           >
-            <styled.span
+            <ForwardRef
               color="default"
               ghost={false}
               size="default"
@@ -144,38 +144,38 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
                       "lastClassName": "c2",
                       "rules": Array [
                         "
-    background-color: ",
+  background-color: ",
                         [Function],
                         ";
-    color: ",
+  color: ",
                         [Function],
                         ";
-    border: 1px solid ",
+  border: 1px solid ",
                         [Function],
                         ";
-    display: inline-block;
-    outline: none;
-    cursor: pointer;
-    ",
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  ",
                         [Function],
                         "; 
-    text-align: center;
-    line-height: 1.5;
-    transition: 0.1s linear;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
-    svg {
-      vertical-align: middle;
-    }
-    &:hover {
-      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-    } 
-    &:active {
-      box-shadow: none;
-    }
-    ",
+  text-align: center;
+  line-height: 1.5;
+  transition: 0.1s linear;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  svg {
+    vertical-align: middle;
+  }
+  &:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  } 
+  &:active {
+    box-shadow: none;
+  }
+  ",
                         [Function],
                         ";
-  ",
+",
                       ],
                     },
                     "displayName": "styled.span",
@@ -198,11 +198,11 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
                   tabIndex={-1}
                 />
               </StyledComponent>
-            </styled.span>
+            </ForwardRef>
           </button>
         </StyledComponent>
-      </styled.button>
+      </ForwardRef>
     </Button>
   </StyledComponent>
-</Styled(Button)>
+</ForwardRef>
 `;
