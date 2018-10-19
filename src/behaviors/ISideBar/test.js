@@ -29,12 +29,12 @@ describe('TISideBar Behavior', () => {
   it('Should contain a sidebar', () => {
     expect(component.find('SideBar')).toHaveLength(1);
   });
-  it('Should hide the sidebar', () => {
+  it('Should hide but not remove the sidebar', () => {
     component.setProps({
       ...props,
       shown: false,
     });
-    expect(component.find('SideBar')).toHaveLength(0);
+    expect(component.find('SideBar')).toHaveLength(1);
   });
   it('Should have a page body', () => {
     expect(component.find('Body')).toHaveLength(1);

@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react/dist/client/preview';
 import { Provider } from 'react-redux';
 import { createStore, combineReducers } from 'redux';
 import { ISideBar } from '.';
-import { BasicSideBar } from '../../atoms/SideBar';
+import { AnimatedSideBar } from '../../atoms/SideBar';
 import { HeaderSideBarPageBody } from '../../atoms/SideBar/SideBarPageBody';
 import { Button } from '../../atoms/Button';
 import { ISideBarReducer } from './reducer';
@@ -30,7 +30,7 @@ const store = createStore(combineReducers({
 ISideBarBehavior.add('ISidebar', () => (
   <Provider store={store}>
     <ISideBar {...{
-      SideBar: BasicSideBar,
+      SideBar: AnimatedSideBar,
       Body: SideBarBody,
     }}
     />
