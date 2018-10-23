@@ -3,10 +3,10 @@ import { HeaderContainer } from './particles/HeaderContainer';
 import { HeaderContentsWrapper } from './particles/HeaderContentsWrapper';
 
 
-export const Header = props => (
+export const Header = ({ children, ...props }) => (
   <HeaderContainer {...props}>
     <HeaderContentsWrapper>
-      {props.children}
+      {children}
     </HeaderContentsWrapper>
   </HeaderContainer>
 );
