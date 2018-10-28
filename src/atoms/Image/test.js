@@ -1,11 +1,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { ProfilePic } from '.';
+import { Image } from '.';
 
-describe('ProfilePic component', () => {
+describe('Image component', () => {
   let component;
   beforeEach(() => {
-    component = shallow(<ProfilePic imgSrc="Test" />);
+    component = shallow(<Image imgSrc="Test" />);
   });
   it('Should render without exploding', () => {
     expect(component).toBeDefined();

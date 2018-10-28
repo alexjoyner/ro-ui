@@ -11,13 +11,10 @@ exports[`Pic component Should match snapshot 1`] = `
         "isStatic": false,
         "rules": Array [
           "
-    height: ",
+    ",
           [Function],
           ";
-    width: ",
-          [Function],
-          ";
-    border-radius: ",
+    ",
           [Function],
           ";
 ",
