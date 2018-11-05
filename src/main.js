@@ -17,7 +17,7 @@ export { ListHeader } from './atoms/ListHeader';
 export { ListItem } from './atoms/ListItem';
 export { RoHighChart } from './atoms/RoHighChart';
 export { RoDatePicker } from './atoms/RoDatePicker';
-export { BasicSideBar } from './atoms/SideBar';
+export { BasicSideBar, AnimatedSideBar } from './atoms/SideBar';
 export { BasicSideBarPageBody, HeaderSideBarPageBody } from './atoms/SideBar/SideBarPageBody';
 
 /*
