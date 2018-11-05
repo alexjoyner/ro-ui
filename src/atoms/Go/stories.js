@@ -4,7 +4,7 @@ import { Panel } from '../Panel';
 import { Go } from '.';
 
 Atoms
-  .add('Colors', () => (
+  .add('Go', () => (
     <Go>
       <Panel>
         <h1>This entire panel should be a link!</h1>
