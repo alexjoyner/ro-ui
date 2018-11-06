@@ -19,7 +19,7 @@ exports[`SideBarContainer component Should match snapshot 1`] = `
   list-style: none;
 }
 
-<ForwardRef>
+<styled.div>
   <StyledComponent
     forwardedClass={
       Object {
@@ -57,6 +57,7 @@ exports[`SideBarContainer component Should match snapshot 1`] = `
         "render": [Function],
         "styledComponentId": "sc-bdVaJa",
         "target": "div",
+        "toString": [Function],
         "warnTooManyClasses": [Function],
         "withComponent": [Function],
       }
@@ -67,5 +68,5 @@ exports[`SideBarContainer component Should match snapshot 1`] = `
       className="c0"
     />
   </StyledComponent>
-</ForwardRef>
+</styled.div>
 `;

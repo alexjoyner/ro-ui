@@ -6,7 +6,7 @@ exports[`SideBarPageBody component Basic Version Should match snapshot 1`] = `
   min-height: 10px;
 }
 
-<ForwardRef
+<styled.div
   sideBarShown={true}
 >
   <StyledComponent
@@ -31,6 +31,7 @@ exports[`SideBarPageBody component Basic Version Should match snapshot 1`] = `
         "render": [Function],
         "styledComponentId": "sc-bdVaJa",
         "target": "div",
+        "toString": [Function],
         "warnTooManyClasses": [Function],
         "withComponent": [Function],
       }
@@ -42,7 +43,7 @@ exports[`SideBarPageBody component Basic Version Should match snapshot 1`] = `
       className="c0"
     />
   </StyledComponent>
-</ForwardRef>
+</styled.div>
 `;
 
 exports[`SideBarPageBody component with Header Version Should match snapshot 1`] = `
@@ -52,7 +53,7 @@ exports[`SideBarPageBody component with Header Version Should match snapshot 1`]
   margin-top: 56px;
 }
 
-<ForwardRef>
+<Styled(styled.div)>
   <StyledComponent
     forwardedClass={
       Object {
@@ -78,6 +79,7 @@ exports[`SideBarPageBody component with Header Version Should match snapshot 1`]
         "render": [Function],
         "styledComponentId": "sc-bwzfXH",
         "target": "div",
+        "toString": [Function],
         "warnTooManyClasses": [Function],
         "withComponent": [Function],
       }
@@ -88,5 +90,5 @@ exports[`SideBarPageBody component with Header Version Should match snapshot 1`]
       className="c0"
     />
   </StyledComponent>
-</ForwardRef>
+</Styled(styled.div)>
 `;

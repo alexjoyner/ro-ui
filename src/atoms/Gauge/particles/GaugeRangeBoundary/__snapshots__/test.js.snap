@@ -22,6 +22,7 @@ exports[`GaugeRangeBoundary component Should match snapshot 1`] = `
       "render": [Function],
       "styledComponentId": "sc-bdVaJa",
       "target": "circle",
+      "toString": [Function],
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }

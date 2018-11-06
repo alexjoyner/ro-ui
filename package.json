@@ -10,7 +10,7 @@
     "coverage": "jest --coverage",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build": "rimraf lib && babel src --out-dir lib --ignore test.js,stories.js",
+    "build": "rimraf lib && babel src --out-dir lib --ignore **/test.js,**/stories.js",
     "postversion": "git push --tags && echo \"Successfully released version $npm_package_version!\""
   },
   "author": "",
@@ -30,7 +30,7 @@
     "c3": "^0.6.8",
     "d3": "^5.7.0",
     "highcharts": "^6.2.0",
-    "highcharts-react-official": "^1.5.2",
+    "highcharts-react-official": "1.4.0",
     "moment": "^2.22.2",
     "polished": "^2.3.0",
     "prop-types": "^15.6.2",

@@ -20,6 +20,7 @@ exports[`RangePath component Should match snapshot 1`] = `
       "render": [Function],
       "styledComponentId": "sc-bdVaJa",
       "target": "path",
+      "toString": [Function],
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }

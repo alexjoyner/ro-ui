@@ -43,7 +43,7 @@ exports[`Button component Should match snapshot 1`] = `
   ghost={false}
   size="default"
 >
-  <ForwardRef
+  <styled.button
     type="button"
   >
     <StyledComponent
@@ -70,6 +70,7 @@ exports[`Button component Should match snapshot 1`] = `
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "button",
+          "toString": [Function],
           "warnTooManyClasses": [Function],
           "withComponent": [Function],
         }
@@ -81,7 +82,7 @@ exports[`Button component Should match snapshot 1`] = `
         className="c0"
         type="button"
       >
-        <ForwardRef
+        <styled.span
           color="default"
           ghost={false}
           size="default"
@@ -137,6 +138,7 @@ exports[`Button component Should match snapshot 1`] = `
                 "render": [Function],
                 "styledComponentId": "sc-bwzfXH",
                 "target": "span",
+                "toString": [Function],
                 "warnTooManyClasses": [Function],
                 "withComponent": [Function],
               }
@@ -155,9 +157,9 @@ exports[`Button component Should match snapshot 1`] = `
               Test Button
             </span>
           </StyledComponent>
-        </ForwardRef>
+        </styled.span>
       </button>
     </StyledComponent>
-  </ForwardRef>
+  </styled.button>
 </Button>
 `;

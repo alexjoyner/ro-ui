@@ -14,7 +14,7 @@ exports[`InputLabel component Should match snapshot 1`] = `
   top: 50%;
 }
 
-<ForwardRef
+<styled.label
   inputValue=""
 >
   <StyledComponent
@@ -46,6 +46,7 @@ exports[`InputLabel component Should match snapshot 1`] = `
         "render": [Function],
         "styledComponentId": "sc-bdVaJa",
         "target": "label",
+        "toString": [Function],
         "warnTooManyClasses": [Function],
         "withComponent": [Function],
       }
@@ -57,5 +58,5 @@ exports[`InputLabel component Should match snapshot 1`] = `
       className="c0"
     />
   </StyledComponent>
-</ForwardRef>
+</styled.label>
 `;

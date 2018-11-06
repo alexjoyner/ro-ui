@@ -147,7 +147,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
   <Panel
     width="20%"
   >
-    <ForwardRef
+    <styled.div
       width="20%"
     >
       <StyledComponent
@@ -186,6 +186,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
             "render": [Function],
             "styledComponentId": "sc-bdVaJa",
             "target": "div",
+            "toString": [Function],
             "warnTooManyClasses": [Function],
             "withComponent": [Function],
           }
@@ -197,7 +198,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
           className="c0"
           width="20%"
         >
-          <ForwardRef>
+          <styled.div>
             <StyledComponent
               forwardedClass={
                 Object {
@@ -219,6 +220,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                   "render": [Function],
                   "styledComponentId": "sc-VigVT",
                   "target": "div",
+                  "toString": [Function],
                   "warnTooManyClasses": [Function],
                   "withComponent": [Function],
                 }
@@ -234,7 +236,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                   onClick={[Function]}
                   size="xsmall"
                 >
-                  <ForwardRef
+                  <styled.button
                     onClick={[Function]}
                     type="button"
                   >
@@ -262,6 +264,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           "render": [Function],
                           "styledComponentId": "sc-gZMcBi",
                           "target": "button",
+                          "toString": [Function],
                           "warnTooManyClasses": [Function],
                           "withComponent": [Function],
                         }
@@ -275,7 +278,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         onClick={[Function]}
                         type="button"
                       >
-                        <ForwardRef
+                        <styled.span
                           color="dark"
                           ghost={false}
                           size="xsmall"
@@ -331,6 +334,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                                 "render": [Function],
                                 "styledComponentId": "sc-gqjmRU",
                                 "target": "span",
+                                "toString": [Function],
                                 "warnTooManyClasses": [Function],
                                 "withComponent": [Function],
                               }
@@ -381,15 +385,15 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                               </GoGraph>
                             </span>
                           </StyledComponent>
-                        </ForwardRef>
+                        </styled.span>
                       </button>
                     </StyledComponent>
-                  </ForwardRef>
+                  </styled.button>
                 </Button>
               </div>
             </StyledComponent>
-          </ForwardRef>
-          <ForwardRef>
+          </styled.div>
+          <styled.div>
             <StyledComponent
               forwardedClass={
                 Object {
@@ -411,6 +415,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                   "render": [Function],
                   "styledComponentId": "sc-jTzLTM",
                   "target": "div",
+                  "toString": [Function],
                   "warnTooManyClasses": [Function],
                   "withComponent": [Function],
                 }
@@ -426,7 +431,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                   onClick={[Function]}
                   size="xsmall"
                 >
-                  <ForwardRef
+                  <styled.button
                     onClick={[Function]}
                     type="button"
                   >
@@ -454,6 +459,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           "render": [Function],
                           "styledComponentId": "sc-gZMcBi",
                           "target": "button",
+                          "toString": [Function],
                           "warnTooManyClasses": [Function],
                           "withComponent": [Function],
                         }
@@ -467,7 +473,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         onClick={[Function]}
                         type="button"
                       >
-                        <ForwardRef
+                        <styled.span
                           color="dark"
                           ghost={false}
                           size="xsmall"
@@ -523,6 +529,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                                 "render": [Function],
                                 "styledComponentId": "sc-gqjmRU",
                                 "target": "span",
+                                "toString": [Function],
                                 "warnTooManyClasses": [Function],
                                 "withComponent": [Function],
                               }
@@ -573,14 +580,14 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                               </GoGear>
                             </span>
                           </StyledComponent>
-                        </ForwardRef>
+                        </styled.span>
                       </button>
                     </StyledComponent>
-                  </ForwardRef>
+                  </styled.button>
                 </Button>
               </div>
             </StyledComponent>
-          </ForwardRef>
+          </styled.div>
           <Gauge
             max={100}
             min={0}
@@ -615,7 +622,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
               viewBox="0 0 250 180"
               width="100%"
             >
-              <ForwardRef
+              <styled.circle
                 color="#f1c40f"
                 cx="125"
                 cy="150"
@@ -650,6 +657,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                       "render": [Function],
                       "styledComponentId": "sc-bxivhb",
                       "target": "circle",
+                      "toString": [Function],
                       "warnTooManyClasses": [Function],
                       "withComponent": [Function],
                     }
@@ -666,7 +674,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                     r="108.5"
                   />
                 </StyledComponent>
-              </ForwardRef>
+              </styled.circle>
               <GaugeRange
                 key="range1"
                 opts={
@@ -713,7 +721,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                 }
               >
                 <g>
-                  <ForwardRef
+                  <styled.path
                     d="M 4.5 149.99999999999997  A 120.5 120.5 0 0 1 125.00000000000001 29.5"
                     fill="none"
                     stroke="#f1c40f"
@@ -740,6 +748,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           "render": [Function],
                           "styledComponentId": "sc-bwzfXH",
                           "target": "path",
+                          "toString": [Function],
                           "warnTooManyClasses": [Function],
                           "withComponent": [Function],
                         }
@@ -754,7 +763,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         stroke="#f1c40f"
                       />
                     </StyledComponent>
-                  </ForwardRef>
+                  </styled.path>
                   <TickMark
                     angle={90}
                   >
@@ -768,7 +777,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                       y2="150"
                     />
                   </TickMark>
-                  <ForwardRef
+                  <styled.text
                     x={125.00000000000001}
                     y={19.5}
                   >
@@ -794,6 +803,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           "render": [Function],
                           "styledComponentId": "sc-htpNat",
                           "target": "text",
+                          "toString": [Function],
                           "warnTooManyClasses": [Function],
                           "withComponent": [Function],
                         }
@@ -810,7 +820,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         50
                       </text>
                     </StyledComponent>
-                  </ForwardRef>
+                  </styled.text>
                 </g>
               </GaugeRange>
               <GaugeRange
@@ -859,7 +869,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                 }
               >
                 <g>
-                  <ForwardRef
+                  <styled.path
                     d="M 125.00000000000001 29.5  A 120.5 120.5 0 0 1 222.48654782218117 79.171877098757"
                     fill="none"
                     stroke="#2ecc71"
@@ -886,6 +896,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           "render": [Function],
                           "styledComponentId": "sc-bwzfXH",
                           "target": "path",
+                          "toString": [Function],
                           "warnTooManyClasses": [Function],
                           "withComponent": [Function],
                         }
@@ -900,7 +911,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         stroke="#2ecc71"
                       />
                     </StyledComponent>
-                  </ForwardRef>
+                  </styled.path>
                   <TickMark
                     angle={144}
                   >
@@ -914,7 +925,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                       y2="150"
                     />
                   </TickMark>
-                  <ForwardRef
+                  <styled.text
                     x={231.48654782218117}
                     y={69.171877098757}
                   >
@@ -940,6 +951,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           "render": [Function],
                           "styledComponentId": "sc-htpNat",
                           "target": "text",
+                          "toString": [Function],
                           "warnTooManyClasses": [Function],
                           "withComponent": [Function],
                         }
@@ -956,7 +968,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         80
                       </text>
                     </StyledComponent>
-                  </ForwardRef>
+                  </styled.text>
                 </g>
               </GaugeRange>
               <GaugeRange
@@ -1005,7 +1017,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                 }
               >
                 <g>
-                  <ForwardRef
+                  <styled.path
                     d="M 222.48654782218117 79.171877098757  A 120.5 120.5 0 0 1 245.5 150"
                     fill="none"
                     stroke="#e74c3c"
@@ -1032,6 +1044,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           "render": [Function],
                           "styledComponentId": "sc-bwzfXH",
                           "target": "path",
+                          "toString": [Function],
                           "warnTooManyClasses": [Function],
                           "withComponent": [Function],
                         }
@@ -1046,7 +1059,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         stroke="#e74c3c"
                       />
                     </StyledComponent>
-                  </ForwardRef>
+                  </styled.path>
                   <TickMark
                     angle={180}
                   >
@@ -1060,7 +1073,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                       y2="150"
                     />
                   </TickMark>
-                  <ForwardRef
+                  <styled.text
                     x={260.5}
                     y={140}
                   >
@@ -1086,6 +1099,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           "render": [Function],
                           "styledComponentId": "sc-htpNat",
                           "target": "text",
+                          "toString": [Function],
                           "warnTooManyClasses": [Function],
                           "withComponent": [Function],
                         }
@@ -1102,12 +1116,12 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         100
                       </text>
                     </StyledComponent>
-                  </ForwardRef>
+                  </styled.text>
                 </g>
               </GaugeRange>
               <GaugeCirclesGroup>
                 <g>
-                  <ForwardRef
+                  <styled.circle
                     cx="125"
                     cy="150"
                     fill="none"
@@ -1138,6 +1152,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           "render": [Function],
                           "styledComponentId": "sc-gzVnrw",
                           "target": "circle",
+                          "toString": [Function],
                           "warnTooManyClasses": [Function],
                           "withComponent": [Function],
                         }
@@ -1153,8 +1168,8 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         r="124"
                       />
                     </StyledComponent>
-                  </ForwardRef>
-                  <ForwardRef
+                  </styled.circle>
+                  <styled.circle
                     cx="125"
                     cy="150"
                     fill="none"
@@ -1186,6 +1201,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           "render": [Function],
                           "styledComponentId": "sc-htoDjs",
                           "target": "circle",
+                          "toString": [Function],
                           "warnTooManyClasses": [Function],
                           "withComponent": [Function],
                         }
@@ -1203,8 +1219,8 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         r="117"
                       />
                     </StyledComponent>
-                  </ForwardRef>
-                  <ForwardRef
+                  </styled.circle>
+                  <styled.circle
                     cx="125"
                     cy="150"
                     fill="none"
@@ -1236,6 +1252,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           "render": [Function],
                           "styledComponentId": "sc-dnqmqq",
                           "target": "circle",
+                          "toString": [Function],
                           "warnTooManyClasses": [Function],
                           "withComponent": [Function],
                         }
@@ -1253,10 +1270,10 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         r="100"
                       />
                     </StyledComponent>
-                  </ForwardRef>
+                  </styled.circle>
                 </g>
               </GaugeCirclesGroup>
-              <ForwardRef
+              <styled.polygon
                 points="125,150 115,148 1,150 115,152"
                 transform="rotate(36, 125, 150)"
               >
@@ -1282,6 +1299,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                       "render": [Function],
                       "styledComponentId": "sc-ifAKCX",
                       "target": "polygon",
+                      "toString": [Function],
                       "warnTooManyClasses": [Function],
                       "withComponent": [Function],
                     }
@@ -1296,8 +1314,8 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                     transform="rotate(36, 125, 150)"
                   />
                 </StyledComponent>
-              </ForwardRef>
-              <ForwardRef
+              </styled.polygon>
+              <styled.text
                 x="125"
                 y="165"
               >
@@ -1323,6 +1341,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                       "render": [Function],
                       "styledComponentId": "sc-EHOje",
                       "target": "text",
+                      "toString": [Function],
                       "warnTooManyClasses": [Function],
                       "withComponent": [Function],
                     }
@@ -1339,8 +1358,8 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                     20
                   </text>
                 </StyledComponent>
-              </ForwardRef>
-              <ForwardRef
+              </styled.text>
+              <styled.line
                 x1="1"
                 x2="30"
                 y1="150"
@@ -1365,6 +1384,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                       "render": [Function],
                       "styledComponentId": "sc-iwsKbI",
                       "target": "line",
+                      "toString": [Function],
                       "warnTooManyClasses": [Function],
                       "withComponent": [Function],
                     }
@@ -1383,8 +1403,8 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                     y2="150"
                   />
                 </StyledComponent>
-              </ForwardRef>
-              <ForwardRef
+              </styled.line>
+              <styled.line
                 x1="250"
                 x2="220"
                 y1="150"
@@ -1409,6 +1429,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                       "render": [Function],
                       "styledComponentId": "sc-iwsKbI",
                       "target": "line",
+                      "toString": [Function],
                       "warnTooManyClasses": [Function],
                       "withComponent": [Function],
                     }
@@ -1427,8 +1448,8 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                     y2="150"
                   />
                 </StyledComponent>
-              </ForwardRef>
-              <ForwardRef
+              </styled.line>
+              <styled.circle
                 cx="125"
                 cy="150"
                 fill="white"
@@ -1456,6 +1477,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                       "render": [Function],
                       "styledComponentId": "sc-bZQynM",
                       "target": "circle",
+                      "toString": [Function],
                       "warnTooManyClasses": [Function],
                       "withComponent": [Function],
                     }
@@ -1471,10 +1493,10 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                     r="2"
                   />
                 </StyledComponent>
-              </ForwardRef>
+              </styled.circle>
             </svg>
           </Gauge>
-          <ForwardRef>
+          <styled.div>
             <StyledComponent
               forwardedClass={
                 Object {
@@ -1496,6 +1518,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                   "render": [Function],
                   "styledComponentId": "sc-fjdhpX",
                   "target": "div",
+                  "toString": [Function],
                   "warnTooManyClasses": [Function],
                   "withComponent": [Function],
                 }
@@ -1508,10 +1531,10 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                 Test Sensor
               </div>
             </StyledComponent>
-          </ForwardRef>
+          </styled.div>
         </div>
       </StyledComponent>
-    </ForwardRef>
+    </styled.div>
   </Panel>
 </GaugeBlock>
 `;

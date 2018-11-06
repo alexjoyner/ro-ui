@@ -19,6 +19,7 @@ exports[`GaugeBaseLine component Should match snapshot 1`] = `
       "render": [Function],
       "styledComponentId": "sc-bdVaJa",
       "target": "line",
+      "toString": [Function],
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }

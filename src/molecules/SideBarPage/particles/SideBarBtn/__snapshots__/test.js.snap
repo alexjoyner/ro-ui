@@ -47,7 +47,7 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
   left: 7px;
 }
 
-<ForwardRef>
+<Styled(Button)>
   <StyledComponent
     forwardedClass={
       Object {
@@ -73,6 +73,7 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
         "render": [Function],
         "styledComponentId": "sc-htpNat",
         "target": [Function],
+        "toString": [Function],
         "warnTooManyClasses": [Function],
         "withComponent": [Function],
         Symbol(Symbol.hasInstance): [Function],
@@ -86,7 +87,7 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
       ghost={false}
       size="default"
     >
-      <ForwardRef
+      <styled.button
         className="c0"
         type="button"
       >
@@ -115,6 +116,7 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
               "render": [Function],
               "styledComponentId": "sc-bdVaJa",
               "target": "button",
+              "toString": [Function],
               "warnTooManyClasses": [Function],
               "withComponent": [Function],
             }
@@ -126,7 +128,7 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
             className="c0 c1"
             type="button"
           >
-            <ForwardRef
+            <styled.span
               color="default"
               ghost={false}
               size="default"
@@ -182,6 +184,7 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
                     "render": [Function],
                     "styledComponentId": "sc-bwzfXH",
                     "target": "span",
+                    "toString": [Function],
                     "warnTooManyClasses": [Function],
                     "withComponent": [Function],
                   }
@@ -198,11 +201,11 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
                   tabIndex={-1}
                 />
               </StyledComponent>
-            </ForwardRef>
+            </styled.span>
           </button>
         </StyledComponent>
-      </ForwardRef>
+      </styled.button>
     </Button>
   </StyledComponent>
-</ForwardRef>
+</Styled(Button)>
 `;

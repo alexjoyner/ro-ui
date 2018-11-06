@@ -24,6 +24,7 @@ exports[`Pic component Should match snapshot 1`] = `
       "render": [Function],
       "styledComponentId": "sc-bdVaJa",
       "target": "img",
+      "toString": [Function],
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }

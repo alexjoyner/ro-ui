@@ -14,7 +14,7 @@ exports[`PanelContainer component Should match snapshot 1`] = `
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
 }
 
-<ForwardRef>
+<styled.div>
   <StyledComponent
     forwardedClass={
       Object {
@@ -51,6 +51,7 @@ exports[`PanelContainer component Should match snapshot 1`] = `
         "render": [Function],
         "styledComponentId": "sc-bdVaJa",
         "target": "div",
+        "toString": [Function],
         "warnTooManyClasses": [Function],
         "withComponent": [Function],
       }
@@ -61,5 +62,5 @@ exports[`PanelContainer component Should match snapshot 1`] = `
       className="c0"
     />
   </StyledComponent>
-</ForwardRef>
+</styled.div>
 `;

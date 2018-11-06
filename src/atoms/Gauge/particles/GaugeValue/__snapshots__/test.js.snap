@@ -22,6 +22,7 @@ exports[`GaugeValue component Should match snapshot 1`] = `
       "render": [Function],
       "styledComponentId": "sc-bdVaJa",
       "target": "text",
+      "toString": [Function],
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }

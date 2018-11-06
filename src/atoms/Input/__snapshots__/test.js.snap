@@ -50,7 +50,7 @@ exports[`Input component Should match snapshot 1`] = `
   onBlur={[MockFunction]}
   onChange={[MockFunction]}
 >
-  <ForwardRef>
+  <styled.div>
     <StyledComponent
       forwardedClass={
         Object {
@@ -76,6 +76,7 @@ exports[`Input component Should match snapshot 1`] = `
           "render": [Function],
           "styledComponentId": "sc-htpNat",
           "target": "div",
+          "toString": [Function],
           "warnTooManyClasses": [Function],
           "withComponent": [Function],
         }
@@ -85,7 +86,7 @@ exports[`Input component Should match snapshot 1`] = `
       <div
         className="c0"
       >
-        <ForwardRef
+        <styled.input
           labelText="Hello World"
           onBlur={[MockFunction]}
           onChange={[MockFunction]}
@@ -125,6 +126,7 @@ exports[`Input component Should match snapshot 1`] = `
                 "render": [Function],
                 "styledComponentId": "sc-bwzfXH",
                 "target": "input",
+                "toString": [Function],
                 "warnTooManyClasses": [Function],
                 "withComponent": [Function],
               }
@@ -140,8 +142,8 @@ exports[`Input component Should match snapshot 1`] = `
               onChange={[MockFunction]}
             />
           </StyledComponent>
-        </ForwardRef>
-        <ForwardRef
+        </styled.input>
+        <styled.label
           labelText="Hello World"
           onBlur={[MockFunction]}
           onChange={[MockFunction]}
@@ -175,6 +177,7 @@ exports[`Input component Should match snapshot 1`] = `
                 "render": [Function],
                 "styledComponentId": "sc-bdVaJa",
                 "target": "label",
+                "toString": [Function],
                 "warnTooManyClasses": [Function],
                 "withComponent": [Function],
               }
@@ -192,9 +195,9 @@ exports[`Input component Should match snapshot 1`] = `
               Hello World
             </label>
           </StyledComponent>
-        </ForwardRef>
+        </styled.label>
       </div>
     </StyledComponent>
-  </ForwardRef>
+  </styled.div>
 </Input>
 `;

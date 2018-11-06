@@ -2,7 +2,7 @@
 
 exports[`Modal component Should match snapshot 1`] = `
 <PageOverlay>
-  <ForwardRef
+  <Styled(Panel)
     height="auto"
     width="90%"
   />

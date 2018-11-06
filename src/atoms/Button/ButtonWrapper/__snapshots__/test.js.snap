@@ -10,7 +10,7 @@ exports[`ButtonWrapper component Should match snapshot 1`] = `
   font-size: inherit;
 }
 
-<ForwardRef>
+<styled.button>
   <StyledComponent
     forwardedClass={
       Object {
@@ -35,6 +35,7 @@ exports[`ButtonWrapper component Should match snapshot 1`] = `
         "render": [Function],
         "styledComponentId": "sc-bdVaJa",
         "target": "button",
+        "toString": [Function],
         "warnTooManyClasses": [Function],
         "withComponent": [Function],
       }
@@ -45,5 +46,5 @@ exports[`ButtonWrapper component Should match snapshot 1`] = `
       className="c0"
     />
   </StyledComponent>
-</ForwardRef>
+</styled.button>
 `;

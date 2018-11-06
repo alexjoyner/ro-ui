@@ -29,7 +29,7 @@ exports[`ButtonStyles component Should match snapshot 1`] = `
   box-shadow: none;
 }
 
-<ForwardRef>
+<styled.span>
   <StyledComponent
     forwardedClass={
       Object {
@@ -79,6 +79,7 @@ exports[`ButtonStyles component Should match snapshot 1`] = `
         "render": [Function],
         "styledComponentId": "sc-bdVaJa",
         "target": "span",
+        "toString": [Function],
         "warnTooManyClasses": [Function],
         "withComponent": [Function],
       }
@@ -89,5 +90,5 @@ exports[`ButtonStyles component Should match snapshot 1`] = `
       className="c0"
     />
   </StyledComponent>
-</ForwardRef>
+</styled.span>
 `;

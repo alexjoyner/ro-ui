@@ -11,7 +11,7 @@ exports[`HeaderContainer component Should match snapshot 1`] = `
   color: black;
 }
 
-<ForwardRef>
+<HeaderContainer>
   <StyledComponent
     forwardedClass={
       Object {
@@ -43,6 +43,7 @@ exports[`HeaderContainer component Should match snapshot 1`] = `
         "render": [Function],
         "styledComponentId": "sc-bdVaJa",
         "target": "div",
+        "toString": [Function],
         "warnTooManyClasses": [Function],
         "withComponent": [Function],
       }
@@ -53,5 +54,5 @@ exports[`HeaderContainer component Should match snapshot 1`] = `
       className="c0"
     />
   </StyledComponent>
-</ForwardRef>
+</HeaderContainer>
 `;

@@ -2796,7 +2796,7 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-create-react-class@^15.6.2:
+create-react-class@^15.5.3, create-react-class@^15.6.2:
   version "15.6.3"
   resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.6.3.tgz#2d73237fb3f970ae6ebe011a9e66f46dbca80036"
   integrity sha512-M+/3Q6E6DLO6Yx3OwrWjwHBnvfXXYA7W+dFjt/ZDBemHO1DDZhsalX/NUtnTYclN6GfnBDRh4qRHjcDHmlJBJg==
@@ -4790,11 +4790,12 @@ he@1.2.x:
   resolved "https://registry.yarnpkg.com/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
 
-highcharts-react-official@^1.5.2:
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/highcharts-react-official/-/highcharts-react-official-1.5.2.tgz#a4018ad96114af98e691f596c6385663fc36a653"
-  integrity sha512-yotHmm6rzZeo2bXuIrdszUq9SGRJZO2iWGNM9IiWxtaxyr4XebFj6+zBK9LXY/5/yB5T0rav4rnUrebT3eli7g==
+highcharts-react-official@1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/highcharts-react-official/-/highcharts-react-official-1.4.0.tgz#b10479e00099adb5654f2300c4d377569e42ffcc"
+  integrity sha512-GpzsTOqkv95yCqijG4FEkUFqa3d3tJGH+CniNhQQdOcWo7ulcFlgmX9hiQE204oNsTOMRamlmEO9foBV0jLNHw==
   dependencies:
+    create-react-class "^15.5.3"
     highcharts "^6.0.1"
     highstock-release "^6.0.1"
 

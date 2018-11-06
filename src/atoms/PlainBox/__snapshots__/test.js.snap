@@ -10,7 +10,7 @@ exports[`PlainBox component Should match snapshot 1`] = `
   display: inline-block;
 }
 
-<ForwardRef>
+<styled.div>
   <StyledComponent
     forwardedClass={
       Object {
@@ -40,6 +40,7 @@ exports[`PlainBox component Should match snapshot 1`] = `
         "render": [Function],
         "styledComponentId": "sc-bdVaJa",
         "target": "div",
+        "toString": [Function],
         "warnTooManyClasses": [Function],
         "withComponent": [Function],
       }
@@ -50,5 +51,5 @@ exports[`PlainBox component Should match snapshot 1`] = `
       className="c0"
     />
   </StyledComponent>
-</ForwardRef>
+</styled.div>
 `;

@@ -20,7 +20,7 @@ exports[`ComponentInput component Should match snapshot 1`] = `
   border: solid 2px #0984e3;
 }
 
-<ForwardRef>
+<styled.input>
   <StyledComponent
     forwardedClass={
       Object {
@@ -56,6 +56,7 @@ exports[`ComponentInput component Should match snapshot 1`] = `
         "render": [Function],
         "styledComponentId": "sc-bdVaJa",
         "target": "input",
+        "toString": [Function],
         "warnTooManyClasses": [Function],
         "withComponent": [Function],
       }
@@ -66,5 +67,5 @@ exports[`ComponentInput component Should match snapshot 1`] = `
       className="c0"
     />
   </StyledComponent>
-</ForwardRef>
+</styled.input>
 `;
