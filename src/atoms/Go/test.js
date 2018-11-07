@@ -16,5 +16,6 @@ describe('Go Atom', () => {
   });
   it('it should have no decoration', () => {
     expect(component).toHaveStyleRule('text-decoration', 'none');
+    expect(component).toHaveStyleRule('color', 'inherit');
   });
 });

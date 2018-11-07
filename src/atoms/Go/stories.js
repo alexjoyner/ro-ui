@@ -5,9 +5,9 @@ import { Go } from '.';
 
 Atoms
   .add('Go', () => (
-    <Go>
+    <Go to="http://www.google.com">
       <Panel>
-        <h1>This entire panel should be a link!</h1>
+        <h1>This entire panel should be a link to google!</h1>
       </Panel>
     </Go>
   ));

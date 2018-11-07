@@ -20,7 +20,7 @@ describe('main', () => {
     expect(Main.BasicSideBar).not.toBe(undefined);
     expect(Main.BasicSideBarPageBody).not.toBe(undefined);
     expect(Main.HeaderSideBarPageBody).not.toBe(undefined);
-    expect(Main.HeaderSideBarPageBody).not.toBe(undefined);
+    expect(Main.Go).not.toBe(undefined);
   });
   it('Should include all Molecules', () => {
     expect(Main.GaugeBlock).not.toBe(undefined);
