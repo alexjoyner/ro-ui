@@ -20,7 +20,9 @@ const SideBarBody = props => (
     <Header color="dark">
       <ISideBarToggle Button={TestToggleBtn} />
     </Header>
-    <HeaderSideBarPageBody {...props} />
+    <HeaderSideBarPageBody {...props}>
+      <h1>Test Header Sidebar Story</h1>
+    </HeaderSideBarPageBody>
   </div>
 );
 const store = createStore(combineReducers({

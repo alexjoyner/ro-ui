@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import {BasicSideBarPageBody, HeaderSideBarPageBody } from '.';
+import { BasicSideBarPageBody, HeaderSideBarPageBody } from '.';
 
 describe('SideBarPageBody component', () => {
   let component;
@@ -21,6 +21,7 @@ describe('SideBarPageBody component', () => {
     it('Should have default styles', () => {
       expect(component).toHaveStyleRule('margin-left', '300px');
       expect(component).toHaveStyleRule('min-height', '10px');
+      expect(component).toHaveStyleRule('transition', '100ms linear');
     });
     it('Should extend out if sidebar not shown', () => {
       component.setProps({

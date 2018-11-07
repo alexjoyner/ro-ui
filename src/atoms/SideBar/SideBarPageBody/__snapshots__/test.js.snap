@@ -2,6 +2,8 @@
 
 exports[`SideBarPageBody component Basic Version Should match snapshot 1`] = `
 .c0 {
+  -webkit-transition: 100ms linear;
+  transition: 100ms linear;
   margin-left: 300px;
   min-height: 10px;
 }
@@ -19,7 +21,7 @@ exports[`SideBarPageBody component Basic Version Should match snapshot 1`] = `
           "isStatic": false,
           "lastClassName": "c0",
           "rules": Array [
-            "margin-left:",
+            "transition:100ms linear;margin-left:",
             [Function],
             ";min-height:10px;",
           ],
@@ -45,6 +47,8 @@ exports[`SideBarPageBody component Basic Version Should match snapshot 1`] = `
 
 exports[`SideBarPageBody component with Header Version Should match snapshot 1`] = `
 .c0 {
+  -webkit-transition: 100ms linear;
+  transition: 100ms linear;
   margin-left: 0px;
   min-height: 10px;
   margin-top: 56px;
@@ -61,7 +65,7 @@ exports[`SideBarPageBody component with Header Version Should match snapshot 1`]
           "isStatic": false,
           "lastClassName": "c0",
           "rules": Array [
-            "margin-left:",
+            "transition:100ms linear;margin-left:",
             [Function],
             ";min-height:10px;",
             "margin-top:56px;",
