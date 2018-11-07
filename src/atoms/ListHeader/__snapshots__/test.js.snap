@@ -1,29 +1,54 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ListHeader component Should match snapshot 1`] = `
-<StyledComponent
-  forwardedClass={
-    Object {
-      "$$typeof": Symbol(react.forward_ref),
-      "attrs": undefined,
-      "componentStyle": ComponentStyle {
-        "componentId": "ListHeader-ceem0n-0",
-        "isStatic": false,
-        "rules": Array [
-          "-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;top:0;left:0;background-color:",
-          [Function],
-          ";border:none;width:100%;height:41px;line-height:41px;vertical-align:middle;padding-left:10px;",
-        ],
-      },
-      "displayName": "ListHeader",
-      "render": [Function],
-      "styledComponentId": "ListHeader-ceem0n-0",
-      "target": "div",
-      "toString": [Function],
-      "warnTooManyClasses": [Function],
-      "withComponent": [Function],
+.c0 {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  background-color: #636e72;
+  color: white;
+  border: none;
+  width: 100%;
+  height: 41px;
+  line-height: 41px;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+<ListHeader>
+  <StyledComponent
+    forwardedClass={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": undefined,
+        "componentStyle": ComponentStyle {
+          "componentId": "ListHeader-ceem0n-0",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            "-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;top:0;left:0;background-color:",
+            [Function],
+            ";color:",
+            [Function],
+            ";border:none;width:100%;height:41px;line-height:41px;vertical-align:middle;padding-left:10px;",
+          ],
+        },
+        "displayName": "ListHeader",
+        "render": [Function],
+        "styledComponentId": "ListHeader-ceem0n-0",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
     }
-  }
-  forwardedRef={null}
-/>
+    forwardedRef={null}
+  >
+    <div
+      className="c0"
+    />
+  </StyledComponent>
+</ListHeader>
 `;

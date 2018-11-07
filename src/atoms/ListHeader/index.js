@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { colors } from '../colors';
+import { getTextContrastColor } from '../../utils/getTextContrastColor';
 
 export const ListHeader = styled.div`
   -moz-box-sizing: border-box; 
@@ -7,7 +8,8 @@ export const ListHeader = styled.div`
   box-sizing: border-box; 
   top: 0;
   left: 0;
-  background-color: ${props => props.color || colors.darkLight};
+  background-color: ${props => colors[props.color] || colors.darkLight};
+  color: ${props => getTextContrastColor(colors[props.color] || colors.darkLight)};
   border: none;
   width: 100%;
   height: 41px;
