@@ -1,3 +1,4 @@
 module.exports = {
-    getExpressApp: require('./getExpressApp')
+    getExpressApp: require('./getExpressApp'),
+    runExpressApp: require('./runExpressApp'),
 }
