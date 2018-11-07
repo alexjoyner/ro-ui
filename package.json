@@ -1,0 +1,14 @@
+{
+  "name": "ro-server-utils",
+  "version": "0.1.0",
+  "description": "A set of utilities for quickly creating apps",
+  "main": "index.js",
+  "repository": "https://github.com/alexjoyner/ro-server-utils.git",
+  "author": "alex@voicir.com",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}
