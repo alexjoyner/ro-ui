@@ -29,8 +29,9 @@ describe('SideBar component', () => {
 });
 describe('AnimatedSideBar', () => {
   let component;
+  let props;
   beforeEach(() => {
-    const props = {
+    props = {
       shown: true,
     };
     component = mount(<AnimatedSideBar {...props} />);
@@ -43,5 +44,10 @@ describe('AnimatedSideBar', () => {
   });
   it('should have animation props', () => {
     expect(component).toHaveStyleRule('transition', '100ms linear');
+    expect(component).toHaveStyleRule('left', '0px');
+    component.setProps({
+      shown: false,
+    });
+    expect(component).toHaveStyleRule('left', '-250px');
   });
 });

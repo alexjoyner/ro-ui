@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 export const TISideBar = ({ shown, SideBar, Body }) => (
   <div>
-    <SideBar />
+    <SideBar shown={shown} />
     <Body sideBarShown={shown} />
   </div>
 );
