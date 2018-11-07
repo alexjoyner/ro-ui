@@ -14,42 +14,30 @@ exports[`PanelContainer component Should match snapshot 1`] = `
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
 }
 
-<styled.div>
+<PanelContainer>
   <StyledComponent
     forwardedClass={
       Object {
         "$$typeof": Symbol(react.forward_ref),
         "attrs": undefined,
         "componentStyle": ComponentStyle {
-          "componentId": "sc-bdVaJa",
+          "componentId": "PanelContainer-sc-1ig7jdk-0",
           "isStatic": false,
           "lastClassName": "c0",
           "rules": Array [
-            "
-    ",
             [Function],
-            "
-    position: relative;
-    height: ",
+            " position:relative;height:",
             [Function],
-            ";
-    min-width: ",
+            ";min-width:",
             [Function],
-            ";
-    margin: 10px;
-    padding: 10px;
-    background-color: ",
+            ";margin:10px;padding:10px;background-color:",
             "#fafafa",
-            ";
-    border: 1px solid #EEEEEE;
-    radius: 5px;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
-",
+            ";border:1px solid #EEEEEE;radius:5px;box-shadow:0 2px 2px 0 rgba(0,0,0,0.16);",
           ],
         },
-        "displayName": "styled.div",
+        "displayName": "PanelContainer",
         "render": [Function],
-        "styledComponentId": "sc-bdVaJa",
+        "styledComponentId": "PanelContainer-sc-1ig7jdk-0",
         "target": "div",
         "toString": [Function],
         "warnTooManyClasses": [Function],
@@ -62,5 +50,5 @@ exports[`PanelContainer component Should match snapshot 1`] = `
       className="c0"
     />
   </StyledComponent>
-</styled.div>
+</PanelContainer>
 `;

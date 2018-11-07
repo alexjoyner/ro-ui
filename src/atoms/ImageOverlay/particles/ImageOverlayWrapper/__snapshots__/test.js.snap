@@ -7,31 +7,15 @@ exports[`ImageOverlayWrapper component Should match snapshot 1`] = `
       "$$typeof": Symbol(react.forward_ref),
       "attrs": undefined,
       "componentStyle": ComponentStyle {
-        "componentId": "sc-bdVaJa",
+        "componentId": "ImageOverlayWrapper-pf7jti-0",
         "isStatic": true,
         "rules": Array [
-          "
-    background: rgba(0,0,0,0.6);
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    button {
-        &:hover{
-            box-shadow: none;
-            transform: scale(1.05);
-        }
-        &:active{
-            transform: scale(0.99);
-        }
-    }
-",
+          "background:rgba(0,0,0,0.6);height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;button{&:hover{box-shadow:none;transform:scale(1.05);}&:active{transform:scale(0.99);}}",
         ],
       },
-      "displayName": "styled.div",
+      "displayName": "ImageOverlayWrapper",
       "render": [Function],
-      "styledComponentId": "sc-bdVaJa",
+      "styledComponentId": "ImageOverlayWrapper-pf7jti-0",
       "target": "div",
       "toString": [Function],
       "warnTooManyClasses": [Function],

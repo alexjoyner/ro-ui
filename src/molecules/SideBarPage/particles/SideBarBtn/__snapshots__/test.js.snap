@@ -47,31 +47,25 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
   left: 7px;
 }
 
-<Styled(Button)>
+<SideBarBtn>
   <StyledComponent
     forwardedClass={
       Object {
         "$$typeof": Symbol(react.forward_ref),
         "attrs": undefined,
         "componentStyle": ComponentStyle {
-          "componentId": "sc-htpNat",
+          "componentId": "SideBarBtn-lihfen-0",
           "isStatic": false,
           "lastClassName": "c0",
           "rules": Array [
-            "
-  margin-left: 0;
-  transition: 100ms linear;
-  position: fixed;
-  margin-top: 2px;
-  ",
+            "margin-left:0;transition:100ms linear;position:fixed;margin-top:2px;",
             [Function],
-            "; 
-",
+            ";",
           ],
         },
-        "displayName": "Styled(Button)",
+        "displayName": "SideBarBtn",
         "render": [Function],
-        "styledComponentId": "sc-htpNat",
+        "styledComponentId": "SideBarBtn-lihfen-0",
         "target": [Function],
         "toString": [Function],
         "warnTooManyClasses": [Function],
@@ -87,7 +81,7 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
       ghost={false}
       size="default"
     >
-      <styled.button
+      <ButtonWrapper
         className="c0"
         type="button"
       >
@@ -98,23 +92,16 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
               "$$typeof": Symbol(react.forward_ref),
               "attrs": undefined,
               "componentStyle": ComponentStyle {
-                "componentId": "sc-bdVaJa",
+                "componentId": "ButtonWrapper-sc-180guxd-0",
                 "isStatic": true,
                 "lastClassName": "c1",
                 "rules": Array [
-                  "
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  background: none;
-  border: none;
-  outline: none; 
-  font-size: inherit;
-",
+                  "-moz-appearance:none;-webkit-appearance:none;background:none;border:none;outline:none;font-size:inherit;",
                 ],
               },
-              "displayName": "styled.button",
+              "displayName": "ButtonWrapper",
               "render": [Function],
-              "styledComponentId": "sc-bdVaJa",
+              "styledComponentId": "ButtonWrapper-sc-180guxd-0",
               "target": "button",
               "toString": [Function],
               "warnTooManyClasses": [Function],
@@ -128,7 +115,7 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
             className="c0 c1"
             type="button"
           >
-            <styled.span
+            <ButtonStyles
               color="default"
               ghost={false}
               size="default"
@@ -141,48 +128,26 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
                     "$$typeof": Symbol(react.forward_ref),
                     "attrs": undefined,
                     "componentStyle": ComponentStyle {
-                      "componentId": "sc-bwzfXH",
+                      "componentId": "ButtonStyles-sc-14qnpbl-0",
                       "isStatic": false,
                       "lastClassName": "c2",
                       "rules": Array [
-                        "
-  background-color: ",
+                        "background-color:",
                         [Function],
-                        ";
-  color: ",
+                        ";color:",
                         [Function],
-                        ";
-  border: 1px solid ",
+                        ";border:1px solid ",
                         [Function],
-                        ";
-  display: inline-block;
-  outline: none;
-  cursor: pointer;
-  ",
+                        ";display:inline-block;outline:none;cursor:pointer;",
                         [Function],
-                        "; 
-  text-align: center;
-  line-height: 1.5;
-  transition: 0.1s linear;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
-  svg {
-    vertical-align: middle;
-  }
-  &:hover {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-  } 
-  &:active {
-    box-shadow: none;
-  }
-  ",
+                        ";text-align:center;line-height:1.5;transition:0.1s linear;box-shadow:0 1px 2px 0 rgba(0,0,0,0.2);svg{vertical-align:middle;}&:hover{box-shadow:0 2px 4px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);}&:active{box-shadow:none;}",
                         [Function],
-                        ";
-",
+                        ";",
                       ],
                     },
-                    "displayName": "styled.span",
+                    "displayName": "ButtonStyles",
                     "render": [Function],
-                    "styledComponentId": "sc-bwzfXH",
+                    "styledComponentId": "ButtonStyles-sc-14qnpbl-0",
                     "target": "span",
                     "toString": [Function],
                     "warnTooManyClasses": [Function],
@@ -201,11 +166,11 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
                   tabIndex={-1}
                 />
               </StyledComponent>
-            </styled.span>
+            </ButtonStyles>
           </button>
         </StyledComponent>
-      </styled.button>
+      </ButtonWrapper>
     </Button>
   </StyledComponent>
-</Styled(Button)>
+</SideBarBtn>
 `;

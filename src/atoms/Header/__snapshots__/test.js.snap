@@ -2,6 +2,6 @@
 
 exports[`Header component Should match snapshot 1`] = `
 <HeaderContainer>
-  <styled.div />
+  <HeaderContentsWrapper />
 </HeaderContainer>
 `;

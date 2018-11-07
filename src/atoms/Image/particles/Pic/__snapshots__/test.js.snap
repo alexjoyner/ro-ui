@@ -7,22 +7,18 @@ exports[`Pic component Should match snapshot 1`] = `
       "$$typeof": Symbol(react.forward_ref),
       "attrs": undefined,
       "componentStyle": ComponentStyle {
-        "componentId": "sc-bdVaJa",
+        "componentId": "Pic-sc-2tbsnz-0",
         "isStatic": false,
         "rules": Array [
-          "
-    ",
           [Function],
-          ";
-    ",
+          ";",
           [Function],
-          ";
-",
+          ";",
         ],
       },
-      "displayName": "styled.img",
+      "displayName": "Pic",
       "render": [Function],
-      "styledComponentId": "sc-bdVaJa",
+      "styledComponentId": "Pic-sc-2tbsnz-0",
       "target": "img",
       "toString": [Function],
       "warnTooManyClasses": [Function],

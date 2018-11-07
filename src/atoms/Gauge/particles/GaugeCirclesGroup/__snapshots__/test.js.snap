@@ -2,20 +2,20 @@
 
 exports[`GaugeCirclesGroup component Should match snapshot 1`] = `
 <g>
-  <styled.circle
+  <GaugeOuterCircle
     cx="125"
     cy="150"
     fill="none"
     r="124"
   />
-  <styled.circle
+  <GaugeRangeBoundary
     cx="125"
     cy="150"
     fill="none"
     id="gauge-range-boundary-circle"
     r="117"
   />
-  <styled.circle
+  <GaugeInnerCircle
     cx="125"
     cy="150"
     fill="none"

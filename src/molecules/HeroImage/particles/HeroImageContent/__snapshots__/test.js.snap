@@ -7,17 +7,15 @@ exports[`HeroImageContent component Should match snapshot 1`] = `
       "$$typeof": Symbol(react.forward_ref),
       "attrs": undefined,
       "componentStyle": ComponentStyle {
-        "componentId": "sc-bdVaJa",
+        "componentId": "HeroImageContent-sc-1y1ieol-0",
         "isStatic": true,
         "rules": Array [
-          "
-    color: white;
-",
+          "color:white;",
         ],
       },
-      "displayName": "styled.div",
+      "displayName": "HeroImageContent",
       "render": [Function],
-      "styledComponentId": "sc-bdVaJa",
+      "styledComponentId": "HeroImageContent-sc-1y1ieol-0",
       "target": "div",
       "toString": [Function],
       "warnTooManyClasses": [Function],

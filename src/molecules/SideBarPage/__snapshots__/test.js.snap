@@ -75,7 +75,7 @@ exports[`SideBarPage component Should match snapshot 1`] = `
 
 <SideBarPage>
   <div>
-    <styled.div
+    <SideBarContainer
       shown={true}
     >
       <StyledComponent
@@ -84,36 +84,22 @@ exports[`SideBarPage component Should match snapshot 1`] = `
             "$$typeof": Symbol(react.forward_ref),
             "attrs": undefined,
             "componentStyle": ComponentStyle {
-              "componentId": "sc-bxivhb",
+              "componentId": "SideBarContainer-bdbgzo-0",
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
-                "
-  position: fixed;
-  z-index: ",
+                "position:fixed;z-index:",
                 "1",
-                ";
-  top: 56px;
-  transition: 100ms linear;
-  height: 100vh;
-  width: 300px;
-  background-color: ",
+                ";top:56px;transition:100ms linear;height:100vh;width:300px;background-color:",
                 [Function],
-                ";
-  color: white;
-  font-size: 20px;
-  ul{
-      list-style: none;
-  }
-  ",
+                ";color:white;font-size:20px;ul{list-style:none;}",
                 [Function],
-                ";
-",
+                ";",
               ],
             },
-            "displayName": "styled.div",
+            "displayName": "SideBarContainer",
             "render": [Function],
-            "styledComponentId": "sc-bxivhb",
+            "styledComponentId": "SideBarContainer-bdbgzo-0",
             "target": "div",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -126,7 +112,7 @@ exports[`SideBarPage component Should match snapshot 1`] = `
         <div
           className="c0"
         >
-          <Styled(Button)
+          <SideBarBtn
             color="primary"
             onClick={[Function]}
             shown={true}
@@ -139,24 +125,18 @@ exports[`SideBarPage component Should match snapshot 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": undefined,
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-htpNat",
+                    "componentId": "SideBarBtn-lihfen-0",
                     "isStatic": false,
                     "lastClassName": "c1",
                     "rules": Array [
-                      "
-  margin-left: 0;
-  transition: 100ms linear;
-  position: fixed;
-  margin-top: 2px;
-  ",
+                      "margin-left:0;transition:100ms linear;position:fixed;margin-top:2px;",
                       [Function],
-                      "; 
-",
+                      ";",
                     ],
                   },
-                  "displayName": "Styled(Button)",
+                  "displayName": "SideBarBtn",
                   "render": [Function],
-                  "styledComponentId": "sc-htpNat",
+                  "styledComponentId": "SideBarBtn-lihfen-0",
                   "target": [Function],
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -177,7 +157,7 @@ exports[`SideBarPage component Should match snapshot 1`] = `
                 shown={true}
                 size="small"
               >
-                <styled.button
+                <ButtonWrapper
                   className="c1"
                   onClick={[Function]}
                   shown={true}
@@ -190,23 +170,16 @@ exports[`SideBarPage component Should match snapshot 1`] = `
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": undefined,
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-bdVaJa",
+                          "componentId": "ButtonWrapper-sc-180guxd-0",
                           "isStatic": true,
                           "lastClassName": "c2",
                           "rules": Array [
-                            "
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  background: none;
-  border: none;
-  outline: none; 
-  font-size: inherit;
-",
+                            "-moz-appearance:none;-webkit-appearance:none;background:none;border:none;outline:none;font-size:inherit;",
                           ],
                         },
-                        "displayName": "styled.button",
+                        "displayName": "ButtonWrapper",
                         "render": [Function],
-                        "styledComponentId": "sc-bdVaJa",
+                        "styledComponentId": "ButtonWrapper-sc-180guxd-0",
                         "target": "button",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -223,7 +196,7 @@ exports[`SideBarPage component Should match snapshot 1`] = `
                       onClick={[Function]}
                       type="button"
                     >
-                      <styled.span
+                      <ButtonStyles
                         color="primary"
                         ghost={false}
                         size="small"
@@ -236,48 +209,26 @@ exports[`SideBarPage component Should match snapshot 1`] = `
                               "$$typeof": Symbol(react.forward_ref),
                               "attrs": undefined,
                               "componentStyle": ComponentStyle {
-                                "componentId": "sc-bwzfXH",
+                                "componentId": "ButtonStyles-sc-14qnpbl-0",
                                 "isStatic": false,
                                 "lastClassName": "c3",
                                 "rules": Array [
-                                  "
-  background-color: ",
+                                  "background-color:",
                                   [Function],
-                                  ";
-  color: ",
+                                  ";color:",
                                   [Function],
-                                  ";
-  border: 1px solid ",
+                                  ";border:1px solid ",
                                   [Function],
-                                  ";
-  display: inline-block;
-  outline: none;
-  cursor: pointer;
-  ",
+                                  ";display:inline-block;outline:none;cursor:pointer;",
                                   [Function],
-                                  "; 
-  text-align: center;
-  line-height: 1.5;
-  transition: 0.1s linear;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
-  svg {
-    vertical-align: middle;
-  }
-  &:hover {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-  } 
-  &:active {
-    box-shadow: none;
-  }
-  ",
+                                  ";text-align:center;line-height:1.5;transition:0.1s linear;box-shadow:0 1px 2px 0 rgba(0,0,0,0.2);svg{vertical-align:middle;}&:hover{box-shadow:0 2px 4px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);}&:active{box-shadow:none;}",
                                   [Function],
-                                  ";
-",
+                                  ";",
                                 ],
                               },
-                              "displayName": "styled.span",
+                              "displayName": "ButtonStyles",
                               "render": [Function],
-                              "styledComponentId": "sc-bwzfXH",
+                              "styledComponentId": "ButtonStyles-sc-14qnpbl-0",
                               "target": "span",
                               "toString": [Function],
                               "warnTooManyClasses": [Function],
@@ -340,17 +291,17 @@ exports[`SideBarPage component Should match snapshot 1`] = `
                             </IoIosArrowBack>
                           </span>
                         </StyledComponent>
-                      </styled.span>
+                      </ButtonStyles>
                     </button>
                   </StyledComponent>
-                </styled.button>
+                </ButtonWrapper>
               </Button>
             </StyledComponent>
-          </Styled(Button)>
+          </SideBarBtn>
         </div>
       </StyledComponent>
-    </styled.div>
-    <styled.div
+    </SideBarContainer>
+    <SideBarPage__PageWrapper
       shown={true}
     >
       <StyledComponent
@@ -359,23 +310,18 @@ exports[`SideBarPage component Should match snapshot 1`] = `
             "$$typeof": Symbol(react.forward_ref),
             "attrs": undefined,
             "componentStyle": ComponentStyle {
-              "componentId": "sc-ifAKCX",
+              "componentId": "SideBarPage__PageWrapper-sc-1et1n1c-0",
               "isStatic": false,
               "lastClassName": "c4",
               "rules": Array [
-                "
-  position: relative;
-  transition: 100ms linear;
-  z-index: 0;
-  padding-left: ",
+                "position:relative;transition:100ms linear;z-index:0;padding-left:",
                 [Function],
-                ";
-",
+                ";",
               ],
             },
-            "displayName": "styled.div",
+            "displayName": "SideBarPage__PageWrapper",
             "render": [Function],
-            "styledComponentId": "sc-ifAKCX",
+            "styledComponentId": "SideBarPage__PageWrapper-sc-1et1n1c-0",
             "target": "div",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -389,7 +335,7 @@ exports[`SideBarPage component Should match snapshot 1`] = `
           className="c4"
         />
       </StyledComponent>
-    </styled.div>
+    </SideBarPage__PageWrapper>
   </div>
 </SideBarPage>
 `;

@@ -7,23 +7,15 @@ exports[`InputGroup component Should match snapshot 1`] = `
       "$$typeof": Symbol(react.forward_ref),
       "attrs": undefined,
       "componentStyle": ComponentStyle {
-        "componentId": "sc-bdVaJa",
+        "componentId": "InputGroup-sc-1g7xycp-0",
         "isStatic": true,
         "rules": Array [
-          "
-    display: inline-block;
-    position: relative;
-    margin-right: 20px;
-    margin-top: 10px;
-    input{
-        padding: 15px 0;
-    }
-",
+          "display:inline-block;position:relative;margin-right:20px;margin-top:10px;input{padding:15px 0;}",
         ],
       },
-      "displayName": "styled.div",
+      "displayName": "InputGroup",
       "render": [Function],
-      "styledComponentId": "sc-bdVaJa",
+      "styledComponentId": "InputGroup-sc-1g7xycp-0",
       "target": "div",
       "toString": [Function],
       "warnTooManyClasses": [Function],

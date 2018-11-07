@@ -6,31 +6,27 @@ exports[`Wrapper component Should match snapshot 1`] = `
   height: 100vh;
 }
 
-<styled.div>
+<Wrapper>
   <StyledComponent
     forwardedClass={
       Object {
         "$$typeof": Symbol(react.forward_ref),
         "attrs": undefined,
         "componentStyle": ComponentStyle {
-          "componentId": "sc-bdVaJa",
+          "componentId": "Wrapper-sc-105kfbx-0",
           "isStatic": false,
           "lastClassName": "c0",
           "rules": Array [
-            "
-  background-size: cover;
-  background-image: ",
+            "background-size:cover;background-image:",
             [Function],
-            ";
-  height: ",
+            ";height:",
             [Function],
-            ";
-",
+            ";",
           ],
         },
-        "displayName": "styled.div",
+        "displayName": "Wrapper",
         "render": [Function],
-        "styledComponentId": "sc-bdVaJa",
+        "styledComponentId": "Wrapper-sc-105kfbx-0",
         "target": "div",
         "toString": [Function],
         "warnTooManyClasses": [Function],
@@ -43,5 +39,5 @@ exports[`Wrapper component Should match snapshot 1`] = `
       className="c0"
     />
   </StyledComponent>
-</styled.div>
+</Wrapper>
 `;

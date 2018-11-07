@@ -147,7 +147,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
   <Panel
     width="20%"
   >
-    <styled.div
+    <PanelContainer
       width="20%"
     >
       <StyledComponent
@@ -156,35 +156,23 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
             "$$typeof": Symbol(react.forward_ref),
             "attrs": undefined,
             "componentStyle": ComponentStyle {
-              "componentId": "sc-bdVaJa",
+              "componentId": "PanelContainer-sc-1ig7jdk-0",
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
-                "
-    ",
                 [Function],
-                "
-    position: relative;
-    height: ",
+                " position:relative;height:",
                 [Function],
-                ";
-    min-width: ",
+                ";min-width:",
                 [Function],
-                ";
-    margin: 10px;
-    padding: 10px;
-    background-color: ",
+                ";margin:10px;padding:10px;background-color:",
                 "#fafafa",
-                ";
-    border: 1px solid #EEEEEE;
-    radius: 5px;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
-",
+                ";border:1px solid #EEEEEE;radius:5px;box-shadow:0 2px 2px 0 rgba(0,0,0,0.16);",
               ],
             },
-            "displayName": "styled.div",
+            "displayName": "PanelContainer",
             "render": [Function],
-            "styledComponentId": "sc-bdVaJa",
+            "styledComponentId": "PanelContainer-sc-1ig7jdk-0",
             "target": "div",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -198,27 +186,23 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
           className="c0"
           width="20%"
         >
-          <styled.div>
+          <GaugeBlock__GaugeBlockBtnContainer>
             <StyledComponent
               forwardedClass={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": undefined,
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-VigVT",
+                    "componentId": "GaugeBlock__GaugeBlockBtnContainer-sc-1hburx9-0",
                     "isStatic": true,
                     "lastClassName": "c1",
                     "rules": Array [
-                      "
-  position: absolute;
-  left: 5px;
-  top: 5px;
-",
+                      "position:absolute;left:5px;top:5px;",
                     ],
                   },
-                  "displayName": "styled.div",
+                  "displayName": "GaugeBlock__GaugeBlockBtnContainer",
                   "render": [Function],
-                  "styledComponentId": "sc-VigVT",
+                  "styledComponentId": "GaugeBlock__GaugeBlockBtnContainer-sc-1hburx9-0",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -236,7 +220,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                   onClick={[Function]}
                   size="xsmall"
                 >
-                  <styled.button
+                  <ButtonWrapper
                     onClick={[Function]}
                     type="button"
                   >
@@ -246,23 +230,16 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": undefined,
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-gZMcBi",
+                            "componentId": "ButtonWrapper-sc-180guxd-0",
                             "isStatic": true,
                             "lastClassName": "c2",
                             "rules": Array [
-                              "
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  background: none;
-  border: none;
-  outline: none; 
-  font-size: inherit;
-",
+                              "-moz-appearance:none;-webkit-appearance:none;background:none;border:none;outline:none;font-size:inherit;",
                             ],
                           },
-                          "displayName": "styled.button",
+                          "displayName": "ButtonWrapper",
                           "render": [Function],
-                          "styledComponentId": "sc-gZMcBi",
+                          "styledComponentId": "ButtonWrapper-sc-180guxd-0",
                           "target": "button",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -278,7 +255,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         onClick={[Function]}
                         type="button"
                       >
-                        <styled.span
+                        <ButtonStyles
                           color="dark"
                           ghost={false}
                           size="xsmall"
@@ -291,48 +268,26 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": undefined,
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "sc-gqjmRU",
+                                  "componentId": "ButtonStyles-sc-14qnpbl-0",
                                   "isStatic": false,
                                   "lastClassName": "c3",
                                   "rules": Array [
-                                    "
-  background-color: ",
+                                    "background-color:",
                                     [Function],
-                                    ";
-  color: ",
+                                    ";color:",
                                     [Function],
-                                    ";
-  border: 1px solid ",
+                                    ";border:1px solid ",
                                     [Function],
-                                    ";
-  display: inline-block;
-  outline: none;
-  cursor: pointer;
-  ",
+                                    ";display:inline-block;outline:none;cursor:pointer;",
                                     [Function],
-                                    "; 
-  text-align: center;
-  line-height: 1.5;
-  transition: 0.1s linear;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
-  svg {
-    vertical-align: middle;
-  }
-  &:hover {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-  } 
-  &:active {
-    box-shadow: none;
-  }
-  ",
+                                    ";text-align:center;line-height:1.5;transition:0.1s linear;box-shadow:0 1px 2px 0 rgba(0,0,0,0.2);svg{vertical-align:middle;}&:hover{box-shadow:0 2px 4px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);}&:active{box-shadow:none;}",
                                     [Function],
-                                    ";
-",
+                                    ";",
                                   ],
                                 },
-                                "displayName": "styled.span",
+                                "displayName": "ButtonStyles",
                                 "render": [Function],
-                                "styledComponentId": "sc-gqjmRU",
+                                "styledComponentId": "ButtonStyles-sc-14qnpbl-0",
                                 "target": "span",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -385,35 +340,31 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                               </GoGraph>
                             </span>
                           </StyledComponent>
-                        </styled.span>
+                        </ButtonStyles>
                       </button>
                     </StyledComponent>
-                  </styled.button>
+                  </ButtonWrapper>
                 </Button>
               </div>
             </StyledComponent>
-          </styled.div>
-          <styled.div>
+          </GaugeBlock__GaugeBlockBtnContainer>
+          <GaugeBlock__SettingsBtnContainer>
             <StyledComponent
               forwardedClass={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": undefined,
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-jTzLTM",
+                    "componentId": "GaugeBlock__SettingsBtnContainer-sc-1hburx9-1",
                     "isStatic": true,
                     "lastClassName": "c4",
                     "rules": Array [
-                      "
-  position: absolute;
-  right: 5px;
-  top: 5px;
-",
+                      "position:absolute;right:5px;top:5px;",
                     ],
                   },
-                  "displayName": "styled.div",
+                  "displayName": "GaugeBlock__SettingsBtnContainer",
                   "render": [Function],
-                  "styledComponentId": "sc-jTzLTM",
+                  "styledComponentId": "GaugeBlock__SettingsBtnContainer-sc-1hburx9-1",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -431,7 +382,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                   onClick={[Function]}
                   size="xsmall"
                 >
-                  <styled.button
+                  <ButtonWrapper
                     onClick={[Function]}
                     type="button"
                   >
@@ -441,23 +392,16 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": undefined,
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-gZMcBi",
+                            "componentId": "ButtonWrapper-sc-180guxd-0",
                             "isStatic": true,
                             "lastClassName": "c2",
                             "rules": Array [
-                              "
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  background: none;
-  border: none;
-  outline: none; 
-  font-size: inherit;
-",
+                              "-moz-appearance:none;-webkit-appearance:none;background:none;border:none;outline:none;font-size:inherit;",
                             ],
                           },
-                          "displayName": "styled.button",
+                          "displayName": "ButtonWrapper",
                           "render": [Function],
-                          "styledComponentId": "sc-gZMcBi",
+                          "styledComponentId": "ButtonWrapper-sc-180guxd-0",
                           "target": "button",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -473,7 +417,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         onClick={[Function]}
                         type="button"
                       >
-                        <styled.span
+                        <ButtonStyles
                           color="dark"
                           ghost={false}
                           size="xsmall"
@@ -486,48 +430,26 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": undefined,
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "sc-gqjmRU",
+                                  "componentId": "ButtonStyles-sc-14qnpbl-0",
                                   "isStatic": false,
                                   "lastClassName": "c3",
                                   "rules": Array [
-                                    "
-  background-color: ",
+                                    "background-color:",
                                     [Function],
-                                    ";
-  color: ",
+                                    ";color:",
                                     [Function],
-                                    ";
-  border: 1px solid ",
+                                    ";border:1px solid ",
                                     [Function],
-                                    ";
-  display: inline-block;
-  outline: none;
-  cursor: pointer;
-  ",
+                                    ";display:inline-block;outline:none;cursor:pointer;",
                                     [Function],
-                                    "; 
-  text-align: center;
-  line-height: 1.5;
-  transition: 0.1s linear;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
-  svg {
-    vertical-align: middle;
-  }
-  &:hover {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-  } 
-  &:active {
-    box-shadow: none;
-  }
-  ",
+                                    ";text-align:center;line-height:1.5;transition:0.1s linear;box-shadow:0 1px 2px 0 rgba(0,0,0,0.2);svg{vertical-align:middle;}&:hover{box-shadow:0 2px 4px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);}&:active{box-shadow:none;}",
                                     [Function],
-                                    ";
-",
+                                    ";",
                                   ],
                                 },
-                                "displayName": "styled.span",
+                                "displayName": "ButtonStyles",
                                 "render": [Function],
-                                "styledComponentId": "sc-gqjmRU",
+                                "styledComponentId": "ButtonStyles-sc-14qnpbl-0",
                                 "target": "span",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -580,14 +502,14 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                               </GoGear>
                             </span>
                           </StyledComponent>
-                        </styled.span>
+                        </ButtonStyles>
                       </button>
                     </StyledComponent>
-                  </styled.button>
+                  </ButtonWrapper>
                 </Button>
               </div>
             </StyledComponent>
-          </styled.div>
+          </GaugeBlock__SettingsBtnContainer>
           <Gauge
             max={100}
             min={0}
@@ -622,7 +544,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
               viewBox="0 0 250 180"
               width="100%"
             >
-              <styled.circle
+              <GaugeStatusCircle
                 color="#f1c40f"
                 cx="125"
                 cy="150"
@@ -639,23 +561,18 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                       "$$typeof": Symbol(react.forward_ref),
                       "attrs": undefined,
                       "componentStyle": ComponentStyle {
-                        "componentId": "sc-bxivhb",
+                        "componentId": "GaugeStatusCircle-sc-1qif7k3-0",
                         "isStatic": false,
                         "lastClassName": "c5",
                         "rules": Array [
-                          "
-  stroke: ",
+                          "stroke:",
                           [Function],
-                          ";
-  stroke-width: 17;
-  stroke-dasharray: 340.865;
-  stroke-dashoffset: 340.865;
-",
+                          ";stroke-width:17;stroke-dasharray:340.865;stroke-dashoffset:340.865;",
                         ],
                       },
-                      "displayName": "styled.circle",
+                      "displayName": "GaugeStatusCircle",
                       "render": [Function],
-                      "styledComponentId": "sc-bxivhb",
+                      "styledComponentId": "GaugeStatusCircle-sc-1qif7k3-0",
                       "target": "circle",
                       "toString": [Function],
                       "warnTooManyClasses": [Function],
@@ -674,7 +591,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                     r="108.5"
                   />
                 </StyledComponent>
-              </styled.circle>
+              </GaugeStatusCircle>
               <GaugeRange
                 key="range1"
                 opts={
@@ -721,7 +638,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                 }
               >
                 <g>
-                  <styled.path
+                  <RangePath
                     d="M 4.5 149.99999999999997  A 120.5 120.5 0 0 1 125.00000000000001 29.5"
                     fill="none"
                     stroke="#f1c40f"
@@ -734,19 +651,16 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": undefined,
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-bwzfXH",
+                            "componentId": "RangePath-sc-2489nt-0",
                             "isStatic": true,
                             "lastClassName": "c6",
                             "rules": Array [
-                              "
-  stroke-width: 7;
-  fill: none;
-",
+                              "stroke-width:7;fill:none;",
                             ],
                           },
-                          "displayName": "styled.path",
+                          "displayName": "RangePath",
                           "render": [Function],
-                          "styledComponentId": "sc-bwzfXH",
+                          "styledComponentId": "RangePath-sc-2489nt-0",
                           "target": "path",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -763,7 +677,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         stroke="#f1c40f"
                       />
                     </StyledComponent>
-                  </styled.path>
+                  </RangePath>
                   <TickMark
                     angle={90}
                   >
@@ -777,7 +691,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                       y2="150"
                     />
                   </TickMark>
-                  <styled.text
+                  <GaugeLabel
                     x={125.00000000000001}
                     y={19.5}
                   >
@@ -787,21 +701,16 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": undefined,
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-htpNat",
+                            "componentId": "GaugeLabel-sc-19sq0rg-0",
                             "isStatic": true,
                             "lastClassName": "c7",
                             "rules": Array [
-                              "
-    font-size: .6rem;
-    fill: #5b6268;
-    text-anchor: middle;
-    dominant-baseline: central;
-",
+                              "font-size:.6rem;fill:#5b6268;text-anchor:middle;dominant-baseline:central;",
                             ],
                           },
-                          "displayName": "styled.text",
+                          "displayName": "GaugeLabel",
                           "render": [Function],
-                          "styledComponentId": "sc-htpNat",
+                          "styledComponentId": "GaugeLabel-sc-19sq0rg-0",
                           "target": "text",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -820,7 +729,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         50
                       </text>
                     </StyledComponent>
-                  </styled.text>
+                  </GaugeLabel>
                 </g>
               </GaugeRange>
               <GaugeRange
@@ -869,7 +778,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                 }
               >
                 <g>
-                  <styled.path
+                  <RangePath
                     d="M 125.00000000000001 29.5  A 120.5 120.5 0 0 1 222.48654782218117 79.171877098757"
                     fill="none"
                     stroke="#2ecc71"
@@ -882,19 +791,16 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": undefined,
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-bwzfXH",
+                            "componentId": "RangePath-sc-2489nt-0",
                             "isStatic": true,
                             "lastClassName": "c6",
                             "rules": Array [
-                              "
-  stroke-width: 7;
-  fill: none;
-",
+                              "stroke-width:7;fill:none;",
                             ],
                           },
-                          "displayName": "styled.path",
+                          "displayName": "RangePath",
                           "render": [Function],
-                          "styledComponentId": "sc-bwzfXH",
+                          "styledComponentId": "RangePath-sc-2489nt-0",
                           "target": "path",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -911,7 +817,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         stroke="#2ecc71"
                       />
                     </StyledComponent>
-                  </styled.path>
+                  </RangePath>
                   <TickMark
                     angle={144}
                   >
@@ -925,7 +831,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                       y2="150"
                     />
                   </TickMark>
-                  <styled.text
+                  <GaugeLabel
                     x={231.48654782218117}
                     y={69.171877098757}
                   >
@@ -935,21 +841,16 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": undefined,
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-htpNat",
+                            "componentId": "GaugeLabel-sc-19sq0rg-0",
                             "isStatic": true,
                             "lastClassName": "c7",
                             "rules": Array [
-                              "
-    font-size: .6rem;
-    fill: #5b6268;
-    text-anchor: middle;
-    dominant-baseline: central;
-",
+                              "font-size:.6rem;fill:#5b6268;text-anchor:middle;dominant-baseline:central;",
                             ],
                           },
-                          "displayName": "styled.text",
+                          "displayName": "GaugeLabel",
                           "render": [Function],
-                          "styledComponentId": "sc-htpNat",
+                          "styledComponentId": "GaugeLabel-sc-19sq0rg-0",
                           "target": "text",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -968,7 +869,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         80
                       </text>
                     </StyledComponent>
-                  </styled.text>
+                  </GaugeLabel>
                 </g>
               </GaugeRange>
               <GaugeRange
@@ -1017,7 +918,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                 }
               >
                 <g>
-                  <styled.path
+                  <RangePath
                     d="M 222.48654782218117 79.171877098757  A 120.5 120.5 0 0 1 245.5 150"
                     fill="none"
                     stroke="#e74c3c"
@@ -1030,19 +931,16 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": undefined,
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-bwzfXH",
+                            "componentId": "RangePath-sc-2489nt-0",
                             "isStatic": true,
                             "lastClassName": "c6",
                             "rules": Array [
-                              "
-  stroke-width: 7;
-  fill: none;
-",
+                              "stroke-width:7;fill:none;",
                             ],
                           },
-                          "displayName": "styled.path",
+                          "displayName": "RangePath",
                           "render": [Function],
-                          "styledComponentId": "sc-bwzfXH",
+                          "styledComponentId": "RangePath-sc-2489nt-0",
                           "target": "path",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -1059,7 +957,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         stroke="#e74c3c"
                       />
                     </StyledComponent>
-                  </styled.path>
+                  </RangePath>
                   <TickMark
                     angle={180}
                   >
@@ -1073,7 +971,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                       y2="150"
                     />
                   </TickMark>
-                  <styled.text
+                  <GaugeLabel
                     x={260.5}
                     y={140}
                   >
@@ -1083,21 +981,16 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": undefined,
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-htpNat",
+                            "componentId": "GaugeLabel-sc-19sq0rg-0",
                             "isStatic": true,
                             "lastClassName": "c7",
                             "rules": Array [
-                              "
-    font-size: .6rem;
-    fill: #5b6268;
-    text-anchor: middle;
-    dominant-baseline: central;
-",
+                              "font-size:.6rem;fill:#5b6268;text-anchor:middle;dominant-baseline:central;",
                             ],
                           },
-                          "displayName": "styled.text",
+                          "displayName": "GaugeLabel",
                           "render": [Function],
-                          "styledComponentId": "sc-htpNat",
+                          "styledComponentId": "GaugeLabel-sc-19sq0rg-0",
                           "target": "text",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -1116,12 +1009,12 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         100
                       </text>
                     </StyledComponent>
-                  </styled.text>
+                  </GaugeLabel>
                 </g>
               </GaugeRange>
               <GaugeCirclesGroup>
                 <g>
-                  <styled.circle
+                  <GaugeOuterCircle
                     cx="125"
                     cy="150"
                     fill="none"
@@ -1136,21 +1029,16 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": undefined,
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-gzVnrw",
+                            "componentId": "GaugeOuterCircle-sc-14kr5ii-0",
                             "isStatic": true,
                             "lastClassName": "c8",
                             "rules": Array [
-                              "
-  stroke: #34495e;
-  stroke-width: 1;
-  stroke-dasharray: 389.557;
-  stroke-dashoffset: 389.557;
-",
+                              "stroke:#34495e;stroke-width:1;stroke-dasharray:389.557;stroke-dashoffset:389.557;",
                             ],
                           },
-                          "displayName": "styled.circle",
+                          "displayName": "GaugeOuterCircle",
                           "render": [Function],
-                          "styledComponentId": "sc-gzVnrw",
+                          "styledComponentId": "GaugeOuterCircle-sc-14kr5ii-0",
                           "target": "circle",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -1168,8 +1056,8 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         r="124"
                       />
                     </StyledComponent>
-                  </styled.circle>
-                  <styled.circle
+                  </GaugeOuterCircle>
+                  <GaugeRangeBoundary
                     cx="125"
                     cy="150"
                     fill="none"
@@ -1185,21 +1073,16 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": undefined,
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-htoDjs",
+                            "componentId": "GaugeRangeBoundary-sc-14jbblv-0",
                             "isStatic": true,
                             "lastClassName": "c9",
                             "rules": Array [
-                              "
-  stroke: #34495e;
-  stroke-width: 1;
-  stroke-dasharray: 367.557;
-  stroke-dashoffset: 367.557;
-",
+                              "stroke:#34495e;stroke-width:1;stroke-dasharray:367.557;stroke-dashoffset:367.557;",
                             ],
                           },
-                          "displayName": "styled.circle",
+                          "displayName": "GaugeRangeBoundary",
                           "render": [Function],
-                          "styledComponentId": "sc-htoDjs",
+                          "styledComponentId": "GaugeRangeBoundary-sc-14jbblv-0",
                           "target": "circle",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -1219,8 +1102,8 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         r="117"
                       />
                     </StyledComponent>
-                  </styled.circle>
-                  <styled.circle
+                  </GaugeRangeBoundary>
+                  <GaugeInnerCircle
                     cx="125"
                     cy="150"
                     fill="none"
@@ -1236,21 +1119,16 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": undefined,
                           "componentStyle": ComponentStyle {
-                            "componentId": "sc-dnqmqq",
+                            "componentId": "GaugeInnerCircle-sc-1quvizl-0",
                             "isStatic": true,
                             "lastClassName": "c10",
                             "rules": Array [
-                              "
-  stroke: #34495e;
-  stroke-width: 1;
-  stroke-dasharray: 314.160;
-  stroke-dashoffset: 314.160;
-",
+                              "stroke:#34495e;stroke-width:1;stroke-dasharray:314.160;stroke-dashoffset:314.160;",
                             ],
                           },
-                          "displayName": "styled.circle",
+                          "displayName": "GaugeInnerCircle",
                           "render": [Function],
-                          "styledComponentId": "sc-dnqmqq",
+                          "styledComponentId": "GaugeInnerCircle-sc-1quvizl-0",
                           "target": "circle",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -1270,10 +1148,10 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         r="100"
                       />
                     </StyledComponent>
-                  </styled.circle>
+                  </GaugeInnerCircle>
                 </g>
               </GaugeCirclesGroup>
-              <styled.polygon
+              <Needle
                 points="125,150 115,148 1,150 115,152"
                 transform="rotate(36, 125, 150)"
               >
@@ -1283,21 +1161,16 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                       "$$typeof": Symbol(react.forward_ref),
                       "attrs": undefined,
                       "componentStyle": ComponentStyle {
-                        "componentId": "sc-ifAKCX",
+                        "componentId": "Needle-waoa2o-0",
                         "isStatic": true,
                         "lastClassName": "c11",
                         "rules": Array [
-                          "
-    stroke: #34495e;
-    stroke-width: 0.3;
-    fill: #2980b9;
-    transform: rotate(60, 125, 150);
-",
+                          "stroke:#34495e;stroke-width:0.3;fill:#2980b9;transform:rotate(60,125,150);",
                         ],
                       },
-                      "displayName": "styled.polygon",
+                      "displayName": "Needle",
                       "render": [Function],
-                      "styledComponentId": "sc-ifAKCX",
+                      "styledComponentId": "Needle-waoa2o-0",
                       "target": "polygon",
                       "toString": [Function],
                       "warnTooManyClasses": [Function],
@@ -1314,8 +1187,8 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                     transform="rotate(36, 125, 150)"
                   />
                 </StyledComponent>
-              </styled.polygon>
-              <styled.text
+              </Needle>
+              <GaugeValue
                 x="125"
                 y="165"
               >
@@ -1325,21 +1198,16 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                       "$$typeof": Symbol(react.forward_ref),
                       "attrs": undefined,
                       "componentStyle": ComponentStyle {
-                        "componentId": "sc-EHOje",
+                        "componentId": "GaugeValue-sc-10mjlio-0",
                         "isStatic": true,
                         "lastClassName": "c12",
                         "rules": Array [
-                          "
-    stroke: #34495e;
-    stroke-width: .1;
-    text-anchor: middle;
-    dominant-baseline: central;
-",
+                          "stroke:#34495e;stroke-width:.1;text-anchor:middle;dominant-baseline:central;",
                         ],
                       },
-                      "displayName": "styled.text",
+                      "displayName": "GaugeValue",
                       "render": [Function],
-                      "styledComponentId": "sc-EHOje",
+                      "styledComponentId": "GaugeValue-sc-10mjlio-0",
                       "target": "text",
                       "toString": [Function],
                       "warnTooManyClasses": [Function],
@@ -1358,8 +1226,8 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                     20
                   </text>
                 </StyledComponent>
-              </styled.text>
-              <styled.line
+              </GaugeValue>
+              <GaugeBaseLine
                 x1="1"
                 x2="30"
                 y1="150"
@@ -1371,18 +1239,16 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                       "$$typeof": Symbol(react.forward_ref),
                       "attrs": undefined,
                       "componentStyle": ComponentStyle {
-                        "componentId": "sc-iwsKbI",
+                        "componentId": "GaugeBaseLine-uslt8t-0",
                         "isStatic": true,
                         "lastClassName": "c13",
                         "rules": Array [
-                          "
-  stroke: #34495e;
-",
+                          "stroke:#34495e;",
                         ],
                       },
-                      "displayName": "styled.line",
+                      "displayName": "GaugeBaseLine",
                       "render": [Function],
-                      "styledComponentId": "sc-iwsKbI",
+                      "styledComponentId": "GaugeBaseLine-uslt8t-0",
                       "target": "line",
                       "toString": [Function],
                       "warnTooManyClasses": [Function],
@@ -1403,8 +1269,8 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                     y2="150"
                   />
                 </StyledComponent>
-              </styled.line>
-              <styled.line
+              </GaugeBaseLine>
+              <GaugeBaseLine
                 x1="250"
                 x2="220"
                 y1="150"
@@ -1416,18 +1282,16 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                       "$$typeof": Symbol(react.forward_ref),
                       "attrs": undefined,
                       "componentStyle": ComponentStyle {
-                        "componentId": "sc-iwsKbI",
+                        "componentId": "GaugeBaseLine-uslt8t-0",
                         "isStatic": true,
                         "lastClassName": "c13",
                         "rules": Array [
-                          "
-  stroke: #34495e;
-",
+                          "stroke:#34495e;",
                         ],
                       },
-                      "displayName": "styled.line",
+                      "displayName": "GaugeBaseLine",
                       "render": [Function],
-                      "styledComponentId": "sc-iwsKbI",
+                      "styledComponentId": "GaugeBaseLine-uslt8t-0",
                       "target": "line",
                       "toString": [Function],
                       "warnTooManyClasses": [Function],
@@ -1448,8 +1312,8 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                     y2="150"
                   />
                 </StyledComponent>
-              </styled.line>
-              <styled.circle
+              </GaugeBaseLine>
+              <GaugeCenterPoint
                 cx="125"
                 cy="150"
                 fill="white"
@@ -1464,18 +1328,16 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                       "$$typeof": Symbol(react.forward_ref),
                       "attrs": undefined,
                       "componentStyle": ComponentStyle {
-                        "componentId": "sc-bZQynM",
+                        "componentId": "GaugeCenterPoint-sc-1a6wk8e-0",
                         "isStatic": true,
                         "lastClassName": "c14",
                         "rules": Array [
-                          "
-  stroke: #34495e;
-",
+                          "stroke:#34495e;",
                         ],
                       },
-                      "displayName": "styled.circle",
+                      "displayName": "GaugeCenterPoint",
                       "render": [Function],
-                      "styledComponentId": "sc-bZQynM",
+                      "styledComponentId": "GaugeCenterPoint-sc-1a6wk8e-0",
                       "target": "circle",
                       "toString": [Function],
                       "warnTooManyClasses": [Function],
@@ -1493,30 +1355,26 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                     r="2"
                   />
                 </StyledComponent>
-              </styled.circle>
+              </GaugeCenterPoint>
             </svg>
           </Gauge>
-          <styled.div>
+          <GaugeBlock__GraphBlockLabel>
             <StyledComponent
               forwardedClass={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": undefined,
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-fjdhpX",
+                    "componentId": "GaugeBlock__GraphBlockLabel-sc-1hburx9-2",
                     "isStatic": true,
                     "lastClassName": "c15",
                     "rules": Array [
-                      "
-    font-size: 20px;
-    font-weight: 400;
-    text-align: center;
-",
+                      "font-size:20px;font-weight:400;text-align:center;",
                     ],
                   },
-                  "displayName": "styled.div",
+                  "displayName": "GaugeBlock__GraphBlockLabel",
                   "render": [Function],
-                  "styledComponentId": "sc-fjdhpX",
+                  "styledComponentId": "GaugeBlock__GraphBlockLabel-sc-1hburx9-2",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -1531,10 +1389,10 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                 Test Sensor
               </div>
             </StyledComponent>
-          </styled.div>
+          </GaugeBlock__GraphBlockLabel>
         </div>
       </StyledComponent>
-    </styled.div>
+    </PanelContainer>
   </Panel>
 </GaugeBlock>
 `;

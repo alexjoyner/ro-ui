@@ -14,7 +14,7 @@ exports[`InputLabel component Should match snapshot 1`] = `
   top: 50%;
 }
 
-<styled.label
+<InputLabel
   inputValue=""
 >
   <StyledComponent
@@ -23,28 +23,19 @@ exports[`InputLabel component Should match snapshot 1`] = `
         "$$typeof": Symbol(react.forward_ref),
         "attrs": undefined,
         "componentStyle": ComponentStyle {
-          "componentId": "sc-bdVaJa",
+          "componentId": "InputLabel-sc-1lnkw7q-0",
           "isStatic": false,
           "lastClassName": "c0",
           "rules": Array [
-            "
-    position: absolute;
-    left: 0px;
-    transform: translateY(-50%);
-    pointer-events: none;
-    transition: 50ms linear;
-    color: ",
+            "position:absolute;left:0px;transform:translateY(-50%);pointer-events:none;transition:50ms linear;color:",
             [Function],
-            ";
-    ",
+            ";",
             [Function],
-            "
-",
           ],
         },
-        "displayName": "styled.label",
+        "displayName": "InputLabel",
         "render": [Function],
-        "styledComponentId": "sc-bdVaJa",
+        "styledComponentId": "InputLabel-sc-1lnkw7q-0",
         "target": "label",
         "toString": [Function],
         "warnTooManyClasses": [Function],
@@ -58,5 +49,5 @@ exports[`InputLabel component Should match snapshot 1`] = `
       className="c0"
     />
   </StyledComponent>
-</styled.label>
+</InputLabel>
 `;

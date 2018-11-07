@@ -6,7 +6,7 @@ exports[`SideBarPageBody component Basic Version Should match snapshot 1`] = `
   min-height: 10px;
 }
 
-<styled.div
+<SideBarPageBody__BasicSideBarPageBody
   sideBarShown={true}
 >
   <StyledComponent
@@ -15,21 +15,18 @@ exports[`SideBarPageBody component Basic Version Should match snapshot 1`] = `
         "$$typeof": Symbol(react.forward_ref),
         "attrs": undefined,
         "componentStyle": ComponentStyle {
-          "componentId": "sc-bdVaJa",
+          "componentId": "SideBarPageBody__BasicSideBarPageBody-sc-1qqh35b-0",
           "isStatic": false,
           "lastClassName": "c0",
           "rules": Array [
-            "
-  margin-left: ",
+            "margin-left:",
             [Function],
-            ";
-  min-height: 10px;
-",
+            ";min-height:10px;",
           ],
         },
-        "displayName": "styled.div",
+        "displayName": "SideBarPageBody__BasicSideBarPageBody",
         "render": [Function],
-        "styledComponentId": "sc-bdVaJa",
+        "styledComponentId": "SideBarPageBody__BasicSideBarPageBody-sc-1qqh35b-0",
         "target": "div",
         "toString": [Function],
         "warnTooManyClasses": [Function],
@@ -43,7 +40,7 @@ exports[`SideBarPageBody component Basic Version Should match snapshot 1`] = `
       className="c0"
     />
   </StyledComponent>
-</styled.div>
+</SideBarPageBody__BasicSideBarPageBody>
 `;
 
 exports[`SideBarPageBody component with Header Version Should match snapshot 1`] = `
@@ -53,31 +50,26 @@ exports[`SideBarPageBody component with Header Version Should match snapshot 1`]
   margin-top: 56px;
 }
 
-<Styled(styled.div)>
+<SideBarPageBody__HeaderSideBarPageBody>
   <StyledComponent
     forwardedClass={
       Object {
         "$$typeof": Symbol(react.forward_ref),
         "attrs": undefined,
         "componentStyle": ComponentStyle {
-          "componentId": "sc-bwzfXH",
+          "componentId": "SideBarPageBody__HeaderSideBarPageBody-sc-1qqh35b-1",
           "isStatic": false,
           "lastClassName": "c0",
           "rules": Array [
-            "
-  margin-left: ",
+            "margin-left:",
             [Function],
-            ";
-  min-height: 10px;
-",
-            "
-  margin-top: 56px;
-",
+            ";min-height:10px;",
+            "margin-top:56px;",
           ],
         },
-        "displayName": "Styled(styled.div)",
+        "displayName": "SideBarPageBody__HeaderSideBarPageBody",
         "render": [Function],
-        "styledComponentId": "sc-bwzfXH",
+        "styledComponentId": "SideBarPageBody__HeaderSideBarPageBody-sc-1qqh35b-1",
         "target": "div",
         "toString": [Function],
         "warnTooManyClasses": [Function],
@@ -90,5 +82,5 @@ exports[`SideBarPageBody component with Header Version Should match snapshot 1`]
       className="c0"
     />
   </StyledComponent>
-</Styled(styled.div)>
+</SideBarPageBody__HeaderSideBarPageBody>
 `;

@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Image component Should match snapshot 1`] = `
-<styled.div>
-  <styled.img
+<Container>
+  <Pic
     imgSize="default"
     imgSrc="Test"
     imgStyle="default"
   />
-</styled.div>
+</Container>
 `;

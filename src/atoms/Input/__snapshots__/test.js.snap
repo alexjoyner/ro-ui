@@ -50,31 +50,23 @@ exports[`Input component Should match snapshot 1`] = `
   onBlur={[MockFunction]}
   onChange={[MockFunction]}
 >
-  <styled.div>
+  <InputGroup>
     <StyledComponent
       forwardedClass={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": undefined,
           "componentStyle": ComponentStyle {
-            "componentId": "sc-htpNat",
+            "componentId": "InputGroup-sc-1g7xycp-0",
             "isStatic": true,
             "lastClassName": "c0",
             "rules": Array [
-              "
-    display: inline-block;
-    position: relative;
-    margin-right: 20px;
-    margin-top: 10px;
-    input{
-        padding: 15px 0;
-    }
-",
+              "display:inline-block;position:relative;margin-right:20px;margin-top:10px;input{padding:15px 0;}",
             ],
           },
-          "displayName": "styled.div",
+          "displayName": "InputGroup",
           "render": [Function],
-          "styledComponentId": "sc-htpNat",
+          "styledComponentId": "InputGroup-sc-1g7xycp-0",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -86,7 +78,7 @@ exports[`Input component Should match snapshot 1`] = `
       <div
         className="c0"
       >
-        <styled.input
+        <ComponentInput
           labelText="Hello World"
           onBlur={[MockFunction]}
           onChange={[MockFunction]}
@@ -97,34 +89,20 @@ exports[`Input component Should match snapshot 1`] = `
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": undefined,
                 "componentStyle": ComponentStyle {
-                  "componentId": "sc-bwzfXH",
+                  "componentId": "ComponentInput-bdo4cm-0",
                   "isStatic": false,
                   "lastClassName": "c1",
                   "rules": Array [
-                    "
-    background: none;
-    border: none;
-    border-bottom: solid 2px ",
+                    "background:none;border:none;border-bottom:solid 2px ",
                     [Function],
-                    ";
-    padding: 14px 40px;
-    font-size: 18px;
-    display: inline-block;
-    width: 100%;
-    &:focus, &:active{
-        outline: none;
-    }
-    &[type=\\"submit\\"]{
-        border: solid 2px ",
+                    ";padding:14px 40px;font-size:18px;display:inline-block;width:100%;&:focus,&:active{outline:none;}&[type=\\"submit\\"]{border:solid 2px ",
                     "#0984e3",
-                    "
-    }
-",
+                    "}",
                   ],
                 },
-                "displayName": "styled.input",
+                "displayName": "ComponentInput",
                 "render": [Function],
-                "styledComponentId": "sc-bwzfXH",
+                "styledComponentId": "ComponentInput-bdo4cm-0",
                 "target": "input",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -142,8 +120,8 @@ exports[`Input component Should match snapshot 1`] = `
               onChange={[MockFunction]}
             />
           </StyledComponent>
-        </styled.input>
-        <styled.label
+        </ComponentInput>
+        <InputLabel
           labelText="Hello World"
           onBlur={[MockFunction]}
           onChange={[MockFunction]}
@@ -154,28 +132,19 @@ exports[`Input component Should match snapshot 1`] = `
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": undefined,
                 "componentStyle": ComponentStyle {
-                  "componentId": "sc-bdVaJa",
+                  "componentId": "InputLabel-sc-1lnkw7q-0",
                   "isStatic": false,
                   "lastClassName": "c2",
                   "rules": Array [
-                    "
-    position: absolute;
-    left: 0px;
-    transform: translateY(-50%);
-    pointer-events: none;
-    transition: 50ms linear;
-    color: ",
+                    "position:absolute;left:0px;transform:translateY(-50%);pointer-events:none;transition:50ms linear;color:",
                     [Function],
-                    ";
-    ",
+                    ";",
                     [Function],
-                    "
-",
                   ],
                 },
-                "displayName": "styled.label",
+                "displayName": "InputLabel",
                 "render": [Function],
-                "styledComponentId": "sc-bdVaJa",
+                "styledComponentId": "InputLabel-sc-1lnkw7q-0",
                 "target": "label",
                 "toString": [Function],
                 "warnTooManyClasses": [Function],
@@ -195,9 +164,9 @@ exports[`Input component Should match snapshot 1`] = `
               Hello World
             </label>
           </StyledComponent>
-        </styled.label>
+        </InputLabel>
       </div>
     </StyledComponent>
-  </styled.div>
+  </InputGroup>
 </Input>
 `;

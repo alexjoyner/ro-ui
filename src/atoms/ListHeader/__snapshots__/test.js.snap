@@ -7,30 +7,17 @@ exports[`ListHeader component Should match snapshot 1`] = `
       "$$typeof": Symbol(react.forward_ref),
       "attrs": undefined,
       "componentStyle": ComponentStyle {
-        "componentId": "sc-bdVaJa",
+        "componentId": "ListHeader-ceem0n-0",
         "isStatic": false,
         "rules": Array [
-          "
-  -moz-box-sizing: border-box; 
-  -webkit-box-sizing: border-box; 
-  box-sizing: border-box; 
-  top: 0;
-  left: 0;
-  background-color: ",
+          "-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;top:0;left:0;background-color:",
           [Function],
-          ";
-  border: none;
-  width: 100%;
-  height: 41px;
-  line-height: 41px;
-  vertical-align: middle;
-  padding-left: 10px;
-",
+          ";border:none;width:100%;height:41px;line-height:41px;vertical-align:middle;padding-left:10px;",
         ],
       },
-      "displayName": "styled.div",
+      "displayName": "ListHeader",
       "render": [Function],
-      "styledComponentId": "sc-bdVaJa",
+      "styledComponentId": "ListHeader-ceem0n-0",
       "target": "div",
       "toString": [Function],
       "warnTooManyClasses": [Function],

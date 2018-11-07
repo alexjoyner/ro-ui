@@ -7,20 +7,15 @@ exports[`GaugeOuterCircle component Should match snapshot 1`] = `
       "$$typeof": Symbol(react.forward_ref),
       "attrs": undefined,
       "componentStyle": ComponentStyle {
-        "componentId": "sc-bdVaJa",
+        "componentId": "GaugeOuterCircle-sc-14kr5ii-0",
         "isStatic": true,
         "rules": Array [
-          "
-  stroke: #34495e;
-  stroke-width: 1;
-  stroke-dasharray: 389.557;
-  stroke-dashoffset: 389.557;
-",
+          "stroke:#34495e;stroke-width:1;stroke-dasharray:389.557;stroke-dashoffset:389.557;",
         ],
       },
-      "displayName": "styled.circle",
+      "displayName": "GaugeOuterCircle",
       "render": [Function],
-      "styledComponentId": "sc-bdVaJa",
+      "styledComponentId": "GaugeOuterCircle-sc-14kr5ii-0",
       "target": "circle",
       "toString": [Function],
       "warnTooManyClasses": [Function],
