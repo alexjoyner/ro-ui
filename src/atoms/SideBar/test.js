@@ -26,6 +26,13 @@ describe('SideBar component', () => {
     expect(component).toHaveStyleRule('width', '300px');
     expect(component).toHaveStyleRule('left', '-250px');
   });
+  it('Should set correct color styles', () => {
+    component.setProps({
+      color: 'warningLight',
+    });
+    expect(component).toHaveStyleRule('background-color', colors.warningLight);
+    expect(component).toHaveStyleRule('color', 'black');
+  });
 });
 describe('AnimatedSideBar', () => {
   let component;
