@@ -1,6 +1,6 @@
 {
   "name": "ro-server-utils",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "A set of utilities for quickly creating apps",
   "main": "index.js",
   "repository": "https://github.com/alexjoyner/ro-server-utils.git",
@@ -11,5 +11,8 @@
     "express": "^4.16.4",
     "morgan": "^1.9.1",
     "pg": "^7.6.1"
+  },
+  "scripts": {
+    "start": "PORT=9000 nodemon ./testApp.js"
   }
 }
