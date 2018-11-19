@@ -2,7 +2,7 @@
 
 exports[`GaugeRange component Should match snapshot 1`] = `
 <g>
-  <ForwardRef
+  <RangePath
     d="M 4.5 149.99999999999997  A 120.5 120.5 0 0 1 245.5 150"
     fill="none"
     stroke="#f1c40f"
@@ -10,11 +10,11 @@ exports[`GaugeRange component Should match snapshot 1`] = `
   <TickMark
     angle={180}
   />
-  <ForwardRef
+  <GaugeLabel
     x={260.5}
     y={140}
   >
     100
-  </ForwardRef>
+  </GaugeLabel>
 </g>
 `;

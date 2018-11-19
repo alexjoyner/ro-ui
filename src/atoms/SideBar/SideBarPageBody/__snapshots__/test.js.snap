@@ -2,11 +2,13 @@
 
 exports[`SideBarPageBody component Basic Version Should match snapshot 1`] = `
 .c0 {
+  -webkit-transition: 100ms linear;
+  transition: 100ms linear;
   margin-left: 300px;
   min-height: 10px;
 }
 
-<ForwardRef
+<SideBarPageBody__BasicSideBarPageBody
   sideBarShown={true}
 >
   <StyledComponent
@@ -15,22 +17,20 @@ exports[`SideBarPageBody component Basic Version Should match snapshot 1`] = `
         "$$typeof": Symbol(react.forward_ref),
         "attrs": undefined,
         "componentStyle": ComponentStyle {
-          "componentId": "sc-bdVaJa",
+          "componentId": "SideBarPageBody__BasicSideBarPageBody-sc-1qqh35b-0",
           "isStatic": false,
           "lastClassName": "c0",
           "rules": Array [
-            "
-  margin-left: ",
+            "transition:100ms linear;margin-left:",
             [Function],
-            ";
-  min-height: 10px;
-",
+            ";min-height:10px;",
           ],
         },
-        "displayName": "styled.div",
+        "displayName": "SideBarPageBody__BasicSideBarPageBody",
         "render": [Function],
-        "styledComponentId": "sc-bdVaJa",
+        "styledComponentId": "SideBarPageBody__BasicSideBarPageBody-sc-1qqh35b-0",
         "target": "div",
+        "toString": [Function],
         "warnTooManyClasses": [Function],
         "withComponent": [Function],
       }
@@ -42,42 +42,40 @@ exports[`SideBarPageBody component Basic Version Should match snapshot 1`] = `
       className="c0"
     />
   </StyledComponent>
-</ForwardRef>
+</SideBarPageBody__BasicSideBarPageBody>
 `;
 
 exports[`SideBarPageBody component with Header Version Should match snapshot 1`] = `
 .c0 {
+  -webkit-transition: 100ms linear;
+  transition: 100ms linear;
   margin-left: 0px;
   min-height: 10px;
   margin-top: 56px;
 }
 
-<ForwardRef>
+<SideBarPageBody__HeaderSideBarPageBody>
   <StyledComponent
     forwardedClass={
       Object {
         "$$typeof": Symbol(react.forward_ref),
         "attrs": undefined,
         "componentStyle": ComponentStyle {
-          "componentId": "sc-bwzfXH",
+          "componentId": "SideBarPageBody__HeaderSideBarPageBody-sc-1qqh35b-1",
           "isStatic": false,
           "lastClassName": "c0",
           "rules": Array [
-            "
-  margin-left: ",
+            "transition:100ms linear;margin-left:",
             [Function],
-            ";
-  min-height: 10px;
-",
-            "
-  margin-top: 56px;
-",
+            ";min-height:10px;",
+            "margin-top:56px;",
           ],
         },
-        "displayName": "Styled(styled.div)",
+        "displayName": "SideBarPageBody__HeaderSideBarPageBody",
         "render": [Function],
-        "styledComponentId": "sc-bwzfXH",
+        "styledComponentId": "SideBarPageBody__HeaderSideBarPageBody-sc-1qqh35b-1",
         "target": "div",
+        "toString": [Function],
         "warnTooManyClasses": [Function],
         "withComponent": [Function],
       }
@@ -88,5 +86,5 @@ exports[`SideBarPageBody component with Header Version Should match snapshot 1`]
       className="c0"
     />
   </StyledComponent>
-</ForwardRef>
+</SideBarPageBody__HeaderSideBarPageBody>
 `;

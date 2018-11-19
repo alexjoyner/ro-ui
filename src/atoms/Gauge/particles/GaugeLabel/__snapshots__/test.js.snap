@@ -7,21 +7,17 @@ exports[`GaugeLabel component Should match snapshot 1`] = `
       "$$typeof": Symbol(react.forward_ref),
       "attrs": undefined,
       "componentStyle": ComponentStyle {
-        "componentId": "sc-bdVaJa",
+        "componentId": "GaugeLabel-sc-19sq0rg-0",
         "isStatic": true,
         "rules": Array [
-          "
-    font-size: .6rem;
-    fill: #5b6268;
-    text-anchor: middle;
-    dominant-baseline: central;
-",
+          "font-size:.6rem;fill:#5b6268;text-anchor:middle;dominant-baseline:central;",
         ],
       },
-      "displayName": "styled.text",
+      "displayName": "GaugeLabel",
       "render": [Function],
-      "styledComponentId": "sc-bdVaJa",
+      "styledComponentId": "GaugeLabel-sc-19sq0rg-0",
       "target": "text",
+      "toString": [Function],
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }

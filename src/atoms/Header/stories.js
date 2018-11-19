@@ -1,10 +1,24 @@
 import React from 'react';
-import { Atoms } from '../_atoms.stories';
+import { storiesOf } from '@storybook/react';
+import { GoChevronRight } from 'react-icons/go';
 import { Header } from '.';
+import { Button } from '../Button';
+import { HeaderItem } from './HeaderItem';
 
-Atoms
+const HeaderStory = storiesOf('Atoms/Header', module);
+
+HeaderStory
   .add('Header', () => (
     <div>
-      <Header color="primary">Hello World!</Header>
+      <Header color="dark">
+        <HeaderItem>
+          <Button size="small" color="primary">
+            <GoChevronRight size={20} />
+          </Button>
+        </HeaderItem>
+        <HeaderItem>
+          <h1>Test Header</h1>
+        </HeaderItem>
+      </Header>
     </div>
   ));

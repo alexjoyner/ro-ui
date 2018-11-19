@@ -1,70 +1,47 @@
 /*
 ============ Atoms ===========
  */
-import { Button } from './atoms/Button';
-import { colors } from './atoms/colors';
-import { Gauge } from './atoms/Gauge';
-import { ImageOverlay } from './atoms/ImageOverlay';
-import { Input } from './atoms/Input';
-import { Logo } from './atoms/Logo';
-import { Panel } from './atoms/Panel';
-import { ProfilePic } from './atoms/ProfilePic';
-import { PageOverlay } from './atoms/PageOverlay';
-import { Header } from './atoms/Header';
-import { CenteredContent } from './atoms/CenteredContent';
-import { PlainBox } from './atoms/PlainBox';
-import { ListHeader } from './atoms/ListHeader';
-import { ListItem } from './atoms/ListItem';
-import { RoHighChart } from './atoms/RoHighChart';
-import { RoDatePicker } from './atoms/RoDatePicker';
-
+export { Button } from './atoms/Button';
+export { colors } from './atoms/colors';
+export { Gauge } from './atoms/Gauge';
+export { ImageOverlay } from './atoms/ImageOverlay';
+export { Input } from './atoms/Input';
+export { Logo } from './atoms/Logo';
+export { Panel } from './atoms/Panel';
+export { Image } from './atoms/Image';
+export { PageOverlay } from './atoms/PageOverlay';
+export { Header } from './atoms/Header';
+export { CenteredContent } from './atoms/CenteredContent';
+export { PlainBox } from './atoms/PlainBox';
+export { ListHeader } from './atoms/ListHeader';
+export { ListItem } from './atoms/ListItem';
+export { RoHighChart } from './atoms/RoHighChart';
+export { RoDatePicker } from './atoms/RoDatePicker';
+export { BasicSideBar, AnimatedSideBar } from './atoms/SideBar';
+export { BasicSideBarPageBody, HeaderSideBarPageBody } from './atoms/SideBar/SideBarPageBody';
+export { Go } from './atoms/Go';
 /*
 ============ Molecules ===========
  */
-import { HeroImage } from './molecules/HeroImage';
-import { SideBarPage } from './molecules/SideBarPage';
-import { GaugeBlock } from './molecules/GaugeBlock';
-import { Modal } from './molecules/Modal';
-import { Notification } from './molecules/Notification';
+export { HeroImage } from './molecules/HeroImage';
+export { SideBarPage } from './molecules/SideBarPage';
+export { GaugeBlock } from './molecules/GaugeBlock';
+export { Modal } from './molecules/Modal';
+export { Notification } from './molecules/Notification';
+
+/*
+============ Behaviors ===========
+ */
+export { ISideBar } from './behaviors/ISideBar';
+export { ISideBarReducer } from './behaviors/ISideBar/reducer';
+export { toggleSideBar } from './behaviors/ISideBar/actions';
+export { ISideBarToggle } from './behaviors/ISideBar/ISideBarToggle';
 
 /*
 ============ Utility Functions ===========
  */
-import { getUniqueID } from './utils/getUniqueID';
+export { getUniqueID } from './utils/getUniqueID';
 
-
-// Export Atoms
-const modules = {
-  Button,
-  colors,
-  Gauge,
-  ImageOverlay,
-  Input,
-  Logo,
-  Panel,
-  ProfilePic,
-  CenteredContent,
-  PlainBox,
-  PageOverlay,
-  ListHeader,
-  ListItem,
-  Header,
-  RoHighChart,
-  RoDatePicker,
-  HeroImage,
-  SideBarPage,
-  GaugeBlock,
-  Modal,
-  Notification,
-  getUniqueID,
-};
 // Export Molecules
 // Export Utility functions
-export default modules;
-/*
-After this point, components should be project specific.
-    - organisms: putting together molecules and atoms
-    - templates: quick sketches on paper that include where organisms will be
-    - pages: coded versions of the templates with dummy text
-    - release product
-*/
+export default 'DEFAULT';

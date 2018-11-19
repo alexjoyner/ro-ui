@@ -19,44 +19,31 @@ exports[`SideBarContainer component Should match snapshot 1`] = `
   list-style: none;
 }
 
-<ForwardRef>
+<SideBarContainer>
   <StyledComponent
     forwardedClass={
       Object {
         "$$typeof": Symbol(react.forward_ref),
         "attrs": undefined,
         "componentStyle": ComponentStyle {
-          "componentId": "sc-bdVaJa",
+          "componentId": "SideBarContainer-bdbgzo-0",
           "isStatic": false,
           "lastClassName": "c0",
           "rules": Array [
-            "
-  position: fixed;
-  z-index: ",
+            "position:fixed;z-index:",
             "1",
-            ";
-  top: 56px;
-  transition: 100ms linear;
-  height: 100vh;
-  width: 300px;
-  background-color: ",
+            ";top:56px;transition:100ms linear;height:100vh;width:300px;background-color:",
             [Function],
-            ";
-  color: white;
-  font-size: 20px;
-  ul{
-      list-style: none;
-  }
-  ",
+            ";color:white;font-size:20px;ul{list-style:none;}",
             [Function],
-            ";
-",
+            ";",
           ],
         },
-        "displayName": "styled.div",
+        "displayName": "SideBarContainer",
         "render": [Function],
-        "styledComponentId": "sc-bdVaJa",
+        "styledComponentId": "SideBarContainer-bdbgzo-0",
         "target": "div",
+        "toString": [Function],
         "warnTooManyClasses": [Function],
         "withComponent": [Function],
       }
@@ -67,5 +54,5 @@ exports[`SideBarContainer component Should match snapshot 1`] = `
       className="c0"
     />
   </StyledComponent>
-</ForwardRef>
+</SideBarContainer>
 `;

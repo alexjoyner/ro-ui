@@ -7,18 +7,17 @@ exports[`GaugeBaseLine component Should match snapshot 1`] = `
       "$$typeof": Symbol(react.forward_ref),
       "attrs": undefined,
       "componentStyle": ComponentStyle {
-        "componentId": "sc-bdVaJa",
+        "componentId": "GaugeBaseLine-uslt8t-0",
         "isStatic": true,
         "rules": Array [
-          "
-  stroke: #34495e;
-",
+          "stroke:#34495e;",
         ],
       },
-      "displayName": "styled.line",
+      "displayName": "GaugeBaseLine",
       "render": [Function],
-      "styledComponentId": "sc-bdVaJa",
+      "styledComponentId": "GaugeBaseLine-uslt8t-0",
       "target": "line",
+      "toString": [Function],
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }

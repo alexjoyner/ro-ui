@@ -2,10 +2,10 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { toggleSideBar } from '../actions';
 
-export const ISideBarToggle = ({ Button, ...props }) => (
+export const TISideBarToggle = ({ Button, ...props }) => (
   <Button onClick={() => props.toggleSideBar()} />
 );
 
-export default connect(null, {
+export const ISideBarToggle = connect(null, {
   toggleSideBar,
-})(ISideBarToggle);
+})(TISideBarToggle);

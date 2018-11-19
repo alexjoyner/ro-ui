@@ -10,36 +10,30 @@ exports[`PlainBox component Should match snapshot 1`] = `
   display: inline-block;
 }
 
-<ForwardRef>
+<PlainBox>
   <StyledComponent
     forwardedClass={
       Object {
         "$$typeof": Symbol(react.forward_ref),
         "attrs": undefined,
         "componentStyle": ComponentStyle {
-          "componentId": "sc-bdVaJa",
+          "componentId": "PlainBox-sc-10nrb46-0",
           "isStatic": false,
           "lastClassName": "c0",
           "rules": Array [
-            "
-    ",
             [Function],
-            "
-    ",
+            " ",
             [Function],
-            "
-    min-width: ",
+            " min-width:",
             [Function],
-            ";
-    background-color: #c0c0c0;
-    display: inline-block;
-",
+            ";background-color:#c0c0c0;display:inline-block;",
           ],
         },
-        "displayName": "styled.div",
+        "displayName": "PlainBox",
         "render": [Function],
-        "styledComponentId": "sc-bdVaJa",
+        "styledComponentId": "PlainBox-sc-10nrb46-0",
         "target": "div",
+        "toString": [Function],
         "warnTooManyClasses": [Function],
         "withComponent": [Function],
       }
@@ -50,5 +44,5 @@ exports[`PlainBox component Should match snapshot 1`] = `
       className="c0"
     />
   </StyledComponent>
-</ForwardRef>
+</PlainBox>
 `;

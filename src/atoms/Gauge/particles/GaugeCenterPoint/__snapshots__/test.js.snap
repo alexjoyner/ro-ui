@@ -7,18 +7,17 @@ exports[`GaugeCenterPoint component Should match snapshot 1`] = `
       "$$typeof": Symbol(react.forward_ref),
       "attrs": undefined,
       "componentStyle": ComponentStyle {
-        "componentId": "sc-bdVaJa",
+        "componentId": "GaugeCenterPoint-sc-1a6wk8e-0",
         "isStatic": true,
         "rules": Array [
-          "
-  stroke: #34495e;
-",
+          "stroke:#34495e;",
         ],
       },
-      "displayName": "styled.circle",
+      "displayName": "GaugeCenterPoint",
       "render": [Function],
-      "styledComponentId": "sc-bdVaJa",
+      "styledComponentId": "GaugeCenterPoint-sc-1a6wk8e-0",
       "target": "circle",
+      "toString": [Function],
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }

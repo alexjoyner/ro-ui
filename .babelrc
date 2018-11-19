@@ -1,4 +1,8 @@
 {
-  "presets": ["env", "react", "stage-2"],
-  "retainLines": true
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": [
+    [
+      "babel-plugin-styled-components"
+    ]
+  ]
 }

@@ -1,15 +1,21 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 
-export const ISideBar = ({ shown, SideBar, Body }) => (
+export const TISideBar = ({ shown, SideBar, Body }) => (
   <div>
-    {(shown) && <SideBar />}
+    <SideBar shown={shown} />
     <Body sideBarShown={shown} />
   </div>
 );
+TISideBar.propTypes = {
+  shown: PropTypes.bool.isRequired,
+  SideBar: PropTypes.func.isRequired,
+  Body: PropTypes.func.isRequired,
+};
 
 const mapStateToProps = state => ({
   ...state.ISideBarReducer,
 });
 
-export default connect(mapStateToProps, null)(ISideBar);
+export const ISideBar = connect(mapStateToProps, null)(TISideBar);

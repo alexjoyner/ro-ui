@@ -1,3 +1,61 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ListItem component Should match snapshot 1`] = `<ForwardRef />`;
+exports[`ListItem component Should match snapshot 1`] = `
+.c0 {
+  box-sizing: border-box;
+  width: 90%;
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  background-color: #636e72;
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.c0:hover {
+  opacity: 0.95;
+}
+
+.c0:active {
+  box-shadow: none;
+  opacity: 0.85;
+}
+
+<ListItem>
+  <StyledComponent
+    forwardedClass={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": undefined,
+        "componentStyle": ComponentStyle {
+          "componentId": "ListItem-sc-1v9ift-0",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            "box-sizing:border-box;width:90%;margin-top:5px;padding:10px;border-radius:2px;border:none;background-color:",
+            [Function],
+            ";color:",
+            [Function],
+            ";display:inline-block;cursor:pointer;opacity:1;&:hover{opacity:0.95;}&:active{box-shadow:none;opacity:0.85;}",
+          ],
+        },
+        "displayName": "ListItem",
+        "render": [Function],
+        "styledComponentId": "ListItem-sc-1v9ift-0",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+  >
+    <div
+      className="c0"
+    />
+  </StyledComponent>
+</ListItem>
+`;

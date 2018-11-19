@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { ISideBarToggle } from '.';
+import { TISideBarToggle } from '.';
 import { Button } from '../../../atoms/Button';
 
 describe('ISideBarTobble', () => {
@@ -11,7 +11,7 @@ describe('ISideBarTobble', () => {
       toggleSideBar: jest.fn(),
       Button,
     };
-    component = shallow(<ISideBarToggle {...props} />);
+    component = shallow(<TISideBarToggle {...props} />);
   });
   it('Should render without exploding', () => {
     expect(component).toBeDefined();
@@ -24,4 +24,3 @@ describe('ISideBarTobble', () => {
     expect(props.toggleSideBar).toHaveBeenCalledTimes(1);
   });
 });
-

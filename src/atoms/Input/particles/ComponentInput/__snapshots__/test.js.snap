@@ -20,42 +20,29 @@ exports[`ComponentInput component Should match snapshot 1`] = `
   border: solid 2px #0984e3;
 }
 
-<ForwardRef>
+<ComponentInput>
   <StyledComponent
     forwardedClass={
       Object {
         "$$typeof": Symbol(react.forward_ref),
         "attrs": undefined,
         "componentStyle": ComponentStyle {
-          "componentId": "sc-bdVaJa",
+          "componentId": "ComponentInput-bdo4cm-0",
           "isStatic": false,
           "lastClassName": "c0",
           "rules": Array [
-            "
-    background: none;
-    border: none;
-    border-bottom: solid 2px ",
+            "background:none;border:none;border-bottom:solid 2px ",
             [Function],
-            ";
-    padding: 14px 40px;
-    font-size: 18px;
-    display: inline-block;
-    width: 100%;
-    &:focus, &:active{
-        outline: none;
-    }
-    &[type=\\"submit\\"]{
-        border: solid 2px ",
+            ";padding:14px 40px;font-size:18px;display:inline-block;width:100%;&:focus,&:active{outline:none;}&[type=\\"submit\\"]{border:solid 2px ",
             "#0984e3",
-            "
-    }
-",
+            "}",
           ],
         },
-        "displayName": "styled.input",
+        "displayName": "ComponentInput",
         "render": [Function],
-        "styledComponentId": "sc-bdVaJa",
+        "styledComponentId": "ComponentInput-bdo4cm-0",
         "target": "input",
+        "toString": [Function],
         "warnTooManyClasses": [Function],
         "withComponent": [Function],
       }
@@ -66,5 +53,5 @@ exports[`ComponentInput component Should match snapshot 1`] = `
       className="c0"
     />
   </StyledComponent>
-</ForwardRef>
+</ComponentInput>
 `;

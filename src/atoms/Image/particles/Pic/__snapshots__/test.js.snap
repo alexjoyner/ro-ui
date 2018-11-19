@@ -1,26 +1,26 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Container component Should match snapshot 1`] = `
+exports[`Pic component Should match snapshot 1`] = `
 <StyledComponent
   forwardedClass={
     Object {
       "$$typeof": Symbol(react.forward_ref),
       "attrs": undefined,
       "componentStyle": ComponentStyle {
-        "componentId": "sc-bdVaJa",
-        "isStatic": true,
+        "componentId": "Pic-sc-2tbsnz-0",
+        "isStatic": false,
         "rules": Array [
-          "
-    display: inline-block;
-    text-align: center;
-    margin: 5px;
-",
+          [Function],
+          ";",
+          [Function],
+          ";",
         ],
       },
-      "displayName": "styled.div",
+      "displayName": "Pic",
       "render": [Function],
-      "styledComponentId": "sc-bdVaJa",
-      "target": "div",
+      "styledComponentId": "Pic-sc-2tbsnz-0",
+      "target": "img",
+      "toString": [Function],
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }

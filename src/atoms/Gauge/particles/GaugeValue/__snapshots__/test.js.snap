@@ -7,21 +7,17 @@ exports[`GaugeValue component Should match snapshot 1`] = `
       "$$typeof": Symbol(react.forward_ref),
       "attrs": undefined,
       "componentStyle": ComponentStyle {
-        "componentId": "sc-bdVaJa",
+        "componentId": "GaugeValue-sc-10mjlio-0",
         "isStatic": true,
         "rules": Array [
-          "
-    stroke: #34495e;
-    stroke-width: .1;
-    text-anchor: middle;
-    dominant-baseline: central;
-",
+          "stroke:#34495e;stroke-width:.1;text-anchor:middle;dominant-baseline:central;",
         ],
       },
-      "displayName": "styled.text",
+      "displayName": "GaugeValue",
       "render": [Function],
-      "styledComponentId": "sc-bdVaJa",
+      "styledComponentId": "GaugeValue-sc-10mjlio-0",
       "target": "text",
+      "toString": [Function],
       "warnTooManyClasses": [Function],
       "withComponent": [Function],
     }
