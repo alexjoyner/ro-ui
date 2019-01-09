@@ -25,16 +25,13 @@ const pgQuery = async (opts) => {
 const queryStrategies = {
   'pg': pgQuery
 }
-const runQuery = (strategy, getOpts) => {
-  return async (req, res) => {
-    try {
-      const groups = await queryStrategies[strategy](getOpts(req));
-      res.send(groups);
-    }
-    catch (e) {
-      console.error(e);
-      res.status(500).send('Something went wrong. Sorry');
-    }
+const runQuery = async (strategy, opts) => {
+  try {
+    const result = await queryStrategies[strategy](opts);
+    return result;
+  }
+  catch (e) {
+    throw e;
   }
 }
 module.exports = runQuery;
