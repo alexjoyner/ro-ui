@@ -7,7 +7,7 @@ Object {
   "dark": "#2d3436",
   "darkLight": "#636e72",
   "default": "#b2bec3",
-  "greyLight": "#fafafa",
+  "defaultLight": "#fafafa",
   "primary": "#0984e3",
   "primaryLight": "#74b9ff",
   "success": "#00b894",
