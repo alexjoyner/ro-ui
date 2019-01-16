@@ -1,9 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Gauge component Should match snapshot 1`] = `
-<svg
-  height="100%"
-  viewBox="0 0 250 180"
+<GaugeBase
+  overrides={Object {}}
   width="100%"
 >
   <GaugeStatusCircle
@@ -11,6 +10,7 @@ exports[`Gauge component Should match snapshot 1`] = `
     cx="125"
     cy="150"
     fill="none"
+    overrides={Object {}}
     r="108.5"
   />
   <GaugeRange
@@ -49,6 +49,7 @@ exports[`Gauge component Should match snapshot 1`] = `
         "width": "100%",
       }
     }
+    overrides={Object {}}
     range={
       Object {
         "color": "#f1c40f",
@@ -94,6 +95,7 @@ exports[`Gauge component Should match snapshot 1`] = `
         "width": "100%",
       }
     }
+    overrides={Object {}}
     range={
       Object {
         "color": "#2ecc71",
@@ -139,6 +141,7 @@ exports[`Gauge component Should match snapshot 1`] = `
         "width": "100%",
       }
     }
+    overrides={Object {}}
     range={
       Object {
         "color": "#e74c3c",
@@ -148,24 +151,30 @@ exports[`Gauge component Should match snapshot 1`] = `
       }
     }
   />
-  <GaugeCirclesGroup />
+  <GaugeCirclesGroup
+    overrides={Object {}}
+  />
   <Needle
+    overrides={Object {}}
     points="125,150 115,148 1,150 115,152"
     transform="rotate(62.99999999999999, 125, 150)"
   />
   <GaugeValue
+    overrides={Object {}}
     x="125"
     y="165"
   >
     35
   </GaugeValue>
   <GaugeBaseLine
+    overrides={Object {}}
     x1="1"
     x2="30"
     y1="150"
     y2="150"
   />
   <GaugeBaseLine
+    overrides={Object {}}
     x1="250"
     x2="220"
     y1="150"
@@ -175,7 +184,8 @@ exports[`Gauge component Should match snapshot 1`] = `
     cx="125"
     cy="150"
     fill="white"
+    overrides={Object {}}
     r="2"
   />
-</svg>
+</GaugeBase>
 `;
