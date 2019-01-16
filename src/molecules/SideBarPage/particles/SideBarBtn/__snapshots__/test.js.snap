@@ -83,6 +83,7 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
     >
       <ButtonWrapper
         className="c0"
+        overrides={Object {}}
         type="button"
       >
         <StyledComponent
@@ -109,6 +110,7 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
             }
           }
           forwardedRef={null}
+          overrides={Object {}}
           type="button"
         >
           <button
@@ -118,6 +120,7 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
             <ButtonStyles
               color="default"
               ghost={false}
+              overrides={Object {}}
               size="default"
               tabIndex={-1}
             >
@@ -156,6 +159,7 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
                 }
                 forwardedRef={null}
                 ghost={false}
+                overrides={Object {}}
                 size="default"
                 tabIndex={-1}
               >

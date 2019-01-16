@@ -44,6 +44,7 @@ exports[`Button component Should match snapshot 1`] = `
   size="default"
 >
   <ButtonWrapper
+    overrides={Object {}}
     type="button"
   >
     <StyledComponent
@@ -69,6 +70,7 @@ exports[`Button component Should match snapshot 1`] = `
         }
       }
       forwardedRef={null}
+      overrides={Object {}}
       type="button"
     >
       <button
@@ -78,6 +80,7 @@ exports[`Button component Should match snapshot 1`] = `
         <ButtonStyles
           color="default"
           ghost={false}
+          overrides={Object {}}
           size="default"
           tabIndex={-1}
         >
@@ -116,6 +119,7 @@ exports[`Button component Should match snapshot 1`] = `
             }
             forwardedRef={null}
             ghost={false}
+            overrides={Object {}}
             size="default"
             tabIndex={-1}
           >

@@ -222,6 +222,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                 >
                   <ButtonWrapper
                     onClick={[Function]}
+                    overrides={Object {}}
                     type="button"
                   >
                     <StyledComponent
@@ -248,6 +249,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                       }
                       forwardedRef={null}
                       onClick={[Function]}
+                      overrides={Object {}}
                       type="button"
                     >
                       <button
@@ -258,6 +260,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         <ButtonStyles
                           color="dark"
                           ghost={false}
+                          overrides={Object {}}
                           size="xsmall"
                           tabIndex={-1}
                         >
@@ -296,6 +299,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                             }
                             forwardedRef={null}
                             ghost={false}
+                            overrides={Object {}}
                             size="xsmall"
                             tabIndex={-1}
                           >
@@ -384,6 +388,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                 >
                   <ButtonWrapper
                     onClick={[Function]}
+                    overrides={Object {}}
                     type="button"
                   >
                     <StyledComponent
@@ -410,6 +415,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                       }
                       forwardedRef={null}
                       onClick={[Function]}
+                      overrides={Object {}}
                       type="button"
                     >
                       <button
@@ -420,6 +426,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         <ButtonStyles
                           color="dark"
                           ghost={false}
+                          overrides={Object {}}
                           size="xsmall"
                           tabIndex={-1}
                         >
@@ -458,6 +465,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                             }
                             forwardedRef={null}
                             ghost={false}
+                            overrides={Object {}}
                             size="xsmall"
                             tabIndex={-1}
                           >

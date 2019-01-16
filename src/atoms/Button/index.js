@@ -1,25 +1,24 @@
 import React from 'react';
-import { ButtonWrapper } from './ButtonWrapper';
-import { ButtonStyles } from './ButtonStyles';
-
-const mergePropsWithOverrides = (props) => {
-  const overrides = props.overrides || {};
-  return { ...props, ...overrides[props.name] } || {};
-};
+import { getComponents } from '../../utils/getComponents';
+import defaultComps from './defaults';
 
 const Button = (props) => {
-  const sharedProps = mergePropsWithOverrides(props);
   const {
-    color, size, ghost, children, ...restProps
-  } = sharedProps;
+    color, size, ghost, children, overrides, ...rest
+  } = props;
+  const {
+    ButtonWrapper: { component: ButtonWrapper, props: buttonWrapperProps },
+    ButtonStyles: { component: ButtonStyles, props: buttonStylesProps },
+  } = getComponents(defaultComps, overrides);
   return (
-    <ButtonWrapper {...restProps} type="button">
+    <ButtonWrapper {...rest} {...buttonWrapperProps} type="button">
       {/* Passing props to Button Styles seperately to fix double onClick events from button */}
       <ButtonStyles
         color={color}
         size={size}
         ghost={ghost}
         tabIndex={-1}
+        {...buttonStylesProps}
       >
         {children}
       </ButtonStyles>

@@ -1,4 +1,4 @@
-import getComponents from '.';
+import { getComponents } from '.';
 
 const mockComp = () => null;
 const custComp = () => null;

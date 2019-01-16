@@ -11,4 +11,4 @@ const getComponents = (defaultComponents, overrides) => {
   }, {});
 };
 
-module.exports = getComponents;
+export { getComponents };
