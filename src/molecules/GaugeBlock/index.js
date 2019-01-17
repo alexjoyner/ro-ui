@@ -1,54 +1,51 @@
 import React from 'react';
-import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { GoGraph, GoGear, GoCheck } from 'react-icons/go';
-import { Panel } from '../../atoms/Panel';
-import { Gauge } from '../../atoms/Gauge';
-import { Button } from '../../atoms/Button';
+import defaults from './defaults';
+import { getComponents } from '../../utils/getComponents';
 
-const GaugeBlockBtnContainer = styled.div`
-  position: absolute;
-  left: 5px;
-  top: 5px;
-`;
-const SettingsBtnContainer = styled.div`
-  position: absolute;
-  right: 5px;
-  top: 5px;
-`;
-
-const GraphBlockLabel = styled.div`
-    font-size: 20px;
-    font-weight: 400;
-    text-align: center;
-`;
-
-const GaugeBlock = ({
-  panelWidth, multiSelected, onChartClick, onSettingsClick, label, ...props
-}) => (
-  <Panel width={panelWidth || '20%'}>
-    <GaugeBlockBtnContainer>
-      {(multiSelected) ? (
-        <Button size="xsmall" color="success">
-          <GoCheck size={20} />
-        </Button>
-      ) : (
-        <Button size="xsmall" color="dark" onClick={onChartClick}>
-          <GoGraph size={20} />
-        </Button>
-      )}
-    </GaugeBlockBtnContainer>
-    <SettingsBtnContainer>
-      <Button size="xsmall" color="dark" onClick={onSettingsClick}>
-        <GoGear size={20} />
-      </Button>
-    </SettingsBtnContainer>
-    <Gauge
-      {...props}
-    />
-    <GraphBlockLabel>{label}</GraphBlockLabel>
-  </Panel>
-);
+const GaugeBlock = (props) => {
+  const {
+    panelWidth, multiSelected, onChartClick, onSettingsClick, label, overrides,
+  } = props;
+  const {
+    GaugeBlockContainer: { component: GaugeBlockContainer, props: gaugeBlockContainerProps },
+    GaugeBlockToolbar: { component: GaugeBlockToolbar, props: gaugeBlockToolbarProps },
+    GaugeBlockChartsBtn: { component: GaugeBlockChartsBtn, props: gaugeBlockChartsBtnProps },
+    GaugeBlockSettingsBtn: { component: GaugeBlockSettingsBtn, props: gaugeBlockSettingsBtnProps },
+    GaugeBlockGauge: { component: GaugeBlockGauge, props: gaugeBlockGaugeProps },
+    GaugeBlockLabel: { component: GaugeBlockLabel, props: gaugeBlockLabelProps },
+    GaugeBlockStatus: { component: GaugeBlockStatus, props: gaugeBlockStatusProps },
+  } = getComponents(defaults, overrides);
+  return (
+    <GaugeBlockContainer width={panelWidth || '20%'} {...gaugeBlockContainerProps}>
+      <GaugeBlockToolbar {...gaugeBlockToolbarProps}>
+        {(multiSelected) ? (
+          <GaugeBlockChartsBtn size="xsmall" {...gaugeBlockChartsBtnProps} color="success">
+            <GoCheck size={20} />
+          </GaugeBlockChartsBtn>
+        ) : (
+          <GaugeBlockChartsBtn size="xsmall" color="dark" onClick={onChartClick} {...gaugeBlockChartsBtnProps}>
+            <GoGraph size={20} />
+          </GaugeBlockChartsBtn>
+        )}
+        <GaugeBlockSettingsBtn size="xsmall" color="dark" onClick={onSettingsClick} {...gaugeBlockSettingsBtnProps}>
+          <GoGear size={20} />
+        </GaugeBlockSettingsBtn>
+      </GaugeBlockToolbar>
+      <GaugeBlockGauge
+        {...props}
+        {...gaugeBlockGaugeProps}
+      />
+      <GaugeBlockLabel {...gaugeBlockLabelProps}>
+        {label}
+      </GaugeBlockLabel>
+      <GaugeBlockStatus {...gaugeBlockStatusProps}>
+        live data
+      </GaugeBlockStatus>
+    </GaugeBlockContainer>
+  );
+};
 
 GaugeBlock.propTypes = {
   panelWidth: PropTypes.string,
