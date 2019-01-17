@@ -18,9 +18,9 @@ Atoms.add('Button', () => (
     </Panel>
     <Panel>
       <h2>Button Sizes</h2>
-      <Button color="xsmall">extra small</Button>
-      <Button color="small">Button small</Button>
-      <Button color="large">Button large</Button>
+      <Button size="xsmall">extra small</Button>
+      <Button size="small">Button small</Button>
+      <Button size="large">Button large</Button>
     </Panel>
     <Panel>
       <h2>Icon Buttons: using react-icons</h2>
