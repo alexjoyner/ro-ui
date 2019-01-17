@@ -7,7 +7,7 @@ Atoms
   .add('PageOverlay', () => (
     <PageOverlay>
       <Panel width="50%">
-        <h1>Custom Width Panel on PageOverlay</h1>
+        <h1 style={{ color: 'white' }}>Custom Width Panel on PageOverlay</h1>
       </Panel>
     </PageOverlay>
   ));
