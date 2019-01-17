@@ -6,7 +6,7 @@ exports[`Gauge component Should match snapshot 1`] = `
   width="100%"
 >
   <GaugeStatusCircle
-    color="#f1c40f"
+    color="#f39c12"
     cx="125"
     cy="150"
     fill="none"
@@ -26,19 +26,19 @@ exports[`Gauge component Should match snapshot 1`] = `
         "radius": 120.5,
         "ranges": Array [
           Object {
-            "color": "#f1c40f",
+            "color": "warning",
             "id": "range1",
             "lowerValue": 0,
             "upperValue": 50,
           },
           Object {
-            "color": "#2ecc71",
+            "color": "success",
             "id": "range2",
             "lowerValue": 50,
             "upperValue": 80,
           },
           Object {
-            "color": "#e74c3c",
+            "color": "danger",
             "id": "range3",
             "lowerValue": 80,
             "upperValue": 100,
@@ -52,7 +52,7 @@ exports[`Gauge component Should match snapshot 1`] = `
     overrides={Object {}}
     range={
       Object {
-        "color": "#f1c40f",
+        "color": "warning",
         "id": "range1",
         "lowerValue": 0,
         "upperValue": 50,
@@ -72,19 +72,19 @@ exports[`Gauge component Should match snapshot 1`] = `
         "radius": 120.5,
         "ranges": Array [
           Object {
-            "color": "#f1c40f",
+            "color": "warning",
             "id": "range1",
             "lowerValue": 0,
             "upperValue": 50,
           },
           Object {
-            "color": "#2ecc71",
+            "color": "success",
             "id": "range2",
             "lowerValue": 50,
             "upperValue": 80,
           },
           Object {
-            "color": "#e74c3c",
+            "color": "danger",
             "id": "range3",
             "lowerValue": 80,
             "upperValue": 100,
@@ -98,7 +98,7 @@ exports[`Gauge component Should match snapshot 1`] = `
     overrides={Object {}}
     range={
       Object {
-        "color": "#2ecc71",
+        "color": "success",
         "id": "range2",
         "lowerValue": 50,
         "upperValue": 80,
@@ -118,19 +118,19 @@ exports[`Gauge component Should match snapshot 1`] = `
         "radius": 120.5,
         "ranges": Array [
           Object {
-            "color": "#f1c40f",
+            "color": "warning",
             "id": "range1",
             "lowerValue": 0,
             "upperValue": 50,
           },
           Object {
-            "color": "#2ecc71",
+            "color": "success",
             "id": "range2",
             "lowerValue": 50,
             "upperValue": 80,
           },
           Object {
-            "color": "#e74c3c",
+            "color": "danger",
             "id": "range3",
             "lowerValue": 80,
             "upperValue": 100,
@@ -144,7 +144,7 @@ exports[`Gauge component Should match snapshot 1`] = `
     overrides={Object {}}
     range={
       Object {
-        "color": "#e74c3c",
+        "color": "danger",
         "id": "range3",
         "lowerValue": 80,
         "upperValue": 100,

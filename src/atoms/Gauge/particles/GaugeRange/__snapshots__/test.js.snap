@@ -5,7 +5,7 @@ exports[`GaugeRange component Should match snapshot 1`] = `
   <RangePath
     d="M 4.5 149.99999999999997  A 120.5 120.5 0 0 1 245.5 150"
     fill="none"
-    stroke="#f1c40f"
+    stroke="#bdc3c7"
   />
   <TickMark
     angle={180}

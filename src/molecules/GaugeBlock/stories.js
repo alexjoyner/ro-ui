@@ -13,23 +13,23 @@ export class TestGaugeBlock extends Component {
       ranges: [{
         lowerValue: 0,
         upperValue: 20,
-        color: '#95a5a6',
+        color: 'primary',
       }, {
         lowerValue: 20,
         upperValue: 30,
-        color: '#9b59b6',
+        color: 'info',
       }, {
         lowerValue: 30,
         upperValue: 50,
-        color: '#f1c40f',
+        color: 'warning',
       }, {
         lowerValue: 50,
         upperValue: 80,
-        color: '#2ecc71',
+        color: 'success',
       }, {
         lowerValue: 80,
         upperValue: 100,
-        color: '#e74c3c',
+        color: 'dangerLight',
       }],
     };
   }
@@ -53,6 +53,13 @@ export class TestGaugeBlock extends Component {
           label="Sensor 1"
           onSettingsClick={() => console.log('onSettingsClick')}
           onChartClick={() => console.log('onChartClick')}
+          overrides={{
+            GaugeBlockChartsBtn: {
+              props: {
+                color: 'primary',
+              },
+            },
+          }}
         />
         <GaugeBlock
           id={2}

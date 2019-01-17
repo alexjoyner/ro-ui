@@ -4,7 +4,7 @@ exports[`ComponentInput component Should match snapshot 1`] = `
 .c0 {
   background: none;
   border: none;
-  border-bottom: solid 2px #0984e3;
+  border-bottom: solid 2px #2980b9;
   padding: 14px 40px;
   font-size: 18px;
   display: inline-block;
@@ -17,7 +17,7 @@ exports[`ComponentInput component Should match snapshot 1`] = `
 }
 
 .c0[type="submit"] {
-  border: solid 2px #0984e3;
+  border: solid 2px #2980b9;
 }
 
 <ComponentInput>
@@ -34,7 +34,7 @@ exports[`ComponentInput component Should match snapshot 1`] = `
             "background:none;border:none;border-bottom:solid 2px ",
             [Function],
             ";padding:14px 40px;font-size:18px;display:inline-block;width:100%;&:focus,&:active{outline:none;}&[type=\\"submit\\"]{border:solid 2px ",
-            "#0984e3",
+            "#2980b9",
             "}",
           ],
         },

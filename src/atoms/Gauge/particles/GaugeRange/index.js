@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { colors } from '../../../colors';
 import { RangePath } from '../RangePath';
 import { TickMark } from '../TickMark';
 import { gaugeValueToAngle } from '../../utils/gaugeValueToAngle';
@@ -18,7 +19,7 @@ const GaugeRange = ({ opts, range }) => {
   return (
     <g>
       <RangePath
-        stroke={range.color}
+        stroke={colors[range.color] || colors.default}
         d={`${M} ${A}`}
         fill="none"
       />

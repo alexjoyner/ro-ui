@@ -92,17 +92,17 @@ Gauge.defaultProps = {
   ranges: [{
     lowerValue: 0,
     upperValue: 50,
-    color: '#f1c40f',
+    color: 'warning',
     id: 'range1',
   }, {
     lowerValue: 50,
     upperValue: 80,
-    color: '#2ecc71',
+    color: 'success',
     id: 'range2',
   }, {
     lowerValue: 80,
     upperValue: 100,
-    color: '#e74c3c',
+    color: 'danger',
     id: 'range3',
   }],
 };

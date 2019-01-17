@@ -8,7 +8,7 @@ exports[`ListItem component Should match snapshot 1`] = `
   padding: 10px;
   border-radius: 2px;
   border: none;
-  background-color: #636e72;
+  background-color: #34495e;
   color: white;
   display: inline-block;
   cursor: pointer;

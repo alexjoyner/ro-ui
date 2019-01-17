@@ -2,9 +2,9 @@
 
 exports[`ButtonStyles component Should match snapshot 1`] = `
 .c0 {
-  background-color: #b2bec3;
+  background-color: #bdc3c7;
   color: black;
-  border: 1px solid #b2bec3;
+  border: 1px solid #bdc3c7;
   display: inline-block;
   outline: none;
   cursor: pointer;
