@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import { InputLabel } from '.';
-import { colors } from '../../../colors';
+import { colors } from '../../../../_depreciated/colors';
 
 describe('InputLabel component', () => {
   let component;

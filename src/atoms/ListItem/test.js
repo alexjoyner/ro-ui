@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import { ListItem } from '.';
-import { colors } from '../colors';
+import { colors } from '../../_depreciated/colors';
 
 describe('ListItem component', () => {
   let component;

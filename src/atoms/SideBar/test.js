@@ -2,7 +2,7 @@ import React from 'react';
 import { mount } from 'enzyme';
 import { BasicSideBar, AnimatedSideBar } from '.';
 import { zIndexes } from '../../utils/zIndexes';
-import { colors } from '../colors';
+import { colors } from '../../_depreciated/colors';
 
 describe('SideBar component', () => {
   let component;

@@ -18,7 +18,7 @@ exports[`HeaderContainer component Should match snapshot 1`] = `
         "$$typeof": Symbol(react.forward_ref),
         "attrs": undefined,
         "componentStyle": ComponentStyle {
-          "componentId": "HeaderContainer-sc-1izz7ob-0",
+          "componentId": "HeaderContainer-sc-1kv2ljh-0",
           "isStatic": false,
           "lastClassName": "c0",
           "rules": Array [
@@ -33,7 +33,7 @@ exports[`HeaderContainer component Should match snapshot 1`] = `
         },
         "displayName": "HeaderContainer",
         "render": [Function],
-        "styledComponentId": "HeaderContainer-sc-1izz7ob-0",
+        "styledComponentId": "HeaderContainer-sc-1kv2ljh-0",
         "target": "div",
         "toString": [Function],
         "warnTooManyClasses": [Function],
