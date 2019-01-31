@@ -1,15 +1,15 @@
 import React from 'react';
 import { getComponents } from '../../utils/getComponents';
-import defaultComps from './defaults';
+import { getDefaults } from './models/getDefaults';
 
 const Button = (props) => {
   const {
-    color, size, ghost, children, overrides, ...rest
+    model, color, size, ghost, children, overrides, ...rest
   } = props;
   const {
     ButtonWrapper: { component: ButtonWrapper, props: buttonWrapperProps },
     ButtonStyles: { component: ButtonStyles, props: buttonStylesProps },
-  } = getComponents(defaultComps, overrides);
+  } = getComponents(getDefaults(model), overrides);
   return (
     <ButtonWrapper {...rest} {...buttonWrapperProps} type="button">
       {/* Passing props to Button Styles seperately to fix double onClick events from button */}

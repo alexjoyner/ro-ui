@@ -80,15 +80,6 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
   stroke: #34495e;
 }
 
-.c2 {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  background: none;
-  border: none;
-  outline: none;
-  font-size: inherit;
-}
-
 .c3 {
   background-color: #2c3e50;
   color: white;
@@ -115,6 +106,15 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
 
 .c3:active {
   box-shadow: none;
+}
+
+.c2 {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: inherit;
 }
 
 .c1 {
@@ -230,7 +230,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": undefined,
                           "componentStyle": ComponentStyle {
-                            "componentId": "ButtonWrapper-sc-180guxd-0",
+                            "componentId": "ButtonWrapper-sc-17yg8wp-0",
                             "isStatic": true,
                             "lastClassName": "c2",
                             "rules": Array [
@@ -239,7 +239,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           },
                           "displayName": "ButtonWrapper",
                           "render": [Function],
-                          "styledComponentId": "ButtonWrapper-sc-180guxd-0",
+                          "styledComponentId": "ButtonWrapper-sc-17yg8wp-0",
                           "target": "button",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -270,7 +270,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": undefined,
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "ButtonStyles-sc-14qnpbl-0",
+                                  "componentId": "ButtonStyles-sc-5bwci9-0",
                                   "isStatic": false,
                                   "lastClassName": "c3",
                                   "rules": Array [
@@ -289,7 +289,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                                 },
                                 "displayName": "ButtonStyles",
                                 "render": [Function],
-                                "styledComponentId": "ButtonStyles-sc-14qnpbl-0",
+                                "styledComponentId": "ButtonStyles-sc-5bwci9-0",
                                 "target": "span",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],
@@ -366,7 +366,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": undefined,
                           "componentStyle": ComponentStyle {
-                            "componentId": "ButtonWrapper-sc-180guxd-0",
+                            "componentId": "ButtonWrapper-sc-17yg8wp-0",
                             "isStatic": true,
                             "lastClassName": "c2",
                             "rules": Array [
@@ -375,7 +375,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           },
                           "displayName": "ButtonWrapper",
                           "render": [Function],
-                          "styledComponentId": "ButtonWrapper-sc-180guxd-0",
+                          "styledComponentId": "ButtonWrapper-sc-17yg8wp-0",
                           "target": "button",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -406,7 +406,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": undefined,
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "ButtonStyles-sc-14qnpbl-0",
+                                  "componentId": "ButtonStyles-sc-5bwci9-0",
                                   "isStatic": false,
                                   "lastClassName": "c3",
                                   "rules": Array [
@@ -425,7 +425,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                                 },
                                 "displayName": "ButtonStyles",
                                 "render": [Function],
-                                "styledComponentId": "ButtonStyles-sc-14qnpbl-0",
+                                "styledComponentId": "ButtonStyles-sc-5bwci9-0",
                                 "target": "span",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],

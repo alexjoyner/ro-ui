@@ -36,7 +36,7 @@ exports[`ButtonStyles component Should match snapshot 1`] = `
         "$$typeof": Symbol(react.forward_ref),
         "attrs": undefined,
         "componentStyle": ComponentStyle {
-          "componentId": "ButtonStyles-sc-14qnpbl-0",
+          "componentId": "ButtonStyles-sc-5bwci9-0",
           "isStatic": false,
           "lastClassName": "c0",
           "rules": Array [
@@ -55,7 +55,7 @@ exports[`ButtonStyles component Should match snapshot 1`] = `
         },
         "displayName": "ButtonStyles",
         "render": [Function],
-        "styledComponentId": "ButtonStyles-sc-14qnpbl-0",
+        "styledComponentId": "ButtonStyles-sc-5bwci9-0",
         "target": "span",
         "toString": [Function],
         "warnTooManyClasses": [Function],
