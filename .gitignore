@@ -109,3 +109,6 @@ typings/
 
 # dotenv environment variables file
 .env
+
+# Node cache
+.cache
