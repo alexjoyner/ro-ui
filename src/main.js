@@ -8,7 +8,7 @@ export { ImageOverlay } from './atoms/ImageOverlay';
 export { Input } from './atoms/Input';
 export { Logo } from './atoms/Logo';
 export { Panel } from './atoms/Panel';
-export { Image } from './atoms/Image';
+export { Image } from './_depreciated/Image';
 export { PageOverlay } from './atoms/PageOverlay';
 export { Header } from './atoms/Header';
 export { CenteredContent } from './_depreciated/CenteredContent';
