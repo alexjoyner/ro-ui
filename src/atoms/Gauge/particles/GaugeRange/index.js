@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { colors } from '../../../colors';
+import { colors } from '../../../../_depreciated/colors';
 import { RangePath } from '../RangePath';
 import { TickMark } from '../TickMark';
 import { gaugeValueToAngle } from '../../utils/gaugeValueToAngle';

@@ -1,4 +1,4 @@
-import { colors } from '../../../colors';
+import { colors } from '../../../../_depreciated/colors';
 
 export const calcCurrentValueColor = (value, ranges) => {
   let result = null;

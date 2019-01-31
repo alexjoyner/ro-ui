@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { zIndexes } from '../../../../utils/zIndexes';
-import { colors } from '../../../colors';
+import { colors } from '../../../../_depreciated/colors';
 import { getTextContrastColor } from '../../../../utils/getTextContrastColor';
 
 const HeaderContainer = styled.div`

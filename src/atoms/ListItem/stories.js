@@ -1,7 +1,7 @@
 import React from 'react';
 import { ListItem } from '.';
 import { Atoms } from '../_atoms.stories';
-import { colors } from '../colors';
+import { colors } from '../../_depreciated/colors';
 
 
 Atoms

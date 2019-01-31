@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colors } from '../../../colors';
+import { colors } from '../../../../_depreciated/colors';
 
 export const ComponentInput = styled.input`
     background: none;

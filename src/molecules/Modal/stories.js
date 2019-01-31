@@ -4,7 +4,7 @@ import { Modal } from '.';
 import { ListHeader } from '../../atoms/ListHeader';
 import { ListItem } from '../../atoms/ListItem';
 import { Header } from '../../atoms/Header';
-import { CenteredContent } from '../../atoms/CenteredContent';
+import { CenteredContent } from '../../_depreciated/CenteredContent';
 import { TestGaugeBlock } from '../GaugeBlock/stories';
 import { SideBarPage } from '../SideBarPage';
 

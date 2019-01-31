@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colors } from '../../../../atoms/colors';
+import { colors } from '../../../../_depreciated/colors';
 import { zIndexes } from '../../../../utils/zIndexes';
 
 export const SideBarContainer = styled.div`

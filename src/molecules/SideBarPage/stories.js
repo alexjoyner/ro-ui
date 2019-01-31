@@ -3,7 +3,7 @@ import { SideBarPage } from '.';
 import { Molecules } from '../_molecules.stories';
 import { Header } from '../../atoms/Header';
 import { TestGaugeBlock } from '../GaugeBlock/stories';
-import { CenteredContent } from '../../atoms/CenteredContent';
+import { CenteredContent } from '../../_depreciated/CenteredContent';
 import { ListItem } from '../../atoms/ListItem';
 import { ListHeader } from '../../atoms/ListHeader';
 

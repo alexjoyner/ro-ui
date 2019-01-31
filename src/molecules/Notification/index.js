@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { IoMdClose } from 'react-icons/io';
 import { Panel } from '../../atoms/Panel';
-import { CenteredContent } from '../../atoms/CenteredContent';
+import { CenteredContent } from '../../_depreciated/CenteredContent';
 import { Button } from '../../atoms/Button';
 import { zIndexes } from '../../utils/zIndexes';
 

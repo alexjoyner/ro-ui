@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { colors } from '../colors';
+import { colors } from '../../_depreciated/colors';
 import { getTextContrastColor } from '../../utils/getTextContrastColor';
 
 export const ListItem = styled.div`

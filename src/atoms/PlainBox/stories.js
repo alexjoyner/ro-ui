@@ -1,7 +1,7 @@
 import React from 'react';
 import { Atoms } from '../_atoms.stories';
 import { PlainBox } from '.';
-import { CenteredContent } from '../CenteredContent';
+import { CenteredContent } from '../../_depreciated/CenteredContent';
 
 Atoms
   .add('PlainBox', () => (
@@ -16,4 +16,3 @@ Atoms
       <PlainBox height="200px" width="25%" />
     </CenteredContent>
   ));
-

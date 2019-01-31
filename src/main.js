@@ -2,7 +2,7 @@
 ============ Atoms ===========
  */
 export { Button } from './atoms/Button';
-export { colors } from './atoms/colors';
+export { colors } from './_depreciated/colors';
 export { Gauge } from './atoms/Gauge';
 export { ImageOverlay } from './atoms/ImageOverlay';
 export { Input } from './atoms/Input';
@@ -11,7 +11,7 @@ export { Panel } from './atoms/Panel';
 export { Image } from './atoms/Image';
 export { PageOverlay } from './atoms/PageOverlay';
 export { Header } from './atoms/Header';
-export { CenteredContent } from './atoms/CenteredContent';
+export { CenteredContent } from './_depreciated/CenteredContent';
 export { PlainBox } from './atoms/PlainBox';
 export { ListHeader } from './atoms/ListHeader';
 export { ListItem } from './atoms/ListItem';

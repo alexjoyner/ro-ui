@@ -1,6 +1,6 @@
 import React from 'react';
-import { Atoms } from '../_atoms.stories';
-import { Panel } from '../Panel';
+import { Atoms } from '../../atoms/_atoms.stories';
+import { Panel } from '../../atoms/Panel';
 import { colors } from '.';
 import { CenteredContent } from '../CenteredContent';
 import { getTextContrastColor } from '../../utils/getTextContrastColor';

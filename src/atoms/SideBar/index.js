@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { bool } from 'prop-types';
-import { colors } from '../colors';
+import { colors } from '../../_depreciated/colors';
 import { zIndexes } from '../../utils/zIndexes';
 import { getTextContrastColor } from '../../utils/getTextContrastColor';
 

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { getTextContrastColor } from '../../../../../utils/getTextContrastColor';
-import { colors } from '../../../../colors';
+import { colors } from '../../../../../_depreciated/colors';
 import { btnSizes } from '../utils/btnSizes';
 
 export const ButtonStyles = styled.span`
