@@ -10,14 +10,6 @@ class TestGauge extends Component {
     this.state = {
       value: 20,
     };
-    setInterval(() => {
-      const { value } = this.state;
-      if (value < 100) {
-        this.setState({
-          value: value + 1,
-        });
-      }
-    }, 1000);
   }
 
   render() {

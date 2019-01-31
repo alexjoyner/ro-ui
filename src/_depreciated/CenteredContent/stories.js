@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-e
 import { CenteredContent } from '.';
 import { Panel } from '../../atoms/Panel';
 
-storiesOf('Atoms', module)
+storiesOf('Depreciated', module)
   .add('CenteredContent', () => (
     <CenteredContent>
       <h1>Centered Content</h1>

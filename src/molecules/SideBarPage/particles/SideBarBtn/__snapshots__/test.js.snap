@@ -78,91 +78,106 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
     <Button
       className="c0"
     >
-      <ButtonWrapper
+      <Button
         className="c0"
-        overrides={Object {}}
-        type="button"
+        color="default"
+        ghost={false}
+        size="default"
       >
-        <StyledComponent
+        <ButtonWrapper
           className="c0"
-          forwardedClass={
-            Object {
-              "$$typeof": Symbol(react.forward_ref),
-              "attrs": undefined,
-              "componentStyle": ComponentStyle {
-                "componentId": "ButtonWrapper-sc-17yg8wp-0",
-                "isStatic": true,
-                "lastClassName": "c1",
-                "rules": Array [
-                  "-moz-appearance:none;-webkit-appearance:none;background:none;border:none;outline:none;font-size:inherit;",
-                ],
-              },
-              "displayName": "ButtonWrapper",
-              "render": [Function],
-              "styledComponentId": "ButtonWrapper-sc-17yg8wp-0",
-              "target": "button",
-              "toString": [Function],
-              "warnTooManyClasses": [Function],
-              "withComponent": [Function],
-            }
-          }
-          forwardedRef={null}
           overrides={Object {}}
           type="button"
         >
-          <button
-            className="c0 c1"
+          <StyledComponent
+            className="c0"
+            forwardedClass={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": undefined,
+                "componentStyle": ComponentStyle {
+                  "componentId": "ButtonWrapper-sc-17yg8wp-0",
+                  "isStatic": true,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    "-moz-appearance:none;-webkit-appearance:none;background:none;border:none;outline:none;font-size:inherit;",
+                  ],
+                },
+                "displayName": "ButtonWrapper",
+                "render": [Function],
+                "styledComponentId": "ButtonWrapper-sc-17yg8wp-0",
+                "target": "button",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            overrides={Object {}}
             type="button"
           >
-            <ButtonStyles
-              overrides={Object {}}
-              tabIndex={-1}
+            <button
+              className="c0 c1"
+              type="button"
             >
-              <StyledComponent
-                forwardedClass={
-                  Object {
-                    "$$typeof": Symbol(react.forward_ref),
-                    "attrs": undefined,
-                    "componentStyle": ComponentStyle {
-                      "componentId": "ButtonStyles-sc-5bwci9-0",
-                      "isStatic": false,
-                      "lastClassName": "c2",
-                      "rules": Array [
-                        "background-color:",
-                        [Function],
-                        ";color:",
-                        [Function],
-                        ";border:1px solid ",
-                        [Function],
-                        ";display:inline-block;outline:none;cursor:pointer;",
-                        [Function],
-                        ";text-align:center;line-height:1.5;transition:0.1s linear;box-shadow:0 1px 2px 0 rgba(0,0,0,0.2);svg{vertical-align:middle;}&:hover{box-shadow:0 2px 4px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);}&:active{box-shadow:none;}",
-                        [Function],
-                        ";",
-                      ],
-                    },
-                    "displayName": "ButtonStyles",
-                    "render": [Function],
-                    "styledComponentId": "ButtonStyles-sc-5bwci9-0",
-                    "target": "span",
-                    "toString": [Function],
-                    "warnTooManyClasses": [Function],
-                    "withComponent": [Function],
-                  }
-                }
-                forwardedRef={null}
+              <ButtonStyles
+                color="default"
+                ghost={false}
                 overrides={Object {}}
+                size="default"
                 tabIndex={-1}
               >
-                <span
-                  className="c2"
+                <StyledComponent
+                  color="default"
+                  forwardedClass={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": undefined,
+                      "componentStyle": ComponentStyle {
+                        "componentId": "ButtonStyles-sc-5bwci9-0",
+                        "isStatic": false,
+                        "lastClassName": "c2",
+                        "rules": Array [
+                          "background-color:",
+                          [Function],
+                          ";color:",
+                          [Function],
+                          ";border:1px solid ",
+                          [Function],
+                          ";display:inline-block;outline:none;cursor:pointer;",
+                          [Function],
+                          ";text-align:center;line-height:1.5;transition:0.1s linear;box-shadow:0 1px 2px 0 rgba(0,0,0,0.2);svg{vertical-align:middle;}&:hover{box-shadow:0 2px 4px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);}&:active{box-shadow:none;}",
+                          [Function],
+                          ";",
+                        ],
+                      },
+                      "displayName": "ButtonStyles",
+                      "render": [Function],
+                      "styledComponentId": "ButtonStyles-sc-5bwci9-0",
+                      "target": "span",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  ghost={false}
+                  overrides={Object {}}
+                  size="default"
                   tabIndex={-1}
-                />
-              </StyledComponent>
-            </ButtonStyles>
-          </button>
-        </StyledComponent>
-      </ButtonWrapper>
+                >
+                  <span
+                    className="c2"
+                    color="default"
+                    size="default"
+                    tabIndex={-1}
+                  />
+                </StyledComponent>
+              </ButtonStyles>
+            </button>
+          </StyledComponent>
+        </ButtonWrapper>
+      </Button>
     </Button>
   </StyledComponent>
 </SideBarBtn>

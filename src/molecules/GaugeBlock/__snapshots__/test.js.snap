@@ -10,7 +10,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
   margin: 10px;
   padding: 10px;
   border: 1px solid #EEEEEE;
-  radius: 5px;
+  border-radius: 5px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
 }
 
@@ -161,7 +161,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                 ";min-width:",
                 [Function],
                 ";margin:10px;padding:10px;background-color:",
-                ";border:1px solid #EEEEEE;radius:5px;box-shadow:0 2px 2px 0 rgba(0,0,0,0.16);",
+                ";border:1px solid #EEEEEE;border-radius:5px;box-shadow:0 2px 2px 0 rgba(0,0,0,0.16);",
               ],
             },
             "displayName": "PanelContainer",
@@ -218,132 +218,142 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                   overrides={Object {}}
                   size="xsmall"
                 >
-                  <ButtonWrapper
+                  <Button
+                    color="dark"
+                    ghost={false}
                     onClick={[Function]}
                     overrides={Object {}}
-                    type="button"
+                    size="xsmall"
                   >
-                    <StyledComponent
-                      forwardedClass={
-                        Object {
-                          "$$typeof": Symbol(react.forward_ref),
-                          "attrs": undefined,
-                          "componentStyle": ComponentStyle {
-                            "componentId": "ButtonWrapper-sc-17yg8wp-0",
-                            "isStatic": true,
-                            "lastClassName": "c2",
-                            "rules": Array [
-                              "-moz-appearance:none;-webkit-appearance:none;background:none;border:none;outline:none;font-size:inherit;",
-                            ],
-                          },
-                          "displayName": "ButtonWrapper",
-                          "render": [Function],
-                          "styledComponentId": "ButtonWrapper-sc-17yg8wp-0",
-                          "target": "button",
-                          "toString": [Function],
-                          "warnTooManyClasses": [Function],
-                          "withComponent": [Function],
-                        }
-                      }
-                      forwardedRef={null}
+                    <ButtonWrapper
                       onClick={[Function]}
                       overrides={Object {}}
                       type="button"
                     >
-                      <button
-                        className="c2"
+                      <StyledComponent
+                        forwardedClass={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": undefined,
+                            "componentStyle": ComponentStyle {
+                              "componentId": "ButtonWrapper-sc-17yg8wp-0",
+                              "isStatic": true,
+                              "lastClassName": "c2",
+                              "rules": Array [
+                                "-moz-appearance:none;-webkit-appearance:none;background:none;border:none;outline:none;font-size:inherit;",
+                              ],
+                            },
+                            "displayName": "ButtonWrapper",
+                            "render": [Function],
+                            "styledComponentId": "ButtonWrapper-sc-17yg8wp-0",
+                            "target": "button",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
                         onClick={[Function]}
+                        overrides={Object {}}
                         type="button"
                       >
-                        <ButtonStyles
-                          color="dark"
-                          overrides={Object {}}
-                          size="xsmall"
-                          tabIndex={-1}
+                        <button
+                          className="c2"
+                          onClick={[Function]}
+                          type="button"
                         >
-                          <StyledComponent
+                          <ButtonStyles
                             color="dark"
-                            forwardedClass={
-                              Object {
-                                "$$typeof": Symbol(react.forward_ref),
-                                "attrs": undefined,
-                                "componentStyle": ComponentStyle {
-                                  "componentId": "ButtonStyles-sc-5bwci9-0",
-                                  "isStatic": false,
-                                  "lastClassName": "c3",
-                                  "rules": Array [
-                                    "background-color:",
-                                    [Function],
-                                    ";color:",
-                                    [Function],
-                                    ";border:1px solid ",
-                                    [Function],
-                                    ";display:inline-block;outline:none;cursor:pointer;",
-                                    [Function],
-                                    ";text-align:center;line-height:1.5;transition:0.1s linear;box-shadow:0 1px 2px 0 rgba(0,0,0,0.2);svg{vertical-align:middle;}&:hover{box-shadow:0 2px 4px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);}&:active{box-shadow:none;}",
-                                    [Function],
-                                    ";",
-                                  ],
-                                },
-                                "displayName": "ButtonStyles",
-                                "render": [Function],
-                                "styledComponentId": "ButtonStyles-sc-5bwci9-0",
-                                "target": "span",
-                                "toString": [Function],
-                                "warnTooManyClasses": [Function],
-                                "withComponent": [Function],
-                              }
-                            }
-                            forwardedRef={null}
+                            ghost={false}
                             overrides={Object {}}
                             size="xsmall"
                             tabIndex={-1}
                           >
-                            <span
-                              className="c3"
+                            <StyledComponent
                               color="dark"
+                              forwardedClass={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": undefined,
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "ButtonStyles-sc-5bwci9-0",
+                                    "isStatic": false,
+                                    "lastClassName": "c3",
+                                    "rules": Array [
+                                      "background-color:",
+                                      [Function],
+                                      ";color:",
+                                      [Function],
+                                      ";border:1px solid ",
+                                      [Function],
+                                      ";display:inline-block;outline:none;cursor:pointer;",
+                                      [Function],
+                                      ";text-align:center;line-height:1.5;transition:0.1s linear;box-shadow:0 1px 2px 0 rgba(0,0,0,0.2);svg{vertical-align:middle;}&:hover{box-shadow:0 2px 4px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);}&:active{box-shadow:none;}",
+                                      [Function],
+                                      ";",
+                                    ],
+                                  },
+                                  "displayName": "ButtonStyles",
+                                  "render": [Function],
+                                  "styledComponentId": "ButtonStyles-sc-5bwci9-0",
+                                  "target": "span",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                              ghost={false}
+                              overrides={Object {}}
                               size="xsmall"
                               tabIndex={-1}
                             >
-                              <GoGraph
-                                size={20}
+                              <span
+                                className="c3"
+                                color="dark"
+                                size="xsmall"
+                                tabIndex={-1}
                               >
-                                <IconBase
-                                  attr={
-                                    Object {
-                                      "viewBox": "0 0 16 16",
-                                    }
-                                  }
+                                <GoGraph
                                   size={20}
                                 >
-                                  <svg
-                                    fill="currentColor"
-                                    height={20}
-                                    size={20}
-                                    stroke="currentColor"
-                                    strokeWidth="0"
-                                    style={
+                                  <IconBase
+                                    attr={
                                       Object {
-                                        "color": undefined,
+                                        "viewBox": "0 0 16 16",
                                       }
                                     }
-                                    viewBox="0 0 16 16"
-                                    width={20}
+                                    size={20}
                                   >
-                                    <path
-                                      d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"
-                                      fillRule="evenodd"
-                                      key="0"
-                                    />
-                                  </svg>
-                                </IconBase>
-                              </GoGraph>
-                            </span>
-                          </StyledComponent>
-                        </ButtonStyles>
-                      </button>
-                    </StyledComponent>
-                  </ButtonWrapper>
+                                    <svg
+                                      fill="currentColor"
+                                      height={20}
+                                      size={20}
+                                      stroke="currentColor"
+                                      strokeWidth="0"
+                                      style={
+                                        Object {
+                                          "color": undefined,
+                                        }
+                                      }
+                                      viewBox="0 0 16 16"
+                                      width={20}
+                                    >
+                                      <path
+                                        d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"
+                                        fillRule="evenodd"
+                                        key="0"
+                                      />
+                                    </svg>
+                                  </IconBase>
+                                </GoGraph>
+                              </span>
+                            </StyledComponent>
+                          </ButtonStyles>
+                        </button>
+                      </StyledComponent>
+                    </ButtonWrapper>
+                  </Button>
                 </Button>
                 <Button
                   color="dark"
@@ -351,10 +361,818 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                   overrides={Object {}}
                   size="xsmall"
                 >
-                  <ButtonWrapper
+                  <Button
+                    color="dark"
+                    ghost={false}
                     onClick={[Function]}
                     overrides={Object {}}
-                    type="button"
+                    size="xsmall"
+                  >
+                    <ButtonWrapper
+                      onClick={[Function]}
+                      overrides={Object {}}
+                      type="button"
+                    >
+                      <StyledComponent
+                        forwardedClass={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": undefined,
+                            "componentStyle": ComponentStyle {
+                              "componentId": "ButtonWrapper-sc-17yg8wp-0",
+                              "isStatic": true,
+                              "lastClassName": "c2",
+                              "rules": Array [
+                                "-moz-appearance:none;-webkit-appearance:none;background:none;border:none;outline:none;font-size:inherit;",
+                              ],
+                            },
+                            "displayName": "ButtonWrapper",
+                            "render": [Function],
+                            "styledComponentId": "ButtonWrapper-sc-17yg8wp-0",
+                            "target": "button",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        onClick={[Function]}
+                        overrides={Object {}}
+                        type="button"
+                      >
+                        <button
+                          className="c2"
+                          onClick={[Function]}
+                          type="button"
+                        >
+                          <ButtonStyles
+                            color="dark"
+                            ghost={false}
+                            overrides={Object {}}
+                            size="xsmall"
+                            tabIndex={-1}
+                          >
+                            <StyledComponent
+                              color="dark"
+                              forwardedClass={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": undefined,
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "ButtonStyles-sc-5bwci9-0",
+                                    "isStatic": false,
+                                    "lastClassName": "c3",
+                                    "rules": Array [
+                                      "background-color:",
+                                      [Function],
+                                      ";color:",
+                                      [Function],
+                                      ";border:1px solid ",
+                                      [Function],
+                                      ";display:inline-block;outline:none;cursor:pointer;",
+                                      [Function],
+                                      ";text-align:center;line-height:1.5;transition:0.1s linear;box-shadow:0 1px 2px 0 rgba(0,0,0,0.2);svg{vertical-align:middle;}&:hover{box-shadow:0 2px 4px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);}&:active{box-shadow:none;}",
+                                      [Function],
+                                      ";",
+                                    ],
+                                  },
+                                  "displayName": "ButtonStyles",
+                                  "render": [Function],
+                                  "styledComponentId": "ButtonStyles-sc-5bwci9-0",
+                                  "target": "span",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                              ghost={false}
+                              overrides={Object {}}
+                              size="xsmall"
+                              tabIndex={-1}
+                            >
+                              <span
+                                className="c3"
+                                color="dark"
+                                size="xsmall"
+                                tabIndex={-1}
+                              >
+                                <GoGear
+                                  size={20}
+                                >
+                                  <IconBase
+                                    attr={
+                                      Object {
+                                        "viewBox": "0 0 14 16",
+                                      }
+                                    }
+                                    size={20}
+                                  >
+                                    <svg
+                                      fill="currentColor"
+                                      height={20}
+                                      size={20}
+                                      stroke="currentColor"
+                                      strokeWidth="0"
+                                      style={
+                                        Object {
+                                          "color": undefined,
+                                        }
+                                      }
+                                      viewBox="0 0 14 16"
+                                      width={20}
+                                    >
+                                      <path
+                                        d="M14 8.77v-1.6l-1.94-.64-.45-1.09.88-1.84-1.13-1.13-1.81.91-1.09-.45-.69-1.92h-1.6l-.63 1.94-1.11.45-1.84-.88-1.13 1.13.91 1.81-.45 1.09L0 7.23v1.59l1.94.64.45 1.09-.88 1.84 1.13 1.13 1.81-.91 1.09.45.69 1.92h1.59l.63-1.94 1.11-.45 1.84.88 1.13-1.13-.92-1.81.47-1.09L14 8.75v.02zM7 11c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"
+                                        fillRule="evenodd"
+                                        key="0"
+                                      />
+                                    </svg>
+                                  </IconBase>
+                                </GoGear>
+                              </span>
+                            </StyledComponent>
+                          </ButtonStyles>
+                        </button>
+                      </StyledComponent>
+                    </ButtonWrapper>
+                  </Button>
+                </Button>
+              </div>
+            </StyledComponent>
+          </defaults__GaugeBlockToolbar>
+          <Gauge
+            label="Test Sensor"
+            multiSelected={false}
+            onChartClick={[Function]}
+            onSettingsClick={[Function]}
+            overrides={Object {}}
+            panelWidth="20%"
+            value={20}
+          >
+            <Gauge
+              label="Test Sensor"
+              max={100}
+              min={0}
+              multiSelected={false}
+              onChartClick={[Function]}
+              onSettingsClick={[Function]}
+              overrides={Object {}}
+              panelWidth="20%"
+              ranges={
+                Array [
+                  Object {
+                    "color": "warning",
+                    "id": "range1",
+                    "lowerValue": 0,
+                    "upperValue": 50,
+                  },
+                  Object {
+                    "color": "success",
+                    "id": "range2",
+                    "lowerValue": 50,
+                    "upperValue": 80,
+                  },
+                  Object {
+                    "color": "danger",
+                    "id": "range3",
+                    "lowerValue": 80,
+                    "upperValue": 100,
+                  },
+                ]
+              }
+              units=""
+              value={20}
+              width="100%"
+            >
+              <GaugeBase
+                overrides={Object {}}
+                width="100%"
+              >
+                <svg
+                  height="100%"
+                  overrides={Object {}}
+                  viewBox="0 0 250 180"
+                  width="100%"
+                >
+                  <GaugeStatusCircle
+                    color="#f39c12"
+                    cx="125"
+                    cy="150"
+                    fill="none"
+                    overrides={Object {}}
+                    r="108.5"
+                  >
+                    <StyledComponent
+                      color="#f39c12"
+                      cx="125"
+                      cy="150"
+                      fill="none"
+                      forwardedClass={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": undefined,
+                          "componentStyle": ComponentStyle {
+                            "componentId": "GaugeStatusCircle-sc-1dp5euh-0",
+                            "isStatic": false,
+                            "lastClassName": "c4",
+                            "rules": Array [
+                              "stroke:",
+                              [Function],
+                              ";stroke-width:17;stroke-dasharray:340.865;stroke-dashoffset:340.865;",
+                            ],
+                          },
+                          "displayName": "GaugeStatusCircle",
+                          "render": [Function],
+                          "styledComponentId": "GaugeStatusCircle-sc-1dp5euh-0",
+                          "target": "circle",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      overrides={Object {}}
+                      r="108.5"
+                    >
+                      <circle
+                        className="c4"
+                        color="#f39c12"
+                        cx="125"
+                        cy="150"
+                        fill="none"
+                        r="108.5"
+                      />
+                    </StyledComponent>
+                  </GaugeStatusCircle>
+                  <GaugeRange
+                    key="range1"
+                    opts={
+                      Object {
+                        "center": Object {
+                          "x": 125,
+                          "y": 150,
+                        },
+                        "max": 100,
+                        "min": 0,
+                        "radius": 120.5,
+                        "ranges": Array [
+                          Object {
+                            "color": "warning",
+                            "id": "range1",
+                            "lowerValue": 0,
+                            "upperValue": 50,
+                          },
+                          Object {
+                            "color": "success",
+                            "id": "range2",
+                            "lowerValue": 50,
+                            "upperValue": 80,
+                          },
+                          Object {
+                            "color": "danger",
+                            "id": "range3",
+                            "lowerValue": 80,
+                            "upperValue": 100,
+                          },
+                        ],
+                        "units": "",
+                        "value": 20,
+                        "width": "100%",
+                      }
+                    }
+                    overrides={Object {}}
+                    range={
+                      Object {
+                        "color": "warning",
+                        "id": "range1",
+                        "lowerValue": 0,
+                        "upperValue": 50,
+                      }
+                    }
+                  >
+                    <g>
+                      <RangePath
+                        d="M 4.5 149.99999999999997  A 120.5 120.5 0 0 1 125.00000000000001 29.5"
+                        fill="none"
+                        stroke="#f39c12"
+                      >
+                        <StyledComponent
+                          d="M 4.5 149.99999999999997  A 120.5 120.5 0 0 1 125.00000000000001 29.5"
+                          fill="none"
+                          forwardedClass={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": undefined,
+                              "componentStyle": ComponentStyle {
+                                "componentId": "RangePath-sc-1r21mye-0",
+                                "isStatic": true,
+                                "lastClassName": "c5",
+                                "rules": Array [
+                                  "stroke-width:7;fill:none;",
+                                ],
+                              },
+                              "displayName": "RangePath",
+                              "render": [Function],
+                              "styledComponentId": "RangePath-sc-1r21mye-0",
+                              "target": "path",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                          stroke="#f39c12"
+                        >
+                          <path
+                            className="c5"
+                            d="M 4.5 149.99999999999997  A 120.5 120.5 0 0 1 125.00000000000001 29.5"
+                            fill="none"
+                            stroke="#f39c12"
+                          />
+                        </StyledComponent>
+                      </RangePath>
+                      <TickMark
+                        angle={90}
+                      >
+                        <line
+                          stroke="#34495e"
+                          strokeLinecap="round"
+                          transform="rotate(90 125 150)"
+                          x1="1"
+                          x2="15"
+                          y1="150"
+                          y2="150"
+                        />
+                      </TickMark>
+                      <GaugeLabel
+                        x={125.00000000000001}
+                        y={19.5}
+                      >
+                        <StyledComponent
+                          forwardedClass={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": undefined,
+                              "componentStyle": ComponentStyle {
+                                "componentId": "GaugeLabel-vdccuk-0",
+                                "isStatic": true,
+                                "lastClassName": "c6",
+                                "rules": Array [
+                                  "font-size:.6rem;fill:#5b6268;text-anchor:middle;dominant-baseline:central;",
+                                ],
+                              },
+                              "displayName": "GaugeLabel",
+                              "render": [Function],
+                              "styledComponentId": "GaugeLabel-vdccuk-0",
+                              "target": "text",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                          x={125.00000000000001}
+                          y={19.5}
+                        >
+                          <text
+                            className="c6"
+                            x={125.00000000000001}
+                            y={19.5}
+                          >
+                            50
+                          </text>
+                        </StyledComponent>
+                      </GaugeLabel>
+                    </g>
+                  </GaugeRange>
+                  <GaugeRange
+                    key="range2"
+                    opts={
+                      Object {
+                        "center": Object {
+                          "x": 125,
+                          "y": 150,
+                        },
+                        "max": 100,
+                        "min": 0,
+                        "radius": 120.5,
+                        "ranges": Array [
+                          Object {
+                            "color": "warning",
+                            "id": "range1",
+                            "lowerValue": 0,
+                            "upperValue": 50,
+                          },
+                          Object {
+                            "color": "success",
+                            "id": "range2",
+                            "lowerValue": 50,
+                            "upperValue": 80,
+                          },
+                          Object {
+                            "color": "danger",
+                            "id": "range3",
+                            "lowerValue": 80,
+                            "upperValue": 100,
+                          },
+                        ],
+                        "units": "",
+                        "value": 20,
+                        "width": "100%",
+                      }
+                    }
+                    overrides={Object {}}
+                    range={
+                      Object {
+                        "color": "success",
+                        "id": "range2",
+                        "lowerValue": 50,
+                        "upperValue": 80,
+                      }
+                    }
+                  >
+                    <g>
+                      <RangePath
+                        d="M 125.00000000000001 29.5  A 120.5 120.5 0 0 1 222.48654782218117 79.171877098757"
+                        fill="none"
+                        stroke="#27ae60"
+                      >
+                        <StyledComponent
+                          d="M 125.00000000000001 29.5  A 120.5 120.5 0 0 1 222.48654782218117 79.171877098757"
+                          fill="none"
+                          forwardedClass={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": undefined,
+                              "componentStyle": ComponentStyle {
+                                "componentId": "RangePath-sc-1r21mye-0",
+                                "isStatic": true,
+                                "lastClassName": "c5",
+                                "rules": Array [
+                                  "stroke-width:7;fill:none;",
+                                ],
+                              },
+                              "displayName": "RangePath",
+                              "render": [Function],
+                              "styledComponentId": "RangePath-sc-1r21mye-0",
+                              "target": "path",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                          stroke="#27ae60"
+                        >
+                          <path
+                            className="c5"
+                            d="M 125.00000000000001 29.5  A 120.5 120.5 0 0 1 222.48654782218117 79.171877098757"
+                            fill="none"
+                            stroke="#27ae60"
+                          />
+                        </StyledComponent>
+                      </RangePath>
+                      <TickMark
+                        angle={144}
+                      >
+                        <line
+                          stroke="#34495e"
+                          strokeLinecap="round"
+                          transform="rotate(144 125 150)"
+                          x1="1"
+                          x2="15"
+                          y1="150"
+                          y2="150"
+                        />
+                      </TickMark>
+                      <GaugeLabel
+                        x={231.48654782218117}
+                        y={69.171877098757}
+                      >
+                        <StyledComponent
+                          forwardedClass={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": undefined,
+                              "componentStyle": ComponentStyle {
+                                "componentId": "GaugeLabel-vdccuk-0",
+                                "isStatic": true,
+                                "lastClassName": "c6",
+                                "rules": Array [
+                                  "font-size:.6rem;fill:#5b6268;text-anchor:middle;dominant-baseline:central;",
+                                ],
+                              },
+                              "displayName": "GaugeLabel",
+                              "render": [Function],
+                              "styledComponentId": "GaugeLabel-vdccuk-0",
+                              "target": "text",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                          x={231.48654782218117}
+                          y={69.171877098757}
+                        >
+                          <text
+                            className="c6"
+                            x={231.48654782218117}
+                            y={69.171877098757}
+                          >
+                            80
+                          </text>
+                        </StyledComponent>
+                      </GaugeLabel>
+                    </g>
+                  </GaugeRange>
+                  <GaugeRange
+                    key="range3"
+                    opts={
+                      Object {
+                        "center": Object {
+                          "x": 125,
+                          "y": 150,
+                        },
+                        "max": 100,
+                        "min": 0,
+                        "radius": 120.5,
+                        "ranges": Array [
+                          Object {
+                            "color": "warning",
+                            "id": "range1",
+                            "lowerValue": 0,
+                            "upperValue": 50,
+                          },
+                          Object {
+                            "color": "success",
+                            "id": "range2",
+                            "lowerValue": 50,
+                            "upperValue": 80,
+                          },
+                          Object {
+                            "color": "danger",
+                            "id": "range3",
+                            "lowerValue": 80,
+                            "upperValue": 100,
+                          },
+                        ],
+                        "units": "",
+                        "value": 20,
+                        "width": "100%",
+                      }
+                    }
+                    overrides={Object {}}
+                    range={
+                      Object {
+                        "color": "danger",
+                        "id": "range3",
+                        "lowerValue": 80,
+                        "upperValue": 100,
+                      }
+                    }
+                  >
+                    <g>
+                      <RangePath
+                        d="M 222.48654782218117 79.171877098757  A 120.5 120.5 0 0 1 245.5 150"
+                        fill="none"
+                        stroke="#c0392b"
+                      >
+                        <StyledComponent
+                          d="M 222.48654782218117 79.171877098757  A 120.5 120.5 0 0 1 245.5 150"
+                          fill="none"
+                          forwardedClass={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": undefined,
+                              "componentStyle": ComponentStyle {
+                                "componentId": "RangePath-sc-1r21mye-0",
+                                "isStatic": true,
+                                "lastClassName": "c5",
+                                "rules": Array [
+                                  "stroke-width:7;fill:none;",
+                                ],
+                              },
+                              "displayName": "RangePath",
+                              "render": [Function],
+                              "styledComponentId": "RangePath-sc-1r21mye-0",
+                              "target": "path",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                          stroke="#c0392b"
+                        >
+                          <path
+                            className="c5"
+                            d="M 222.48654782218117 79.171877098757  A 120.5 120.5 0 0 1 245.5 150"
+                            fill="none"
+                            stroke="#c0392b"
+                          />
+                        </StyledComponent>
+                      </RangePath>
+                      <TickMark
+                        angle={180}
+                      >
+                        <line
+                          stroke="#34495e"
+                          strokeLinecap="round"
+                          transform="rotate(180 125 150)"
+                          x1="1"
+                          x2="15"
+                          y1="150"
+                          y2="150"
+                        />
+                      </TickMark>
+                      <GaugeLabel
+                        x={260.5}
+                        y={140}
+                      >
+                        <StyledComponent
+                          forwardedClass={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": undefined,
+                              "componentStyle": ComponentStyle {
+                                "componentId": "GaugeLabel-vdccuk-0",
+                                "isStatic": true,
+                                "lastClassName": "c6",
+                                "rules": Array [
+                                  "font-size:.6rem;fill:#5b6268;text-anchor:middle;dominant-baseline:central;",
+                                ],
+                              },
+                              "displayName": "GaugeLabel",
+                              "render": [Function],
+                              "styledComponentId": "GaugeLabel-vdccuk-0",
+                              "target": "text",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                          x={260.5}
+                          y={140}
+                        >
+                          <text
+                            className="c6"
+                            x={260.5}
+                            y={140}
+                          >
+                            100
+                          </text>
+                        </StyledComponent>
+                      </GaugeLabel>
+                    </g>
+                  </GaugeRange>
+                  <GaugeCirclesGroup
+                    overrides={Object {}}
+                  >
+                    <g>
+                      <GaugeOuterCircle
+                        cx="125"
+                        cy="150"
+                        fill="none"
+                        r="124"
+                      >
+                        <StyledComponent
+                          cx="125"
+                          cy="150"
+                          fill="none"
+                          forwardedClass={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": undefined,
+                              "componentStyle": ComponentStyle {
+                                "componentId": "GaugeOuterCircle-sc-1k5ax53-0",
+                                "isStatic": true,
+                                "lastClassName": "c7",
+                                "rules": Array [
+                                  "stroke:#34495e;stroke-width:1;stroke-dasharray:389.557;stroke-dashoffset:389.557;",
+                                ],
+                              },
+                              "displayName": "GaugeOuterCircle",
+                              "render": [Function],
+                              "styledComponentId": "GaugeOuterCircle-sc-1k5ax53-0",
+                              "target": "circle",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                          r="124"
+                        >
+                          <circle
+                            className="c7"
+                            cx="125"
+                            cy="150"
+                            fill="none"
+                            r="124"
+                          />
+                        </StyledComponent>
+                      </GaugeOuterCircle>
+                      <GaugeRangeBoundary
+                        cx="125"
+                        cy="150"
+                        fill="none"
+                        id="gauge-range-boundary-circle"
+                        r="117"
+                      >
+                        <StyledComponent
+                          cx="125"
+                          cy="150"
+                          fill="none"
+                          forwardedClass={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": undefined,
+                              "componentStyle": ComponentStyle {
+                                "componentId": "GaugeRangeBoundary-w6g6mu-0",
+                                "isStatic": true,
+                                "lastClassName": "c8",
+                                "rules": Array [
+                                  "stroke:#34495e;stroke-width:1;stroke-dasharray:367.557;stroke-dashoffset:367.557;",
+                                ],
+                              },
+                              "displayName": "GaugeRangeBoundary",
+                              "render": [Function],
+                              "styledComponentId": "GaugeRangeBoundary-w6g6mu-0",
+                              "target": "circle",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                          id="gauge-range-boundary-circle"
+                          r="117"
+                        >
+                          <circle
+                            className="c8"
+                            cx="125"
+                            cy="150"
+                            fill="none"
+                            id="gauge-range-boundary-circle"
+                            r="117"
+                          />
+                        </StyledComponent>
+                      </GaugeRangeBoundary>
+                      <GaugeInnerCircle
+                        cx="125"
+                        cy="150"
+                        fill="none"
+                        id="gauge-inner-circle"
+                        r="100"
+                      >
+                        <StyledComponent
+                          cx="125"
+                          cy="150"
+                          fill="none"
+                          forwardedClass={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "attrs": undefined,
+                              "componentStyle": ComponentStyle {
+                                "componentId": "GaugeInnerCircle-jsafwr-0",
+                                "isStatic": true,
+                                "lastClassName": "c9",
+                                "rules": Array [
+                                  "stroke:#34495e;stroke-width:1;stroke-dasharray:314.160;stroke-dashoffset:314.160;",
+                                ],
+                              },
+                              "displayName": "GaugeInnerCircle",
+                              "render": [Function],
+                              "styledComponentId": "GaugeInnerCircle-jsafwr-0",
+                              "target": "circle",
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+                          id="gauge-inner-circle"
+                          r="100"
+                        >
+                          <circle
+                            className="c9"
+                            cx="125"
+                            cy="150"
+                            fill="none"
+                            id="gauge-inner-circle"
+                            r="100"
+                          />
+                        </StyledComponent>
+                      </GaugeInnerCircle>
+                    </g>
+                  </GaugeCirclesGroup>
+                  <Needle
+                    overrides={Object {}}
+                    points="125,150 115,148 1,150 115,152"
+                    transform="rotate(36, 125, 150)"
                   >
                     <StyledComponent
                       forwardedClass={
@@ -362,1001 +1180,213 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": undefined,
                           "componentStyle": ComponentStyle {
-                            "componentId": "ButtonWrapper-sc-17yg8wp-0",
+                            "componentId": "Needle-sc-3b60h7-0",
                             "isStatic": true,
-                            "lastClassName": "c2",
+                            "lastClassName": "c10",
                             "rules": Array [
-                              "-moz-appearance:none;-webkit-appearance:none;background:none;border:none;outline:none;font-size:inherit;",
+                              "stroke:#34495e;stroke-width:0.3;fill:#2980b9;transform:rotate(60,125,150);",
                             ],
                           },
-                          "displayName": "ButtonWrapper",
+                          "displayName": "Needle",
                           "render": [Function],
-                          "styledComponentId": "ButtonWrapper-sc-17yg8wp-0",
-                          "target": "button",
+                          "styledComponentId": "Needle-sc-3b60h7-0",
+                          "target": "polygon",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
                           "withComponent": [Function],
                         }
                       }
                       forwardedRef={null}
-                      onClick={[Function]}
                       overrides={Object {}}
-                      type="button"
-                    >
-                      <button
-                        className="c2"
-                        onClick={[Function]}
-                        type="button"
-                      >
-                        <ButtonStyles
-                          color="dark"
-                          overrides={Object {}}
-                          size="xsmall"
-                          tabIndex={-1}
-                        >
-                          <StyledComponent
-                            color="dark"
-                            forwardedClass={
-                              Object {
-                                "$$typeof": Symbol(react.forward_ref),
-                                "attrs": undefined,
-                                "componentStyle": ComponentStyle {
-                                  "componentId": "ButtonStyles-sc-5bwci9-0",
-                                  "isStatic": false,
-                                  "lastClassName": "c3",
-                                  "rules": Array [
-                                    "background-color:",
-                                    [Function],
-                                    ";color:",
-                                    [Function],
-                                    ";border:1px solid ",
-                                    [Function],
-                                    ";display:inline-block;outline:none;cursor:pointer;",
-                                    [Function],
-                                    ";text-align:center;line-height:1.5;transition:0.1s linear;box-shadow:0 1px 2px 0 rgba(0,0,0,0.2);svg{vertical-align:middle;}&:hover{box-shadow:0 2px 4px 0 rgba(0,0,0,0.2),0 3px 10px 0 rgba(0,0,0,0.19);}&:active{box-shadow:none;}",
-                                    [Function],
-                                    ";",
-                                  ],
-                                },
-                                "displayName": "ButtonStyles",
-                                "render": [Function],
-                                "styledComponentId": "ButtonStyles-sc-5bwci9-0",
-                                "target": "span",
-                                "toString": [Function],
-                                "warnTooManyClasses": [Function],
-                                "withComponent": [Function],
-                              }
-                            }
-                            forwardedRef={null}
-                            overrides={Object {}}
-                            size="xsmall"
-                            tabIndex={-1}
-                          >
-                            <span
-                              className="c3"
-                              color="dark"
-                              size="xsmall"
-                              tabIndex={-1}
-                            >
-                              <GoGear
-                                size={20}
-                              >
-                                <IconBase
-                                  attr={
-                                    Object {
-                                      "viewBox": "0 0 14 16",
-                                    }
-                                  }
-                                  size={20}
-                                >
-                                  <svg
-                                    fill="currentColor"
-                                    height={20}
-                                    size={20}
-                                    stroke="currentColor"
-                                    strokeWidth="0"
-                                    style={
-                                      Object {
-                                        "color": undefined,
-                                      }
-                                    }
-                                    viewBox="0 0 14 16"
-                                    width={20}
-                                  >
-                                    <path
-                                      d="M14 8.77v-1.6l-1.94-.64-.45-1.09.88-1.84-1.13-1.13-1.81.91-1.09-.45-.69-1.92h-1.6l-.63 1.94-1.11.45-1.84-.88-1.13 1.13.91 1.81-.45 1.09L0 7.23v1.59l1.94.64.45 1.09-.88 1.84 1.13 1.13 1.81-.91 1.09.45.69 1.92h1.59l.63-1.94 1.11-.45 1.84.88 1.13-1.13-.92-1.81.47-1.09L14 8.75v.02zM7 11c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"
-                                      fillRule="evenodd"
-                                      key="0"
-                                    />
-                                  </svg>
-                                </IconBase>
-                              </GoGear>
-                            </span>
-                          </StyledComponent>
-                        </ButtonStyles>
-                      </button>
-                    </StyledComponent>
-                  </ButtonWrapper>
-                </Button>
-              </div>
-            </StyledComponent>
-          </defaults__GaugeBlockToolbar>
-          <Gauge
-            label="Test Sensor"
-            max={100}
-            min={0}
-            multiSelected={false}
-            onChartClick={[Function]}
-            onSettingsClick={[Function]}
-            overrides={Object {}}
-            panelWidth="20%"
-            ranges={
-              Array [
-                Object {
-                  "color": "warning",
-                  "id": "range1",
-                  "lowerValue": 0,
-                  "upperValue": 50,
-                },
-                Object {
-                  "color": "success",
-                  "id": "range2",
-                  "lowerValue": 50,
-                  "upperValue": 80,
-                },
-                Object {
-                  "color": "danger",
-                  "id": "range3",
-                  "lowerValue": 80,
-                  "upperValue": 100,
-                },
-              ]
-            }
-            units=""
-            value={20}
-            width="100%"
-          >
-            <GaugeBase
-              overrides={Object {}}
-              width="100%"
-            >
-              <svg
-                height="100%"
-                overrides={Object {}}
-                viewBox="0 0 250 180"
-                width="100%"
-              >
-                <GaugeStatusCircle
-                  color="#f39c12"
-                  cx="125"
-                  cy="150"
-                  fill="none"
-                  overrides={Object {}}
-                  r="108.5"
-                >
-                  <StyledComponent
-                    color="#f39c12"
-                    cx="125"
-                    cy="150"
-                    fill="none"
-                    forwardedClass={
-                      Object {
-                        "$$typeof": Symbol(react.forward_ref),
-                        "attrs": undefined,
-                        "componentStyle": ComponentStyle {
-                          "componentId": "GaugeStatusCircle-sc-1qif7k3-0",
-                          "isStatic": false,
-                          "lastClassName": "c4",
-                          "rules": Array [
-                            "stroke:",
-                            [Function],
-                            ";stroke-width:17;stroke-dasharray:340.865;stroke-dashoffset:340.865;",
-                          ],
-                        },
-                        "displayName": "GaugeStatusCircle",
-                        "render": [Function],
-                        "styledComponentId": "GaugeStatusCircle-sc-1qif7k3-0",
-                        "target": "circle",
-                        "toString": [Function],
-                        "warnTooManyClasses": [Function],
-                        "withComponent": [Function],
-                      }
-                    }
-                    forwardedRef={null}
-                    overrides={Object {}}
-                    r="108.5"
-                  >
-                    <circle
-                      className="c4"
-                      color="#f39c12"
-                      cx="125"
-                      cy="150"
-                      fill="none"
-                      r="108.5"
-                    />
-                  </StyledComponent>
-                </GaugeStatusCircle>
-                <GaugeRange
-                  key="range1"
-                  opts={
-                    Object {
-                      "center": Object {
-                        "x": 125,
-                        "y": 150,
-                      },
-                      "max": 100,
-                      "min": 0,
-                      "radius": 120.5,
-                      "ranges": Array [
-                        Object {
-                          "color": "warning",
-                          "id": "range1",
-                          "lowerValue": 0,
-                          "upperValue": 50,
-                        },
-                        Object {
-                          "color": "success",
-                          "id": "range2",
-                          "lowerValue": 50,
-                          "upperValue": 80,
-                        },
-                        Object {
-                          "color": "danger",
-                          "id": "range3",
-                          "lowerValue": 80,
-                          "upperValue": 100,
-                        },
-                      ],
-                      "units": "",
-                      "value": 20,
-                      "width": "100%",
-                    }
-                  }
-                  overrides={Object {}}
-                  range={
-                    Object {
-                      "color": "warning",
-                      "id": "range1",
-                      "lowerValue": 0,
-                      "upperValue": 50,
-                    }
-                  }
-                >
-                  <g>
-                    <RangePath
-                      d="M 4.5 149.99999999999997  A 120.5 120.5 0 0 1 125.00000000000001 29.5"
-                      fill="none"
-                      stroke="#f39c12"
-                    >
-                      <StyledComponent
-                        d="M 4.5 149.99999999999997  A 120.5 120.5 0 0 1 125.00000000000001 29.5"
-                        fill="none"
-                        forwardedClass={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "attrs": undefined,
-                            "componentStyle": ComponentStyle {
-                              "componentId": "RangePath-sc-2489nt-0",
-                              "isStatic": true,
-                              "lastClassName": "c5",
-                              "rules": Array [
-                                "stroke-width:7;fill:none;",
-                              ],
-                            },
-                            "displayName": "RangePath",
-                            "render": [Function],
-                            "styledComponentId": "RangePath-sc-2489nt-0",
-                            "target": "path",
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
-                        stroke="#f39c12"
-                      >
-                        <path
-                          className="c5"
-                          d="M 4.5 149.99999999999997  A 120.5 120.5 0 0 1 125.00000000000001 29.5"
-                          fill="none"
-                          stroke="#f39c12"
-                        />
-                      </StyledComponent>
-                    </RangePath>
-                    <TickMark
-                      angle={90}
-                    >
-                      <line
-                        stroke="#34495e"
-                        strokeLinecap="round"
-                        transform="rotate(90 125 150)"
-                        x1="1"
-                        x2="15"
-                        y1="150"
-                        y2="150"
-                      />
-                    </TickMark>
-                    <GaugeLabel
-                      x={125.00000000000001}
-                      y={19.5}
-                    >
-                      <StyledComponent
-                        forwardedClass={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "attrs": undefined,
-                            "componentStyle": ComponentStyle {
-                              "componentId": "GaugeLabel-sc-19sq0rg-0",
-                              "isStatic": true,
-                              "lastClassName": "c6",
-                              "rules": Array [
-                                "font-size:.6rem;fill:#5b6268;text-anchor:middle;dominant-baseline:central;",
-                              ],
-                            },
-                            "displayName": "GaugeLabel",
-                            "render": [Function],
-                            "styledComponentId": "GaugeLabel-sc-19sq0rg-0",
-                            "target": "text",
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
-                        x={125.00000000000001}
-                        y={19.5}
-                      >
-                        <text
-                          className="c6"
-                          x={125.00000000000001}
-                          y={19.5}
-                        >
-                          50
-                        </text>
-                      </StyledComponent>
-                    </GaugeLabel>
-                  </g>
-                </GaugeRange>
-                <GaugeRange
-                  key="range2"
-                  opts={
-                    Object {
-                      "center": Object {
-                        "x": 125,
-                        "y": 150,
-                      },
-                      "max": 100,
-                      "min": 0,
-                      "radius": 120.5,
-                      "ranges": Array [
-                        Object {
-                          "color": "warning",
-                          "id": "range1",
-                          "lowerValue": 0,
-                          "upperValue": 50,
-                        },
-                        Object {
-                          "color": "success",
-                          "id": "range2",
-                          "lowerValue": 50,
-                          "upperValue": 80,
-                        },
-                        Object {
-                          "color": "danger",
-                          "id": "range3",
-                          "lowerValue": 80,
-                          "upperValue": 100,
-                        },
-                      ],
-                      "units": "",
-                      "value": 20,
-                      "width": "100%",
-                    }
-                  }
-                  overrides={Object {}}
-                  range={
-                    Object {
-                      "color": "success",
-                      "id": "range2",
-                      "lowerValue": 50,
-                      "upperValue": 80,
-                    }
-                  }
-                >
-                  <g>
-                    <RangePath
-                      d="M 125.00000000000001 29.5  A 120.5 120.5 0 0 1 222.48654782218117 79.171877098757"
-                      fill="none"
-                      stroke="#27ae60"
-                    >
-                      <StyledComponent
-                        d="M 125.00000000000001 29.5  A 120.5 120.5 0 0 1 222.48654782218117 79.171877098757"
-                        fill="none"
-                        forwardedClass={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "attrs": undefined,
-                            "componentStyle": ComponentStyle {
-                              "componentId": "RangePath-sc-2489nt-0",
-                              "isStatic": true,
-                              "lastClassName": "c5",
-                              "rules": Array [
-                                "stroke-width:7;fill:none;",
-                              ],
-                            },
-                            "displayName": "RangePath",
-                            "render": [Function],
-                            "styledComponentId": "RangePath-sc-2489nt-0",
-                            "target": "path",
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
-                        stroke="#27ae60"
-                      >
-                        <path
-                          className="c5"
-                          d="M 125.00000000000001 29.5  A 120.5 120.5 0 0 1 222.48654782218117 79.171877098757"
-                          fill="none"
-                          stroke="#27ae60"
-                        />
-                      </StyledComponent>
-                    </RangePath>
-                    <TickMark
-                      angle={144}
-                    >
-                      <line
-                        stroke="#34495e"
-                        strokeLinecap="round"
-                        transform="rotate(144 125 150)"
-                        x1="1"
-                        x2="15"
-                        y1="150"
-                        y2="150"
-                      />
-                    </TickMark>
-                    <GaugeLabel
-                      x={231.48654782218117}
-                      y={69.171877098757}
-                    >
-                      <StyledComponent
-                        forwardedClass={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "attrs": undefined,
-                            "componentStyle": ComponentStyle {
-                              "componentId": "GaugeLabel-sc-19sq0rg-0",
-                              "isStatic": true,
-                              "lastClassName": "c6",
-                              "rules": Array [
-                                "font-size:.6rem;fill:#5b6268;text-anchor:middle;dominant-baseline:central;",
-                              ],
-                            },
-                            "displayName": "GaugeLabel",
-                            "render": [Function],
-                            "styledComponentId": "GaugeLabel-sc-19sq0rg-0",
-                            "target": "text",
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
-                        x={231.48654782218117}
-                        y={69.171877098757}
-                      >
-                        <text
-                          className="c6"
-                          x={231.48654782218117}
-                          y={69.171877098757}
-                        >
-                          80
-                        </text>
-                      </StyledComponent>
-                    </GaugeLabel>
-                  </g>
-                </GaugeRange>
-                <GaugeRange
-                  key="range3"
-                  opts={
-                    Object {
-                      "center": Object {
-                        "x": 125,
-                        "y": 150,
-                      },
-                      "max": 100,
-                      "min": 0,
-                      "radius": 120.5,
-                      "ranges": Array [
-                        Object {
-                          "color": "warning",
-                          "id": "range1",
-                          "lowerValue": 0,
-                          "upperValue": 50,
-                        },
-                        Object {
-                          "color": "success",
-                          "id": "range2",
-                          "lowerValue": 50,
-                          "upperValue": 80,
-                        },
-                        Object {
-                          "color": "danger",
-                          "id": "range3",
-                          "lowerValue": 80,
-                          "upperValue": 100,
-                        },
-                      ],
-                      "units": "",
-                      "value": 20,
-                      "width": "100%",
-                    }
-                  }
-                  overrides={Object {}}
-                  range={
-                    Object {
-                      "color": "danger",
-                      "id": "range3",
-                      "lowerValue": 80,
-                      "upperValue": 100,
-                    }
-                  }
-                >
-                  <g>
-                    <RangePath
-                      d="M 222.48654782218117 79.171877098757  A 120.5 120.5 0 0 1 245.5 150"
-                      fill="none"
-                      stroke="#c0392b"
-                    >
-                      <StyledComponent
-                        d="M 222.48654782218117 79.171877098757  A 120.5 120.5 0 0 1 245.5 150"
-                        fill="none"
-                        forwardedClass={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "attrs": undefined,
-                            "componentStyle": ComponentStyle {
-                              "componentId": "RangePath-sc-2489nt-0",
-                              "isStatic": true,
-                              "lastClassName": "c5",
-                              "rules": Array [
-                                "stroke-width:7;fill:none;",
-                              ],
-                            },
-                            "displayName": "RangePath",
-                            "render": [Function],
-                            "styledComponentId": "RangePath-sc-2489nt-0",
-                            "target": "path",
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
-                        stroke="#c0392b"
-                      >
-                        <path
-                          className="c5"
-                          d="M 222.48654782218117 79.171877098757  A 120.5 120.5 0 0 1 245.5 150"
-                          fill="none"
-                          stroke="#c0392b"
-                        />
-                      </StyledComponent>
-                    </RangePath>
-                    <TickMark
-                      angle={180}
-                    >
-                      <line
-                        stroke="#34495e"
-                        strokeLinecap="round"
-                        transform="rotate(180 125 150)"
-                        x1="1"
-                        x2="15"
-                        y1="150"
-                        y2="150"
-                      />
-                    </TickMark>
-                    <GaugeLabel
-                      x={260.5}
-                      y={140}
-                    >
-                      <StyledComponent
-                        forwardedClass={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "attrs": undefined,
-                            "componentStyle": ComponentStyle {
-                              "componentId": "GaugeLabel-sc-19sq0rg-0",
-                              "isStatic": true,
-                              "lastClassName": "c6",
-                              "rules": Array [
-                                "font-size:.6rem;fill:#5b6268;text-anchor:middle;dominant-baseline:central;",
-                              ],
-                            },
-                            "displayName": "GaugeLabel",
-                            "render": [Function],
-                            "styledComponentId": "GaugeLabel-sc-19sq0rg-0",
-                            "target": "text",
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
-                        x={260.5}
-                        y={140}
-                      >
-                        <text
-                          className="c6"
-                          x={260.5}
-                          y={140}
-                        >
-                          100
-                        </text>
-                      </StyledComponent>
-                    </GaugeLabel>
-                  </g>
-                </GaugeRange>
-                <GaugeCirclesGroup
-                  overrides={Object {}}
-                >
-                  <g>
-                    <GaugeOuterCircle
-                      cx="125"
-                      cy="150"
-                      fill="none"
-                      r="124"
-                    >
-                      <StyledComponent
-                        cx="125"
-                        cy="150"
-                        fill="none"
-                        forwardedClass={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "attrs": undefined,
-                            "componentStyle": ComponentStyle {
-                              "componentId": "GaugeOuterCircle-sc-14kr5ii-0",
-                              "isStatic": true,
-                              "lastClassName": "c7",
-                              "rules": Array [
-                                "stroke:#34495e;stroke-width:1;stroke-dasharray:389.557;stroke-dashoffset:389.557;",
-                              ],
-                            },
-                            "displayName": "GaugeOuterCircle",
-                            "render": [Function],
-                            "styledComponentId": "GaugeOuterCircle-sc-14kr5ii-0",
-                            "target": "circle",
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
-                        r="124"
-                      >
-                        <circle
-                          className="c7"
-                          cx="125"
-                          cy="150"
-                          fill="none"
-                          r="124"
-                        />
-                      </StyledComponent>
-                    </GaugeOuterCircle>
-                    <GaugeRangeBoundary
-                      cx="125"
-                      cy="150"
-                      fill="none"
-                      id="gauge-range-boundary-circle"
-                      r="117"
-                    >
-                      <StyledComponent
-                        cx="125"
-                        cy="150"
-                        fill="none"
-                        forwardedClass={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "attrs": undefined,
-                            "componentStyle": ComponentStyle {
-                              "componentId": "GaugeRangeBoundary-sc-14jbblv-0",
-                              "isStatic": true,
-                              "lastClassName": "c8",
-                              "rules": Array [
-                                "stroke:#34495e;stroke-width:1;stroke-dasharray:367.557;stroke-dashoffset:367.557;",
-                              ],
-                            },
-                            "displayName": "GaugeRangeBoundary",
-                            "render": [Function],
-                            "styledComponentId": "GaugeRangeBoundary-sc-14jbblv-0",
-                            "target": "circle",
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
-                        id="gauge-range-boundary-circle"
-                        r="117"
-                      >
-                        <circle
-                          className="c8"
-                          cx="125"
-                          cy="150"
-                          fill="none"
-                          id="gauge-range-boundary-circle"
-                          r="117"
-                        />
-                      </StyledComponent>
-                    </GaugeRangeBoundary>
-                    <GaugeInnerCircle
-                      cx="125"
-                      cy="150"
-                      fill="none"
-                      id="gauge-inner-circle"
-                      r="100"
-                    >
-                      <StyledComponent
-                        cx="125"
-                        cy="150"
-                        fill="none"
-                        forwardedClass={
-                          Object {
-                            "$$typeof": Symbol(react.forward_ref),
-                            "attrs": undefined,
-                            "componentStyle": ComponentStyle {
-                              "componentId": "GaugeInnerCircle-sc-1quvizl-0",
-                              "isStatic": true,
-                              "lastClassName": "c9",
-                              "rules": Array [
-                                "stroke:#34495e;stroke-width:1;stroke-dasharray:314.160;stroke-dashoffset:314.160;",
-                              ],
-                            },
-                            "displayName": "GaugeInnerCircle",
-                            "render": [Function],
-                            "styledComponentId": "GaugeInnerCircle-sc-1quvizl-0",
-                            "target": "circle",
-                            "toString": [Function],
-                            "warnTooManyClasses": [Function],
-                            "withComponent": [Function],
-                          }
-                        }
-                        forwardedRef={null}
-                        id="gauge-inner-circle"
-                        r="100"
-                      >
-                        <circle
-                          className="c9"
-                          cx="125"
-                          cy="150"
-                          fill="none"
-                          id="gauge-inner-circle"
-                          r="100"
-                        />
-                      </StyledComponent>
-                    </GaugeInnerCircle>
-                  </g>
-                </GaugeCirclesGroup>
-                <Needle
-                  overrides={Object {}}
-                  points="125,150 115,148 1,150 115,152"
-                  transform="rotate(36, 125, 150)"
-                >
-                  <StyledComponent
-                    forwardedClass={
-                      Object {
-                        "$$typeof": Symbol(react.forward_ref),
-                        "attrs": undefined,
-                        "componentStyle": ComponentStyle {
-                          "componentId": "Needle-waoa2o-0",
-                          "isStatic": true,
-                          "lastClassName": "c10",
-                          "rules": Array [
-                            "stroke:#34495e;stroke-width:0.3;fill:#2980b9;transform:rotate(60,125,150);",
-                          ],
-                        },
-                        "displayName": "Needle",
-                        "render": [Function],
-                        "styledComponentId": "Needle-waoa2o-0",
-                        "target": "polygon",
-                        "toString": [Function],
-                        "warnTooManyClasses": [Function],
-                        "withComponent": [Function],
-                      }
-                    }
-                    forwardedRef={null}
-                    overrides={Object {}}
-                    points="125,150 115,148 1,150 115,152"
-                    transform="rotate(36, 125, 150)"
-                  >
-                    <polygon
-                      className="c10"
                       points="125,150 115,148 1,150 115,152"
                       transform="rotate(36, 125, 150)"
-                    />
-                  </StyledComponent>
-                </Needle>
-                <GaugeValue
-                  overrides={Object {}}
-                  x="125"
-                  y="165"
-                >
-                  <StyledComponent
-                    forwardedClass={
-                      Object {
-                        "$$typeof": Symbol(react.forward_ref),
-                        "attrs": undefined,
-                        "componentStyle": ComponentStyle {
-                          "componentId": "GaugeValue-sc-10mjlio-0",
-                          "isStatic": true,
-                          "lastClassName": "c11",
-                          "rules": Array [
-                            "stroke:#34495e;stroke-width:.1;text-anchor:middle;dominant-baseline:central;",
-                          ],
-                        },
-                        "displayName": "GaugeValue",
-                        "render": [Function],
-                        "styledComponentId": "GaugeValue-sc-10mjlio-0",
-                        "target": "text",
-                        "toString": [Function],
-                        "warnTooManyClasses": [Function],
-                        "withComponent": [Function],
-                      }
-                    }
-                    forwardedRef={null}
+                    >
+                      <polygon
+                        className="c10"
+                        points="125,150 115,148 1,150 115,152"
+                        transform="rotate(36, 125, 150)"
+                      />
+                    </StyledComponent>
+                  </Needle>
+                  <GaugeValue
                     overrides={Object {}}
                     x="125"
                     y="165"
                   >
-                    <text
-                      className="c11"
+                    <StyledComponent
+                      forwardedClass={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": undefined,
+                          "componentStyle": ComponentStyle {
+                            "componentId": "GaugeValue-sc-127kyka-0",
+                            "isStatic": true,
+                            "lastClassName": "c11",
+                            "rules": Array [
+                              "stroke:#34495e;stroke-width:.1;text-anchor:middle;dominant-baseline:central;",
+                            ],
+                          },
+                          "displayName": "GaugeValue",
+                          "render": [Function],
+                          "styledComponentId": "GaugeValue-sc-127kyka-0",
+                          "target": "text",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      overrides={Object {}}
                       x="125"
                       y="165"
                     >
-                      20
-                    </text>
-                  </StyledComponent>
-                </GaugeValue>
-                <GaugeBaseLine
-                  overrides={Object {}}
-                  x1="1"
-                  x2="30"
-                  y1="150"
-                  y2="150"
-                >
-                  <StyledComponent
-                    forwardedClass={
-                      Object {
-                        "$$typeof": Symbol(react.forward_ref),
-                        "attrs": undefined,
-                        "componentStyle": ComponentStyle {
-                          "componentId": "GaugeBaseLine-uslt8t-0",
-                          "isStatic": true,
-                          "lastClassName": "c12",
-                          "rules": Array [
-                            "stroke:#34495e;",
-                          ],
-                        },
-                        "displayName": "GaugeBaseLine",
-                        "render": [Function],
-                        "styledComponentId": "GaugeBaseLine-uslt8t-0",
-                        "target": "line",
-                        "toString": [Function],
-                        "warnTooManyClasses": [Function],
-                        "withComponent": [Function],
-                      }
-                    }
-                    forwardedRef={null}
+                      <text
+                        className="c11"
+                        x="125"
+                        y="165"
+                      >
+                        20
+                      </text>
+                    </StyledComponent>
+                  </GaugeValue>
+                  <GaugeBaseLine
                     overrides={Object {}}
                     x1="1"
                     x2="30"
                     y1="150"
                     y2="150"
                   >
-                    <line
-                      className="c12"
+                    <StyledComponent
+                      forwardedClass={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": undefined,
+                          "componentStyle": ComponentStyle {
+                            "componentId": "GaugeBaseLine-idj4pn-0",
+                            "isStatic": true,
+                            "lastClassName": "c12",
+                            "rules": Array [
+                              "stroke:#34495e;",
+                            ],
+                          },
+                          "displayName": "GaugeBaseLine",
+                          "render": [Function],
+                          "styledComponentId": "GaugeBaseLine-idj4pn-0",
+                          "target": "line",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      overrides={Object {}}
                       x1="1"
                       x2="30"
                       y1="150"
                       y2="150"
-                    />
-                  </StyledComponent>
-                </GaugeBaseLine>
-                <GaugeBaseLine
-                  overrides={Object {}}
-                  x1="250"
-                  x2="220"
-                  y1="150"
-                  y2="150"
-                >
-                  <StyledComponent
-                    forwardedClass={
-                      Object {
-                        "$$typeof": Symbol(react.forward_ref),
-                        "attrs": undefined,
-                        "componentStyle": ComponentStyle {
-                          "componentId": "GaugeBaseLine-uslt8t-0",
-                          "isStatic": true,
-                          "lastClassName": "c12",
-                          "rules": Array [
-                            "stroke:#34495e;",
-                          ],
-                        },
-                        "displayName": "GaugeBaseLine",
-                        "render": [Function],
-                        "styledComponentId": "GaugeBaseLine-uslt8t-0",
-                        "target": "line",
-                        "toString": [Function],
-                        "warnTooManyClasses": [Function],
-                        "withComponent": [Function],
-                      }
-                    }
-                    forwardedRef={null}
+                    >
+                      <line
+                        className="c12"
+                        x1="1"
+                        x2="30"
+                        y1="150"
+                        y2="150"
+                      />
+                    </StyledComponent>
+                  </GaugeBaseLine>
+                  <GaugeBaseLine
                     overrides={Object {}}
                     x1="250"
                     x2="220"
                     y1="150"
                     y2="150"
                   >
-                    <line
-                      className="c12"
+                    <StyledComponent
+                      forwardedClass={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": undefined,
+                          "componentStyle": ComponentStyle {
+                            "componentId": "GaugeBaseLine-idj4pn-0",
+                            "isStatic": true,
+                            "lastClassName": "c12",
+                            "rules": Array [
+                              "stroke:#34495e;",
+                            ],
+                          },
+                          "displayName": "GaugeBaseLine",
+                          "render": [Function],
+                          "styledComponentId": "GaugeBaseLine-idj4pn-0",
+                          "target": "line",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      overrides={Object {}}
                       x1="250"
                       x2="220"
                       y1="150"
                       y2="150"
-                    />
-                  </StyledComponent>
-                </GaugeBaseLine>
-                <GaugeCenterPoint
-                  cx="125"
-                  cy="150"
-                  fill="white"
-                  overrides={Object {}}
-                  r="2"
-                >
-                  <StyledComponent
+                    >
+                      <line
+                        className="c12"
+                        x1="250"
+                        x2="220"
+                        y1="150"
+                        y2="150"
+                      />
+                    </StyledComponent>
+                  </GaugeBaseLine>
+                  <GaugeCenterPoint
                     cx="125"
                     cy="150"
                     fill="white"
-                    forwardedClass={
-                      Object {
-                        "$$typeof": Symbol(react.forward_ref),
-                        "attrs": undefined,
-                        "componentStyle": ComponentStyle {
-                          "componentId": "GaugeCenterPoint-sc-1a6wk8e-0",
-                          "isStatic": true,
-                          "lastClassName": "c13",
-                          "rules": Array [
-                            "stroke:#34495e;",
-                          ],
-                        },
-                        "displayName": "GaugeCenterPoint",
-                        "render": [Function],
-                        "styledComponentId": "GaugeCenterPoint-sc-1a6wk8e-0",
-                        "target": "circle",
-                        "toString": [Function],
-                        "warnTooManyClasses": [Function],
-                        "withComponent": [Function],
-                      }
-                    }
-                    forwardedRef={null}
                     overrides={Object {}}
                     r="2"
                   >
-                    <circle
-                      className="c13"
+                    <StyledComponent
                       cx="125"
                       cy="150"
                       fill="white"
+                      forwardedClass={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": undefined,
+                          "componentStyle": ComponentStyle {
+                            "componentId": "GaugeCenterPoint-sc-14eobzi-0",
+                            "isStatic": true,
+                            "lastClassName": "c13",
+                            "rules": Array [
+                              "stroke:#34495e;",
+                            ],
+                          },
+                          "displayName": "GaugeCenterPoint",
+                          "render": [Function],
+                          "styledComponentId": "GaugeCenterPoint-sc-14eobzi-0",
+                          "target": "circle",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                      overrides={Object {}}
                       r="2"
-                    />
-                  </StyledComponent>
-                </GaugeCenterPoint>
-              </svg>
-            </GaugeBase>
+                    >
+                      <circle
+                        className="c13"
+                        cx="125"
+                        cy="150"
+                        fill="white"
+                        r="2"
+                      />
+                    </StyledComponent>
+                  </GaugeCenterPoint>
+                </svg>
+              </GaugeBase>
+            </Gauge>
           </Gauge>
           <defaults__GaugeBlockLabel
             overrides={Object {}}

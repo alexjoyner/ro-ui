@@ -15,6 +15,6 @@ export const PanelContainer = styled.div`
     padding: 10px;
     background-color: ${colors.greyLight};
     border: 1px solid #EEEEEE;
-    radius: 5px;
+    border-radius: 5px;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
 `;

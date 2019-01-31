@@ -5,7 +5,7 @@ import { colors } from '.';
 import { CenteredContent } from '../CenteredContent';
 import { getTextContrastColor } from '../../utils/getTextContrastColor';
 
-storiesOf('Atoms', module)
+storiesOf('Depreciated', module)
   .add('Colors', () => (
     <div>
       <Panel>

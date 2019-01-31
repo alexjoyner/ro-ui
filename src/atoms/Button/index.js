@@ -1,3 +1,4 @@
+import React from 'react';
 import { Button as v1Button } from './models/v1';
 import { Button as v2Button } from './models/v2';
 
@@ -9,10 +10,10 @@ const Strategies = {
 
 const Button = ({ model = 'v1', ...props }) => {
   if (model && typeof model !== 'string') {
-    throw TypeError('Model Needs To Be Type String');
+    throw TypeError('Button Model Needs To Be Type String');
   }
-  const component = Strategies[model] || Strategies.default;
-  return component(props);
+  const Component = Strategies[model] || Strategies.default;
+  return <Component {...props} />;
 };
 
 export { Button };

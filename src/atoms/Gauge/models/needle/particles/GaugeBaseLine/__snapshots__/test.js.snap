@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GaugeBaseLine component Should match snapshot 1`] = `
+<StyledComponent
+  forwardedClass={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "GaugeBaseLine-idj4pn-0",
+        "isStatic": true,
+        "rules": Array [
+          "stroke:#34495e;",
+        ],
+      },
+      "displayName": "GaugeBaseLine",
+      "render": [Function],
+      "styledComponentId": "GaugeBaseLine-idj4pn-0",
+      "target": "line",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+/>
+`;

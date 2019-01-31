@@ -1,191 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Gauge component Should match snapshot 1`] = `
-<GaugeBase
-  overrides={Object {}}
-  width="100%"
->
-  <GaugeStatusCircle
-    color="#f39c12"
-    cx="125"
-    cy="150"
-    fill="none"
-    overrides={Object {}}
-    r="108.5"
-  />
-  <GaugeRange
-    key="range1"
-    opts={
-      Object {
-        "center": Object {
-          "x": 125,
-          "y": 150,
-        },
-        "max": 100,
-        "min": 0,
-        "radius": 120.5,
-        "ranges": Array [
-          Object {
-            "color": "warning",
-            "id": "range1",
-            "lowerValue": 0,
-            "upperValue": 50,
-          },
-          Object {
-            "color": "success",
-            "id": "range2",
-            "lowerValue": 50,
-            "upperValue": 80,
-          },
-          Object {
-            "color": "danger",
-            "id": "range3",
-            "lowerValue": 80,
-            "upperValue": 100,
-          },
-        ],
-        "units": "",
-        "value": 35,
-        "width": "100%",
-      }
-    }
-    overrides={Object {}}
-    range={
+<Gauge
+  max={100}
+  min={0}
+  ranges={
+    Array [
       Object {
         "color": "warning",
         "id": "range1",
         "lowerValue": 0,
         "upperValue": 50,
-      }
-    }
-  />
-  <GaugeRange
-    key="range2"
-    opts={
-      Object {
-        "center": Object {
-          "x": 125,
-          "y": 150,
-        },
-        "max": 100,
-        "min": 0,
-        "radius": 120.5,
-        "ranges": Array [
-          Object {
-            "color": "warning",
-            "id": "range1",
-            "lowerValue": 0,
-            "upperValue": 50,
-          },
-          Object {
-            "color": "success",
-            "id": "range2",
-            "lowerValue": 50,
-            "upperValue": 80,
-          },
-          Object {
-            "color": "danger",
-            "id": "range3",
-            "lowerValue": 80,
-            "upperValue": 100,
-          },
-        ],
-        "units": "",
-        "value": 35,
-        "width": "100%",
-      }
-    }
-    overrides={Object {}}
-    range={
+      },
       Object {
         "color": "success",
         "id": "range2",
         "lowerValue": 50,
         "upperValue": 80,
-      }
-    }
-  />
-  <GaugeRange
-    key="range3"
-    opts={
-      Object {
-        "center": Object {
-          "x": 125,
-          "y": 150,
-        },
-        "max": 100,
-        "min": 0,
-        "radius": 120.5,
-        "ranges": Array [
-          Object {
-            "color": "warning",
-            "id": "range1",
-            "lowerValue": 0,
-            "upperValue": 50,
-          },
-          Object {
-            "color": "success",
-            "id": "range2",
-            "lowerValue": 50,
-            "upperValue": 80,
-          },
-          Object {
-            "color": "danger",
-            "id": "range3",
-            "lowerValue": 80,
-            "upperValue": 100,
-          },
-        ],
-        "units": "",
-        "value": 35,
-        "width": "100%",
-      }
-    }
-    overrides={Object {}}
-    range={
+      },
       Object {
         "color": "danger",
         "id": "range3",
         "lowerValue": 80,
         "upperValue": 100,
-      }
-    }
-  />
-  <GaugeCirclesGroup
-    overrides={Object {}}
-  />
-  <Needle
-    overrides={Object {}}
-    points="125,150 115,148 1,150 115,152"
-    transform="rotate(62.99999999999999, 125, 150)"
-  />
-  <GaugeValue
-    overrides={Object {}}
-    x="125"
-    y="165"
-  >
-    35
-  </GaugeValue>
-  <GaugeBaseLine
-    overrides={Object {}}
-    x1="1"
-    x2="30"
-    y1="150"
-    y2="150"
-  />
-  <GaugeBaseLine
-    overrides={Object {}}
-    x1="250"
-    x2="220"
-    y1="150"
-    y2="150"
-  />
-  <GaugeCenterPoint
-    cx="125"
-    cy="150"
-    fill="white"
-    overrides={Object {}}
-    r="2"
-  />
-</GaugeBase>
+      },
+    ]
+  }
+  units=""
+  value={35}
+  width="100%"
+/>
 `;
