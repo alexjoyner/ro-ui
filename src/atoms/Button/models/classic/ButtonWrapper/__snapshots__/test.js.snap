@@ -17,7 +17,7 @@ exports[`ButtonWrapper component Should match snapshot 1`] = `
         "$$typeof": Symbol(react.forward_ref),
         "attrs": undefined,
         "componentStyle": ComponentStyle {
-          "componentId": "ButtonWrapper-sc-17yg8wp-0",
+          "componentId": "ButtonWrapper-sc-1aj72ce-0",
           "isStatic": true,
           "lastClassName": "c0",
           "rules": Array [
@@ -26,7 +26,7 @@ exports[`ButtonWrapper component Should match snapshot 1`] = `
         },
         "displayName": "ButtonWrapper",
         "render": [Function],
-        "styledComponentId": "ButtonWrapper-sc-17yg8wp-0",
+        "styledComponentId": "ButtonWrapper-sc-1aj72ce-0",
         "target": "button",
         "toString": [Function],
         "warnTooManyClasses": [Function],

@@ -178,7 +178,7 @@ exports[`SideBarPage component Should match snapshot 1`] = `
                           "$$typeof": Symbol(react.forward_ref),
                           "attrs": undefined,
                           "componentStyle": ComponentStyle {
-                            "componentId": "ButtonWrapper-sc-17yg8wp-0",
+                            "componentId": "ButtonWrapper-sc-1aj72ce-0",
                             "isStatic": true,
                             "lastClassName": "c2",
                             "rules": Array [
@@ -187,7 +187,7 @@ exports[`SideBarPage component Should match snapshot 1`] = `
                           },
                           "displayName": "ButtonWrapper",
                           "render": [Function],
-                          "styledComponentId": "ButtonWrapper-sc-17yg8wp-0",
+                          "styledComponentId": "ButtonWrapper-sc-1aj72ce-0",
                           "target": "button",
                           "toString": [Function],
                           "warnTooManyClasses": [Function],
@@ -219,7 +219,7 @@ exports[`SideBarPage component Should match snapshot 1`] = `
                                 "$$typeof": Symbol(react.forward_ref),
                                 "attrs": undefined,
                                 "componentStyle": ComponentStyle {
-                                  "componentId": "ButtonStyles-sc-5bwci9-0",
+                                  "componentId": "ButtonStyles-sc-1bj9utl-0",
                                   "isStatic": false,
                                   "lastClassName": "c3",
                                   "rules": Array [
@@ -238,7 +238,7 @@ exports[`SideBarPage component Should match snapshot 1`] = `
                                 },
                                 "displayName": "ButtonStyles",
                                 "render": [Function],
-                                "styledComponentId": "ButtonStyles-sc-5bwci9-0",
+                                "styledComponentId": "ButtonStyles-sc-1bj9utl-0",
                                 "target": "span",
                                 "toString": [Function],
                                 "warnTooManyClasses": [Function],

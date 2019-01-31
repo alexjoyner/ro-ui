@@ -1,14 +1,14 @@
 import React from 'react';
-import { Button as v1Button } from './models/v1';
-import { Button as v2Button } from './models/v2';
+import { Button as classic } from './models/classic';
+import { Button as baseUI } from './models/baseUI';
 
 const Strategies = {
-  v1: v1Button,
-  v2: v2Button,
-  default: v1Button,
+  classic,
+  baseUI,
+  default: classic,
 };
 
-const Button = ({ model = 'v1', ...props }) => {
+const Button = ({ model = 'classic', ...props }) => {
   if (model && typeof model !== 'string') {
     throw TypeError('Button Model Needs To Be Type String');
   }

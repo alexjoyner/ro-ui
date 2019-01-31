@@ -5,12 +5,24 @@ import { Button } from '.';
 import { HeroImage } from '../../molecules/HeroImage';
 import { Panel } from '../Panel';
 
+const baseUIOverridesExample = {
+  BaseButton: {
+    component: () => <Button color="primary">Button Primary</Button>,
+  },
+};
+
 storiesOf('Atoms', module)
   .add('Button', () => (
     <div>
       <Panel>
         <h2>V2 Buttons:</h2>
-        <Button model="v2">Basic Button</Button>
+        <Button model="baseUI">Basic Button</Button>
+        <Button
+          model="baseUI"
+          overrides={{ ...baseUIOverridesExample }}
+        >
+          <span>Button With Overrides</span>
+        </Button>
       </Panel>
       <Panel>
         <h2>Button Colors</h2>
