@@ -1,12 +1,19 @@
 import React from 'react';
+import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { GoChevronUp, GoChevronDown, GoMention } from 'react-icons/go';
 import { Button } from '.';
-import { Atoms } from '../_atoms.stories';
 import { HeroImage } from '../../molecules/HeroImage';
 import { Panel } from '../Panel';
+import '../../../styles/normalize.css';
+import '../../../styles/typography.css';
 
+const Atoms = storiesOf('Atoms', module);
 Atoms.add('Button', () => (
   <div>
+    <Panel>
+      <h2>V2 Buttons:</h2>
+      <Button model="v2">Basic Button</Button>
+    </Panel>
     <Panel>
       <h2>Button Colors</h2>
       <Button>Basic Button</Button>
