@@ -19,7 +19,7 @@ export { RoHighChart } from './atoms/RoHighChart';
 export { RoDatePicker } from './atoms/RoDatePicker';
 export { BasicSideBar, AnimatedSideBar } from './atoms/SideBar';
 export { BasicSideBarPageBody, HeaderSideBarPageBody } from './atoms/SideBar/SideBarPageBody';
-export { Go } from './atoms/Go';
+export { Go } from './_depreciated/Go';
 /*
 ============ Molecules ===========
  */

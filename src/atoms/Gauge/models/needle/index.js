@@ -23,8 +23,6 @@ const Gauge = (props) => {
     min,
     ranges,
   };
-  console.log(props);
-  console.log(opts);
   const {
     GaugeBase: { component: GaugeBase, props: gaugeBaseProps },
     GaugeStatusCircle: { component: GaugeStatusCircle, props: gaugeStatusCircleProps },
