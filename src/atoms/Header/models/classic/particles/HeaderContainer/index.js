@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import { zIndexes } from '../../../../utils/zIndexes';
-import { colors } from '../../../../_depreciated/colors';
-import { getTextContrastColor } from '../../../../utils/getTextContrastColor';
+import { zIndexes } from '../../../../../../utils/zIndexes';
+import { colors } from '../../../../../../_depreciated/colors';
+import { getTextContrastColor } from '../../../../../../utils/getTextContrastColor';
 
 const HeaderContainer = styled.div`
   z-index: ${zIndexes.Header};

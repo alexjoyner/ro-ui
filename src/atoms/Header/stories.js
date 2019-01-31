@@ -1,24 +1,30 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { GoChevronRight } from 'react-icons/go';
 import { Header } from '.';
 import { Button } from '../Button';
-import { HeaderItem } from './HeaderItem';
 
-const HeaderStory = storiesOf('Atoms/Header', module);
-
-HeaderStory
+storiesOf('Atoms', module)
   .add('Header', () => (
-    <div>
-      <Header color="dark">
-        <HeaderItem>
-          <Button size="small" color="primary">
-            <GoChevronRight size={20} />
-          </Button>
-        </HeaderItem>
-        <HeaderItem>
-          <h1>Test Header</h1>
-        </HeaderItem>
+    <>
+      <Header model="baseUI">
+        {({ NavigationList, NavigationItem, ALIGN }) => (
+        <>
+          <NavigationList align={ALIGN.left}>
+            <NavigationItem>Header Model BaseUI</NavigationItem>
+          </NavigationList>
+          <NavigationList align={ALIGN.center} />
+          <NavigationList align={ALIGN.right}>
+            <NavigationItem>
+              <span>Link 1</span>
+            </NavigationItem>
+          </NavigationList>
+          <NavigationList align={ALIGN.right}>
+            <NavigationItem>
+              <Button color="primary">Get started</Button>
+            </NavigationItem>
+          </NavigationList>
+        </>
+        )}
       </Header>
-    </div>
+    </>
   ));
