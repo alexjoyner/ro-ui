@@ -1,7 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
 import { ComponentInput } from '.';
-import { colors } from '../../../../_depreciated/colors';
+import { colors } from '../../../../../../_depreciated/colors';
 
 describe('ComponentInput component', () => {
   let component;

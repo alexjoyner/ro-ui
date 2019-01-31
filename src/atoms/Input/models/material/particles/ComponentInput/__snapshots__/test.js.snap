@@ -27,7 +27,7 @@ exports[`ComponentInput component Should match snapshot 1`] = `
         "$$typeof": Symbol(react.forward_ref),
         "attrs": undefined,
         "componentStyle": ComponentStyle {
-          "componentId": "ComponentInput-bdo4cm-0",
+          "componentId": "ComponentInput-sc-1wmdp59-0",
           "isStatic": false,
           "lastClassName": "c0",
           "rules": Array [
@@ -40,7 +40,7 @@ exports[`ComponentInput component Should match snapshot 1`] = `
         },
         "displayName": "ComponentInput",
         "render": [Function],
-        "styledComponentId": "ComponentInput-bdo4cm-0",
+        "styledComponentId": "ComponentInput-sc-1wmdp59-0",
         "target": "input",
         "toString": [Function],
         "warnTooManyClasses": [Function],

@@ -23,7 +23,7 @@ exports[`InputLabel component Should match snapshot 1`] = `
         "$$typeof": Symbol(react.forward_ref),
         "attrs": undefined,
         "componentStyle": ComponentStyle {
-          "componentId": "InputLabel-sc-1lnkw7q-0",
+          "componentId": "InputLabel-hk3wpt-0",
           "isStatic": false,
           "lastClassName": "c0",
           "rules": Array [
@@ -35,7 +35,7 @@ exports[`InputLabel component Should match snapshot 1`] = `
         },
         "displayName": "InputLabel",
         "render": [Function],
-        "styledComponentId": "InputLabel-sc-1lnkw7q-0",
+        "styledComponentId": "InputLabel-hk3wpt-0",
         "target": "label",
         "toString": [Function],
         "warnTooManyClasses": [Function],

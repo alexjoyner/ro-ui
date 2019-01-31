@@ -57,5 +57,9 @@ storiesOf('Atoms', module)
         <h1>Note: Always pass placeholder as (labelText) to get the shifting placeholder</h1>
         <TestInputs />
       </Panel>
+      <Panel>
+        <h1>Masked Input</h1>
+        <Input model="masked" placeholder="Phone number" mask="(999) 999-9999" />
+      </Panel>
     </div>
   ));

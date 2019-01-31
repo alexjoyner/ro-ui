@@ -1,19 +1,23 @@
-import React, { Component } from 'react';
-import { InputLabel } from './particles/InputLabel';
-import { ComponentInput } from './particles/ComponentInput';
-import { InputGroup } from './particles/InputGroup';
+import React from 'react';
+import { Input as basic } from './models/basic';
+import { Input as material } from './models/material';
+import { Input as stateful } from './models/stateful';
+import { Input as masked } from './models/masked';
 
-class Input extends Component {
-  render() {
-    return (
-      <InputGroup>
-        <ComponentInput
-          {...this.props}
-        />
-        <InputLabel {...this.props}>{this.props.labelText}</InputLabel>
-      </InputGroup>
-    );
+const defaultModel = 'material';
+const Strategies = {
+  material,
+  basic,
+  stateful,
+  masked,
+};
+
+const Input = ({ model = defaultModel, ...props }) => {
+  if (model && typeof model !== 'string') {
+    throw TypeError('Input Model Needs To Be Type String');
   }
-}
+  const Component = Strategies[model] || Strategies[defaultModel];
+  return <Component {...props} />;
+};
 
 export { Input };
