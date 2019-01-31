@@ -1,8 +1,8 @@
 import React from 'react';
-import { Atoms } from '../_atoms.stories';
+import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { RoPopper } from '.';
 
-Atoms
+storiesOf('Atoms', module)
   .add('Popper', () => (
     <div>
       <RoPopper />

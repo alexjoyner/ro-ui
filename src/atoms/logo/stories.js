@@ -1,10 +1,10 @@
 import React from 'react';
+import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { Logo } from '.';
 import { Panel } from '../Panel';
-import { Atoms } from '../_atoms.stories';
 
 
-Atoms
+storiesOf('Atoms', module)
   .add('Logo', () => (
     <div>
       <Panel>

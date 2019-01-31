@@ -1,10 +1,10 @@
 import React from 'react';
+import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { ListItem } from '.';
-import { Atoms } from '../_atoms.stories';
 import { colors } from '../../_depreciated/colors';
 
 
-Atoms
+storiesOf('Atoms', module)
   .add('ListItem', () => (
     <ul>
       <ListItem color={colors.primaryLight}>Test Item</ListItem>

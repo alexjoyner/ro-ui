@@ -1,11 +1,11 @@
 import React from 'react';
-import { Atoms } from '../../atoms/_atoms.stories';
+import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { Panel } from '../../atoms/Panel';
 import { colors } from '.';
 import { CenteredContent } from '../CenteredContent';
 import { getTextContrastColor } from '../../utils/getTextContrastColor';
 
-Atoms
+storiesOf('Atoms', module)
   .add('Colors', () => (
     <div>
       <Panel>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Atoms } from '../_atoms.stories';
+import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { Panel } from '../Panel';
 import { Gauge } from '.';
 
@@ -28,7 +28,7 @@ class TestGauge extends Component {
 }
 
 
-Atoms
+storiesOf('Atoms', module)
   .add('Gauge', () => (
     <Panel>
       <TestGauge />

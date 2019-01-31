@@ -1,12 +1,12 @@
 import React from 'react';
-import { Atoms } from '../_atoms.stories';
+import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { Image } from '.';
 import profilePic1 from './assets/profile-pic1.jpg';
 import profilePic2 from './assets/profile-pic2.jpg';
 import profilePic3 from './assets/profile-pic3.jpg';
 import { Panel } from '../Panel';
 
-Atoms
+storiesOf('Atoms', module)
   .add('Image', () => (
     <div>
       <Panel>

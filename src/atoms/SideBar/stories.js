@@ -1,5 +1,5 @@
-import { storiesOf } from '@storybook/react/dist/client/preview';
 import React from 'react';
+import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { BasicSideBar } from '.';
 
 export const SideBars = storiesOf('Atoms/Sidebar', module);

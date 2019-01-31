@@ -1,7 +1,7 @@
 import React from 'react';
+import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import moment from 'moment';
 import { Input } from '../Input';
-import { Atoms } from '../_atoms.stories';
 import { Panel } from '../Panel';
 import { RoDatePicker } from '.';
 
@@ -35,7 +35,7 @@ class CustDatePicker extends React.Component {
   }
 }
 
-Atoms
+storiesOf('Atoms', module)
   .add('DatePicker', () => (
     <Panel>
       <CustDatePicker />

@@ -1,9 +1,9 @@
 import React from 'react';
-import { Atoms } from '../_atoms.stories';
+import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { PageOverlay } from '.';
 import { Panel } from '../Panel';
 
-Atoms
+storiesOf('Atoms', module)
   .add('PageOverlay', () => (
     <PageOverlay>
       <Panel width="50%">

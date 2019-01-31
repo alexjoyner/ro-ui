@@ -2,7 +2,8 @@ import React from 'react';
 import HighCharts from 'highcharts';
 import boost from 'highcharts/modules/boost';
 import HighchartsReact from 'highcharts-react-official'; // eslint-disable-line import/first
-import { THEME } from './demoData/theme';
+import { THEME as DefaultTheme } from './demoData/theme';
+import { config as DefaultConfig } from './demoData/config';
 
 boost(HighCharts);
 const RoHighChart = ({ theme, config }) => {
@@ -17,7 +18,8 @@ const RoHighChart = ({ theme, config }) => {
   );
 };
 RoHighChart.defaultProps = {
-  theme: THEME,
+  theme: DefaultTheme,
+  config: DefaultConfig,
 };
 
 export { RoHighChart };

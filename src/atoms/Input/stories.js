@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Atoms } from '../_atoms.stories';
+import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { Input } from '.';
 import { Panel } from '../Panel';
 
@@ -50,7 +50,7 @@ export class TestInputs extends Component {
 }
 
 
-Atoms
+storiesOf('Atoms', module)
   .add('Input', () => (
     <div>
       <Panel>

@@ -2,7 +2,8 @@ import React from 'react';
 import { configure, addDecorator } from "@storybook/react";
 import {Provider as StyletronProvider} from 'styletron-react';
 import {Client as Styletron} from 'styletron-engine-atomic';
-
+import '../styles/normalize.css';
+import '../styles/typography.css';
 import {ThemeProvider, LightTheme} from 'baseui';
 // automatically import all files ending in *.src.js
 const req = require.context("../src", true, /.stories.js$/);

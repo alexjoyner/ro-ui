@@ -1,10 +1,10 @@
 import React from 'react';
-import { Atoms } from '../_atoms.stories';
+import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { ImageOverlay } from '.';
 import { HeroImage } from '../../molecules/HeroImage';
 import { Button } from '../Button';
 
-Atoms
+storiesOf('Atoms', module)
   .add('ImageOverlay', () => (
     <HeroImage imageSrc="https://placeimg.com/2000/800/any">
       <ImageOverlay>
