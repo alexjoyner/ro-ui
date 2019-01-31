@@ -1,5 +1,5 @@
 import React from 'react';
-import { ImageOverlay } from '../../atoms/ImageOverlay';
+import { Overlay } from '../../atoms/Overlay';
 import { Wrapper } from './particles/Wrapper';
 import { HeroImageContent } from './particles/HeroImageContent';
 
@@ -7,10 +7,10 @@ import { HeroImageContent } from './particles/HeroImageContent';
 //  the image overlay
 export const HeroImage = ({ children, ...props }) => (
   <Wrapper {...props}>
-    <ImageOverlay>
+    <Overlay>
       <HeroImageContent>
         {children}
       </HeroImageContent>
-    </ImageOverlay>
+    </Overlay>
   </Wrapper>
 );

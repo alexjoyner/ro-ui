@@ -2,7 +2,7 @@ import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import PropTypes from 'prop-types';
 import { Panel } from '../../atoms/Panel';
-import { PageOverlay } from '../../atoms/PageOverlay';
+import { Overlay } from '../../atoms/Overlay';
 
 const slideUp = keyframes`
   from {
@@ -15,11 +15,11 @@ const NotificationPanel = styled(Panel)`
     animation: ${slideUp} 0.8s;
 `;
 const Modal = ({ width, height, children }) => (
-  <PageOverlay>
+  <Overlay model="page">
     <NotificationPanel width={width} height={height}>
       {children}
     </NotificationPanel>
-  </PageOverlay>
+  </Overlay>
 );
 const { string } = PropTypes;
 Modal.propTypes = {

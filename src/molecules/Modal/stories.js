@@ -34,7 +34,7 @@ Molecules
         </CenteredContent>
       </SideBarPage>
       <Modal>
-        <h1 style={{ color: 'white' }}>Custom Width Panel on PageOverlay</h1>
+        <h1 style={{ color: 'white' }}>Custom Width Panel on Page Overlay</h1>
       </Modal>
     </div>
   ));

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { zIndexes } from '../../../../utils/zIndexes';
+import { zIndexes } from '../../../../../../utils/zIndexes';
 
 export const PageOverlayWrapper = styled.div`
     background: rgba(0,0,0,0.8);

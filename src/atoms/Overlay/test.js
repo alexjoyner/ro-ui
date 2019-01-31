@@ -1,11 +1,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { ImageOverlayWrapper } from '.';
+import { Overlay } from '.';
 
-describe('ImageOverlayWrapper component', () => {
+describe('Overlay component', () => {
   let component;
   beforeEach(() => {
-    component = shallow(<ImageOverlayWrapper />);
+    component = shallow(<Overlay />);
   });
   it('Should render without exploding', () => {
     expect(component).toBeDefined();

@@ -1,11 +1,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { PageOverlay } from '.';
+import { Overlay } from '.';
 
-describe('PageOverlay component', () => {
+describe('Page Overlay component', () => {
   let component;
   beforeEach(() => {
-    component = shallow(<PageOverlay />);
+    component = shallow(<Overlay />);
   });
   it('Should render without exploding', () => {
     expect(component).toBeDefined();

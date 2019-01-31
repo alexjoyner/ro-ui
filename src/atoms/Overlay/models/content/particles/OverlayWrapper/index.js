@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ImageOverlayWrapper = styled.div`
+export const OverlayWrapper = styled.div`
     background: rgba(0,0,0,0.6);
     height: 100%;
     display: flex;

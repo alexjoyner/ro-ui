@@ -7,6 +7,7 @@ describe('main', () => {
     expect(Main.colors).not.toBe(undefined);
     expect(Main.Gauge).not.toBe(undefined);
     expect(Main.ImageOverlay).not.toBe(undefined);
+    expect(Main.Overlay).not.toBe(undefined);
     expect(Main.Input).not.toBe(undefined);
     expect(Main.Logo).not.toBe(undefined);
     expect(Main.PageOverlay).not.toBe(undefined);

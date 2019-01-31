@@ -2,8 +2,8 @@
 
 exports[`HeroImage component Should match snapshot 1`] = `
 <Wrapper>
-  <ImageOverlay>
+  <Overlay>
     <HeroImageContent />
-  </ImageOverlay>
+  </Overlay>
 </Wrapper>
 `;

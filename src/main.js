@@ -1,15 +1,19 @@
+import {
+  Overlay,
+  Overlay as ImageOverlay,
+} from './atoms/Overlay';
 /*
 ============ Atoms ===========
  */
 export { Button } from './atoms/Button';
 export { colors } from './_depreciated/colors';
 export { Gauge } from './atoms/Gauge';
-export { ImageOverlay } from './atoms/ImageOverlay';
+export { ImageOverlay, Overlay };
 export { Input } from './atoms/Input';
 export { Logo } from './atoms/Logo';
 export { Panel } from './atoms/Panel';
 export { Image } from './_depreciated/Image';
-export { PageOverlay } from './atoms/PageOverlay';
+export { PageOverlay } from './_depreciated/PageOverlay';
 export { Header } from './atoms/Header';
 export { CenteredContent } from './_depreciated/CenteredContent';
 export { PlainBox } from './atoms/PlainBox';
