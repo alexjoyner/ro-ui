@@ -214,7 +214,6 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
               >
                 <Button
                   color="dark"
-                  ghost={false}
                   onClick={[Function]}
                   overrides={Object {}}
                   size="xsmall"
@@ -258,7 +257,6 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                       >
                         <ButtonStyles
                           color="dark"
-                          ghost={false}
                           overrides={Object {}}
                           size="xsmall"
                           tabIndex={-1}
@@ -297,7 +295,6 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                               }
                             }
                             forwardedRef={null}
-                            ghost={false}
                             overrides={Object {}}
                             size="xsmall"
                             tabIndex={-1}
@@ -350,7 +347,6 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                 </Button>
                 <Button
                   color="dark"
-                  ghost={false}
                   onClick={[Function]}
                   overrides={Object {}}
                   size="xsmall"
@@ -394,7 +390,6 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                       >
                         <ButtonStyles
                           color="dark"
-                          ghost={false}
                           overrides={Object {}}
                           size="xsmall"
                           tabIndex={-1}
@@ -433,7 +428,6 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                               }
                             }
                             forwardedRef={null}
-                            ghost={false}
                             overrides={Object {}}
                             size="xsmall"
                             tabIndex={-1}

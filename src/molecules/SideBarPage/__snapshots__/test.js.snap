@@ -152,7 +152,6 @@ exports[`SideBarPage component Should match snapshot 1`] = `
               <Button
                 className="c1"
                 color="primary"
-                ghost={false}
                 onClick={[Function]}
                 shown={true}
                 size="small"
@@ -200,7 +199,6 @@ exports[`SideBarPage component Should match snapshot 1`] = `
                     >
                       <ButtonStyles
                         color="primary"
-                        ghost={false}
                         overrides={Object {}}
                         size="small"
                         tabIndex={-1}
@@ -239,7 +237,6 @@ exports[`SideBarPage component Should match snapshot 1`] = `
                             }
                           }
                           forwardedRef={null}
-                          ghost={false}
                           overrides={Object {}}
                           size="small"
                           tabIndex={-1}

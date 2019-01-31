@@ -1,35 +1,16 @@
-import React from 'react';
-import { getComponents } from '../../utils/getComponents';
-import { getDefaults } from './models/getDefaults';
+import { Button as v1Button } from './models/v1';
 
-const Button = (props) => {
-  const {
-    model, color, size, ghost, children, overrides, ...rest
-  } = props;
-  const {
-    ButtonWrapper: { component: ButtonWrapper, props: buttonWrapperProps },
-    ButtonStyles: { component: ButtonStyles, props: buttonStylesProps },
-  } = getComponents(getDefaults(model), overrides);
-  return (
-    <ButtonWrapper {...rest} {...buttonWrapperProps} type="button">
-      {/* Passing props to Button Styles seperately to fix double onClick events from button */}
-      <ButtonStyles
-        color={color}
-        size={size}
-        ghost={ghost}
-        tabIndex={-1}
-        {...buttonStylesProps}
-      >
-        {children}
-      </ButtonStyles>
-    </ButtonWrapper>
-  );
+const Strategies = {
+  v1: v1Button,
+  default: v1Button,
 };
 
-Button.defaultProps = {
-  color: 'default',
-  size: 'default',
-  ghost: false,
+const Button = ({ model = 'v1', ...props }) => {
+  if (model && typeof model !== 'string') {
+    throw TypeError('Model Needs To Be Type String');
+  }
+  const component = Strategies[model] || Strategies.default;
+  return component(props);
 };
 
 export { Button };
