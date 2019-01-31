@@ -7,7 +7,7 @@ import { Panel } from '../Panel';
 
 const baseUIOverridesExample = {
   BaseButton: {
-    component: () => <Button color="primary">Button Primary</Button>,
+    component: () => <Button color="primary">BaseUI With Overrides</Button>,
   },
 };
 
@@ -15,13 +15,13 @@ storiesOf('Atoms', module)
   .add('Button', () => (
     <div>
       <Panel>
-        <h2>V2 Buttons:</h2>
-        <Button model="baseUI">Basic Button</Button>
+        <h2>BasuUI Button:</h2>
+        <Button model="baseUI">BaseUI Button</Button>
         <Button
           model="baseUI"
           overrides={{ ...baseUIOverridesExample }}
         >
-          <span>Button With Overrides</span>
+          <span>BaseUI With Overrides</span>
         </Button>
       </Panel>
       <Panel>

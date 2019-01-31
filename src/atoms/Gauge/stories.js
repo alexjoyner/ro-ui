@@ -1,23 +1,23 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { Panel } from '../Panel';
 import { Gauge } from '.';
 
 
-class TestGauge extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      value: 20,
-    };
-  }
+const TestGauge = () => {
+  const [value, setValue] = useState(20);
+  useEffect(() => {
+    if (value < 100) {
+      setTimeout(() => {
+        setValue(value + 1);
+      }, 1000);
+    }
+  }, [value]);
 
-  render() {
-    return (
-      <Gauge {...this.state} height="400px" width="400px" />
-    );
-  }
-}
+  return (
+    <Gauge value={value} height="400px" width="400px" />
+  );
+};
 
 
 storiesOf('Atoms', module)
