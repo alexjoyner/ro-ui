@@ -25,7 +25,7 @@ export { Image } from './_depreciated/Image';
 export { PageOverlay } from './_depreciated/PageOverlay';
 export { Header } from './atoms/Header';
 export { CenteredContent } from './_depreciated/CenteredContent';
-export { PlainBox } from './atoms/PlainBox';
+export { PlainBox } from './_depreciated/PlainBox';
 export { ListHeader } from './atoms/ListHeader';
 export { ListItem } from './atoms/ListItem';
 export { BasicSideBar, AnimatedSideBar } from './atoms/SideBar';

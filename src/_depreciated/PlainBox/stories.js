@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { PlainBox } from '.';
-import { CenteredContent } from '../../_depreciated/CenteredContent';
+import { CenteredContent } from '../CenteredContent';
 
 storiesOf('Atoms', module)
   .add('PlainBox', () => (

@@ -17,7 +17,7 @@ exports[`PlainBox component Should match snapshot 1`] = `
         "$$typeof": Symbol(react.forward_ref),
         "attrs": undefined,
         "componentStyle": ComponentStyle {
-          "componentId": "PlainBox-sc-10nrb46-0",
+          "componentId": "PlainBox-sc-4amtl1-0",
           "isStatic": false,
           "lastClassName": "c0",
           "rules": Array [
@@ -31,7 +31,7 @@ exports[`PlainBox component Should match snapshot 1`] = `
         },
         "displayName": "PlainBox",
         "render": [Function],
-        "styledComponentId": "PlainBox-sc-10nrb46-0",
+        "styledComponentId": "PlainBox-sc-4amtl1-0",
         "target": "div",
         "toString": [Function],
         "warnTooManyClasses": [Function],
