@@ -1,5 +1,5 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react/dist/client/preview';
+import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { Provider } from 'react-redux';
 import { createStore, combineReducers } from 'redux';
 import { ISideBar } from '.';
@@ -9,8 +9,6 @@ import { Button } from '../../atoms/Button';
 import { ISideBarReducer } from './reducer';
 import { ISideBarToggle } from './ISideBarToggle';
 import { Header } from '../../atoms/Header';
-
-export const ISideBarBehavior = storiesOf('Behaviors/ISideBar', module);
 
 const TestToggleBtn = props => (
   <Button color="primary" {...props}>Toggle Side Bar</Button>
@@ -29,12 +27,13 @@ const store = createStore(combineReducers({
   ISideBarReducer,
 }));
 
-ISideBarBehavior.add('ISidebar', () => (
-  <Provider store={store}>
-    <ISideBar {...{
-      SideBar: AnimatedSideBar,
-      Body: SideBarBody,
-    }}
-    />
-  </Provider>
-));
+storiesOf('Depreciated', module)
+  .add('ISidebar', () => (
+    <Provider store={store}>
+      <ISideBar {...{
+        SideBar: AnimatedSideBar,
+        Body: SideBarBody,
+      }}
+      />
+    </Provider>
+  ));

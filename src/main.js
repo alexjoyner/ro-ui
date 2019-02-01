@@ -32,12 +32,12 @@ export { GaugeBlock } from './molecules/GaugeBlock';
 export { Modal } from './molecules/Modal';
 
 /*
-============ Behaviors ===========
+============ Behaviors (All _depreciated) ===========
  */
-export { ISideBar } from './behaviors/ISideBar';
-export { ISideBarReducer } from './behaviors/ISideBar/reducer';
-export { toggleSideBar } from './behaviors/ISideBar/actions';
-export { ISideBarToggle } from './behaviors/ISideBar/ISideBarToggle';
+export { ISideBar } from './_depreciated/ISideBar';
+export { ISideBarReducer } from './_depreciated/ISideBar/reducer';
+export { toggleSideBar } from './_depreciated/ISideBar/actions';
+export { ISideBarToggle } from './_depreciated/ISideBar/ISideBarToggle';
 /*
 ============ Depreciated ===========
  */
