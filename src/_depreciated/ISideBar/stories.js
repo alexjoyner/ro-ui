@@ -3,8 +3,8 @@ import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-e
 import { Provider } from 'react-redux';
 import { createStore, combineReducers } from 'redux';
 import { ISideBar } from '.';
-import { AnimatedSideBar } from '../../atoms/SideBar';
-import { HeaderSideBarPageBody } from '../../atoms/SideBar/SideBarPageBody';
+import { AnimatedSideBar } from '../../atoms/SideBar/models/classic';
+import { HeaderSideBarPageBody } from '../../atoms/SideBar/models/classic/SideBarPageBody';
 import { Button } from '../../atoms/Button';
 import { ISideBarReducer } from './reducer';
 import { ISideBarToggle } from './ISideBarToggle';

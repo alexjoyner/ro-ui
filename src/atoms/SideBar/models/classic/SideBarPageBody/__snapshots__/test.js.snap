@@ -17,7 +17,7 @@ exports[`SideBarPageBody component Basic Version Should match snapshot 1`] = `
         "$$typeof": Symbol(react.forward_ref),
         "attrs": undefined,
         "componentStyle": ComponentStyle {
-          "componentId": "SideBarPageBody__BasicSideBarPageBody-sc-1qqh35b-0",
+          "componentId": "SideBarPageBody__BasicSideBarPageBody-sc-13odiny-0",
           "isStatic": false,
           "lastClassName": "c0",
           "rules": Array [
@@ -28,7 +28,7 @@ exports[`SideBarPageBody component Basic Version Should match snapshot 1`] = `
         },
         "displayName": "SideBarPageBody__BasicSideBarPageBody",
         "render": [Function],
-        "styledComponentId": "SideBarPageBody__BasicSideBarPageBody-sc-1qqh35b-0",
+        "styledComponentId": "SideBarPageBody__BasicSideBarPageBody-sc-13odiny-0",
         "target": "div",
         "toString": [Function],
         "warnTooManyClasses": [Function],
@@ -61,7 +61,7 @@ exports[`SideBarPageBody component with Header Version Should match snapshot 1`]
         "$$typeof": Symbol(react.forward_ref),
         "attrs": undefined,
         "componentStyle": ComponentStyle {
-          "componentId": "SideBarPageBody__HeaderSideBarPageBody-sc-1qqh35b-1",
+          "componentId": "SideBarPageBody__HeaderSideBarPageBody-sc-13odiny-1",
           "isStatic": false,
           "lastClassName": "c0",
           "rules": Array [
@@ -73,7 +73,7 @@ exports[`SideBarPageBody component with Header Version Should match snapshot 1`]
         },
         "displayName": "SideBarPageBody__HeaderSideBarPageBody",
         "render": [Function],
-        "styledComponentId": "SideBarPageBody__HeaderSideBarPageBody-sc-1qqh35b-1",
+        "styledComponentId": "SideBarPageBody__HeaderSideBarPageBody-sc-13odiny-1",
         "target": "div",
         "toString": [Function],
         "warnTooManyClasses": [Function],

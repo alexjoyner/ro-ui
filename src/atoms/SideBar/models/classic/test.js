@@ -1,8 +1,8 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import { BasicSideBar, AnimatedSideBar } from '.';
-import { zIndexes } from '../../utils/zIndexes';
-import { colors } from '../../_depreciated/colors';
+import { SideBar, AnimatedSideBar } from '.';
+import { zIndexes } from '../../../../utils/zIndexes';
+import { colors } from '../../../../_depreciated/colors';
 
 describe('SideBar component', () => {
   let component;
@@ -10,14 +10,14 @@ describe('SideBar component', () => {
     const props = {
       shown: true,
     };
-    component = mount(<BasicSideBar {...props} />);
+    component = mount(<SideBar model="classic" {...props} />);
   });
   it('Should render without exploding', () => {
     expect(component).toBeDefined();
   });
-  // it('Should match snapshot', () => {
-  //   expect(component).toMatchSnapshot();
-  // });
+  it('Should match snapshot', () => {
+    expect(component).toMatchSnapshot();
+  });
   it('should have correct default styles', () => {
     expect(component).toHaveStyleRule('position', 'fixed');
     expect(component).toHaveStyleRule('z-index', zIndexes.SideBar);

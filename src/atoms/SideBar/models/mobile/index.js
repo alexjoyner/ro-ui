@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ReactSideBar from 'react-sidebar';
-import { Button } from '../../../Button';
 
 let sideBarRef = null;
 
@@ -8,32 +7,32 @@ class SideBar extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      sidebarOpen: true,
+      sideBarOpen: true,
     };
-    this.onSetSidebarOpen = this.onSetSidebarOpen.bind(this);
+    this.onSetSideBarOpen = this.onSetSideBarOpen.bind(this);
     sideBarRef = this;
   }
 
-  onSetSidebarOpen(open) {
-    this.setState({ sidebarOpen: open });
+  onSetSideBarOpen(open) {
+    this.setState({ sideBarOpen: open });
   }
 
-  onToggleSidebar() {
-    const { sidebarOpen } = this.state;
+  onToggleSideBar() {
+    const { sideBarOpen } = this.state;
     const newState = {
-      sidebarOpen: !sidebarOpen,
+      sideBarOpen: !sideBarOpen,
     };
     this.setState(newState);
   }
 
   render() {
     const { children, ...props } = this.props;
-    const { sidebarOpen } = this.state;
+    const { sideBarOpen } = this.state;
     return (
       <ReactSideBar
         {...props}
-        open={sidebarOpen}
-        onSetOpen={this.onSetSidebarOpen}
+        open={sideBarOpen}
+        onSetOpen={this.onSetSideBarOpen}
         styles={{ sidebar: { background: 'white' } }}
       >
         {children}
@@ -46,8 +45,9 @@ class SideBar extends Component {
 const sideBarActions = {
   toggle: () => {
     if (sideBarRef) {
-      sideBarRef.onToggleSidebar();
+      return sideBarRef.onToggleSideBar();
     }
+    console.error('You need a sidebar instance to call show!'); // eslint-disable-line no-console
     return null;
   },
 };

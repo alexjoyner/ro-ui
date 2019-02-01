@@ -22,8 +22,7 @@ export { Panel } from './atoms/Panel';
 export { Header } from './atoms/Header';
 export { ListHeader } from './atoms/ListHeader';
 export { ListItem } from './atoms/ListItem';
-export { BasicSideBar, AnimatedSideBar } from './atoms/SideBar';
-export { BasicSideBarPageBody, HeaderSideBarPageBody } from './atoms/SideBar/SideBarPageBody';
+export { SideBar } from './atoms/SideBar';
 /*
 ============ Molecules ===========
  */
@@ -41,6 +40,8 @@ export { ISideBarToggle } from './_depreciated/ISideBar/ISideBarToggle';
 /*
 ============ Depreciated ===========
  */
+export { SideBar as BasicSideBar, AnimatedSideBar } from './atoms/SideBar/models/classic';
+export { BasicSideBarPageBody, HeaderSideBarPageBody } from './atoms/SideBar/models/classic/SideBarPageBody';
 export { PlainBox } from './_depreciated/PlainBox';
 export { Notification } from './_depreciated/Notification';
 export { SideBarPage } from './_depreciated/SideBarPage';

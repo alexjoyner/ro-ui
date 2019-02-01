@@ -1,33 +1,28 @@
-import styled from 'styled-components';
-import { bool } from 'prop-types';
-import { colors } from '../../_depreciated/colors';
-import { zIndexes } from '../../utils/zIndexes';
-import { getTextContrastColor } from '../../utils/getTextContrastColor';
+import React from 'react';
+import { SideBar as classic } from './models/classic';
+import { SideBar as mobile, sideBarActions as mobileActions } from './models/mobile';
 
-export const BaseSideBar = styled.div`
-  position: fixed;
-  z-index: ${zIndexes.SideBar};
-  background-color: ${colors.default};
-  height: 100vh;
-  width: 300px;
-  background-color: ${props => colors[props.color] || colors.default};
-  color: ${props => getTextContrastColor(colors[props.color] || colors.default)};
-`;
-export const BasicSideBar = styled(BaseSideBar)`
-  left: -250px;
-`;
-export const AnimatedSideBar = styled(BaseSideBar)`
-  transition: 100ms linear;
-  ${props => ((props.shown) ? `
-    left: 0px;
-  ` : 'left: -250px;')};
-`;
-AnimatedSideBar.propTypes = {
-  shown: bool.isRequired,
+const defaultModel = 'mobile';
+const Strategies = {
+  classic,
+  mobile,
 };
-// background-color: ${props => props.color || colors.dark};
-// color: white;
-// font-size: 20px;
-// ul{
-//     list-style: none;
-// }
+const ActionStrategies = {
+  classic: () => { throw Error('Classic Actions Not Implemented'); },
+  mobile: mobileActions,
+};
+const SideBar = ({ model = defaultModel, ...props }) => {
+  if (model && typeof model !== 'string') {
+    throw TypeError('SideBar Model Needs To Be Type String');
+  }
+  const Component = Strategies[model] || Strategies[defaultModel];
+  return <Component {...props} />;
+};
+const sideBarActions = (model = defaultModel) => {
+  if (model && typeof model !== 'string') {
+    throw TypeError('SideBar Model Needs To Be Type String');
+  }
+  return ActionStrategies[model] || ActionStrategies[defaultModel];
+};
+
+export { SideBar, sideBarActions };

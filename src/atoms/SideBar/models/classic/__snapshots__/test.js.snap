@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideBar component Should match snapshot 1`] = `
+.c0 {
+  position: fixed;
+  z-index: 1;
+  background-color: #bdc3c7;
+  height: 100vh;
+  width: 300px;
+  background-color: #bdc3c7;
+  color: black;
+  left: -250px;
+}
+
+<classic__SideBar
+  model="classic"
+  shown={true}
+>
+  <StyledComponent
+    forwardedClass={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": undefined,
+        "componentStyle": ComponentStyle {
+          "componentId": "classic__SideBar-sc-2vq1b0-1",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            "position:fixed;z-index:",
+            "1",
+            ";background-color:",
+            "#bdc3c7",
+            ";height:100vh;width:300px;background-color:",
+            [Function],
+            ";color:",
+            [Function],
+            ";",
+            "left:-250px;",
+          ],
+        },
+        "displayName": "classic__SideBar",
+        "render": [Function],
+        "styledComponentId": "classic__SideBar-sc-2vq1b0-1",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+    model="classic"
+    shown={true}
+  >
+    <div
+      className="c0"
+    />
+  </StyledComponent>
+</classic__SideBar>
+`;
