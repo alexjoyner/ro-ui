@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-e
 import { PlainBox } from '.';
 import { CenteredContent } from '../CenteredContent';
 
-storiesOf('Atoms', module)
+storiesOf('Depreciated', module)
   .add('PlainBox', () => (
     <CenteredContent>
       <PlainBox height="200px" width="25%" />

@@ -38,7 +38,7 @@ export { HeroImage } from './molecules/HeroImage';
 export { SideBarPage } from './molecules/SideBarPage';
 export { GaugeBlock } from './molecules/GaugeBlock';
 export { Modal } from './molecules/Modal';
-export { Notification } from './molecules/Notification';
+export { Notification } from './_depreciated/Notification';
 
 /*
 ============ Behaviors ===========

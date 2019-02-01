@@ -4,7 +4,7 @@ import { Logo } from '.';
 import { Panel } from '../../atoms/Panel';
 
 
-storiesOf('Atoms', module)
+storiesOf('Depreciated', module)
   .add('Logo', () => (
     <div>
       <Panel>

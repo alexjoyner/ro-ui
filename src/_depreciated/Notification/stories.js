@@ -1,5 +1,5 @@
 import React from 'react';
-import { Molecules } from '../_molecules.stories';
+import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { Notification } from '.';
 import { Button } from '../../atoms/Button';
 
@@ -36,7 +36,7 @@ class NotificationTest extends React.Component {
   }
 }
 
-Molecules
+storiesOf('Depreciated', module)
   .add('Notification', () => (
     <NotificationTest />
   ));
