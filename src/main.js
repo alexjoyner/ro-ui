@@ -2,6 +2,10 @@ import {
   Overlay,
   Overlay as ImageOverlay,
 } from './atoms/Overlay';
+import {
+  DatePicker,
+  DatePicker as RoDatePicker,
+} from './atoms/DatePicker';
 /*
 ============ Atoms ===========
  */
@@ -11,6 +15,7 @@ export { Gauge } from './atoms/Gauge';
 export { Slider } from './atoms/Slider';
 export { Radio } from './atoms/Radio';
 export { ImageOverlay, Overlay };
+export { RoDatePicker, DatePicker };
 export { Input } from './atoms/Input';
 export { Logo } from './atoms/Logo';
 export { Panel } from './atoms/Panel';
@@ -22,7 +27,6 @@ export { PlainBox } from './atoms/PlainBox';
 export { ListHeader } from './atoms/ListHeader';
 export { ListItem } from './atoms/ListItem';
 export { RoHighChart } from './atoms/RoHighChart';
-export { RoDatePicker } from './atoms/RoDatePicker';
 export { BasicSideBar, AnimatedSideBar } from './atoms/SideBar';
 export { BasicSideBarPageBody, HeaderSideBarPageBody } from './atoms/SideBar/SideBarPageBody';
 export { Go } from './_depreciated/Go';

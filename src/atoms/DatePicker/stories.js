@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-e
 import moment from 'moment';
 import { Input } from '../Input';
 import { Panel } from '../Panel';
-import { RoDatePicker } from '.';
+import { DatePicker } from '.';
 
 class CustDatePicker extends React.Component {
   constructor(props) {
@@ -22,7 +22,7 @@ class CustDatePicker extends React.Component {
   render() {
     const { dateValue } = this.state;
     return (
-      <RoDatePicker
+      <DatePicker
         customInput={<Input labelText="Test Datepicker" />}
         onChange={date => this.handleChange(date)}
         selected={dateValue}

@@ -1,8 +1,8 @@
 import React from 'react';
-import DatePicker from 'react-datepicker';
+import ReactDatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 
-export const RoDatePicker = props => (
+export const DatePicker = props => (
   <div style={{ display: 'inline-block' }}>
     <style>
       {`
@@ -11,6 +11,6 @@ export const RoDatePicker = props => (
         padding-right: 0;
       }`}
     </style>
-    <DatePicker {...props} />
+    <ReactDatePicker {...props} />
   </div>
 );

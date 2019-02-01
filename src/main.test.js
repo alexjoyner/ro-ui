@@ -20,6 +20,8 @@ describe('main', () => {
     expect(Main.ListHeader).not.toBe(undefined);
     expect(Main.ListItem).not.toBe(undefined);
     expect(Main.RoHighChart).not.toBe(undefined);
+    expect(Main.RoDatePicker).not.toBe(undefined);
+    expect(Main.DatePicker).not.toBe(undefined);
     expect(Main.BasicSideBar).not.toBe(undefined);
     expect(Main.BasicSideBarPageBody).not.toBe(undefined);
     expect(Main.HeaderSideBarPageBody).not.toBe(undefined);
