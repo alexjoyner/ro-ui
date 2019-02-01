@@ -19,7 +19,7 @@ export { ImageOverlay, Overlay };
 export { RoDatePicker, DatePicker };
 export { RoHighChart, Chart };
 export { Input } from './atoms/Input';
-export { Logo } from './atoms/Logo';
+export { Logo } from './_depreciated/Logo';
 export { Panel } from './atoms/Panel';
 export { Image } from './_depreciated/Image';
 export { PageOverlay } from './_depreciated/PageOverlay';

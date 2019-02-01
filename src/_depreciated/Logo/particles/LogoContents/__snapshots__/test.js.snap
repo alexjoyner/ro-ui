@@ -7,7 +7,7 @@ exports[`LogoContents component Should match snapshot 1`] = `
       "$$typeof": Symbol(react.forward_ref),
       "attrs": undefined,
       "componentStyle": ComponentStyle {
-        "componentId": "LogoContents-sc-86c6ok-0",
+        "componentId": "LogoContents-t3j9mi-0",
         "isStatic": false,
         "rules": Array [
           "font-size:",
@@ -17,7 +17,7 @@ exports[`LogoContents component Should match snapshot 1`] = `
       },
       "displayName": "LogoContents",
       "render": [Function],
-      "styledComponentId": "LogoContents-sc-86c6ok-0",
+      "styledComponentId": "LogoContents-t3j9mi-0",
       "target": "span",
       "toString": [Function],
       "warnTooManyClasses": [Function],
