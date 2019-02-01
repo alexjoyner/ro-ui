@@ -84,7 +84,7 @@ exports[`SideBarPage component Should match snapshot 1`] = `
             "$$typeof": Symbol(react.forward_ref),
             "attrs": undefined,
             "componentStyle": ComponentStyle {
-              "componentId": "SideBarContainer-bdbgzo-0",
+              "componentId": "SideBarContainer-sc-1oohhyk-0",
               "isStatic": false,
               "lastClassName": "c0",
               "rules": Array [
@@ -99,7 +99,7 @@ exports[`SideBarPage component Should match snapshot 1`] = `
             },
             "displayName": "SideBarContainer",
             "render": [Function],
-            "styledComponentId": "SideBarContainer-bdbgzo-0",
+            "styledComponentId": "SideBarContainer-sc-1oohhyk-0",
             "target": "div",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -125,7 +125,7 @@ exports[`SideBarPage component Should match snapshot 1`] = `
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": undefined,
                   "componentStyle": ComponentStyle {
-                    "componentId": "SideBarBtn-lihfen-0",
+                    "componentId": "SideBarBtn-sc-1hfkqi1-0",
                     "isStatic": false,
                     "lastClassName": "c1",
                     "rules": Array [
@@ -136,7 +136,7 @@ exports[`SideBarPage component Should match snapshot 1`] = `
                   },
                   "displayName": "SideBarBtn",
                   "render": [Function],
-                  "styledComponentId": "SideBarBtn-lihfen-0",
+                  "styledComponentId": "SideBarBtn-sc-1hfkqi1-0",
                   "target": [Function],
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -322,7 +322,7 @@ exports[`SideBarPage component Should match snapshot 1`] = `
             "$$typeof": Symbol(react.forward_ref),
             "attrs": undefined,
             "componentStyle": ComponentStyle {
-              "componentId": "SideBarPage__PageWrapper-sc-1et1n1c-0",
+              "componentId": "SideBarPage__PageWrapper-t39s1k-0",
               "isStatic": false,
               "lastClassName": "c4",
               "rules": Array [
@@ -333,7 +333,7 @@ exports[`SideBarPage component Should match snapshot 1`] = `
             },
             "displayName": "SideBarPage__PageWrapper",
             "render": [Function],
-            "styledComponentId": "SideBarPage__PageWrapper-sc-1et1n1c-0",
+            "styledComponentId": "SideBarPage__PageWrapper-t39s1k-0",
             "target": "div",
             "toString": [Function],
             "warnTooManyClasses": [Function],

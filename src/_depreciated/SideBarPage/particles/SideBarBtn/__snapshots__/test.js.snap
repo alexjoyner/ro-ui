@@ -54,7 +54,7 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
         "$$typeof": Symbol(react.forward_ref),
         "attrs": undefined,
         "componentStyle": ComponentStyle {
-          "componentId": "SideBarBtn-lihfen-0",
+          "componentId": "SideBarBtn-sc-1hfkqi1-0",
           "isStatic": false,
           "lastClassName": "c0",
           "rules": Array [
@@ -65,7 +65,7 @@ exports[`SideBarBtn component Should match snapshot 1`] = `
         },
         "displayName": "SideBarBtn",
         "render": [Function],
-        "styledComponentId": "SideBarBtn-lihfen-0",
+        "styledComponentId": "SideBarBtn-sc-1hfkqi1-0",
         "target": [Function],
         "toString": [Function],
         "warnTooManyClasses": [Function],

@@ -1,9 +1,9 @@
 import React from 'react';
+import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { SideBarPage } from '.';
-import { Molecules } from '../_molecules.stories';
 import { Header } from '../../atoms/Header';
-import { TestGaugeBlock } from '../GaugeBlock/stories';
-import { CenteredContent } from '../../_depreciated/CenteredContent';
+import { TestGaugeBlock } from '../../molecules/GaugeBlock/stories';
+import { CenteredContent } from '../CenteredContent';
 import { ListItem } from '../../atoms/ListItem';
 import { ListHeader } from '../../atoms/ListHeader';
 
@@ -19,7 +19,7 @@ const SideBarList = () => (
     </CenteredContent>
   </div>
 );
-Molecules
+storiesOf('Depreciated', module)
   .add('SideBar', () => (
     <div>
       <Header color="dark">

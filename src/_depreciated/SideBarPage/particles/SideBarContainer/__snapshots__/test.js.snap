@@ -26,7 +26,7 @@ exports[`SideBarContainer component Should match snapshot 1`] = `
         "$$typeof": Symbol(react.forward_ref),
         "attrs": undefined,
         "componentStyle": ComponentStyle {
-          "componentId": "SideBarContainer-bdbgzo-0",
+          "componentId": "SideBarContainer-sc-1oohhyk-0",
           "isStatic": false,
           "lastClassName": "c0",
           "rules": Array [
@@ -41,7 +41,7 @@ exports[`SideBarContainer component Should match snapshot 1`] = `
         },
         "displayName": "SideBarContainer",
         "render": [Function],
-        "styledComponentId": "SideBarContainer-bdbgzo-0",
+        "styledComponentId": "SideBarContainer-sc-1oohhyk-0",
         "target": "div",
         "toString": [Function],
         "warnTooManyClasses": [Function],
