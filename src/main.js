@@ -8,19 +8,6 @@ import {
 } from './atoms/DatePicker';
 import { Chart, Chart as RoHighChart } from './atoms/Chart';
 /*
-============ Depreciated ===========
- */
-export { PlainBox } from './_depreciated/PlainBox';
-export { Notification } from './_depreciated/Notification';
-export { SideBarPage } from './_depreciated/SideBarPage';
-export { colors } from './_depreciated/colors';
-export { Image } from './_depreciated/Image';
-export { PageOverlay } from './_depreciated/PageOverlay';
-export { Go } from './_depreciated/Go';
-export { CenteredContent } from './_depreciated/CenteredContent';
-export { Logo } from './_depreciated/Logo';
-export { RoDatePicker, RoHighChart, ImageOverlay };
-/*
 ============ Atoms ===========
  */
 export { Button } from './atoms/Button';
@@ -51,6 +38,19 @@ export { ISideBar } from './behaviors/ISideBar';
 export { ISideBarReducer } from './behaviors/ISideBar/reducer';
 export { toggleSideBar } from './behaviors/ISideBar/actions';
 export { ISideBarToggle } from './behaviors/ISideBar/ISideBarToggle';
+/*
+============ Depreciated ===========
+ */
+export { PlainBox } from './_depreciated/PlainBox';
+export { Notification } from './_depreciated/Notification';
+export { SideBarPage } from './_depreciated/SideBarPage';
+export { colors } from './_depreciated/colors';
+export { Image } from './_depreciated/Image';
+export { PageOverlay } from './_depreciated/PageOverlay';
+export { Go } from './_depreciated/Go';
+export { CenteredContent } from './_depreciated/CenteredContent';
+export { Logo } from './_depreciated/Logo';
+export { RoDatePicker, RoHighChart, ImageOverlay };
 
 /*
 ============ Utility Functions ===========

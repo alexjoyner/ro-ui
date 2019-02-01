@@ -6,7 +6,7 @@ import { ListItem } from '../../atoms/ListItem';
 import { Header } from '../../atoms/Header';
 import { CenteredContent } from '../../_depreciated/CenteredContent';
 import { TestGaugeBlock } from '../GaugeBlock/stories';
-import { SideBarPage } from '../SideBarPage';
+import { SideBarPage } from '../../_depreciated/SideBarPage';
 
 const SideBarList = () => (
   <div>
