@@ -9,6 +9,7 @@ export { Button } from './atoms/Button';
 export { colors } from './_depreciated/colors';
 export { Gauge } from './atoms/Gauge';
 export { Slider } from './atoms/Slider';
+export { Radio } from './atoms/Radio';
 export { ImageOverlay, Overlay };
 export { Input } from './atoms/Input';
 export { Logo } from './atoms/Logo';
