@@ -6,7 +6,7 @@ import { THEME as DefaultTheme } from './demoData/theme';
 import { config as DefaultConfig } from './demoData/config';
 
 boost(HighCharts);
-const RoHighChart = ({ theme, config }) => {
+const Chart = ({ theme, config }) => {
   HighCharts.setOptions(theme);
   return (
     <div>
@@ -17,9 +17,9 @@ const RoHighChart = ({ theme, config }) => {
     </div>
   );
 };
-RoHighChart.defaultProps = {
+Chart.defaultProps = {
   theme: DefaultTheme,
   config: DefaultConfig,
 };
 
-export { RoHighChart };
+export { Chart };

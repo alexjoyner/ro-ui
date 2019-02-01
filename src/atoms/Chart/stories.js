@@ -1,14 +1,14 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { Panel } from '../Panel';
-import { RoHighChart } from '.';
+import { Chart } from '.';
 import { config } from './demoData/config';
 
 storiesOf('Atoms', module)
-  .add('RoHighChart', () => (
+  .add('Chart', () => (
     <div>
       <Panel>
-        <RoHighChart config={config} />
+        <Chart config={config} />
       </Panel>
     </div>
   ));
