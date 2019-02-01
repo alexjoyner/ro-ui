@@ -6,10 +6,7 @@ import { Button } from '../Button';
 storiesOf('Atoms', module)
   .add('SideBar', () => (
     <>
-      <SideBar
-        sidebar={<Button onClick={() => sideBarActions().toggle()}>Open SideBar</Button>}
-        styles={{ sidebar: { background: 'white' } }}
-      >
+      <SideBar>
         <Button onClick={() => sideBarActions().toggle()}>Open SideBar</Button>
       </SideBar>
     </>

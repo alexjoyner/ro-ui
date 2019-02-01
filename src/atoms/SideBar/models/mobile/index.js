@@ -30,10 +30,11 @@ class SideBar extends Component {
     const { sideBarOpen } = this.state;
     return (
       <ReactSideBar
+        sidebar={<span>Test SideBar</span>}
+        styles={{ sidebar: { background: 'white' } }}
         {...props}
         open={sideBarOpen}
         onSetOpen={this.onSetSideBarOpen}
-        styles={{ sidebar: { background: 'white' } }}
       >
         {children}
       </ReactSideBar>
