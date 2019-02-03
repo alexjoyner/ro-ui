@@ -1,9 +1,9 @@
 import React from 'react';
-import { Molecules } from '../_molecules.stories';
+import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { HeroImage } from '.';
 import { Button } from '../../atoms/Button';
 
-Molecules
+storiesOf('Molecules', module)
   .add('HeroImage', () => (
     <HeroImage imageSrc="https://placeimg.com/2100/800/any">
       <h1>Hero Image</h1>

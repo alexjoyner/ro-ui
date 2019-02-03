@@ -1,5 +1,5 @@
 import React from 'react';
-import { Molecules } from '../_molecules.stories';
+import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { Modal } from '.';
 import { ListHeader } from '../../atoms/ListHeader';
 import { ListItem } from '../../atoms/ListItem';
@@ -19,7 +19,7 @@ const SideBarList = () => (
     </CenteredContent>
   </div>
 );
-Molecules
+storiesOf('Molecules', module)
   .add('Modal', () => (
     <div>
       <Header

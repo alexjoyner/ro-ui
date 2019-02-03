@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Molecules } from '../_molecules.stories';
+import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { GaugeBlock } from '.';
 
 export class TestGaugeBlock extends Component {
@@ -75,7 +75,7 @@ export class TestGaugeBlock extends Component {
 }
 
 
-Molecules
+storiesOf('Molecules', module)
   .add('GaugeBlock', () => (
     <TestGaugeBlock />
   ));
