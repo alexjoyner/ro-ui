@@ -1434,7 +1434,9 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                 }
               }
             >
-              live data
+              <span>
+                live data
+              </span>
             </span>
           </StatusLabel>
         </div>

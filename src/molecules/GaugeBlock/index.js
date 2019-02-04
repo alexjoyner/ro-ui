@@ -41,7 +41,7 @@ const GaugeBlock = (props) => {
         {label}
       </GaugeBlockLabel>
       <GaugeBlockStatus {...gaugeBlockStatusProps}>
-        live data
+        <span>live data</span>
       </GaugeBlockStatus>
     </GaugeBlockContainer>
   );
