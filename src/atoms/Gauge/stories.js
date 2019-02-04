@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
-import { Panel } from '../Panel';
+import { Panel } from '../../_depreciated/Panel';
 import { Gauge } from '.';
 
 

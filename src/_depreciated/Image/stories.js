@@ -4,7 +4,7 @@ import { Image } from '.';
 import profilePic1 from './assets/profile-pic1.jpg';
 import profilePic2 from './assets/profile-pic2.jpg';
 import profilePic3 from './assets/profile-pic3.jpg';
-import { Panel } from '../../atoms/Panel';
+import { Panel } from '../Panel';
 
 storiesOf('Depreciated', module)
   .add('Image', () => (

@@ -20,7 +20,7 @@ exports[`PanelContainer component Should match snapshot 1`] = `
         "$$typeof": Symbol(react.forward_ref),
         "attrs": undefined,
         "componentStyle": ComponentStyle {
-          "componentId": "PanelContainer-sc-1ig7jdk-0",
+          "componentId": "PanelContainer-sc-12i8xa9-0",
           "isStatic": false,
           "lastClassName": "c0",
           "rules": Array [
@@ -35,7 +35,7 @@ exports[`PanelContainer component Should match snapshot 1`] = `
         },
         "displayName": "PanelContainer",
         "render": [Function],
-        "styledComponentId": "PanelContainer-sc-1ig7jdk-0",
+        "styledComponentId": "PanelContainer-sc-12i8xa9-0",
         "target": "div",
         "toString": [Function],
         "warnTooManyClasses": [Function],

@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-e
 import { GoChevronUp, GoChevronDown, GoMention } from 'react-icons/go';
 import { Button } from '.';
 import { HeroImage } from '../../molecules/HeroImage';
-import { Panel } from '../Panel';
+import { Panel } from '../../_depreciated/Panel';
 
 const baseUIOverridesExample = {
   BaseButton: {

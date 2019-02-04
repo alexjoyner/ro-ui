@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Panel } from '../../atoms/Panel';
+import { Panel } from '../../_depreciated/Panel';
 import { Gauge } from '../../atoms/Gauge';
 import { Button } from '../../atoms/Button';
 

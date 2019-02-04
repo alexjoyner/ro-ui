@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import moment from 'moment';
 import { Input } from '../Input';
-import { Panel } from '../Panel';
+import { Panel } from '../../_depreciated/Panel';
 import { DatePicker } from '.';
 
 class CustDatePicker extends React.Component {

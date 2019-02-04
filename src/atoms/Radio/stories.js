@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { Radio } from '.';
-import { Panel } from '../Panel';
+import { Panel } from '../../_depreciated/Panel';
 
 const RadioExample = () => {
   const [value, setValue] = useState(null);

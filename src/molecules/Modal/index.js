@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import PropTypes from 'prop-types';
-import { Panel } from '../../atoms/Panel';
+import { Panel } from '../../_depreciated/Panel';
 import { Overlay } from '../../atoms/Overlay';
 
 const slideUp = keyframes`

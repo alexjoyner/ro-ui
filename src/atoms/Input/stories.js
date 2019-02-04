@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { Input } from '.';
-import { Panel } from '../Panel';
+import { Panel } from '../../_depreciated/Panel';
 
 export class TestInputs extends Component {
   constructor(props) {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { Logo } from '.';
-import { Panel } from '../../atoms/Panel';
+import { Panel } from '../Panel';
 
 
 storiesOf('Depreciated', module)

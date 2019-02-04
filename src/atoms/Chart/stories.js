@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
-import { Panel } from '../Panel';
+import { Panel } from '../../_depreciated/Panel';
 import { Chart } from '.';
 import { config } from './demoData/config';
 

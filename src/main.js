@@ -18,7 +18,7 @@ export { Overlay };
 export { DatePicker };
 export { Chart };
 export { Input } from './atoms/Input';
-export { Panel } from './atoms/Panel';
+export { Panel } from './_depreciated/Panel';
 export { Card } from './atoms/Card';
 export { Header } from './atoms/Header';
 export { ListHeader } from './atoms/ListHeader';
