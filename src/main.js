@@ -23,7 +23,8 @@ export { Card } from './atoms/Card';
 export { Header } from './atoms/Header';
 export { ListHeader } from './atoms/ListHeader';
 export { ListItem } from './atoms/ListItem';
-export { SideBar } from './atoms/SideBar';
+export { SideBar, sideBarActions } from './atoms/SideBar';
+export { Toast, toaster } from './atoms/Toast';
 /*
 ============ Molecules ===========
  */
