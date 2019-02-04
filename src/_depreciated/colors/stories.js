@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
-import { Panel } from '../../_depreciated/Panel';
+import { Panel } from '../Panel';
 import { colors } from '.';
 import { CenteredContent } from '../CenteredContent';
 import { getTextContrastColor } from '../../utils/getTextContrastColor';

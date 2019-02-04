@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { PageOverlay } from '.';
-import { Panel } from '../../_depreciated/Panel';
+import { Panel } from '../Panel';
 
 storiesOf('Depreciated', module)
   .add('PageOverlay', () => (
