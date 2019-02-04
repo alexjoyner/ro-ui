@@ -32,6 +32,10 @@ export { Popover } from './atoms/Popover';
 export { HeroImage } from './molecules/HeroImage';
 export { GaugeBlock } from './molecules/GaugeBlock';
 export { Modal } from './molecules/Modal';
+/*
+============ Utilities ===========
+ */
+export { StyletronProvider, Styletron } from './utilities/Styletron';
 
 /*
 ============ Behaviors (All _depreciated) ===========

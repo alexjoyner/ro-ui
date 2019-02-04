@@ -46,4 +46,8 @@ describe('main', () => {
     expect(Main.toggleSideBar).not.toBe(undefined);
     expect(Main.ISideBarToggle).not.toBe(undefined);
   });
+  it('Should include all utilities', () => {
+    expect(Main.StyletronProvider).not.toBe(undefined);
+    expect(Main.Styletron).not.toBe(undefined);
+  });
 });
