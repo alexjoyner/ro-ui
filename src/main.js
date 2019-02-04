@@ -25,6 +25,7 @@ export { ListHeader } from './atoms/ListHeader';
 export { ListItem } from './atoms/ListItem';
 export { SideBar, sideBarActions } from './atoms/SideBar';
 export { Toast, toaster } from './atoms/Toast';
+export { Popover } from './atoms/Popover';
 /*
 ============ Molecules ===========
  */

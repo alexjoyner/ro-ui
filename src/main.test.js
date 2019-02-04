@@ -11,6 +11,7 @@ describe('main', () => {
     expect(Main.sideBarActions).not.toBe(undefined);
     expect(Main.Toast).not.toBe(undefined);
     expect(Main.toaster).not.toBe(undefined);
+    expect(Main.Popover).not.toBe(undefined);
     expect(Main.Radio).not.toBe(undefined);
     expect(Main.ImageOverlay).not.toBe(undefined);
     expect(Main.Overlay).not.toBe(undefined);

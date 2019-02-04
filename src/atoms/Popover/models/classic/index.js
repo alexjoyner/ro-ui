@@ -1,7 +1,7 @@
 import React from 'react';
 import { Manager, Reference, Popper } from 'react-popper';
 import styled from 'styled-components';
-import { getComponents } from '../../utils/getComponents';
+import { getComponents } from '../../../../utils/getComponents';
 
 const BaseBtn = styled.button`
   background-color: orange;
