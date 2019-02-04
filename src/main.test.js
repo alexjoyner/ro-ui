@@ -15,6 +15,7 @@ describe('main', () => {
     expect(Main.Logo).not.toBe(undefined);
     expect(Main.PageOverlay).not.toBe(undefined);
     expect(Main.Panel).not.toBe(undefined);
+    expect(Main.Card).not.toBe(undefined);
     expect(Main.PlainBox).not.toBe(undefined);
     expect(Main.Image).not.toBe(undefined);
     expect(Main.Header).not.toBe(undefined);

@@ -19,6 +19,7 @@ export { DatePicker };
 export { Chart };
 export { Input } from './atoms/Input';
 export { Panel } from './atoms/Panel';
+export { Card } from './atoms/Card';
 export { Header } from './atoms/Header';
 export { ListHeader } from './atoms/ListHeader';
 export { ListItem } from './atoms/ListItem';
