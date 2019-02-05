@@ -6,6 +6,7 @@ import { getTextContrastColor } from '../../../../../../utils/getTextContrastCol
 const HeaderContainer = styled.div`
   z-index: ${zIndexes.Header};
   position: fixed;
+  left: 0;
   top: 0;
   height: 56px;
   width: 100%;
