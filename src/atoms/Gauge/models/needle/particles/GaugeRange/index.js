@@ -19,7 +19,7 @@ const GaugeRange = ({ opts, range }) => {
   return (
     <g>
       <RangePath
-        stroke={colors[range.color] || colors.default}
+        stroke={colors[range.alertLevel] || colors.default}
         d={`${M} ${A}`}
         fill="none"
       />

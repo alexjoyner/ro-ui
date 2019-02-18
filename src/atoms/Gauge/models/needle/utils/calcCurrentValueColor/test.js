@@ -5,17 +5,17 @@ describe('calcColor', () => {
   const ranges = [{
     lowerValue: 0,
     upperValue: 50,
-    color: 'warning',
+    alertLevel: 'warning',
     id: 'range1',
   }, {
     lowerValue: 50,
     upperValue: 80,
-    color: 'success',
+    alertLevel: 'success',
     id: 'range2',
   }, {
     lowerValue: 80,
     upperValue: 100,
-    color: 'danger',
+    alertLevel: 'danger',
     id: 'range3',
   }];
   it('Should return orange', () => {

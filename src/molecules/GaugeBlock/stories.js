@@ -13,23 +13,23 @@ export class TestGaugeBlock extends Component {
       ranges: [{
         lowerValue: 0,
         upperValue: 20,
-        color: 'primary',
+        alertLevel: 'primary',
       }, {
         lowerValue: 20,
         upperValue: 30,
-        color: 'info',
+        alertLevel: 'info',
       }, {
         lowerValue: 30,
         upperValue: 50,
-        color: 'warning',
+        alertLevel: 'warning',
       }, {
         lowerValue: 50,
         upperValue: 80,
-        color: 'success',
+        alertLevel: 'success',
       }, {
         lowerValue: 80,
         upperValue: 100,
-        color: 'dangerLight',
+        alertLevel: 'dangerLight',
       }],
     };
   }

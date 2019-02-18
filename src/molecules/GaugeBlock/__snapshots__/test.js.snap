@@ -522,19 +522,19 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
               ranges={
                 Array [
                   Object {
-                    "color": "warning",
+                    "alertLevel": "warning",
                     "id": "range1",
                     "lowerValue": 0,
                     "upperValue": 50,
                   },
                   Object {
-                    "color": "success",
+                    "alertLevel": "success",
                     "id": "range2",
                     "lowerValue": 50,
                     "upperValue": 80,
                   },
                   Object {
-                    "color": "danger",
+                    "alertLevel": "danger",
                     "id": "range3",
                     "lowerValue": 80,
                     "upperValue": 100,
@@ -618,19 +618,19 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         "radius": 120.5,
                         "ranges": Array [
                           Object {
-                            "color": "warning",
+                            "alertLevel": "warning",
                             "id": "range1",
                             "lowerValue": 0,
                             "upperValue": 50,
                           },
                           Object {
-                            "color": "success",
+                            "alertLevel": "success",
                             "id": "range2",
                             "lowerValue": 50,
                             "upperValue": 80,
                           },
                           Object {
-                            "color": "danger",
+                            "alertLevel": "danger",
                             "id": "range3",
                             "lowerValue": 80,
                             "upperValue": 100,
@@ -644,7 +644,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                     overrides={Object {}}
                     range={
                       Object {
-                        "color": "warning",
+                        "alertLevel": "warning",
                         "id": "range1",
                         "lowerValue": 0,
                         "upperValue": 50,
@@ -759,19 +759,19 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         "radius": 120.5,
                         "ranges": Array [
                           Object {
-                            "color": "warning",
+                            "alertLevel": "warning",
                             "id": "range1",
                             "lowerValue": 0,
                             "upperValue": 50,
                           },
                           Object {
-                            "color": "success",
+                            "alertLevel": "success",
                             "id": "range2",
                             "lowerValue": 50,
                             "upperValue": 80,
                           },
                           Object {
-                            "color": "danger",
+                            "alertLevel": "danger",
                             "id": "range3",
                             "lowerValue": 80,
                             "upperValue": 100,
@@ -785,7 +785,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                     overrides={Object {}}
                     range={
                       Object {
-                        "color": "success",
+                        "alertLevel": "success",
                         "id": "range2",
                         "lowerValue": 50,
                         "upperValue": 80,
@@ -900,19 +900,19 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                         "radius": 120.5,
                         "ranges": Array [
                           Object {
-                            "color": "warning",
+                            "alertLevel": "warning",
                             "id": "range1",
                             "lowerValue": 0,
                             "upperValue": 50,
                           },
                           Object {
-                            "color": "success",
+                            "alertLevel": "success",
                             "id": "range2",
                             "lowerValue": 50,
                             "upperValue": 80,
                           },
                           Object {
-                            "color": "danger",
+                            "alertLevel": "danger",
                             "id": "range3",
                             "lowerValue": 80,
                             "upperValue": 100,
@@ -926,7 +926,7 @@ exports[`GaugeBlock component Should match snapshot 1`] = `
                     overrides={Object {}}
                     range={
                       Object {
-                        "color": "danger",
+                        "alertLevel": "danger",
                         "id": "range3",
                         "lowerValue": 80,
                         "upperValue": 100,

@@ -20,7 +20,7 @@ describe('GaugeRange component', () => {
       ranges: [{
         lowerValue: 0,
         upperValue: 100,
-        color: '#f1c40f',
+        alertLevel: '#f1c40f',
         id: 'range1',
       }],
     };
