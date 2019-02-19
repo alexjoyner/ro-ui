@@ -11,7 +11,7 @@ const Button = (props) => {
     ButtonStyles: { component: ButtonStyles, props: buttonStylesProps },
   } = getComponents(v1Defaults, overrides);
   return (
-    <ButtonWrapper {...rest} {...buttonWrapperProps} type="button">
+    <ButtonWrapper type="button" {...rest} {...buttonWrapperProps}>
       {/* Passing props to Button Styles seperately to fix double onClick events from button */}
       <ButtonStyles
         color={color}

@@ -21,14 +21,14 @@ describe('calcColor', () => {
   it('Should return orange', () => {
     expect(calcCurrentValueColor(25, ranges)).toEqual(colors.warning);
     expect(calcCurrentValueColor(1, ranges)).toEqual(colors.warning);
-    expect(calcCurrentValueColor(50, ranges)).toEqual(colors.warning);
   });
   it('Should return green', () => {
+    expect(calcCurrentValueColor(50, ranges)).toEqual(colors.success);
     expect(calcCurrentValueColor(75, ranges)).toEqual(colors.success);
     expect(calcCurrentValueColor(51, ranges)).toEqual(colors.success);
-    expect(calcCurrentValueColor(80, ranges)).toEqual(colors.success);
   });
   it('Should return red', () => {
+    expect(calcCurrentValueColor(80, ranges)).toEqual(colors.danger);
     expect(calcCurrentValueColor(81, ranges)).toEqual(colors.danger);
     expect(calcCurrentValueColor(90, ranges)).toEqual(colors.danger);
     expect(calcCurrentValueColor(100, ranges)).toEqual(colors.danger);
@@ -37,5 +37,13 @@ describe('calcColor', () => {
     expect(calcCurrentValueColor('34', ranges)).toEqual(colors.warning);
     expect(calcCurrentValueColor('75', ranges)).toEqual(colors.success);
     expect(calcCurrentValueColor('90', ranges)).toEqual(colors.danger);
+  });
+  it('Should throw if no ranges are passed', () => {
+    expect(() => calcCurrentValueColor('34')).toThrow();
+  });
+  it('Should throw if good value is passed', () => {
+    expect(() => calcCurrentValueColor(null, [])).toThrow();
+    expect(() => calcCurrentValueColor(0, [])).not.toThrow();
+    expect(() => calcCurrentValueColor('0', [])).not.toThrow();
   });
 });

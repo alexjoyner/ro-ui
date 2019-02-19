@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import PropTypes from 'prop-types';
-import { Panel } from '../../_depreciated/Panel';
+import { Card } from '../../atoms/Card';
 import { Overlay } from '../../atoms/Overlay';
 
 const slideUp = keyframes`
@@ -10,14 +10,14 @@ const slideUp = keyframes`
   }
 `;
 
-const NotificationPanel = styled(Panel)`
+const NotificationPanel = styled(Card)`
     position: relative;
     animation: ${slideUp} 0.8s;
 `;
 const Modal = ({ width, height, children }) => (
   <Overlay model="page">
     <NotificationPanel width={width} height={height}>
-      {children}
+      {CardProps => children(CardProps)}
     </NotificationPanel>
   </Overlay>
 );

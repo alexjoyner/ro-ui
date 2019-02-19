@@ -7,6 +7,8 @@ exports[`Modal component Should match snapshot 1`] = `
   <Modal__NotificationPanel
     height="auto"
     width="90%"
-  />
+  >
+    <Component />
+  </Modal__NotificationPanel>
 </Overlay>
 `;

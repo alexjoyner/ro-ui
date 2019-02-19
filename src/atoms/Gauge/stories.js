@@ -5,12 +5,12 @@ import { Gauge } from '.';
 
 
 const TestGauge = () => {
-  const [value, setValue] = useState(20);
+  const [value, setValue] = useState(0);
   useEffect(() => {
     if (value < 100) {
       setTimeout(() => {
         setValue(value + 1);
-      }, 1000);
+      }, 10000);
     }
   }, [value]);
 

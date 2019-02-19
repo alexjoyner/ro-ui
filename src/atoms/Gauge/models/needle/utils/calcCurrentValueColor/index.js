@@ -1,13 +1,16 @@
 import { colors } from '../../../../../../_depreciated/colors';
 
 export const calcCurrentValueColor = (value, ranges) => {
+  // eslint-disable-next-line
+  if (isNaN(value) || value === null) {
+    throw Error('CalcVurrentValueColor MUST be passed a good value');
+  }
   if (!ranges) {
-    console.error('Should Have Ranges');
-    return null;
+    throw Error('CalcVurrentValueColor MUST be passed ranges');
   }
   let result = null;
   ranges.map((range) => {
-    if (value > range.lowerValue && value <= range.upperValue) {
+    if (value >= range.lowerValue && value <= range.upperValue) {
       result = (colors[range.alertLevel] || colors.default);
     }
     return null;

@@ -39,6 +39,7 @@ describe('main', () => {
     expect(Main.HeroImage).not.toBe(undefined);
     expect(Main.Modal).not.toBe(undefined);
     expect(Main.SideBarPage).not.toBe(undefined);
+    expect(Main.FormControl).not.toBe(undefined);
   });
   it('Should include all behaviors', () => {
     expect(Main.ISideBar).not.toBe(undefined);
@@ -49,5 +50,6 @@ describe('main', () => {
   it('Should include all utilities', () => {
     expect(Main.StyletronProvider).not.toBe(undefined);
     expect(Main.Styletron).not.toBe(undefined);
+    expect(Main.Block).not.toBe(undefined);
   });
 });
