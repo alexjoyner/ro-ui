@@ -1,38 +1,38 @@
 import {
   Overlay,
   Overlay as ImageOverlay,
-} from './atoms/Overlay';
+} from './Overlay';
 import {
   DatePicker,
   DatePicker as RoDatePicker,
-} from './atoms/DatePicker';
-import { Chart, Chart as RoHighChart } from './atoms/Chart';
+} from './DatePicker';
+import { Chart, Chart as RoHighChart } from './Chart';
 /*
 ============ Atoms ===========
  */
-export { Button } from './atoms/Button';
-export { Gauge } from './atoms/Gauge';
-export { Slider } from './atoms/Slider';
-export { Radio } from './atoms/Radio';
+export { Button } from './Button';
+export { Gauge } from './Gauge';
+export { Slider } from './Slider';
+export { Radio } from './Radio';
 export { Overlay };
 export { DatePicker };
 export { Chart };
-export { Input } from './atoms/Input';
-export { Panel } from './_depreciated/Panel';
-export { Card } from './atoms/Card';
-export { Header } from './atoms/Header';
-export { ListHeader } from './atoms/ListHeader';
-export { ListItem } from './atoms/ListItem';
-export { SideBar, sideBarActions } from './atoms/SideBar';
-export { Toast, toaster } from './atoms/Toast';
-export { Popover } from './atoms/Popover';
+export { Input } from './Input';
+export { Panel } from './Panel';
+export { Card } from './Card';
+export { Header } from './Header';
+export { ListHeader } from './ListHeader';
+export { ListItem } from './ListItem';
+export { SideBar, sideBarActions } from './SideBar';
+export { Toast, toaster } from './Toast';
+export { Popover } from './Popover';
 /*
 ============ Molecules ===========
  */
-export { HeroImage } from './molecules/HeroImage';
-export { GaugeBlock } from './molecules/GaugeBlock';
-export { Modal } from './molecules/Modal';
-export { FormControl } from './molecules/FormControl';
+export { HeroImage } from './HeroImage';
+export { GaugeBlock } from './GaugeBlock';
+export { Modal } from './Modal';
+export { FormControl } from './FormControl';
 /*
 ============ Utilities ===========
  */
@@ -42,24 +42,24 @@ export { Block } from './utilities/Block';
 /*
 ============ Behaviors (All _depreciated) ===========
  */
-export { ISideBar } from './_depreciated/ISideBar';
-export { ISideBarReducer } from './_depreciated/ISideBar/reducer';
-export { toggleSideBar } from './_depreciated/ISideBar/actions';
-export { ISideBarToggle } from './_depreciated/ISideBar/ISideBarToggle';
+export { ISideBar } from './ISideBar';
+export { ISideBarReducer } from './ISideBar/reducer';
+export { toggleSideBar } from './ISideBar/actions';
+export { ISideBarToggle } from './ISideBar/ISideBarToggle';
 /*
 ============ Depreciated ===========
  */
-export { SideBar as BasicSideBar, AnimatedSideBar } from './atoms/SideBar/models/classic';
-export { BasicSideBarPageBody, HeaderSideBarPageBody } from './atoms/SideBar/models/classic/SideBarPageBody';
-export { PlainBox } from './_depreciated/PlainBox';
-export { Notification } from './_depreciated/Notification';
-export { SideBarPage } from './_depreciated/SideBarPage';
-export { colors } from './_depreciated/colors';
-export { Image } from './_depreciated/Image';
-export { PageOverlay } from './_depreciated/PageOverlay';
-export { Go } from './_depreciated/Go';
-export { CenteredContent } from './_depreciated/CenteredContent';
-export { Logo } from './_depreciated/Logo';
+export { SideBar as BasicSideBar, AnimatedSideBar } from './SideBar/models/classic';
+export { BasicSideBarPageBody, HeaderSideBarPageBody } from './SideBar/models/classic/SideBarPageBody';
+export { PlainBox } from './PlainBox';
+export { Notification } from './Notification';
+export { SideBarPage } from './SideBarPage';
+export { colors } from './colors';
+export { Image } from './Image';
+export { PageOverlay } from './PageOverlay';
+export { Go } from './Go';
+export { CenteredContent } from './CenteredContent';
+export { Logo } from './Logo';
 export { RoDatePicker, RoHighChart, ImageOverlay };
 
 /*

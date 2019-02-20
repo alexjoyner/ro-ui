@@ -1,5 +1,5 @@
 import { getTextContrastColor } from '.';
-import { colors } from '../../_depreciated/colors';
+import { colors } from '../../colors';
 
 describe('getBtnTextColor', () => {
   it('Should fail', () => {
