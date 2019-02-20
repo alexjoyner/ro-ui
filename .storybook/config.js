@@ -4,7 +4,10 @@ import {Provider as StyletronProvider} from 'styletron-react';
 import {Client as Styletron} from 'styletron-engine-atomic';
 import '../styles/normalize.css';
 import '../styles/typography.css';
-import {ThemeProvider, LightTheme} from 'baseui';
+import {ThemeProvider} from 'baseui';
+import {customTheme} from './theme';
+
+
 // automatically import all files ending in *.src.js
 const req = require.context("../src", true, /.stories.js$/);
 function loadStories() {
@@ -16,7 +19,7 @@ const engine = new Styletron();
 addDecorator(story => {
   return (
     <StyletronProvider value={engine}>
-      <ThemeProvider theme={LightTheme}>{story()}</ThemeProvider>
+      <ThemeProvider theme={customTheme}>{story()}</ThemeProvider>
     </StyletronProvider>
   );
 });
