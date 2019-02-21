@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { Panel } from '.';
 
-storiesOf('Atoms', module)
+storiesOf('Depreciated', module)
   .add('Panel', () => (
     <div>
       <Panel>

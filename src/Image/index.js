@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Container } from './particles/Container';
 import { Pic } from './particles/Pic';
 
-
+console.warn('Image will be removed soon!');
 const Image = ({ ...props }) => (
   <Container>
     <Pic {...props} />

@@ -1,3 +1,4 @@
+console.warn('Colors will be removed soon! Please move to using StyleTron themes!');
 export const colors = {
   default: '#bdc3c7',
   defaultLight: '#ecf0f1',

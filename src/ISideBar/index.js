@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
+console.warn('ISideBar will be removed soon!');
 export const TISideBar = ({ shown, SideBar, Body }) => (
   <div>
     <SideBar shown={shown} />

@@ -10,6 +10,8 @@ const PageWrapper = styled.div`
   z-index: 0;
   padding-left: ${props => (props.shown ? '300px' : '0px')};
 `;
+
+console.warn('SideBarPage will be removed soon!');
 export class SideBarPage extends Component {
   constructor(props) {
     super(props);

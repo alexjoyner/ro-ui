@@ -6,6 +6,7 @@ import { CenteredContent } from '../CenteredContent';
 import { Button } from '../Button';
 import { zIndexes } from '../utils/zIndexes';
 
+console.warn('Notification will be removed soon!');
 const NotificationWrapper = styled.div`
     position: fixed;
     z-index: ${zIndexes.Notification};

@@ -7,6 +7,10 @@ import {
   DatePicker as RoDatePicker,
 } from './DatePicker';
 import { Chart, Chart as RoHighChart } from './Chart';
+
+
+console.warn('Importing from MAIN might be removed soon! Please import from Component folder');
+
 /*
 ============ Atoms ===========
  */
@@ -36,9 +40,8 @@ export { FormControl } from './FormControl';
 /*
 ============ Utilities ===========
  */
-export { StyletronProvider, Styletron } from './utilities/Styletron';
-export { Block } from './utilities/Block';
-
+export { StyletronProvider, Styletron } from './Styletron';
+export { Block } from './Block';
 /*
 ============ Behaviors (All _depreciated) ===========
  */

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+console.warn('PlainBox will be removed soon!');
 export const PlainBox = styled.div`
     ${props => ((props.height || props.width) ? `
         height: ${props.height};
