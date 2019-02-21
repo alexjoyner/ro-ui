@@ -4,9 +4,10 @@ import { GoGraph, GoGear, GoCheck } from 'react-icons/go';
 import defaults from './defaults';
 import { getComponents } from '../utils/getComponents';
 
+console.warn('GaugeBlock will be removed soon!');
 const GaugeBlock = (props) => {
   const {
-    panelWidth, multiSelected, onChartClick, onSettingsClick, label, overrides,
+    multiSelected, onChartClick, onSettingsClick, label, overrides,
   } = props;
   const {
     GaugeBlockContainer: { component: GaugeBlockContainer, props: gaugeBlockContainerProps },
@@ -18,18 +19,18 @@ const GaugeBlock = (props) => {
     GaugeBlockStatus: { component: GaugeBlockStatus, props: gaugeBlockStatusProps },
   } = getComponents(defaults, overrides);
   return (
-    <GaugeBlockContainer width={panelWidth || '20%'} {...gaugeBlockContainerProps}>
+    <GaugeBlockContainer width="20%" {...gaugeBlockContainerProps}>
       <GaugeBlockToolbar {...gaugeBlockToolbarProps}>
         {(multiSelected) ? (
-          <GaugeBlockChartsBtn size="xsmall" {...gaugeBlockChartsBtnProps} color="success">
+          <GaugeBlockChartsBtn model="classic" size="xsmall" {...gaugeBlockChartsBtnProps} color="success">
             <GoCheck size={20} />
           </GaugeBlockChartsBtn>
         ) : (
-          <GaugeBlockChartsBtn size="xsmall" color="dark" onClick={onChartClick} {...gaugeBlockChartsBtnProps}>
+          <GaugeBlockChartsBtn model="classic" size="xsmall" color="dark" onClick={onChartClick} {...gaugeBlockChartsBtnProps}>
             <GoGraph size={20} />
           </GaugeBlockChartsBtn>
         )}
-        <GaugeBlockSettingsBtn size="xsmall" color="dark" onClick={onSettingsClick} {...gaugeBlockSettingsBtnProps}>
+        <GaugeBlockSettingsBtn model="classic" size="xsmall" color="dark" onClick={onSettingsClick} {...gaugeBlockSettingsBtnProps}>
           <GoGear size={20} />
         </GaugeBlockSettingsBtn>
       </GaugeBlockToolbar>

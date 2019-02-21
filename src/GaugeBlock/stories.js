@@ -75,7 +75,7 @@ export class TestGaugeBlock extends Component {
 }
 
 
-storiesOf('Molecules', module)
+storiesOf('Depreciated', module)
   .add('GaugeBlock', () => (
     <TestGaugeBlock />
   ));
