@@ -8,7 +8,7 @@ const Strategies = {
   default: classic,
 };
 
-const Button = ({ model = 'classic', ...props }) => {
+const Button = ({ model = 'baseUI', ...props }) => {
   if (model && typeof model !== 'string') {
     throw TypeError('Button Model Needs To Be Type String');
   }

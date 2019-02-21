@@ -2,70 +2,40 @@ import React from 'react';
 import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { GoChevronUp, GoChevronDown, GoMention } from 'react-icons/go';
 import { Button } from '.';
-import { HeroImage } from '../HeroImage';
-import { Panel } from '../Panel';
-
-const baseUIOverridesExample = {
-  BaseButton: {
-    component: () => <Button color="primary">BaseUI With Overrides</Button>,
-  },
-};
+import { Card } from '../Card';
 
 storiesOf('Atoms', module)
   .add('Button', () => (
     <div>
-      <Panel>
-        <h2>BasuUI Button:</h2>
-        <Button model="baseUI">BaseUI Button</Button>
-        <Button
-          model="baseUI"
-          overrides={{ ...baseUIOverridesExample }}
-        >
-          <span>BaseUI With Overrides</span>
+      <Card title="Button Colors">
+        <Button>Primary</Button>
+        <Button kind="secondary">Secondary</Button>
+        <Button kind="tertiary">Tertiary</Button>
+        <Button kind="minimal">Minimal</Button>
+      </Card>
+      <Card title="Button Sizes">
+        <Button size="compact">extra small</Button>
+        <Button>Default Button</Button>
+      </Card>
+      <Card title="Button Shapes">
+        <Button shape="square">
+          <GoChevronUp />
         </Button>
-      </Panel>
-      <Panel>
-        <h2>Button Colors</h2>
-        <Button>Basic Button</Button>
-        <Button color="primary">Button Primary</Button>
-        <Button color="warning">Button Warning</Button>
-        <Button color="danger">Button Danger</Button>
-        <Button color="success">Button Success</Button>
-        <Button color="dark">Button Dark</Button>
-      </Panel>
-      <Panel>
-        <h2>Button Sizes</h2>
-        <Button size="xsmall">extra small</Button>
-        <Button size="small">Button small</Button>
-        <Button size="large">Button large</Button>
-      </Panel>
-      <Panel>
-        <h2>Icon Buttons: using react-icons</h2>
+        <Button shape="round">
+          <GoChevronDown />
+        </Button>
+        <Button>Default</Button>
+      </Card>
+      <Card title="Icon Buttons: using react-icons">
         <Button>
-          <GoChevronUp style={{ textAlign: 'center' }} />
+          <GoChevronUp />
         </Button>
         <Button>
-          <GoChevronDown size={40} />
+          <GoChevronDown />
         </Button>
         <Button>
-          <GoMention size={60} />
+          <GoMention />
         </Button>
-      </Panel>
-      <Panel>
-        <h2>Ghost Buttons</h2>
-        <HeroImage
-          imageSrc="https://placeimg.com/1000/300/any"
-          height="300px"
-        >
-          <p>
-            <Button ghost>Basic Button</Button>
-            <Button color="primary" ghost>Button Primary</Button>
-            <Button color="warning" ghost>Button Warning</Button>
-            <Button color="danger" ghost>Button Danger</Button>
-            <Button color="success" ghost>Button Success</Button>
-            <Button color="dark" ghost>Button Dark</Button>
-          </p>
-        </HeroImage>
-      </Panel>
+      </Card>
     </div>
   ));
