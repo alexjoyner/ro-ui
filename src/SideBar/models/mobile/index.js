@@ -6,8 +6,9 @@ let sideBarRef = null;
 class SideBar extends Component {
   constructor(props) {
     super(props);
+    const { isInitiallyOpen } = this.props;
     this.state = {
-      sideBarOpen: true,
+      sideBarOpen: isInitiallyOpen || false,
     };
     this.onSetSideBarOpen = this.onSetSideBarOpen.bind(this);
     sideBarRef = this;
