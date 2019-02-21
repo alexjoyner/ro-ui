@@ -5,7 +5,7 @@ import {Client as Styletron} from 'styletron-engine-atomic';
 import '../src/styles/normalize.css';
 import '../src/styles/fonts.css';
 import {ThemeProvider} from 'baseui';
-import {customTheme} from './theme';
+import {customTheme} from '../src/Themes';
 
 
 // automatically import all files ending in *.src.js

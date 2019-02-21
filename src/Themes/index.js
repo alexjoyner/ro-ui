@@ -1,4 +1,4 @@
-import {createTheme} from 'baseui';
+import { createTheme } from 'baseui';
 
 export const customTheme = createTheme(
   {
@@ -11,7 +11,7 @@ export const customTheme = createTheme(
     primary500: '#174EB6',
     primary600: '#123D90',
     primary700: '#0C2960',
-  
+    // ###################
     negative50: '#FDF0EF',
     negative100: '#FADBD7',
     negative200: '#F4AFA7',
@@ -20,7 +20,7 @@ export const customTheme = createTheme(
     negative500: '#AE372A',
     negative600: '#892C21',
     negative700: '#5C1D16',
-  
+    // ###################
     warning50: '#FEF3EC',
     warning100: '#FBE2CF',
     warning200: '#F6BA8B',
@@ -29,7 +29,7 @@ export const customTheme = createTheme(
     warning500: '#B4540B',
     warning600: '#8E4308',
     warning700: '#5F2C06',
-  
+    // ###################
     positive50: '#EBF8F2',
     positive100: '#CDEDDE',
     positive200: '#88D3B0',
@@ -38,7 +38,7 @@ export const customTheme = createTheme(
     positive500: '#057C44',
     positive600: '#046236',
     positive700: '#034124',
-  
+    // ###################
     mono100: '#FFFFFF',
     mono200: '#F7F7F7',
     mono300: '#F0F0F0',
@@ -49,10 +49,7 @@ export const customTheme = createTheme(
     mono800: '#666666',
     mono900: '#333333',
     mono1000: '#000000',
-  
-    rating200: '#FFE1A5',
-    rating400: '#FFC043',
-  
+    // ###################
     primaryFontFamily:
       '"Roboto", system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif',
   },
@@ -86,6 +83,6 @@ export const customTheme = createTheme(
     },
     borders: {
       useRoundedCorners: false,
-    }
+    },
   },
 );
