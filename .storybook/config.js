@@ -2,8 +2,8 @@ import React from 'react';
 import { configure, addDecorator } from "@storybook/react";
 import {Provider as StyletronProvider} from 'styletron-react';
 import {Client as Styletron} from 'styletron-engine-atomic';
-import '../styles/normalize.css';
-import '../styles/typography.css';
+import '../src/styles/normalize.css';
+import '../src/styles/fonts.css';
 import {ThemeProvider} from 'baseui';
 import {customTheme} from './theme';
 
