@@ -1,34 +1,41 @@
-import React from 'react';
-import styled, { keyframes } from 'styled-components';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import { Card } from '../Card';
-import { Overlay } from '../Overlay';
 
-const slideUp = keyframes`
-  from {
-    transform: translateY(500%)
-  }
-`;
-
-const NotificationPanel = styled(Card)`
-    position: relative;
-    animation: ${slideUp} 0.8s;
-`;
-const Modal = ({ width, height, children }) => (
-  <Overlay model="page">
-    <NotificationPanel width={width} height={height}>
-      {CardProps => children(CardProps)}
-    </NotificationPanel>
-  </Overlay>
-);
-const { string } = PropTypes;
-Modal.propTypes = {
-  height: string,
-  width: string,
+const ModalStateContainer = ({ children, isInitiallyOpen, ...props }) => {
+  const [isOpen, setOpen] = useState(isInitiallyOpen);
+  const toggle = (open = !isOpen) => {
+    setOpen(Boolean(open));
+  };
+  const open = () => {
+    toggle(true);
+  };
+  const close = () => {
+    toggle(false);
+  };
+  return (
+    <React.Fragment>
+      {children({
+        toggle,
+        open,
+        close,
+        isOpen,
+        ...props,
+      })}
+    </React.Fragment>
+  );
 };
-Modal.defaultProps = {
-  height: 'auto',
-  width: '90%',
+ModalStateContainer.propTypes = {
+  isInitiallyOpen: PropTypes.bool,
+};
+ModalStateContainer.defaultProps = {
+  isInitiallyOpen: false,
 };
 
-export { Modal };
+export {
+  Modal,
+  ModalHeader,
+  ModalBody,
+  ModalFooter,
+  ModalButton,
+} from 'baseui/modal';
+export { ModalStateContainer };
