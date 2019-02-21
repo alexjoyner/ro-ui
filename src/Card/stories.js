@@ -1,16 +1,13 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
-import { Card } from '.';
+import { Card, StyledBody } from '.';
 
 const CardExample = () => (
   <>
-    <h1>Card Example:</h1>
-    <Card>
-      {({ StyledBody }) => (
-        <StyledBody>
-          Hello World
-        </StyledBody>
-      )}
+    <Card title="Example Card">
+      <StyledBody>
+        Hello World
+      </StyledBody>
     </Card>
   </>
 );
