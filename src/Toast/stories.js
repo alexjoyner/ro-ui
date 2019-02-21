@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
 import { Toast, toaster } from '.';
 import { Button } from '../Button';
-import { Card } from '../Card';
+import { Card, StyledBody } from '../Card';
 
 const ToasterExample = () => {
   const newToast = () => {
@@ -17,13 +17,11 @@ const ToasterExample = () => {
 
 const ToastExample = () => (
   <Card>
-    {({ StyledBody }) => (
-      <StyledBody>
-        <h1>Toast Example:</h1>
-        <Toast />
-        <ToasterExample />
-      </StyledBody>
-    )}
+    <StyledBody>
+      <h1>Toast Example:</h1>
+      <Toast />
+      <ToasterExample />
+    </StyledBody>
   </Card>
 );
 
