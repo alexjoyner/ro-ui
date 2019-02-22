@@ -1,12 +1,16 @@
+// We use the import structure
+// - 'command': (...args) => require(<PATH>)(...args)
+// as a way for the main app to only require needed utilities
 const API = {
     // Initialization
-    makeApp: (opts) => require('./makeApp')(opts),
-    runApp: (opts) => require('./runApp')(opts),
+    makeApp: (...args) => require('./makeApp')(...args),
+    runApp: (...args) => require('./runApp')(...args),
     // Common Processes
-    query: (strategy, opts, storeVar='results') => require('./query')(strategy, opts, storeVar),
-    sendMessage: (strategy, opts, storeVar='results') => require('./sendMessage')(strategy, opts, storeVar),
+    query: (...args) => require('./query')(...args),
+    sendMessage: (...args) => require('./sendMessage')(...args),
     // Helpers
     getTextFromFile: (...args) => require('./helpers/getTextFromFile')(...args),
+    sendLocal: (...args) => require('./helpers/sendLocal')(...args),
 }
 
 module.exports = API;
