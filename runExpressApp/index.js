@@ -1,6 +1,16 @@
 const PORT = process.env.PORT || 8080;
 
 module.exports = (app) => {
+    // #### Global Error handler
+    app.use((err, req, res, next) => {
+      if (res.headersSent) {
+        return next(err)
+      }
+      res.status(err.status || 500)
+      res.json({
+        error: { message: err.message || 'Internal Error' }
+      })
+    });
     let server = app.listen(PORT, function () {
         console.log(
             `App is running on interal port ${PORT}:
