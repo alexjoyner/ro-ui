@@ -25,8 +25,9 @@ const pgQuery = async (opts) => {
 const queryStrategies = {
   'pg': pgQuery
 }
-const runQuery = (strategy, opts, storeVar='results') => {
+const runQuery = (strategy, tempOpts, storeVar='results') => {
   return async (req, res, next) => {
+    const opts = (typeof tempOpts === 'function')? tempOpts(req) : tempOpts;
     try {
       const result = await queryStrategies[strategy](opts);
       res.locals[storeVar] = result;

@@ -10,11 +10,12 @@ process.env.PORT = 9000;
 const {makeApp, runApp, query, sendMessage, getTextFromFile, sendLocal} = require('.');
 const app = makeApp('basic');
 
+const getQueryOpts = (req) => ({
+  text: getTextFromFile(__dirname, 'pgTest.pgsql'),
+  values: []
+});
 app.get('/test/postgres', 
-  query('pg', {
-    text: getTextFromFile(__dirname, 'pgTest.pgsql'),
-    values: []
-  }, 'points'), 
+  query('pg', getQueryOpts, 'points'), 
   sendLocal('points')
 );
 app.get('/test/sendText',
