@@ -19,19 +19,22 @@ const pgQuery = async (opts) => {
   }
   catch (e) {
     client.end();
-    return new Error(e);
+    throw e;
   }
 }
 const queryStrategies = {
   'pg': pgQuery
 }
-const runQuery = async (strategy, opts) => {
-  try {
-    const result = await queryStrategies[strategy](opts);
-    return result;
-  }
-  catch (e) {
-    throw e;
+const runQuery = (strategy, opts, storeVar='results') => {
+  return async (req, res, next) => {
+    try {
+      const result = await queryStrategies[strategy](opts);
+      res.locals[storeVar] = result;
+      next();
+    }
+    catch (e) {
+      next(e);
+    }
   }
 }
 module.exports = runQuery;

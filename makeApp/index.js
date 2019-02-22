@@ -23,9 +23,9 @@ const getBasicApp = () => {
     });
     return app;
 }
-const makeApp = {
+const startegies = {
     'basic': getBasicApp()
 }
 module.exports = (appType) => {
-    return makeApp[appType]
+    return startegies[appType]
 }

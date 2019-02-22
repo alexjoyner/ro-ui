@@ -27,13 +27,16 @@ const sendText = async (opts) => {
 const validStrategies = {
   'text': sendText
 }
-const notify = async (strategy, opts) => {
-  try {
-    const result = await validStrategies[strategy](opts);
-    return result;
-  }catch(e){
-    throw e;
+const sendMessage = (strategy, opts, storeVar='results') => {
+  return async (req, res, next) => {
+    try {
+      const result = await validStrategies[strategy](opts);
+      res.locals[storeVar] = result;
+      next();
+    }catch(e){
+      next(e);
+    }
   }
 }
 
-module.exports = notify;
+module.exports = sendMessage;
