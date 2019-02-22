@@ -7,10 +7,10 @@ process.env.TWILIO_AUTH_TOKEN = '/Users/rosco/Desktop/twilio/auth_token.txt';
 process.env.TWILIO_PHONE_NUM = '/Users/rosco/Desktop/twilio/phone_num.txt';
 process.env.PG_PORT = 32768;
 process.env.PORT = 9000;
-const {makeApp, runApp, query, sendMessage} = require('.');
+const {makeApp, runApp, query, sendMessage, getTextFromFile} = require('.');
 const app = makeApp('basic');
 const runTestQuery = query('pg', {
-  text: 'SELECT * FROM point;',
+  text: getTextFromFile(__dirname, 'pgTest.pgsql'),
   values: []
 }, 'points');
 const sendTestMessage = sendMessage('text', {
