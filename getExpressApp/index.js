@@ -1,17 +1,20 @@
 let express = require('express');
 let morgan = require('morgan');
 let bodyParser = require('body-parser');
+let helmet = require('helmet');
 
 const getBasicApp = () => {
     let app = express();
-    app.use(bodyParser.json());
-    app.use(morgan('common'));
-
+    // Basic security settings
+    app.use(helmet());
     app.use(function (req, res, next) {
         res.header("Access-Control-Allow-Origin", "*");
         res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
         next();
-    });    
+    });
+
+    app.use(bodyParser.json());
+    app.use(morgan('common'));
     app.get('/healthz', function (req, res) {
         // do app logic here to determine if app is truly healthy
         // you should return 200 if healthy, and anything else will fail
@@ -19,7 +22,6 @@ const getBasicApp = () => {
         res.send('I am happy and healthy\n');
     });
     return app;
-
 }
 const makeApp = {
     'basic': getBasicApp()
