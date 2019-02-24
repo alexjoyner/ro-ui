@@ -8,6 +8,8 @@ const API = {
     // Common Processes
     query: (...args) => require('./query')(...args),
     sendMessage: (...args) => require('./sendMessage')(...args),
+    authenticate: (...args) => require('./authenticate')(...args),
+    hashPass: (...args) => require('./hashPass')(...args),
     // Helpers
     getTextFromFile: (...args) => require('./helpers/getTextFromFile')(...args),
     sendLocal: (...args) => require('./helpers/sendLocal')(...args),
