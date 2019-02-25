@@ -1,6 +1,7 @@
 const bcrypt = require('bcrypt');
+const { INVALID_PASSWORD } = require('../helpers/errors')
 
-module.exports = (storeVar='results') => {
+module.exports = (storeVar='isValid') => {
     return async (req, res, next) => {
         const hashedPass = res.locals.hashedPass || res.locals.results;
         const attemptPass = req.body.password;
@@ -12,6 +13,7 @@ module.exports = (storeVar='results') => {
         }
         try{
             const valid = await bcrypt.compare(attemptPass, hashedPass);
+            if(!valid) return next(INVALID_PASSWORD);
             res.locals[storeVar] = valid;
             next();
         }catch(e){

@@ -12,5 +12,6 @@ const createError = (message, code) => {
 
 module.exports = {
     USER_NOT_FOUND: createError('User not found'),
+    INVALID_PASSWORD: createError('Incorrect Password', codes.FORBIDDEN),
     FORBIDDEN: createError('Forbidden', codes.FORBIDDEN),
 }
