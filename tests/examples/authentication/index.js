@@ -1,13 +1,12 @@
-const { hashPass, authenticate, sendLocal } = require('../../../');
+process.env.JWT_SECRET = 'SUPER_DUPER_SECRET_KEY';
+const { jwt, hashPass, authenticate, sendLocal, ERRORS } = require('../../../');
 let testHash = '';
 const getUser = (req, res, next) => {
     if(req.body.username === 'test'){
         res.locals.results = testHash;
         return next()
     }
-    const INVALID_PASS = new Error('Invalid Password');
-    INVALID_PASS.status = 401;
-    next(INVALID_PASS);
+    next(ERRORS.USER_NOT_FOUND);
 }
 
 
@@ -15,12 +14,24 @@ module.exports = (app) => {
     app.post('/auth', 
         getUser,
         authenticate('isValid'),
-        sendLocal(['isValid']));
+        sendLocal());
     app.post('/hash',
         hashPass('StoredHash'),
         (req,res,next) => {
             testHash = res.locals.StoredHash;
             next();
         },
+        sendLocal());
+    app.post('/token',
+        (req, res, next) => {
+            res.locals.results = req.body;
+            next();
+        },
+        jwt.createToken({
+            expiresIn: 60,
+        }),
+        sendLocal());
+    app.all('/protected',
+        jwt.verify(),
         sendLocal());
 }
