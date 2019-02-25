@@ -33,5 +33,9 @@ module.exports = (app) => {
         sendLocal());
     app.all('/protected',
         jwt.verify(),
+        (req, res, next) => {
+            res.locals.currentTime = Math.floor(Date.now() / 1000);
+            next();
+        },
         sendLocal());
 }
