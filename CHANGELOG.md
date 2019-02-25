@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## 0.12.0 - 2019-2-25
+### Features
+- Added Authenticated: middleware to check if password is correct
+- Added HashPass: middleware to get a hash from a password to store in a database
+- Added JWT:
+    - createToken: creates an expiring token with a given JSON body
+    - verify: checks to make sure a token is valid, and return the body if it is
+- Added ERRORS helpers: An object of common errors with their corresponding error codes
+
 ## 0.11.1 - 2019-2-22
 - Fixed query accepts function or object and options
   - a function will be passes the requests object to get parameters from
