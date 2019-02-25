@@ -1,5 +1,5 @@
 const bcrypt = require('bcrypt');
-const { INVALID_PASSWORD } = require('../helpers/errors')
+const { INVALID_PASSWORD } = require('../helpers/ERRORS')
 
 module.exports = (storeVar='isValid') => {
     return async (req, res, next) => {
