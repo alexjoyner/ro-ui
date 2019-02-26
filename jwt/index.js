@@ -2,7 +2,6 @@ let jwt, path, fs, JWT_SECRET;
 const { FORBIDDEN } = require('../helpers/ERRORS');
 
 const init = () => {
-    console.log('INIT JWT');
     jwt = require('jsonwebtoken');
     path = require('path');
     fs = require('fs');
@@ -38,6 +37,7 @@ module.exports = {
                     return next(FORBIDDEN);
                 };
                 res.locals.tokenData = data;
+                res.locals.results = data;
                 next();
             });
         }

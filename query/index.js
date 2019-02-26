@@ -27,7 +27,7 @@ const queryStrategies = {
 }
 const runQuery = (strategy, tempOpts, storeVar='results') => {
   return async (req, res, next) => {
-    const opts = (typeof tempOpts === 'function')? tempOpts(req) : tempOpts;
+    const opts = (typeof tempOpts === 'function')? tempOpts(req, res, next) : tempOpts;
     try {
       const result = await queryStrategies[strategy](opts);
       res.locals[storeVar] = result;

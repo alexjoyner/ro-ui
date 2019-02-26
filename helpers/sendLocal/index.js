@@ -3,14 +3,14 @@ const sendLocal = (localsVars) => (req, res, next) => {
     return res.status(200).send(res.locals);
   }
   if(typeof localsVars === 'string'){
-    res.status(200).send(res.locals[localsVarName]);
+    return res.status(200).send(res.locals[localsVars]);
   }
   if(Array.isArray(localsVars)){
     const result = {};
     localsVars.map(localVar => {
       result[localVar] = res.locals[localVar]
     })
-    res.status(200).send(result);
+    return res.status(200).send(result);
   }
   return next(new TypeError('Invalid type for localsVarName'))
 }
