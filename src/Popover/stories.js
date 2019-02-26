@@ -1,8 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react'; // eslint-disable-line import/no-extraneous-dependencies
-import { PLACEMENT } from 'baseui/popover';
 import { Block } from 'baseui/block';
-import { Popover } from '.';
+import { StatefulPopover, PLACEMENT } from '.';
 import { Button } from '../Button';
 
 storiesOf('Atoms', module)
@@ -17,7 +16,7 @@ storiesOf('Atoms', module)
           textAlign: 'center',
         }}
       >
-        <Popover
+        <StatefulPopover
           initialState={{ isOpen: true }}
           dismissOnEsc={false}
           dismissOnClickOutside={false}
@@ -29,7 +28,7 @@ storiesOf('Atoms', module)
           placement={PLACEMENT.top}
         >
           <Button model="baseUI">Click Me</Button>
-        </Popover>
+        </StatefulPopover>
       </div>
     </div>
   ));
