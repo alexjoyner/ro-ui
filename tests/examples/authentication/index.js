@@ -1,4 +1,4 @@
-process.env.JWT_SECRET = 'SUPER_DUPER_SECRET_KEY';
+process.env.JWT_SECRET = 'SUPERDUPERSTRONGJSON0n!WEBtoken!4daWIN!!!!';
 const { jwt, hashPass, authenticate, sendLocal, ERRORS } = require('../../../');
 let testHash = '';
 const getUser = (req, res, next) => {
@@ -27,9 +27,7 @@ module.exports = (app) => {
             res.locals.results = req.body;
             next();
         },
-        jwt.createToken({
-            expiresIn: 60,
-        }),
+        jwt.createToken({}),
         sendLocal());
     app.all('/protected',
         jwt.verify(),

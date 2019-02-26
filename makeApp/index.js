@@ -21,6 +21,9 @@ const getBasicApp = () => {
         // if you want, you should be able to restrict this to localhost (include ipv4 and ipv6)
         res.send('I am happy and healthy\n');
     });
+    app.all('/bounce', function (req, res) {
+        res.send(req.body || {});
+    });
     return app;
 }
 const startegies = {
