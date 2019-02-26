@@ -1,8 +1,18 @@
-const sendLocal = (localsVarName) => (req, res, next) => {
-  if(typeof localsVarName !== 'string'){
-    return next(new TypeError('Invalid type for localsVarName'))
+const sendLocal = (localsVars) => (req, res, next) => {
+  if(!localsVars){
+    return res.status(200).send(res.locals);
   }
-  res.status(200).send(res.locals[localsVarName]);
+  if(typeof localsVars === 'string'){
+    return res.status(200).send(res.locals[localsVars]);
+  }
+  if(Array.isArray(localsVars)){
+    const result = {};
+    localsVars.map(localVar => {
+      result[localVar] = res.locals[localVar]
+    })
+    return res.status(200).send(result);
+  }
+  return next(new TypeError('Invalid type for localsVarName'))
 }
 
 module.exports = sendLocal;

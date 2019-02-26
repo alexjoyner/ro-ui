@@ -1,21 +1,23 @@
 {
   "name": "ro-server-utils",
-  "version": "0.11.1",
+  "version": "0.13.3",
   "description": "A set of utilities for quickly creating apps",
   "main": "index.js",
   "repository": "https://github.com/alexjoyner/ro-server-utils.git",
   "author": "alex@voicir.com",
   "license": "MIT",
   "dependencies": {
+    "bcrypt": "^3.0.4",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "helmet": "^3.15.1",
+    "jsonwebtoken": "^8.5.0",
     "morgan": "^1.9.1",
     "pg": "^7.6.1",
     "twilio": "^3.26.1"
   },
   "scripts": {
-    "start": " nodemon ./testApp.js",
+    "start": " nodemon ./tests/app.js",
     "postversion": "git push --tags && echo \"Successfully released version $npm_package_version!\""
   }
 }

@@ -9,7 +9,7 @@ const getBasicApp = () => {
     app.use(helmet());
     app.use(function (req, res, next) {
         res.header("Access-Control-Allow-Origin", "*");
-        res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+        res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization");
         next();
     });
 
@@ -20,6 +20,9 @@ const getBasicApp = () => {
         // you should return 200 if healthy, and anything else will fail
         // if you want, you should be able to restrict this to localhost (include ipv4 and ipv6)
         res.send('I am happy and healthy\n');
+    });
+    app.all('/bounce', function (req, res) {
+        res.send(req.body || {});
     });
     return app;
 }
