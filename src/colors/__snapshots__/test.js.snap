@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`colors Should match all default colors 1`] = `
+Object {
+  "danger": "#c0392b",
+  "dangerLight": "#e74c3c",
+  "dark": "#2c3e50",
+  "darkLight": "#34495e",
+  "default": "#bdc3c7",
+  "defaultLight": "#ecf0f1",
+  "info": "#8e44ad",
+  "infoLight": "#9b59b6",
+  "primary": "#2980b9",
+  "primaryLight": "#3498db",
+  "success": "#27ae60",
+  "successLight": "#2ecc71",
+  "warning": "#f39c12",
+  "warningLight": "#f1c40f",
+}
+`;

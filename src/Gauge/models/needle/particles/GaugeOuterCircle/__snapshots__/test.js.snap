@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GaugeOuterCircle component Should match snapshot 1`] = `
+<StyledComponent
+  forwardedClass={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "GaugeOuterCircle-sc-1n0ohib-0",
+        "isStatic": true,
+        "rules": Array [
+          "stroke:#34495e;stroke-width:1;stroke-dasharray:389.557;stroke-dashoffset:389.557;",
+        ],
+      },
+      "displayName": "GaugeOuterCircle",
+      "render": [Function],
+      "styledComponentId": "GaugeOuterCircle-sc-1n0ohib-0",
+      "target": "circle",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+/>
+`;

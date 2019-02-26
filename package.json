@@ -1,8 +1,8 @@
 {
   "name": "ro-component-library",
-  "version": "1.5.0",
+  "version": "1.10.0",
   "description": "",
-  "main": "lib/main.js",
+  "main": "main.js",
   "scripts": {
     "start": "yarn run storybook",
     "test": "jest --watch",
@@ -10,7 +10,9 @@
     "coverage": "jest --coverage",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "build": "rimraf lib && babel src --out-dir lib --ignore **/test.js,**/stories.js",
+    "deploy": "yarn run build && yarn publish",
+    "build:dev": "sh ./scripts/build-dev.sh",
+    "build": "rimraf dist && sh ./scripts/build-dev.sh",
     "postversion": "git push --tags && echo \"Successfully released version $npm_package_version!\""
   },
   "author": "",
@@ -19,11 +21,16 @@
     "/lib"
   ],
   "peerDependencies": {
+    "baseui": ">=5.12.0",
     "react": ">16.5.2",
     "react-dom": ">16.5.2",
     "react-icons": ">3.2.1",
     "react-redux": ">5.0.0",
-    "redux": ">4.0.1"
+    "redux": ">4.0.1",
+    "styletron-engine-atomic": ">=1.0.13",
+    "styletron-react": ">=4.4.4",
+    "styletron-react-core": ">=1.3.3",
+    "styletron-standard": ">=2.0.1"
   },
   "dependencies": {
     "babel-loader": "^8.0.4",
@@ -35,6 +42,8 @@
     "polished": "^2.3.0",
     "prop-types": "^15.6.2",
     "react-datepicker": "^1.8.0",
+    "react-popper": "^1.3.2",
+    "react-sidebar": "^3.0.2",
     "styled-components": "^4.0.3"
   },
   "devDependencies": {
@@ -47,6 +56,7 @@
     "babel-core": "^7.0.0-bridge",
     "babel-jest": "^23.6.0",
     "babel-plugin-styled-components": "^1.8.0",
+    "baseui": "^5.12.0",
     "css-loader": "^1.0.1",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "1.6.0",
@@ -62,13 +72,17 @@
     "jest-styled-components": "^6.2.2",
     "lodash": "^4.17.11",
     "node-sass": "^4.10.0",
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
+    "react": "16.8.0-alpha.0",
+    "react-dom": "16.8.0-alpha.0",
     "react-icons": "^3.2.2",
     "react-redux": "5.1.0",
     "redux": "^4.0.1",
     "regenerator-runtime": "^0.12.1",
-    "style-loader": "^0.23.1"
+    "style-loader": "^0.23.1",
+    "styletron-engine-atomic": "^1.0.13",
+    "styletron-react": "^4.4.4",
+    "styletron-react-core": "^1.3.3",
+    "styletron-standard": "^2.0.1"
   },
   "jest": {
     "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js",

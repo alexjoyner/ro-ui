@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GaugeValue component Should match snapshot 1`] = `
+<StyledComponent
+  forwardedClass={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": undefined,
+      "componentStyle": ComponentStyle {
+        "componentId": "GaugeValue-l5js94-0",
+        "isStatic": true,
+        "rules": Array [
+          "stroke:#34495e;stroke-width:.1;text-anchor:middle;dominant-baseline:central;",
+        ],
+      },
+      "displayName": "GaugeValue",
+      "render": [Function],
+      "styledComponentId": "GaugeValue-l5js94-0",
+      "target": "text",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    }
+  }
+  forwardedRef={null}
+/>
+`;
