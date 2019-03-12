@@ -4,6 +4,7 @@ import { GoChevronUp, GoChevronDown, GoMention } from 'react-icons/go';
 import { Button } from '.';
 import { Card } from '../Card';
 
+
 storiesOf('Atoms', module)
   .add('Button', () => (
     <div>
@@ -14,8 +15,8 @@ storiesOf('Atoms', module)
         <Button kind="minimal">Minimal</Button>
       </Card>
       <Card title="Button Sizes">
-        <Button size="compact">extra small</Button>
-        <Button>Default Button</Button>
+        <Button size="compact">Sign In</Button>
+        <Button>Sign In</Button>
       </Card>
       <Card title="Button Shapes">
         <Button shape="square">
