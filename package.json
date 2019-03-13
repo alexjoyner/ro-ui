@@ -3,6 +3,7 @@
   "version": "1.10.0",
   "description": "",
   "main": "main.js",
+  "types": "index.d.ts",
   "scripts": {
     "start": "yarn run storybook",
     "test": "jest --watch",
