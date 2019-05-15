@@ -4,19 +4,29 @@
 # #####################################################
 # #####################################################
 
+## Helpful general case commands
+reboot
+
+##
+
+
 ssh root@<SERVER_IP>
 
 # Setting up new user
-adduser alex
-id alex
-# Should print: uid=1000(alex) gid=1000(alex) groups=1000(alex)
-usermod -aG sudo alex
-usermod -aG docker alex
-id alex
-# Should print: uid=1000(alex) gid=1000(alex) groups=1000(alex),27(sudo),999(docker)
+adduser adminlocal
+id adminlocal
+# Should print: uid=1000(adminlocal) gid=1000(adminlocal) groups=1000(adminlocal)
+
+# !! ONLY if docker group doesnt exit
+sudo groupadd docker
+
+usermod -aG sudo adminlocal
+usermod -aG docker adminlocal
+id adminlocal
+# Should print: uid=1000(adminlocal) gid=1000(adminlocal) groups=1000(adminlocal),27(sudo),999(docker)
 
 # Become the new user
-su - alex
+su - adminlocal
 
 # Create a new directory for SSH stuff
 mkdir ~/.ssh
@@ -37,7 +47,7 @@ exit
 exit
 
 # Log into your server as the new user
-ssh alex@<SERVER_IP>
+ssh adminlocal@<SERVER_IP>
 
 # update the SSH configuration to disable password logins, and to disable logging in as root altogether
 sudo nano /etc/ssh/sshd_config
@@ -58,7 +68,7 @@ sudo ufw allow OpenSSH
 sudo ufw allow http
 
 # Enable HTTPS traffic
-sudo ufw allow https
+sudo ufw allow http
 
 # Enable socket.io traffic
 sudo ufw allow 32000
@@ -84,10 +94,10 @@ sudo apt-get install git
 git --version
 # git version 2.7.4
 
-mkdir ~/app
-mkdir ~/app/oee-master
-cd ~/app/oee-master
-echo "docker stack deploy -f docker-cloud.yml oee-master" > redeploy.sh
+mkdir ~/apps
+mkdir ~/apps/<APP_NAME>
+cd ~/apps/<APP_NAME>
+echo "docker stack deploy -f docker-cloud.yml <APP_NAME>" > redeploy.sh
 
 # Install tools that Let’s Encrypt requires
 sudo apt-get install bc
@@ -114,7 +124,7 @@ sudo crontab -e
 
 # When the editor opens, head to the bottom of the file and add the following two lines:
 00 1 * * 1 /opt/letsencrypt/certbot-auto renew >> /var/log/letsencrypt-renewal.log
-30 1 * * 1 /bin/sh ~/app/oee-master/redeploy.sh
+30 1 * * 1 /bin/sh ~/app/<APP_NAME>/redeploy.sh
 
 sudo openssl dhparam -out /etc/ssl/certs/dhparam.pem 2048
 
@@ -137,4 +147,4 @@ docker secret ls
 
 history -c && history -w
 
-docker stack services oee-master
+docker stack services <APP_NAME>
