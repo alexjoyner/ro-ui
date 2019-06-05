@@ -18,3 +18,8 @@ sudo journalctl -u docker.service | tail -n 50
 docker service logs oee-master_alerts-service -f
 # view status of stack services
 docker stack services <SERVICE_NAME>
+
+# DOCKER
+########
+# remove all containers
+docker rm $(docker ps -aq)
