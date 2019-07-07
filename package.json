@@ -18,9 +18,6 @@
   },
   "author": "",
   "license": "ISC",
-  "files": [
-    "/lib"
-  ],
   "peerDependencies": {
     "baseui": ">=5.12.0",
     "react": ">16.5.2",

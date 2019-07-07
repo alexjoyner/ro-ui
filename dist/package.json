@@ -1,6 +1,6 @@
 {
   "name": "ro-component-library",
-  "version": "1.10.6",
+  "version": "1.10.7",
   "description": "",
   "main": "main.js",
   "types": "index.d.ts",
