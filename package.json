@@ -1,0 +1,8 @@
+{
+	"name": "root",
+	"description": "A main ui library for general use across all my personal projects",
+	"private": true,
+	"devDependencies": {
+		"lerna": "^3.20.1"
+	}
+}
