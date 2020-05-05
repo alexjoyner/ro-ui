@@ -1,6 +1,6 @@
 {
   "name": "featurefull",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A lightweight framework to quickly build out project features",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -24,5 +24,11 @@
   "files": [
     "lib/**/*"
   ],
-  "keywords": ["features", "lightweight", "minimal", "library", "framework"]
+  "keywords": [
+    "features",
+    "lightweight",
+    "minimal",
+    "library",
+    "framework"
+  ]
 }
