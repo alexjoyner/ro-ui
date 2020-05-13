@@ -1,0 +1,100 @@
+{
+  "name": "ro-component-library",
+  "version": "1.10.7",
+  "description": "",
+  "main": "main.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "start": "yarn run storybook",
+    "test": "jest --watch",
+    "test:bail": "jest --watch -b",
+    "coverage": "jest --coverage",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "deploy": "yarn run build && yarn publish",
+    "build:dev": "sh ./scripts/build-dev.sh",
+    "build": "rimraf dist && sh ./scripts/build-dev.sh",
+    "postversion": "git push --tags && echo \"Successfully released version $npm_package_version!\""
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "baseui": ">=5.12.0",
+    "react": ">16.5.2",
+    "react-dom": ">16.5.2",
+    "react-icons": ">3.2.1",
+    "react-redux": ">5.0.0",
+    "redux": ">4.0.1",
+    "styletron-engine-atomic": ">=1.0.13",
+    "styletron-react": ">=4.4.4",
+    "styletron-react-core": ">=1.3.3",
+    "styletron-standard": ">=2.0.1"
+  },
+  "dependencies": {
+    "babel-loader": "^8.0.4",
+    "c3": "^0.6.8",
+    "d3": "^5.7.0",
+    "highcharts": "^6.2.0",
+    "highcharts-react-official": "1.4.0",
+    "moment": "^2.22.2",
+    "polished": "^2.3.0",
+    "prop-types": "^15.6.2",
+    "react-datepicker": "^1.8.0",
+    "react-popper": "^1.3.2",
+    "react-sidebar": "^3.0.2",
+    "styled-components": "^4.0.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-stage-2": "^7.0.0",
+    "@storybook/react": "^4.0.2",
+    "babel-core": "^7.0.0-bridge",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-styled-components": "^1.8.0",
+    "baseui": "^5.12.0",
+    "css-loader": "^1.0.1",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "1.6.0",
+    "enzyme-to-json": "^3.3.4",
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.27.1",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "file-loader": "^2.0.0",
+    "jest": "^23.6.0",
+    "jest-styled-components": "^6.2.2",
+    "lodash": "^4.17.11",
+    "node-sass": "^4.10.0",
+    "react": "16.8.0-alpha.0",
+    "react-dom": "16.8.0-alpha.0",
+    "react-icons": "^3.2.2",
+    "react-redux": "5.1.0",
+    "redux": "^4.0.1",
+    "regenerator-runtime": "^0.12.1",
+    "style-loader": "^0.23.1",
+    "styletron-engine-atomic": "^1.0.13",
+    "styletron-react": "^4.4.4",
+    "styletron-react-core": "^1.3.3",
+    "styletron-standard": "^2.0.1"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js",
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "collectCoverageFrom": [
+      "<rootDir>/src/**/*.{js,jsx}",
+      "!<rootDir>/src/**/**.stories.js",
+      "!<rootDir>/src/**/stories.js"
+    ],
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
+    }
+  }
+}

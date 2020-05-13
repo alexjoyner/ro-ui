@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GaugeCirclesGroup component Should match snapshot 1`] = `
+<g>
+  <GaugeOuterCircle
+    cx="125"
+    cy="150"
+    fill="none"
+    r="124"
+  />
+  <GaugeRangeBoundary
+    cx="125"
+    cy="150"
+    fill="none"
+    id="gauge-range-boundary-circle"
+    r="117"
+  />
+  <GaugeInnerCircle
+    cx="125"
+    cy="150"
+    fill="none"
+    id="gauge-inner-circle"
+    r="100"
+  />
+</g>
+`;
