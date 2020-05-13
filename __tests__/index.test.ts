@@ -1,5 +1,5 @@
-import { Greeter } from '../src/index';
+import { PageBuilder } from '../src/index';
 
-test('My Greeter', () => {
-	expect(Greeter('Carl')).toBe('Hello Carl');
+test('Exports public api', () => {
+	expect(PageBuilder).toBeDefined();
 });
