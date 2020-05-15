@@ -1,0 +1,3 @@
+[submodule "apps/personal-website"]
+	path = apps/personal-website
+	url = https://github.com/alexjoyner/personal-website.git
