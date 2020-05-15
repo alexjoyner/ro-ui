@@ -4,7 +4,7 @@
   "description": "A lightweight framework to quickly build out project features",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "repository": "https://github.com/alexjoyner/featurefull.git",
+  "repository": "https://github.com/alexjoyner/ro-libs.git",
   "author": "Alex Joyner <alex@voicir.com>",
   "license": "MIT",
   "scripts": {
@@ -16,12 +16,6 @@
     "prepublishOnly": "npm test",
     "version": "git add -A src",
     "postversion": "git push && git push --tags"
-  },
-  "devDependencies": {
-    "@types/jest": "^25.2.1",
-    "jest": "^26.0.1",
-    "ts-jest": "^25.4.0",
-    "typescript": "^3.8.3"
   },
   "files": [
     "lib/**/*"

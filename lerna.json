@@ -1,7 +1,5 @@
 {
-  "packages": [
-    "remake/*"
-  ],
-  "npmClient": "yarn",
-  "version": "0.14.0"
+	"packages": ["rewrite/*", "apps/*"],
+	"npmClient": "yarn",
+	"version": "0.14.0"
 }
