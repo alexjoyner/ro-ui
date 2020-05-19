@@ -5,10 +5,14 @@
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
-    "**/LICENSE": false,
-    "**/.gitignore": false,
+    "**/LICENSE": true,
+    "**/.gitignore": true,
     "**/.vscode": true,
-    "**/*.lock": false
+    "**/*.lock": true,
+    "**/node_modules": true,
+    "**/lerna-debug.log": true,
+    "**/.gitmodules": true,
+    "**/.cache": true
   },
   "explorerExclude.backup": null
 }
