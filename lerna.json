@@ -1,6 +1,7 @@
 {
   "packages": [
     "rewrite/*",
+    "packages/ro-component-library",
     "apps/personal-website"
   ],
   "version": "independent",
