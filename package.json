@@ -2,17 +2,8 @@
 	"name": "root",
 	"description": "A main ui library for general use across all my personal projects",
 	"private": true,
-	"dependencies": {
-		"feature-full": "file:rewrite\\feature-full",
-		"personal-website": "file:apps\\personal-website"
-	},
-	"devDependencies": {
-		"@types/jest": "^25.2.1",
-		"@types/react": "^16.9.34",
-		"@types/react-dom": "^16.9.7",
-		"babel-preset-nano-react-app": "^0.1.0",
-		"jest": "^26.0.1",
-		"ts-jest": "^25.4.0",
-		"typescript": "^3.8.3"
-	}
+	"workspaces": [
+		"apps/*",
+		"rewrite/*"
+	]
 }
