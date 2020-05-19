@@ -8,7 +8,7 @@
     "**/LICENSE": false,
     "**/.gitignore": false,
     "**/.vscode": true,
-    "**/*.lock": true
+    "**/*.lock": false
   },
   "explorerExclude.backup": null
 }
