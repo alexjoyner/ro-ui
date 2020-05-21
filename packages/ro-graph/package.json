@@ -16,6 +16,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "mxgraph": "^4.1.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
