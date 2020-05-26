@@ -17,6 +17,9 @@
     "version": "git add -A src",
     "postversion": "git push && git push --tags"
   },
+  "dependencies": {
+    "pack-test-1": "0.1.0"
+  },
   "devDependencies": {
     "@types/jest": "^25.2.1",
     "jest": "^26.0.1",

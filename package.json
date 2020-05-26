@@ -1,9 +1,9 @@
 {
-	"name": "root",
-	"description": "A main ui library for general use across all my personal projects",
-	"private": true,
-	"workspaces": [
-		"apps/*",
-		"rewrite/*"
-	]
+  "name": "root",
+  "description": "A main ui library for general use across all my personal projects",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
 }
