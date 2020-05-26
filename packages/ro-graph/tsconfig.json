@@ -1,8 +1,19 @@
 {
   "compilerOptions": {
     "jsx": "react",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "target": "es5",
+    "outDir": "./lib",
+    "declaration": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "allowJs": true
   },
   "include": ["src/**/*"],
-  "exclude": ["node_modules", "**/*.test.*"]
+  "exclude": [
+    "node_modules",
+    "**/*.test.*",
+    "**/*.setup.*",
+    "**/*.stories.*"
+  ]
 }

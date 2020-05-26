@@ -5,10 +5,15 @@
   "repository": "https://github.com/alexjoyner/ro-storybook-starter.git",
   "author": "Alex Joyner <alex@voicir.com>",
   "private": true,
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "storybook": "start-storybook",
-    "start": "parcel index.html --out-dir docs --no-minify",
-    "build": "parcel build index.html --out-dir docs --no-minify",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags",
     "test:watch": "jest --watch --no-cache",
     "test": "jest",
     "coverage": "jest --coverage && .\\coverage\\lcov-report\\index.html",
@@ -42,5 +47,8 @@
     "presets": [
       "babel-preset-nano-react-app"
     ]
-  }
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }
