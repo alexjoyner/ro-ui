@@ -5,11 +5,17 @@
     "declaration": true,
     "sourceMap": true,
     "removeComments": true,
-    "allowJs": true
+    "allowJs": true,
+    "preserveSymlinks": true,
+    "moduleResolution": "node",
+    "composite": true
   },
   "include": ["src"],
   "exclude": [
     "node_modules",
     "**/*.test.*",
-  ]
+  ],
+  "references": [{
+    "path": "../pack-test-1"
+  }]
 }

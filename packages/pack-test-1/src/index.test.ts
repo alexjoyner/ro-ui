@@ -1,7 +1,5 @@
-import { sum } from './index';
+import { ping } from './index';
 
-describe('sum', () => {
-	it('should sum two numbers', () => {
-		expect(sum(1, 2)).toEqual(3);
-	});
+test('allows pinging package', () => {
+	expect(ping()).toEqual('pong');
 });

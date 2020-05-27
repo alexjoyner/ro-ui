@@ -1,3 +1,3 @@
-export const sum = (a, b) => {
-	return a + b;
-};
+export { sum } from './sum/sum';
+export { subtract } from './subtract/subtract';
+export const ping = () => 'pong';
