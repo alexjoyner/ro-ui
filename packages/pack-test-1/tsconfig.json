@@ -1,16 +1,19 @@
 {
-  "compilerOptions": {
-    "target": "es5",
-    "outDir": "./lib",
-    "declaration": true,
-    "sourceMap": true,
-    "removeComments": true,
-    "allowJs": true,
-    "moduleResolution": "node"
-  },
   "include": ["src"],
+  "extends": "../../tsconfig.base.json",
   "exclude": [
     "node_modules",
     "**/*.test.*",
-  ]
+  ],
+  "compilerOptions": {
+    // to override config from tsconfig.base.json
+    "outDir": "lib",
+    "rootDir": "src",
+    // for references
+    "baseUrl": "src"
+  },
+  // references required for monorepo to work
+  "references": [{
+    "path": "../pack-test-2"
+  }]
 }
