@@ -9,7 +9,7 @@
     "**/.gitignore": false,
     "**/.vscode": true,
     "**/*.lock": true,
-    "**/node_modules": false,
+    "**/node_modules": true,
     "**/lerna-debug.log": true,
     "**/.gitmodules": true,
     "**/.cache": true
