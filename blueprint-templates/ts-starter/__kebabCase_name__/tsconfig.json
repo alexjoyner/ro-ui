@@ -1,15 +1,9 @@
 {
-  "compilerOptions": {
-    "target": "es5",
-    "outDir": "./lib",
-    "declaration": true,
-    "sourceMap": true,
-    "removeComments": true,
-    "allowJs": true
-  },
-  "include": ["src"],
-  "exclude": [
-    "node_modules",
-    "**/*.test.*",
+  "extends": "../../base.tsconfig.json",
+  // references required for monorepo to work
+  "references": [
+    /* {
+        "path": "../dependant-package-root-dir"
+      } */
   ]
 }

@@ -12,7 +12,9 @@
     "**/node_modules": true,
     "**/lerna-debug.log": true,
     "**/.gitmodules": true,
-    "**/.cache": true
+    "**/.cache": true,
+    "**/*.tsbuildinfo": true,
+    "**/lib": true
   },
   "explorerExclude.backup": null
 }
