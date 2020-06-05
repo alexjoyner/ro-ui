@@ -6,9 +6,9 @@
     "packages/*"
   ],
   "scripts": {
-    "test:watch": "jest --config jestconfig.json --watchAll --no-cache",
-    "test": "jest --config jestconfig.json",
-    "coverage": "jest --config jestconfig.json --coverage && .\\coverage\\lcov-report\\index.html"
+    "test": "jest --config jestconfig.json --watchAll --no-cache",
+    "test-ci": "jest --config jestconfig.json",
+    "test-coverage": "jest --config jestconfig.json --coverage && .\\coverage\\lcov-report\\index.html"
   },
   "devDependencies": {
     "@types/jest": "^25.2.1",

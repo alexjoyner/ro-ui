@@ -2,6 +2,7 @@
   "transform": {
     "^.+\\.(t|j)sx?$": "ts-jest"
   },
-  "testMatch": ["**/packages/pack-test-*/src/{**/,}*.test.{j,t}s?(x)"],
-  "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
+  "testMatch": ["**/packages/**/src/{**/,}*.test.{j,t}s?(x)"],
+  "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"],
+  "modulePathIgnorePatterns": ["<rootDir>/blueprint-templates"]
 }
