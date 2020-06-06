@@ -26,6 +26,7 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "ro-component-library": "1.10.7",
     "@babel/core": "^7.9.6",
     "@storybook/preset-typescript": "^3.0.0",
     "@storybook/react": "^5.3.18",

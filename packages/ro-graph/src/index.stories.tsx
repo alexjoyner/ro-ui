@@ -1,10 +1,16 @@
 import React, { useEffect } from 'react';
+import { Panel } from 'ro-component-library';
 import { Button } from '@storybook/react/demo';
 import mx from 'mxgraph';
 
 export default { title: 'Button' };
 
-export const withText = () => <Button>Hello Button</Button>;
+export const withText = () => (
+	<div>
+		<Panel>Hello World</Panel>
+		<Button>Hello Button</Button>
+	</div>
+);
 console.log(mx());
 const {
 	mxGraph,
