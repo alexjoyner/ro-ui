@@ -1,0 +1,25 @@
+{
+	"include": ["packages/**/src", "apps/**/src"],
+	"exclude": [
+		"node_modules",
+		"blueprint-templates",
+		"**/*.test.*",
+		"**/*.setup.*",
+		"**/*.stories.*",
+		"**/test.*",
+		"**/setup.*",
+		"**/stories.*"
+	],
+	"compilerOptions": {
+		"moduleResolution": "node",
+		"module": "commonjs",
+		"jsx": "react",
+		"esModuleInterop": true,
+		"target": "ES6",
+		"declaration": true,
+		"sourceMap": true,
+		"removeComments": true,
+		"allowJs": true,
+		"composite": true
+	}
+}

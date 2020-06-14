@@ -1,0 +1,21 @@
+{
+  "files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/LICENSE": true,
+		"**/.gitignore": false,
+		"**/.vscode": true,
+		"**/*.lock": true,
+		"**/node_modules": false,
+		"**/lerna-debug.log": true,
+		"**/.gitmodules": true,
+		"**/.cache": true,
+		"**/*.tsbuildinfo": true,
+		"**/lib": false,
+		".storybook": true
+	},
+  "explorerExclude.backup": null
+}
