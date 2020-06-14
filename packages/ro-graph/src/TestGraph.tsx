@@ -1,9 +1,6 @@
 import React, { useEffect } from 'react';
-import { Button } from '@storybook/react/demo';
 import mx from 'mxgraph';
 
-export default { title: 'Graphs' };
-console.log(mx());
 const {
 	mxGraph,
 	mxUtils,
@@ -17,9 +14,9 @@ const {
 	mxRubberband,
 } = mx();
 
-export const wires = () => {
+export const TestGraph = () => {
 	useEffect(() => {
-		const node = document.getElementById('Wires-Example');
+		const node = document.getElementById('Graph');
 		if (!mxClient.isBrowserSupported()) {
 			// Displays an error message if the browser is not supported.
 			mxUtils.error('Browser is not supported!', 200, false);
@@ -155,7 +152,7 @@ export const wires = () => {
 					80,
 					60,
 					'shape=triangle;perimeter=trianglePerimeter'
-        );
+				);
 				var v2 = graph.insertVertex(
 					parent,
 					null,
@@ -193,7 +190,7 @@ export const wires = () => {
 	}, []);
 	return (
 		<div>
-			<div id='Wires-Example'></div>
+			<div id='Graph'></div>
 		</div>
 	);
 };
