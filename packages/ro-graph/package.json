@@ -5,8 +5,8 @@
 	"repository": "https://github.com/alexjoyner/ro-libs.git",
 	"author": "Alex Joyner <alex@voicir.com>",
 	"private": true,
-	"main": "lib/index.js",
-	"types": "lib/index.d.ts",
+	"main": "lib/src/index.js",
+	"types": "lib/src/index.d.ts",
 	"scripts": {
 		"storybook": "start-storybook",
 		"build": "tsc",
