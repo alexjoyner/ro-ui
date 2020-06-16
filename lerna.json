@@ -1,9 +1,9 @@
 {
-  "packages": [
-    "packages/*",
-    "apps/personal-website"
-  ],
-  "version": "independent",
-  "npmClient": "yarn",
-  "useWorkspaces": true
+	"packages": [
+		"packages/*",
+		"apps/*"
+	],
+	"version": "independent",
+	"npmClient": "yarn",
+	"useWorkspaces": true
 }
