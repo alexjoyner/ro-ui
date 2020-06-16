@@ -1,10 +1,10 @@
 import {
-  Overlay,
-  Overlay as ImageOverlay,
+	Overlay,
+	Overlay as ImageOverlay,
 } from './Overlay';
 import {
-  DatePicker,
-  DatePicker as RoDatePicker,
+	DatePicker,
+	DatePicker as RoDatePicker,
 } from './DatePicker';
 import { Chart, Chart as RoHighChart } from './Chart';
 
@@ -52,24 +52,9 @@ export { ISideBarToggle } from './ISideBar/ISideBarToggle';
 /*
 ============ Depreciated ===========
  */
-export { SideBar as BasicSideBar, AnimatedSideBar } from './SideBar/models/classic';
-export { BasicSideBarPageBody, HeaderSideBarPageBody } from './SideBar/models/classic/SideBarPageBody';
-export { PlainBox } from './PlainBox';
-export { Notification } from './Notification';
-export { SideBarPage } from './SideBarPage';
-export { colors } from './colors';
-export { Image } from './Image';
-export { PageOverlay } from './PageOverlay';
-export { Go } from './Go';
-export { CenteredContent } from './CenteredContent';
-export { Logo } from './Logo';
 export { RoDatePicker, RoHighChart, ImageOverlay };
 
 /*
 ============ Utility Functions ===========
  */
 export { getUniqueID } from './utils/getUniqueID';
-
-// Export Molecules
-// Export Utility functions
-export default 'DEFAULT';
