@@ -6,16 +6,16 @@
 		"**/CVS": true,
 		"**/.DS_Store": true,
 		"**/LICENSE": true,
-		"**/.gitignore": false,
+		"**/.gitignore": true,
 		"**/.vscode": true,
 		"**/*.lock": true,
-		"**/node_modules": false,
+		"**/node_modules": true,
 		"**/lerna-debug.log": true,
 		"**/.gitmodules": true,
 		"**/.cache": true,
 		"**/*.tsbuildinfo": true,
-		"**/lib": false,
-		".storybook": false
+		"**/lib": true,
+		".storybook": true
 	},
   "explorerExclude.backup": null
 }
