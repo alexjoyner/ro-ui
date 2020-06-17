@@ -5,7 +5,7 @@
 		/* {
 		    "path": "../dependant-package-root-dir"
 		  } */
-	]
+	],
 	"compilerOptions": {
 		"outDir": "./lib",
 	},
