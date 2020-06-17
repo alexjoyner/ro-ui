@@ -1,11 +1,6 @@
 {
 	"extends": "../../tsconfig.json",
 	// references required for monorepo to work
-	"references": [
-		/* {
-		    "path": "../dependant-package-root-dir"
-		  } */
-	],
 	"compilerOptions": {
 		"outDir": "./lib",
 	},

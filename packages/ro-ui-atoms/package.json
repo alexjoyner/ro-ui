@@ -1,0 +1,39 @@
+{
+	"name": "ro-ui-atoms",
+	"version": "0.1.0",
+	"description": "this is a library of react ui components following atomic design",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"repository": "https://github.com/alexjoyner/ro-libs.git",
+	"author": "Alex Joyner <alex@voicir.com>",
+	"license": "MIT",
+	"scripts": {
+		"build": "tsc",
+		"prepare": "npm run build",
+		"prepublishOnly": "npm test",
+		"version": "git add -A src",
+		"postversion": "git push && git push --tags"
+	},
+	"peerDependencies": {
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
+	},
+	"dependencies": {
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"styled-components": "^5.1.1"
+	},
+	"devDependencies": {
+		"typescript": "^3.8.3"
+	},
+	"files": [
+		"lib/**/*"
+	],
+	"keywords": [
+		"features",
+		"lightweight",
+		"minimal",
+		"library",
+		"framework"
+	]
+}
