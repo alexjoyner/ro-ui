@@ -1,3 +1,6 @@
 [submodule "apps/personal-website"]
 	path = apps/personal-website
 	url = https://github.com/alexjoyner/personal-website.git
+[submodule "apps/ah-uevo"]
+	path = apps/ah-uevo
+	url = https://github.com/alexjoyner/ah-uevo.git
