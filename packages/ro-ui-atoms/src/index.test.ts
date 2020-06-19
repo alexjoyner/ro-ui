@@ -1,3 +1,5 @@
-test('expect equals', () => {
-	expect(2 + 2).toEqual(4);
+import * as Main from './';
+
+test('all modules exist', () => {
+	expect(Main.Card).toBeDefined();
 })

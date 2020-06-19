@@ -1,5 +1,5 @@
 {
-	"extends": "../../tsconfig.json",
+	"extends": "../../tsconfig",
 	// references required for monorepo to work
 	"compilerOptions": {
 		"outDir": "./lib",

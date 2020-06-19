@@ -9,12 +9,12 @@
 		"**/.gitignore": true,
 		"**/.vscode": true,
 		"**/*.lock": true,
-		"**/node_modules": true,
+		"**/node_modules": false,
 		"**/lerna-debug.log": true,
 		"**/.gitmodules": true,
 		"**/.cache": true,
 		"**/*.tsbuildinfo": true,
-		"**/lib": true,
+		"**/lib": false,
 		".storybook": true
 	},
   "explorerExclude.backup": null
