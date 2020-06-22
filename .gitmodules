@@ -4,3 +4,6 @@
 [submodule "apps/ah-uevo"]
 	path = apps/ah-uevo
 	url = https://github.com/alexjoyner/ah-uevo.git
+[submodule "apps/circuit-says"]
+	path = apps/circuit-says
+	url = https://github.com/alexjoyner/circuit-says.git
