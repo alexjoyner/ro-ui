@@ -1,24 +1,49 @@
 {
-	"extends": ["airbnb", "plugin:jest/recommended"],
 	"env": {
-		"browser": true
+		"browser": true,
+		"es2020": true,
+		"node": true
+	},
+	"extends": [
+		"airbnb",
+		"eslint:recommended",
+		"plugin:react/recommended"
+	],
+	"parser": "babel-eslint",
+	"parserOptions": {
+		"ecmaFeatures": {
+			"impliedStrict": true,
+			"jsx": true
+		},
+		"ecmaVersion": 11,
+		"sourceType": "module"
 	},
 	"plugins": [
-		"jest"
+		"react"
 	],
 	"rules": {
-		"import/prefer-default-export": false,
-		"react/jsx-filename-extension": false,
-		"react/prop-types": [2, {
-			"ignore": "children"
+		"comma-spacing": ["error", {
+			"before": false,
+			"after": true
 		}],
-		"linebreak-style": 0,
-		"no-use-before-define": 0,
-		"no-unused-expressions": ["error", {
-			"allowTaggedTemplates": true
-		}],
-		"import/no-extraneous-dependencies": ["ignore", {
-			"devDependencies": true
-		}]
+		"indent": [
+			"error",
+			"tab",
+			{
+				"ImportDeclaration": 1,
+				"MemberExpression": 1,
+				"ObjectExpression": 1,
+				"SwitchCase": 1
+			}
+		],
+		"jsx-quotes": ["error", "prefer-double"],
+		"linebreak-style": ["error", "unix"],
+		"no-undef": "off",
+		"no-var": "error",
+		"object-curly-spacing": ["error", "always"],
+		"quotes": ["error", "single"],
+		"react/prop-types": "warn",
+		"semi": ["error", "always"],
+		"no-trailing-spaces": "error"
 	}
 }
