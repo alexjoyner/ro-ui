@@ -6,7 +6,7 @@
 		"**/CVS": true,
 		"**/.DS_Store": true,
 		"**/LICENSE": true,
-		"**/.gitignore": true,
+		"**/.gitignore": false,
 		"**/.vscode": true,
 		"**/*.lock": true,
 		"**/node_modules": true,
@@ -15,7 +15,12 @@
 		"**/.cache": true,
 		"**/*.tsbuildinfo": true,
 		"**/lib": false,
-		".storybook": true
+		".storybook": true,
+		"apps/personal-website": true,
+		"**/ah-uevo": true,
+		"__mocks__": true,
+		".eslintrc.json": true,
+		"lerna.json": true
 	},
   "explorerExclude.backup": null
 }
