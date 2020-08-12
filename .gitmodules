@@ -7,3 +7,6 @@
 [submodule "apps/circuit-says"]
 	path = apps/circuit-says
 	url = https://github.com/alexjoyner/circuit-says.git
+[submodule "apps/depender"]
+	path = apps/depender
+	url = https://github.com/alexjoyner/depender.git
