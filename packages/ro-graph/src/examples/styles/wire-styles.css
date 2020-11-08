@@ -2,9 +2,9 @@
 	overflow:auto;
 	background: url('../images/wires-grid.gif');
 	position:relative;
-	border:1px solid gray;
+	border: none;
 	background-position:-1px 0px;
 	cursor:crosshair;
-	width: 500px;
-	height: 500px;
+	width: 100%;
+	height: 100%;
 }

@@ -13,7 +13,6 @@
     "**/.gitmodules": true,
     "**/.cache": true,
     "**/*.tsbuildinfo": true,
-    "**/lib": true,
     ".storybook": true,
     "__mocks__": true,
     ".eslintrc.json": true,
