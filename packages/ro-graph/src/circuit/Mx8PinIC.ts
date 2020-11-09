@@ -12,49 +12,49 @@ const makeMX_8PinIC = (graph, parent, options) => {
     ...options
   }
 
-  var v1 = graph.insertVertex(parent, null, 'J1', 80, 40, 40, 80,
+  const v1 = graph.insertVertex(parent, null, 'J1', 80, 40, 40, 80,
       'verticalLabelPosition=top;verticalAlign=bottom;shadow=1;fillColor=' + opts.fillColor);
   v1.setConnectable(false);
 
-  var v11 = graph.insertVertex(v1, null, '1', 0, 0, 10, 16,
+  const v11 = graph.insertVertex(v1, null, '1', 0, 0, 10, 16,
       'shape=line;align=left;verticalAlign=middle;fontSize=10;routingCenterX=-0.5;'+
       'spacingLeft=12;fontColor=' + opts.fontColor + ';strokeColor=' + opts.strokeColor);
   v11.geometry.relative = true;
   v11.geometry.offset = new mxPoint(-v11.geometry.width, 2);
-  var v12 = v11.clone();
+  const v12 = v11.clone();
   v12.value = '2';
   v12.geometry.offset = new mxPoint(-v11.geometry.width, 22);
   v1.insert(v12);
-  var v13 = v11.clone();
+  const v13 = v11.clone();
   v13.value = '3';
   v13.geometry.offset = new mxPoint(-v11.geometry.width, 42);
   v1.insert(v13);
-  var v14 = v11.clone();
+  const v14 = v11.clone();
   v14.value = '4';
   v14.geometry.offset = new mxPoint(-v11.geometry.width, 62);
   v1.insert(v14);
 
-  var v15 = v11.clone();
+  const v15 = v11.clone();
   v15.value = '5';
   v15.geometry.x = 1;
   v15.style =	'shape=line;align=right;verticalAlign=middle;fontSize=10;routingCenterX=0.5;'+
     'spacingRight=12;fontColor=' + opts.fontColor + ';strokeColor=' + opts.strokeColor;
   v15.geometry.offset = new mxPoint(0, 2);
   v1.insert(v15);
-  var v16 = v15.clone();
+  const v16 = v15.clone();
   v16.value = '6';
   v16.geometry.offset = new mxPoint(0, 22);
   v1.insert(v16);
-  var v17 = v15.clone();
+  const v17 = v15.clone();
   v17.value = '7';
   v17.geometry.offset = new mxPoint(0, 42);
   v1.insert(v17);
-  var v18 = v15.clone();
+  const v18 = v15.clone();
   v18.value = '8';
   v18.geometry.offset = new mxPoint(0, 62);
   v1.insert(v18);
   
-  var v19 = v15.clone();
+  const v19 = v15.clone();
   v19.value = 'clk';
   v19.geometry.x = 0.5;
   v19.geometry.y = 1;
