@@ -1,3 +1,6 @@
+import 'mxgraph/javascript/src/css/common.css';
+import 'mxgraph/javascript/src/css/explorer.css';
+
 export const setupCircuitBuider = (graph, mxApi) => {
   // If connect preview is not moved away then getCellAt is used to detect the cell under
 		// the mouse if the mouse is over the preview shape in IE (no event transparency), ie.
@@ -48,20 +51,20 @@ export const setupCircuitBuider = (graph, mxApi) => {
 		// Alternative solution for implementing connection points without child cells.
 		// This can be extended as shown in portrefs.html example to allow for per-port
 		// incoming/outgoing direction.
-		graph.getAllConnectionConstraints = function(terminal)
-		{
-			 var geo = (terminal != null) ? this.getCellGeometry(terminal.cell) : null;
+		// graph.getAllConnectionConstraints = function(terminal)
+		// {
+		// 	 var geo = (terminal != null) ? this.getCellGeometry(terminal.cell) : null;
 
-			 if ((geo != null ? !geo.relative : false) &&
-				 this.getModel().isVertex(terminal.cell) &&
-				 this.getModel().getChildCount(terminal.cell) == 0)
-			 {
-				return [new mxApi.mxConnectionConstraint(new mxApi.mxPoint(0, 0.5), false),
-						new mxApi.mxConnectionConstraint(new mxApi.mxPoint(1, 0.5), false)];
-				}
+		// 	 if ((geo != null ? !geo.relative : false) &&
+		// 		 this.getModel().isVertex(terminal.cell) &&
+		// 		 this.getModel().getChildCount(terminal.cell) == 0)
+		// 	 {
+		// 		return [new mxApi.mxConnectionConstraint(new mxApi.mxPoint(0, 0.5), false),
+		// 				new mxApi.mxConnectionConstraint(new mxApi.mxPoint(1, 0.5), false)];
+		// 		}
 
-			return null;
-		};
+		// 	return null;
+		// };
 
 		// Makes sure non-relative cells can only be connected via constraints
 		graph.connectionHandler.isConnectableCell = function(cell)
